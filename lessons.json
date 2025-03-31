@@ -7,8 +7,9 @@
           "title": "Lesson 1: I want (eggs), please.",
           "intro": "Let's meet our new friends, Felix and Cleo. They are brother and sister, and they are twins! They are five years old. How old are you? Wow! Good job. Now. I'm hungry. What's for breakfast?",
           "dialog": "Mom: What do you want?<br>Cleo: I want eggs, please.",
+          "openingImage": ["kb01-OP"],
+          "vocabImages": ["kb01-V01", "kb01-V02", "kb01-V03", "kb01-V04"],
           "phonics": ["A - Apple", "B - Ball"],
-          "images": ["kinder-01.jpg", "kinder-02.jpg"],
           "audio": "kinder-lesson1.mp3",
           "review": false
         },
@@ -17,8 +18,9 @@
           "title": "Lesson 2: The (bottle) is empty.",
           "intro": "Let's meet our new friends, Felix and Cleo. They are brother and sister, and they are twins! They are five years old. How old are you? Wow! Good job. Now. I'm hungry. What's for breakfast?",
           "dialog": "Mom: What do you want?<br>Cleo: I want eggs, please.",
+          "openingImage": ["kb02-OP"],
+          "vocabImages": ["kb02-V01", "kb02-V02", "kb02-V03", "kb02-V04"],
           "phonics": ["A - Apple", "B - Ball"],
-          "images": ["kinder-01.jpg", "kinder-02.jpg"],
           "audio": "kinder-lesson1.mp3",
           "review": false
         },
@@ -27,8 +29,9 @@
           "title": "Lesson 3: Put it in the (blue) bin.",
           "intro": "Let's meet our new friends, Felix and Cleo. They are brother and sister, and they are twins! They are five years old. How old are you? Wow! Good job. Now. I'm hungry. What's for breakfast?",
           "dialog": "Mom: What do you want?<br>Cleo: I want eggs, please.",
+          "openingImage": ["kb02-OP"],
+          "vocabImages": ["kb01-V01", "kb01-V02", "kb01-V03", "kb01-V04"],
           "phonics": ["A - Apple", "B - Ball"],
-          "images": ["kinder-01.jpg", "kinder-02.jpg"],
           "audio": "kinder-lesson1.mp3",
           "review": false
         },
@@ -36,8 +39,9 @@
           "lessonNumber": 4,
           "title": "Lesson 4: Review",
           "dialog": "My name is Tom!",
+          "openingImage": ["kb01-OP"],
+          "vocabImages": ["kb01-V01", "kb01-V02", "kb01-V03", "kb01-V04"],
           "phonics": ["C - Cat", "D - Dog"],
-          "images": ["kinder-03.jpg", "kinder-04.jpg"],
           "audio": "kinder-lesson2.mp3",
           "review": true
         }
@@ -50,7 +54,7 @@
           "title": "Lesson 1: Extra Vocabulary",
           "dialog": "This is my book.",
           "phonics": ["C - Cat", "D - Dog"],
-          "images": ["kinder-plus-01.jpg", "kinder-plus-02.jpg"],
+          "images": ["kinder-plus-01", "kinder-plus-02"],
           "audio": "kinder-plus-lesson1.mp3"
         },
         {
@@ -58,7 +62,7 @@
           "title": "Lesson 2: Introductions",
           "dialog": "My name is Tom!",
           "phonics": ["C - Cat", "D - Dog"],
-          "images": ["kinder-03.jpg", "kinder-04.jpg"],
+          "images": ["kinder-03", "kinder-04"],
           "audio": "kinder-lesson2.mp3"
         }
       ]
