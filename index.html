@@ -7,14 +7,38 @@
     <style>
         body { font-family: Arial, sans-serif; }
         .lesson-container { padding: 20px; border: 1px solid #ddd; margin-top: 20px; }
-				.menu-flex-container-1, .menu-flex-container-2, .body-flex-container { display: flex; justify-content: space-around; align-items: center; }
-				#timer { width: 30px; height: 30px; }
+				.flex-menu-container-1, .flex-menu-container-2, .body-flex-container { display: flex; justify-content: space-around; align-items: center; }
+
+				#timer { width: 20px; height: 20px; }
+				.timer-align { display: block; text-align: center; font-size: 0.8em; font-weight: 700; }
+
+				.align-left { text-align: left; }
+				.align-center { text-align: center; }
+				.align-right { text-align: right; }
+
+				.flex-head-greeting { display: flex; align-items: center; justify-content: space-between; }
+				.span-heading { color: #686868; font-size: 20px; font-family: Arial; font-weight: bold; text-decoration: none; }
+
+
+				.flex-div { display: flex; justify-content: center; align-items: center; }
+				.flex-wrap { flex-wrap: wrap; }
+				.flex-direction { flex-direction: column; }
+
+				img { cursor: pointer; border-radius: 15px; }
+
+				.image-big { width: 336px; height: 240px; }
+				.image-medium { width: 168px; height: 120px; }
+				.image-small { width: 107px; height: 75px; }
+
+				.image-big:hover, .image-medium:hover, .image-small:hover { opacity: 0.8; }
+
+				.image-big.img-clicked:hover, .image-medium.img-clicked:hover, .image-small.img-clicked:hover { opacity: 1.0; }
     </style>
 </head>
 <body>
     <h1>Kids Lessons</h1>
 
-		<div class="menu-flex-container-1">
+		<div class="flex-menu-container-1">
 			<div id="select-book">
 				<label for="book">Select Book:</label>
 				<select id="book">
@@ -46,7 +70,7 @@
 			</div>
 		</div>
 
-		<div class="menu-flex-container-2">
+		<div class="flex-menu-container-2">
 			<div id="select-lesson">
 				<label for="lesson">Select Lesson:</label>
 				<select id="lesson"></select>
@@ -70,6 +94,6 @@
 
 
 
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 </html>
