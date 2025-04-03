@@ -1,11 +1,13 @@
+import { fetchLessons, lessonsData } from './modules/fetchLessons.js';
+import { populateLessons } from "./modules/populateLessons.js";
+import { createElem } from './modules/utils.js';
+
 import { createGreetingsSection } from './modules/greetings.js';
 import { createOpeningSection } from './modules/openingPic.js';
 import { createHelloSongSection } from './modules/helloSong.js';
 import { createGoodbyeSongSection } from './modules/goodbyeSong.js';
-import { createElem } from './modules/utils.js';
+import { createPictureSpeculationSection } from './modules/picSpeculation.js';
 
-import { fetchLessons, lessonsData } from './modules/fetchLessons.js';
-import { populateLessons } from "./modules/populateLessons.js";
 
 // Load selected lesson
 function loadLesson() {
@@ -31,18 +33,23 @@ function loadLesson() {
 
 
     // Sections
-    lessonElem.appendChild(createGreetingsSection(lesson));
-    lessonElem.appendChild(createElem('hr', '', ''));
+    const warmupSection = createElem('div', 'warmup', '');
+    warmupSection.appendChild(createGreetingsSection(lesson));
+    warmupSection.appendChild(createElem('hr', '', ''));
 
-    lessonElem.appendChild(createOpeningSection(lesson));
-    lessonElem.appendChild(createElem('hr', '', ''));
+    warmupSection.appendChild(createOpeningSection(lesson));
+    warmupSection.appendChild(createElem('hr', '', ''));
 
     if (level === 'Kinder' && type === 'Normal') {
-      lessonElem.appendChild(createHelloSongSection());
-      lessonElem.appendChild(createElem('hr', '', ''));
+      warmupSection.appendChild(createHelloSongSection());
+      warmupSection.appendChild(createElem('hr', '', ''));
     }
+    lessonElem.appendChild(warmupSection);
 
+    const presentationSection = createElem('div', 'presentation', '');
+    presentationSection.appendChild(createPictureSpeculationSection(lesson));
 
+    lessonElem.appendChild(presentationSection);
 
 
 
@@ -58,13 +65,13 @@ function loadLesson() {
 
 // ✅ Combine `DOMContentLoaded` Listeners into One
 document.addEventListener("DOMContentLoaded", async () => {
-  console.log("📢 DOM fully loaded, fetching lessons...");
+  // console.log("📢 DOM fully loaded, fetching lessons...");
   await fetchLessons();
 
   // ✅ Attach event listeners properly
-  document.getElementById('book').addEventListener('change', populateLessons);
-  document.getElementById('level').addEventListener('change', populateLessons);
-  document.getElementById('type').addEventListener('change', populateLessons);
+  document.getElementById('book').addEventListener('change', () => { console.log("Book changed to:", document.getElementById('book').value); populateLessons(lessonsData) });
+  document.getElementById('level').addEventListener('change', () => { console.log("Level changed to:", document.getElementById('level').value); populateLessons(lessonsData) } );
+  document.getElementById('type').addEventListener('change', () => { console.log("Type changed to:", document.getElementById('type').value); populateLessons(lessonsData) });
   document.getElementById('load-btn').addEventListener('click', loadLesson);
 });
 

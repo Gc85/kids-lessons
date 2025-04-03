@@ -2,8 +2,8 @@
 
 // Populate the lesson dropdown when book selection changes
 export function populateLessons(lessonsData) {
-  console.log("⚠️ populateLessons called!", lessonsData);
-  console.log("Populating lessons with data:", lessonsData); // ✅ Debugging
+  // console.log("⚠️ populateLessons called!", lessonsData);
+  // console.log("Populating lessons with data:", lessonsData);
 
   if (!lessonsData || Object.keys(lessonsData).length === 0) {
     console.error('❌ Lessons data is empty or undefined');
@@ -19,15 +19,19 @@ export function populateLessons(lessonsData) {
     return;
   }
 
-  console.log("✅ Populating dropdown with lessons...");
+  // console.log("✅ Populating dropdown with lessons...");
 
   const lessonDropdown = document.getElementById('lesson');
-  lessonDropdown.innerHTML = ''; // Clear existing options
+  lessonDropdown.innerHTML = '';
 
-  lessonsData[level][type][book].forEach((lesson) => {
-    const option = document.createElement('option');
-    option.value = lesson.lessonNumber - 1; // Use zero-based index
-    option.textContent = `Lesson ${lesson.lessonNumber}: ${lesson.title}`;
-    lessonDropdown.appendChild(option);
-  });
+  if (lessonsData[level] && lessonsData[level][type] && lessonsData[level][type][book]) {
+    lessonsData[level][type][book].forEach((lesson) => {
+      const option = document.createElement('option');
+      option.value = lesson.lessonNumber - 1; // Use zero-based index for option value
+      option.textContent = `Lesson ${lesson.lessonNumber}: ${lesson.title}`; // Set the option text
+      lessonDropdown.appendChild(option); // Add the option to the dropdown
+    });
+  } else {
+    console.log("No lessons found for the selected options.");
+  }
 }
