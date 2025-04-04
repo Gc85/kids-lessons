@@ -1,4 +1,4 @@
-body { font-family: Arial, sans-serif; }
+body { font-family: 'Poppins'; }
 .lesson-container { padding: 5px; border: 1px solid #ddd; margin-top: 20px; }
 h2 { margin: 10px 0; }
 .flex-menu-container { display: flex;  flex-direction: column; align-items: center; }
@@ -18,7 +18,7 @@ h2 { margin: 10px 0; }
 .align-right { text-align: right; }
 
 .flex-head-greeting { display: flex; align-items: center; justify-content: space-between; }
-.span-heading { color: #686868; font-size: 20px; font-family: Arial; font-weight: bold; text-decoration: none; }
+.span-heading { color: #686868; font-size: 20px; font-weight: bold; text-decoration: none; }
 
 .flex-div { display: flex; justify-content: center; align-items: center; }
 .flex-wrap { flex-wrap: wrap; }
@@ -34,9 +34,9 @@ img { cursor: pointer; border-radius: 15px; }
 
 .image-big.img-clicked:hover, .image-medium.img-clicked:hover, .image-small.img-clicked:hover { opacity: 1.0; }
 
-.warmup, .presentation { border-radius: 10px; border: 1px solid #000000; padding: 5px; margin-bottom: 5px;};
+.warmup, .presentation { border-radius: 10px; border: 1px solid #000000; padding: 5px; margin-bottom: 5px;}
 .warmup { background-color: #faf9d0; }
 .presentation { background-color: #e7feeb; }
 
-.main-text { font-family: 'Poppins'; font-size: 0.9em; }
+.main-text { font-size: 0.9em; }
 .bold { font-weight: 600; }

@@ -4,95 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kids Lessons</title>
-    <style>
-        body { font-family: Arial, sans-serif; }
-        .lesson-container { padding: 20px; border: 1px solid #ddd; margin-top: 20px; }
-				.flex-menu-container-1, .flex-menu-container-2, .body-flex-container { display: flex; justify-content: space-around; align-items: center; }
-
-				#timer { width: 20px; height: 20px; }
-				.timer-align { display: block; text-align: center; font-size: 0.8em; font-weight: 700; }
-
-				.align-left { text-align: left; }
-				.align-center { text-align: center; }
-				.align-right { text-align: right; }
-
-				.flex-head-greeting { display: flex; align-items: center; justify-content: space-between; }
-				.span-heading { color: #686868; font-size: 20px; font-family: Arial; font-weight: bold; text-decoration: none; }
-
-
-				.flex-div { display: flex; justify-content: center; align-items: center; }
-				.flex-wrap { flex-wrap: wrap; }
-				.flex-direction { flex-direction: column; }
-
-				img { cursor: pointer; border-radius: 15px; }
-
-				.image-big { width: 336px; height: 240px; }
-				.image-medium { width: 168px; height: 120px; }
-				.image-small { width: 107px; height: 75px; }
-
-				.image-big:hover, .image-medium:hover, .image-small:hover { opacity: 0.8; }
-
-				.image-big.img-clicked:hover, .image-medium.img-clicked:hover, .image-small.img-clicked:hover { opacity: 1.0; }
-    </style>
+		<link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Kids Lessons</h1>
 
-		<div class="flex-menu-container-1">
-			<div id="select-book">
-				<label for="book">Select Book:</label>
-				<select id="book">
-						<option value="A">Book A</option>
-						<option value="B">Book B</option>
-						<option value="C">Book C</option>
-						<option value="D">Book D</option>
-						<option value="E">Book E</option>
-						<option value="F">Book F</option>
-				</select>
+		<div class="flex-menu-container">
+			<div class="flex-row-1">
+				<div id="select-book">
+					<label for="book">Select Book:</label>
+					<select id="book">
+							<option value="A">Book A</option>
+							<option value="B">Book B</option>
+							<option value="C">Book C</option>
+							<option value="D">Book D</option>
+							<option value="E">Book E</option>
+							<option value="F">Book F</option>
+					</select>
+				</div>
+
+				<div id="select-level">
+					<label for="level">Select Level:</label>
+					<select id="level">
+							<option value="Kinder">Kinder</option>
+							<option value="5">5</option>
+							<option value="4">4</option>
+							<option value="3">3</option>
+					</select>
+				</div>
+
+				<div id="select-type">
+					<label for="type">Select Type:</label>
+					<select id="type">
+							<option value="Normal">Normal</option>
+							<option value="Plus">Plus</option>
+					</select>
+				</div>
+			</div>
+			<div class="flex-row-2">
+				<div id="select-lesson">
+					<label for="lesson">Select Lesson:</label>
+					<select id="lesson"></select>
+				</div>
 			</div>
 
-			<div id="select-level">
-				<label for="level">Select Level:</label>
-				<select id="level">
-						<option value="Kinder">Kinder</option>
-						<option value="5">5</option>
-						<option value="4">4</option>
-						<option value="3">3</option>
-				</select>
-			</div>
-
-			<div id="select-type">
-				<label for="type">Select Type:</label>
-				<select id="type">
-						<option value="Normal">Normal</option>
-						<option value="Plus">Plus</option>
-				</select>
+			<div class="flex-row-3">
+				<div id="load-lesson">
+					<button id="load-btn">Load Lesson</button>
+				</div>
 			</div>
 		</div>
-
-		<div class="flex-menu-container-2">
-			<div id="select-lesson">
-				<label for="lesson">Select Lesson:</label>
-				<select id="lesson"></select>
-			</div>
-
-			<div id="load-lesson">
-				<button id="load-btn">Load Lesson</button>
-			</div>
-
-
-		</div>
-
 
 		<div class="body-flex-container">
 			<div id="lesson-content" class="lesson-container"></div>
 		</div>
-
-
-
-
-
-
 
     <script type="module" src="script.js"></script>
 </body>
