@@ -1,0 +1,242 @@
+{
+	"basicQuestions": [
+		{
+			"id": "01",
+			"name": "How are you?",
+			"description": "I'm (happy, sad, sleepy, grumpy).",
+			"url": "01.jpg"
+		},
+		{
+			"id": "02",
+			"name": "What's your name?",
+			"description": "My name's _____.",
+			"url": "02.jpg"
+		},
+		{
+			"id": "03",
+			"name": "How old are you?",
+			"description": "I'm _____.",
+			"url": "03.jpg"
+		},
+		{
+			"id": "04",
+			"name": "Do you like (apples, strawberries, chocolate, cake, carrots)?",
+			"description": "Yes, I do. / No, I don't.",
+			"url": "04.jpg"
+		},
+		{
+			"id": "05",
+			"name": "How's the weather?",
+			"description": "It's (windy, raining, sunny, cloudy).",
+			"url": "05.jpg"
+		},
+		{
+			"id": "06",
+			"name": "When's your birthday?",
+			"description": "It's in (e.g. April). / It's (e.g. October 23rd).",
+			"url": "06.jpg"
+		},
+		{
+			"id": "07",
+			"name": "Do you want (a hamburger, a banana, a steak, a hot dog, an ice cream)?",
+			"description": "Yes, I do. / No, I don't.",
+			"url": "07.jpg"
+		},
+		{
+			"id": "08",
+			"name": "Do you have a (pen, bag, bike, cellphone, camera, dog)?",
+			"description": "Yes, I do. / No, I don't.",
+			"url": "08.jpg"
+		},
+		{
+			"id": "09",
+			"name": "Can you (play the piano, cook, run, swim)?",
+			"description": "Yes, I can. / No, I can't.",
+			"url": "09.jpg"
+		},
+		{
+			"id": "10",
+			"name": "Do you have any brothers or sisters?",
+			"description": "Yes, I have a (brother, sister, brother and a sister). / No, I don't.",
+			"url": "10.jpg"
+		},
+		{
+			"id": "11",
+			"name": "Where do you live?",
+			"description": "I live in _____.",
+			"url": "11.jpg"
+		},
+		{
+			"id": "12",
+			"name": "Where are you from?",
+			"description": "I'm from _____.",
+			"url": "12.jpg"
+		},
+		{
+			"id": "13",
+			"name": "How many (books, pencils, games, T-shirts) do you have?",
+			"description": "I have ____ (books, pencils, games, T-shirts).",
+			"url": "13.jpg"
+		},
+		{
+			"id": "14",
+			"name": "What's your favorite animal?",
+			"description": "I like (dogs, cats, hamsters, pandas).",
+			"url": "14.jpg"
+		},
+		{
+			"id": "15",
+			"name": "What's your favorite color?",
+			"description": "I like (red, blue, green, orange, pink, purple, yellow).",
+			"url": "15.jpg"
+		},
+		{
+			"id": "16",
+			"name": "What's your favorite food?",
+			"description": "I like (pasta, curry, noodles, pizza).",
+			"url": "16.jpg"
+		},
+		{
+			"id": "17",
+			"name": "Are you good at (painting, singing, tennis, playing the violin)?",
+			"description": "Yes, I am. / No, I'm not.",
+			"url": "17.jpg"
+		},
+		{
+			"id": "18",
+			"name": "Did you (watch TV, do your homework,play games, read) last night?",
+			"description": "Yes, I did. / No, I didn't.",
+			"url": "18.jpg"
+		},
+		{
+			"id": "19",
+			"name": "What grade are you in?",
+			"description": "I'm in the (1st, 2nd, 3rd, 4th, 5th, 6th) grade.",
+			"url": "19.jpg"
+		},
+		{
+			"id": "20",
+			"name": "What sports do you like?",
+			"description": "I like (basketball, tennis, baseball, soccer).",
+			"url": "20.jpg"
+		},
+		{
+			"id": "21",
+			"name": "What time did you go to bed last night?",
+			"description": "I went to bed at (8:30, 9:00, 10:00, 10:30).",
+			"url": "21.jpg"
+		},
+		{
+			"id": "22",
+			"name": "What do you like to do in your free time?",
+			"description": "I like (reading, riding my bike, playing computer games, dancing).",
+			"url": "22.jpg"
+		},
+		{
+			"id": "23",
+			"name": "What are you going to do after this lesson?",
+			"description": "I'm going to (go home, play (sport), go shopping, play with my friends).",
+			"url": "23.jpg"
+		},
+		{
+			"id": "24",
+			"name": "What do you want to be in the future?",
+			"description": "I want to be (an astronaut, a movie star, a teacher, a doctor).",
+			"url": "24.jpg"
+		},
+		{
+			"id": "25a",
+			"name": "How was your weekend?",
+			"description": "It was (OK, good, fun, exciting).",
+			"url": "25.jpg"
+		},
+		{
+			"id": "25b",
+			"name": "What did you do?",
+			"description": "I (went to the zoo, went to the park, played with my friends, did my homework).",
+			"url": "26.jpg"
+		},
+		{
+			"id": "26a",
+			"name": "How was school?",
+			"description": "It was (fun, OK, interesting, boring).",
+			"url": "27.jpg"
+		},
+		{
+			"id": "26b",
+			"name": "What did you study?",
+			"description": "I studied (English, math, Japanese, music).",
+			"url": "28.jpg"
+		},
+		{
+			"id": "27a",
+			"name": "What do you want to do for (your ____ vacation)?",
+			"description": "I want to go (to the beach, to the mountains, camping, skiing).",
+			"url": "29.jpg"
+		},
+		{
+			"id": "27b",
+			"name": "Why do you want to do that?",
+			"description": " I like (making sandcastles, hiking, sleeping in a tent, snow).",
+			"url": "30.jpg"
+		},
+		{
+			"id": "28a",
+			"name": "What did you have for lunch?",
+			"description": "I had (soup, spaghetti, noodles, curry).",
+			"url": "31.jpg"
+		},
+		{
+			"id": "28b",
+			"name": "How was it?",
+			"description": "It was (good, yummy, OK, delicious)",
+			"url": "32.jpg"
+		},
+		{
+			"id": "5p-4p-w1",
+			"name": "What's today's weather?",
+			"description": "It's (sunny, cloudy, windy, stormy, etc.).",
+			"url": false
+		},
+		{
+			"id": "3p-w1",
+			"name": "What's today's weather? / How are you?",
+			"description": "It's (sunny, cloudy, windy, stormy, etc.). / I'm (happy, sad, sleepy, grumpy).",
+			"url": false
+		},
+		{
+			"id": "5p-4p-w2",
+			"name": "How are you?",
+			"description": "I'm (happy, sad, sleepy, grumpy).",
+			"url": false
+		},
+		{
+			"id": "3p-w2",
+			"name": "What's your favourite (sport, food, colour, etc.)?",
+			"description": "I like (soccer, sushi, green, etc.)",
+			"url": false
+		},
+		{
+			"id": "5p-4p-w3",
+			"name": "How old are you?",
+			"description": "I'm (6, 7, 8, 9).",
+			"url": false
+		},
+		{
+			"id": "3p-w3",
+			"name": "How old are you? / When's your birthday?",
+			"description": "I'm (6, 7, 8, 9). / My birthday is (15th January).",
+			"url": false
+		},
+		{
+			"id": "5p-4p-3p-w4",
+			"name": "What's today's date?",
+			"description": "It's (March 15th).",
+			"url": false
+		}
+	],
+	"meta": {
+		"base-path": "./media/BQ/"
+	}
+}
+
