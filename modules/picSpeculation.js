@@ -1,6 +1,6 @@
 import { createElem } from "./utils.js";
 
-export function createPictureSpeculationSection(lesson) {
+export function createPictureSpeculationSection(lesson, book, level) {
   const picSpecDivElem = createElem('div', 'div-opening', '');
 
   const picSpecH2Elm = createElem('h2', '', '');
@@ -12,7 +12,7 @@ export function createPictureSpeculationSection(lesson) {
   picSpecTextElem.innerHTML = picSpecMessage.join('<br>');
 
   const picSpecImgElem = createElem('img', 'image-big', '');
-  picSpecImgElem.src = `./images/${lesson.dialogImage}.jpg`;
+  picSpecImgElem.src = `./images/${book}/${level}/${lesson.dialogImage}.jpg`;
   picSpecImgElem.onclick = () => { loadAudio(`./images/${lesson.dialogImage}.mp3`) };
 
   const dialogMessageElem = createElem('p', 'main-text bold', '');
