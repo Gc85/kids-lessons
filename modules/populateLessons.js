@@ -28,7 +28,7 @@ export function populateLessons(lessonsData) {
     lessonsData[level][type][book].forEach((lesson) => {
       const option = document.createElement('option');
       option.value = lesson.lessonNumber - 1; // Use zero-based index for option value
-      option.textContent = `Lesson ${lesson.lessonNumber}: ${lesson.title}`; // Set the option text
+      option.textContent = `${lesson.title}`; // Set the option text
       lessonDropdown.appendChild(option); // Add the option to the dropdown
     });
   } else {

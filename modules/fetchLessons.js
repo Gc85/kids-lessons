@@ -7,7 +7,11 @@ export async function fetchLessons() {
   try {
     // console.log("🔄 Fetching lessons...");
 
-    const response = await fetch('lessons.json');
+    // Determine which book to retrieve
+    const books = ['A', 'B', 'C', 'D', 'E', 'F'];
+    const bookIndex = loadCurrentClass();
+
+    const response = await fetch(`./lessons/book-${books[bookIndex]}.json`);
     if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
 
     lessonsData = await response.json();
@@ -24,10 +28,7 @@ export async function fetchLessons() {
     }
 
     // Set dropdown defaults AFTER lessonsData is loaded
-    const books = ['A', 'B', 'C', 'D', 'E', 'F'];
-    const bookIndex = loadCurrentClass();
-
-    levelElem.value = 'Kinder';
+    levelElem.value = '5';
     typeElem.value = 'Normal';
     bookElem.value = books[bookIndex];
 
