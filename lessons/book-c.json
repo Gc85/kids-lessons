@@ -75,8 +75,8 @@
           "listeningImages": ["5c02-L01", "5c02-L02", "5c02-L03", "5c02-L04"],
           "listeningAudio": "5c02-A03",
           "reviewPhonicsImages": ["5c01-P01", "5c01-P02", "5c01-P03"],
-          "phonics1Images": ["5c02-P01", "5c01-P02"],
-          "phonics2Images": ["5c02-P03", "5c01-P04", "5c01-P05", "5c01-P06"],
+          "phonics1Images": ["5c02-P01", "5c02-P02"],
+          "phonics2Images": ["5c02-P03", "5c02-P04", "5c02-P05", "5c02-P06"],
           "phonics2Audio": "5c02-A04",
           "review": false
         }
