@@ -8,6 +8,7 @@ h2 { margin: 10px 0; }
 .flex-row-1, .flex-row-2, .flex-row-3 { display: flex; padding: 5px;}
 .flex-row-1 { justify-content: space-evenly; width: 90%;}
 
+#lesson { width: 350px; max-width: 400; }
 #lesson-container { padding: 5px; border: 1px solid #ddd; margin-top: 20px; visibility: hidden; }
 .lesson-title { border: 1px solid #000000; border-radius: 15px; background-color: #e4e4ff; width: 100%; }
 .section-heading { text-decoration: underline; }
