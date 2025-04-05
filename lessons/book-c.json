@@ -1,0 +1,87 @@
+{
+  "Kinder": {
+    "Normal": {
+      "C": [
+        {
+          "lessonNumber": 1,
+          "title": "Lesson 1: I want (eggs), please.",
+          "intro": "Let's meet our new friends, Felix and Cleo. They are brother and sister, and they are twins! They are five years old. How old are you? Wow! Good job. Now. I'm hungry. What's for breakfast?",
+          "dialog": "Mom: What do you want?<br>Cleo: I want eggs, please.",
+          "openingImage": ["kc01-OP"],
+          "dialogImage": ["kc01-D01"],
+          "dialogAudio": ["kc01-A01"],
+          "vocabImages": ["kc01-V01", "kc01-V02", "kc01-V03", "kc01-V04"],
+          "phonics": ["A - Apple", "B - Ball"],
+          "audio": "kinder-lesson1.mp3",
+          "review": false
+        }
+      ]
+    },
+    "Plus": {
+      "C": [
+        {
+          "lessonNumber": 1,
+          "title": "Lesson 1: Extra Vocabulary",
+          "dialog": "This is my book.",
+          "phonics": ["C - Cat", "D - Dog"],
+          "images": ["kinder-plus-01", "kinder-plus-02"],
+          "audio": "kinder-plus-lesson1.mp3"
+        }
+      ]
+    }
+  },
+  "5": {
+    "Normal": {
+      "A": [
+
+      ],
+      "B": [
+
+      ],
+      "C": [
+        {
+          "lessonNumber": 1,
+          "openingImage": ["5c01-OP"],
+          "bq": ["01", "09"],
+          "title": "Lesson 1: What are you drawing?",
+          "dialogImage": ["5c01-D01"],
+          "dialogAudio": ["5c01-A01"],
+          "dialog": "Teacher: What are you drawing?<br>Jake: I'm drawing a rabbit.<br>Teacher: How about you, Hina?<br>Hina: I'm drawing a ladybug.",
+          "mainLanguage": "A: What are you drawing?<br>B: I'm drawing a (rabbit).",
+          "sayDialogImage": ["5c01-D02"],
+          "todayLangImage": ["5c01-D03"],
+          "vocabImages": ["5c01-V01", "5c01-V02", "5c01-V03", "5c01-V04", "5c01-V05"],
+          "vocabAudio": "5c01-A02",
+          "listeningImages": ["5c01-L01", "5c01-L02", "5c01-L03", "5c01-L04"],
+          "listeningAudio": "5c01-A03",
+          "phonics1Images": ["5c01-P01", "5c01-P02", "5c01-P03"],
+          "phonics2Images": ["5c01-P04", "5c01-P05", "5c01-P06", "5c01-P07"],
+          "phonics2Audio": "5c01-A04",
+          "review": false
+        },
+        {
+          "lessonNumber": 2,
+          "openingImage": ["5c02-OP"],
+          "bq": ["01", "09"],
+          "title": "Lesson 2: Pass me the (red) crayon, please.",
+          "dialogImage": ["5c02-D01"],
+          "dialogAudio": ["5c02-A01"],
+          "dialog": "Hina: Pass me the red crayon, please.<br>Jake: Here you are.<br>Hina: Thank you.",
+          "mainLanguage": "A: Pass me the (red) crayon, please.<br>B: Here you are.",
+          "sayDialogImage": ["5c02-D02"],
+          "todayLangImage": ["5c02-D03"],
+          "vocabImages": ["5c02-V01", "5c02-V02", "5c02-V03", "5c02-V04", "5c02-V05", "5c02-V06", "5c02-V07", "5c02-V08"],
+          "vocabAudio": "5c02-A02",
+          "listeningImages": ["5c02-L01", "5c02-L02", "5c02-L03", "5c02-L04"],
+          "listeningAudio": "5c02-A03",
+          "reviewPhonicsImages": ["5c01-P01", "5c01-P02", "5c01-P03"],
+          "phonics1Images": ["5c02-P01", "5c01-P02"],
+          "phonics2Images": ["5c02-P03", "5c01-P04", "5c01-P05", "5c01-P06"],
+          "phonics2Audio": "5c02-A04",
+          "review": false
+        }
+      ]
+    }
+
+  }
+}
