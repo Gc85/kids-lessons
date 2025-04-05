@@ -1,9 +1,9 @@
 body { font-family: 'Poppins'; margin: 0;}
-.main-heading { margin: 0; background-color: #0000e7; text-align: center; }
+.main-heading { margin: 0; background-color: #0000e7; text-align: center; position: fixed; width: 100%; top: 0; z-index: 100; }
 .nova { color: #57FF36; }
 .kids { color: #F9FF54; }
 h2 { margin: 10px 0; }
-.flex-menu-container { display: flex;  flex-direction: column; align-items: center; background-color: #e4e4ff;}
+.flex-menu-container { display: flex;  flex-direction: column; align-items: center; background-color: #e4e4ff; margin-top: 50px;}
 .body-flex-container { display: flex; justify-content: center; padding: 5px; }
 .flex-row-1, .flex-row-2, .flex-row-3 { display: flex; padding: 5px;}
 .flex-row-1 { justify-content: space-evenly; width: 90%;}

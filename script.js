@@ -123,6 +123,15 @@ async function loadLesson() {
       lessonElem.appendChild(createGoodbyeSongSection());
       lessonElem.appendChild(createElem('hr', '', ''));
     }
+
+    // Scroll to lesson content, offsetting for the fixed header
+    const lessonContainer = document.querySelector('#lesson-content');
+    const headerHeight = document.querySelector('.main-heading').offsetHeight;
+
+    const yOffset = -headerHeight; // Add a little buffer
+    const y = lessonContainer.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({ top: y, behavior: 'smooth' });
   }
 }
 
