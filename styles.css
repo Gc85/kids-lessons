@@ -26,6 +26,7 @@ audio { border: 1px solid #000000; border-radius: 25px; margin: 5px; }
 .align-left { text-align: left; }
 .align-center { text-align: center; }
 .align-right { text-align: right; }
+.margin-5-0 { margin: 5px 0; }
 
 .flex-head { display: flex; align-items: center; justify-content: space-between; margin: 0.5em;}
 .span-heading { color: #686868; font-size: 1.5em; font-weight: bold; text-decoration: none; }

@@ -12,6 +12,7 @@ import { createGoodbyeSongSection } from './modules/createGoodbyeSong.js';
 import { createPictureSpeculationSection } from './modules/createPictureSpeculation.js';
 import { createTodaysLanguageSection } from './modules/createTodaysLanguage.js';
 import { createTodaysVocabularySection } from './modules/createVocabulary.js';
+import { createGamesSection } from './modules/createGames.js';
 import { createListeningSection } from './modules/createListening.js';
 import { createReviewPhonicsSection } from './modules/createReviewPhonics.js';
 import { createPhonics1Section } from './modules/createPhonics1.js';
@@ -88,10 +89,39 @@ async function loadLesson() {
       const gameSection = createElem('div', 'game', '');
       const gameH2Elem = createElem('h2', 'section-heading align-center', '');
       gameH2Elem.textContent = `Game Section`;
-      const gameDivElem = createElem('div', 'div-games', '');
-      gameDivElem.innerHTML = `Uncover<br>Shuffle<br>Rotate and Stop<br>Wheel<br>Afloat<br>Cannon<br>Yes or No?`;
+
       gameSection.appendChild(gameH2Elem);
-      gameSection.appendChild(gameDivElem);
+
+      const mainGameDivElem = createElem('div', 'div-main-game', '');
+      load('Uncover', null, 2, 8, null, null, true);
+      mainGameDivElem.appendChild(createGamesSection('div-uncover', 'Uncover'));
+      mainGameDivElem.appendChild(createElem('hr', '', ''));
+
+      load('Shuffle', null, 2, 8, null, null, true);
+      mainGameDivElem.appendChild(createGamesSection('div-shuffle', 'Shuffle'));
+      mainGameDivElem.appendChild(createElem('hr', '', ''));
+
+      load('Wheel', null, 2, 7, null, null, true);
+      mainGameDivElem.appendChild(createGamesSection('div-wheel', 'Wheel'));
+      mainGameDivElem.appendChild(createElem('hr', '', ''));
+
+      load('Afloat', null, 2, 7, null, null, true);
+      mainGameDivElem.appendChild(createGamesSection('div-afloat', 'Afloat'));
+      mainGameDivElem.appendChild(createElem('hr', '', ''));
+
+      load('Cannon', null, 2, 7, null, null, true);
+      mainGameDivElem.appendChild(createGamesSection('div-cannon', 'Cannon'));
+      mainGameDivElem.appendChild(createElem('hr', '', ''));
+
+      load('Rotate and Stop', null, 2, 8, null, null, true);
+      mainGameDivElem.appendChild(createGamesSection('div-rotate', 'Rotate and Stop'));
+      mainGameDivElem.appendChild(createElem('hr', '', ''));
+
+      load('Yes or No?', null, 2, 8, null, null, true);
+      mainGameDivElem.appendChild(createGamesSection('div-yes-or-no', 'Yes or No?'));
+
+      gameSection.appendChild(mainGameDivElem);
+
 
       lessonElem.appendChild(gameSection);
 
@@ -115,6 +145,11 @@ async function loadLesson() {
       prodSection.appendChild(createPhonics2Section(lesson, book, level));
       prodSection.appendChild(createElem('hr', '', ''));
 
+
+
+
+
+
       const prodDivElem = createElem('div', 'div-prod-games', '');
       prodDivElem.innerHTML = `Phonics Practice Games<br>Tic Tac Toe ABC<br>Memory ABC<br><br>Vocab Games<br>Rotate and Stop<br>Tic Tac Toe<br>Memory`;
 
@@ -130,17 +165,15 @@ async function loadLesson() {
       warmDownSection.appendChild(warmDownH2Elem);
 
       const warmDownDivElem = createElem('div', 'div-warm-down-game', '');
-      warmDownDivElem.innerHTML = `Uncover Game if there is time.`;
+
+      load('Uncover', null, 2, 8, null, null, true);
+      warmDownDivElem.appendChild(createGamesSection('div-uncover', 'Uncover'));
+      warmDownDivElem.appendChild(createElem('hr', '', ''));
 
       warmDownSection.appendChild(warmDownDivElem);
       warmDownSection.appendChild(createGoodbyeSection(lesson));
 
-
       lessonElem.appendChild(warmDownSection);
-
-
-
-
 
       if (level === 'Kinder' && type === 'Normal') {
         lessonElem.appendChild(createGoodbyeSongSection());
