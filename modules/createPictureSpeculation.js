@@ -12,6 +12,7 @@ export function createPictureSpeculationSection(lesson, book, level) {
   const picSpecImgDiv = createElem('div', 'flex-div', '');
   const picSpecImgElem = createElem('img', 'image-big', '');
   picSpecImgElem.src = `./images/${book}/${level}/${lesson.dialogImage}.jpg`;
+  picSpecImgElem.onclick = () => { showSrcMedia(); };
 
   const dialogMessageElem = createElem('p', 'main-text bold align-center', '');
   dialogMessageElem.innerHTML = dialogMessage.join('<br>');

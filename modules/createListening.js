@@ -13,6 +13,7 @@ export function createListeningSection(lesson, book, level) {
 
     const listeningImgElem = createElem('img', 'image-medium', '');
     listeningImgElem.src = `./images/${book}/${level}/${listeningItem}.jpg`;
+    listeningImgElem.onclick = () => { showSrcMedia(); };
 
     listeningImgDiv.appendChild(listeningImgElem);
   });

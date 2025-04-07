@@ -1,17 +1,17 @@
 import { createElem } from './utils.js';
 import { createHeading } from './createHeading.js';
 
-export function createGreetingsSection(lesson) {
-  const greetingsDivElem = createElem('div', 'div-greeting', '');
+export function createGreetingSection(lesson) {
+  const greetingDivElem = createElem('div', 'div-greeting', '');
   const greetingHeadElem = createHeading(lesson, `Greetings`, '2-4', '2-3');
 
   const greetingTextElem = createElem('p', '', '');
   greetingTextElem.innerHTML = greetingMessage.join('<br>');
 
-  greetingsDivElem.appendChild(greetingHeadElem);
-  greetingsDivElem.appendChild(greetingTextElem);
+  greetingDivElem.appendChild(greetingHeadElem);
+  greetingDivElem.appendChild(greetingTextElem);
 
-  return greetingsDivElem;
+  return greetingDivElem;
 }
 
 const greetingMessage = [

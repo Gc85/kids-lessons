@@ -14,6 +14,7 @@ export function createPhonics1Section(lesson, book, level) {
 
     const phonics1ImgElem = createElem('img', 'image-small', '');
     phonics1ImgElem.src = `./images/${book}/${level}/${phonics1Item}.jpg`;
+    phonics1ImgElem.onclick = () => { showSrcMedia(); };
 
     phonics1ImgDiv.appendChild(phonics1ImgElem);
   });
@@ -38,5 +39,6 @@ const phonics1Message = [
 
 const phonics1PracticeMessage = [
   `<b>Practice making two-letter combinations where possible: "vowel" + "consonant" and vice-versa.</b>`,
-  `<span class="phonics-hint">Example: "a", "b", "a", "b", "ab" AND "b", "a", "b", "a", "ba".</span>`
+  `<span class="phonics-hint">Example: "a", "b", "a", "b", "ab" AND "b", "a", "b", "a", "ba".</span>`,
+  `<em>After practicing phonics, instruct students to complete the phonics writing part in their books, focusing on the correct stroke order of each letter.</em>`
 ]

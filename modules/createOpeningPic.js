@@ -10,7 +10,7 @@ export function createOpeningSection(lesson, book, level) {
 
   const openingImgElem = createElem('img', 'image-big', '');
   openingImgElem.src = `./images/${book}/${level}/${lesson.openingImage}.jpg`;
-  openingImgElem.onclick = () => { openingImgElem.src };
+  openingImgElem.onclick = () => { showSrcMedia(); };
 
   const openingTextElem = createElem('p', 'main-text', '');
   openingTextElem.innerHTML = openingMessage;

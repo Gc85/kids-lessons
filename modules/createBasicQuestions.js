@@ -19,9 +19,7 @@ export function createBQSection(lesson, bq) {
       const bqImgElem = createElem('img', 'image-medium', '');
       bqImgElem.src = `./images/bq/${findBQ.url}`;
 
-      bqImgElem.onclick = () => {
-        bqImgElem.src = bqImgElem.src;
-      };
+      bqImgElem.onclick = () => { showSrcMedia(); };
 
       const bqPElem = createElem('p', '', '');
       // const bqTextMessage = >;

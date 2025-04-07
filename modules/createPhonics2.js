@@ -14,6 +14,7 @@ export function createPhonics2Section(lesson, book, level) {
 
     const phonics2ImgElem = createElem('img', 'image-small', '');
     phonics2ImgElem.src = `./images/${book}/${level}/${phonics2Item}.jpg`;
+    phonics2ImgElem.onclick = () => { showSrcMedia(); };
 
     phonics2ImgDiv.appendChild(phonics2ImgElem);
   });

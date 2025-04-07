@@ -14,6 +14,7 @@ export function createTodaysVocabularySection(lesson, book, level) {
 
     const vocabImgElem = createElem('img', 'image-small', '');
     vocabImgElem.src = `./images/${book}/${level}/${vocabItem}.jpg`;
+    vocabImgElem.onclick = () => { showSrcMedia(); };
 
     vocabImgDiv.appendChild(vocabImgElem);
   });
