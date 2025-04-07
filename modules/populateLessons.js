@@ -1,4 +1,4 @@
-
+import { createPopup } from "./utils.js";
 
 // Populate the lesson dropdown when book selection changes
 export function populateLessons(lessonsData) {
@@ -15,6 +15,12 @@ export function populateLessons(lessonsData) {
   const book = document.getElementById('book').value;
 
   if (!lessonsData[level] || !lessonsData[level][type] || !lessonsData[level][type][book]) {
+    createPopup('Sorry, there are currently no lessons in this section.');
+    const lessonDropdown = document.getElementById('lesson');
+    lessonDropdown.innerHTML = '';
+    const lessonElem = document.querySelector('#lesson-content');
+    lessonElem.style.visibility = 'hidden';
+    lessonElem.innerHTML = ``;
     console.error(`❌ Lessons data missing for level: ${level}, type: ${type}, book: ${book}`);
     return;
   }

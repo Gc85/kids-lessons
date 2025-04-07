@@ -7,3 +7,9 @@ export function createElem(tag, classNames = '', id = '') {
   if (tag === 'audio') elem.controls = true;
   return elem;
 }
+
+export function createPopup(message) {
+  const popup = document.getElementById('popup');
+  popup.querySelector('p').textContent = message;
+  popup.classList.remove('hidden');
+}

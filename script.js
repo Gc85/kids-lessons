@@ -1,8 +1,9 @@
 import { fetchLessons, lessonsData } from './modules/fetchLessons.js';
 import { populateLessons } from "./modules/populateLessons.js";
-import { createElem } from './modules/utils.js';
+import { createElem, createPopup } from './modules/utils.js';
 
-import { createGreetingsSection } from './modules/createGreetings.js';
+
+import { createGreetingSection } from './modules/createGreeting.js';
 import { createOpeningSection } from './modules/createOpeningPic.js';
 import { getBasicQuestions } from './modules/getBasicQuestions.js';
 import { createBQSection } from './modules/createBasicQuestions.js';
@@ -15,6 +16,7 @@ import { createListeningSection } from './modules/createListening.js';
 import { createReviewPhonicsSection } from './modules/createReviewPhonics.js';
 import { createPhonics1Section } from './modules/createPhonics1.js';
 import { createPhonics2Section } from './modules/createPhonics2.js';
+import { createGoodbyeSection } from './modules/createGoodbye.js';
 
 // Load selected lesson
 async function loadLesson() {
@@ -25,114 +27,143 @@ async function loadLesson() {
 
   if (lessonsData[level] && lessonsData[level][type] && lessonsData[level][type][book]) {
     const lesson = lessonsData[level][type][book][lessonIndex];
-    // const mediaPaths = lessonsData["mediaPaths"];
 
-    // Get main lesson element
-    const lessonElem = document.querySelector('#lesson-content');
-    lessonElem.style.removeProperty('visibility');
-    lessonElem.innerHTML = ``;
+    if (lesson) {
+      // Get main lesson element
+      const lessonElem = document.querySelector('#lesson-content');
+      lessonElem.style.removeProperty('visibility');
+      lessonElem.innerHTML = ``;
 
-    // Create Title
-    const titleH2Elem = createElem('h2', 'lesson-title align-center', '');
-    const splitTitle = lesson.title.replace(/:\s*/, ':<br>');
-    titleH2Elem.innerHTML = `${splitTitle}`;
-    lessonElem.appendChild(titleH2Elem);
-    lessonElem.appendChild(createElem('hr', '', ''));
-
-    // PDF Links
-
-
-    // Sections
-
-    // Warmup Section
-    const warmupSection = createElem('div', 'warmup', '');
-    const warmupH2Elem = createElem('h2', 'section-heading align-center', '');
-    warmupH2Elem.textContent = `Warmup Section`;
-
-    warmupSection.appendChild(warmupH2Elem);
-    warmupSection.appendChild(createGreetingsSection(lesson));
-    warmupSection.appendChild(createElem('hr', '', ''));
-
-    warmupSection.appendChild(createOpeningSection(lesson, book, level));
-    warmupSection.appendChild(createElem('hr', '', ''));
-
-    if (level !== 'Kinder') {
-      const bq = await getBasicQuestions();
-      warmupSection.appendChild(createBQSection(lesson, bq));
-    }
-
-    if (level === 'Kinder' && type === 'Normal') {
-      warmupSection.appendChild(createHelloSongSection());
-      warmupSection.appendChild(createElem('hr', '', ''));
-    }
-    lessonElem.appendChild(warmupSection);
-
-    // Presentation Section
-    const presentationSection = createElem('div', 'presentation', '');
-    const presentationH2Elem = createElem('h2', 'section-heading align-center', '');
-    presentationH2Elem.textContent = `Presentation Section`;
-    presentationSection.appendChild(presentationH2Elem);
-
-    presentationSection.appendChild(createPictureSpeculationSection(lesson, book, level));
-    presentationSection.appendChild(createElem('hr', '', ''));
-
-    presentationSection.appendChild(createTodaysLanguageSection(lesson, book, level));
-    presentationSection.appendChild(createElem('hr', '', ''));
-
-    presentationSection.appendChild(createTodaysVocabularySection(lesson, book, level));
-    lessonElem.appendChild(presentationSection);
-
-    // Game Section - WIP
-    const gameSection = createElem('div', 'game', '');
-    const gameH2Elem = createElem('h2', 'section-heading align-center', '');
-    gameH2Elem.textContent = `Game Section`;
-    gameSection.appendChild(gameH2Elem);
-
-    lessonElem.appendChild(gameSection);
-
-    // Production Section
-    const prodSection = createElem('div', 'production', '');
-    const prodH2Elem = createElem('h2', 'section-heading align-center', '');
-    prodH2Elem.textContent = `Production Section`;
-    prodSection.appendChild(prodH2Elem);
-
-    prodSection.appendChild(createListeningSection(lesson, book, level));
-    prodSection.appendChild(createElem('hr', '', ''));
-
-    if (lesson.lessonNumber % 4 !== 1) {
-      prodSection.appendChild(createReviewPhonicsSection(lesson, book, level));
-      prodSection.appendChild(createElem('hr', '', ''));
-    }
-
-    prodSection.appendChild(createPhonics1Section(lesson, book, level));
-    prodSection.appendChild(createElem('hr', '', ''));
-
-    prodSection.appendChild(createPhonics2Section(lesson, book, level));
-    prodSection.appendChild(createElem('hr', '', ''));
-
-    lessonElem.appendChild(prodSection);
-
-
-
-
-
-
-
-
-    if (level === 'Kinder' && type === 'Normal') {
-      lessonElem.appendChild(createGoodbyeSongSection());
+      // Create Title
+      const titleH2Elem = createElem('h2', 'lesson-title align-center', '');
+      const splitTitle = lesson.title.replace(/:\s*/, ':<br>');
+      titleH2Elem.innerHTML = `${splitTitle}`;
+      lessonElem.appendChild(titleH2Elem);
       lessonElem.appendChild(createElem('hr', '', ''));
+
+      // PDF Links
+
+
+      // Sections
+
+      // Warmup Section
+      const warmupSection = createElem('div', 'warmup', '');
+      const warmupH2Elem = createElem('h2', 'section-heading align-center', '');
+      warmupH2Elem.textContent = `Warmup Section`;
+
+      warmupSection.appendChild(warmupH2Elem);
+      warmupSection.appendChild(createGreetingSection(lesson));
+      warmupSection.appendChild(createElem('hr', '', ''));
+
+      warmupSection.appendChild(createOpeningSection(lesson, book, level));
+      warmupSection.appendChild(createElem('hr', '', ''));
+
+      if (level !== 'Kinder') {
+        const bq = await getBasicQuestions();
+        warmupSection.appendChild(createBQSection(lesson, bq));
+      }
+
+      if (level === 'Kinder' && type === 'Normal') {
+        warmupSection.appendChild(createHelloSongSection());
+        warmupSection.appendChild(createElem('hr', '', ''));
+      }
+      lessonElem.appendChild(warmupSection);
+
+      // Presentation Section
+      const presentationSection = createElem('div', 'presentation', '');
+      const presentationH2Elem = createElem('h2', 'section-heading align-center', '');
+      presentationH2Elem.textContent = `Presentation Section`;
+      presentationSection.appendChild(presentationH2Elem);
+
+      presentationSection.appendChild(createPictureSpeculationSection(lesson, book, level));
+      presentationSection.appendChild(createElem('hr', '', ''));
+
+      presentationSection.appendChild(createTodaysLanguageSection(lesson, book, level));
+      presentationSection.appendChild(createElem('hr', '', ''));
+
+      presentationSection.appendChild(createTodaysVocabularySection(lesson, book, level));
+      lessonElem.appendChild(presentationSection);
+
+      // Game Section - WIP
+      const gameSection = createElem('div', 'game', '');
+      const gameH2Elem = createElem('h2', 'section-heading align-center', '');
+      gameH2Elem.textContent = `Game Section`;
+      const gameDivElem = createElem('div', 'div-games', '');
+      gameDivElem.innerHTML = `Uncover<br>Shuffle<br>Rotate and Stop<br>Wheel<br>Afloat<br>Cannon<br>Yes or No?`;
+      gameSection.appendChild(gameH2Elem);
+      gameSection.appendChild(gameDivElem);
+
+      lessonElem.appendChild(gameSection);
+
+      // Production Section
+      const prodSection = createElem('div', 'production', '');
+      const prodH2Elem = createElem('h2', 'section-heading align-center', '');
+      prodH2Elem.textContent = `Production Section`;
+      prodSection.appendChild(prodH2Elem);
+
+      prodSection.appendChild(createListeningSection(lesson, book, level));
+      prodSection.appendChild(createElem('hr', '', ''));
+
+      if (lesson.lessonNumber % 4 !== 1) {
+        prodSection.appendChild(createReviewPhonicsSection(lesson, book, level));
+        prodSection.appendChild(createElem('hr', '', ''));
+      }
+
+      prodSection.appendChild(createPhonics1Section(lesson, book, level));
+      prodSection.appendChild(createElem('hr', '', ''));
+
+      prodSection.appendChild(createPhonics2Section(lesson, book, level));
+      prodSection.appendChild(createElem('hr', '', ''));
+
+      const prodDivElem = createElem('div', 'div-prod-games', '');
+      prodDivElem.innerHTML = `Phonics Practice Games<br>Tic Tac Toe ABC<br>Memory ABC<br><br>Vocab Games<br>Rotate and Stop<br>Tic Tac Toe<br>Memory`;
+
+      prodSection.appendChild(prodDivElem);
+
+      lessonElem.appendChild(prodSection);
+
+      // Warm Down Section
+
+      const warmDownSection = createElem('div', 'warm-down', '');
+      const warmDownH2Elem = createElem('h2', 'section-heading align-center', '');
+      warmDownH2Elem.textContent = `Warm Down Section`;
+      warmDownSection.appendChild(warmDownH2Elem);
+
+      const warmDownDivElem = createElem('div', 'div-warm-down-game', '');
+      warmDownDivElem.innerHTML = `Uncover Game if there is time.`;
+
+      warmDownSection.appendChild(warmDownDivElem);
+      warmDownSection.appendChild(createGoodbyeSection(lesson));
+
+
+      lessonElem.appendChild(warmDownSection);
+
+
+
+
+
+      if (level === 'Kinder' && type === 'Normal') {
+        lessonElem.appendChild(createGoodbyeSongSection());
+        lessonElem.appendChild(createElem('hr', '', ''));
+      }
+
+      // Scroll to lesson content, offsetting for the fixed header
+      const lessonContainer = document.querySelector('#lesson-content');
+      const headerHeight = document.querySelector('.main-heading').offsetHeight;
+
+      const yOffset = -headerHeight; // Add a little buffer
+      const y = lessonContainer.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    } else {
+      createPopup(`Please select a lesson above before pressing the "Load" button.`);
     }
 
-    // Scroll to lesson content, offsetting for the fixed header
-    const lessonContainer = document.querySelector('#lesson-content');
-    const headerHeight = document.querySelector('.main-heading').offsetHeight;
-
-    const yOffset = -headerHeight; // Add a little buffer
-    const y = lessonContainer.getBoundingClientRect().top + window.pageYOffset + yOffset;
-
-    window.scrollTo({ top: y, behavior: 'smooth' });
   }
+}
+
+function mainMenu() {
+  window.location.href = "../../indexe.htm";
 }
 
 // ✅ Combine `DOMContentLoaded` Listeners into One
@@ -144,8 +175,26 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById('book').addEventListener('change', () => { console.log("Book changed to:", document.getElementById('book').value); populateLessons(lessonsData) });
   document.getElementById('level').addEventListener('change', () => { console.log("Level changed to:", document.getElementById('level').value); populateLessons(lessonsData) } );
   document.getElementById('type').addEventListener('change', () => { console.log("Type changed to:", document.getElementById('type').value); populateLessons(lessonsData) });
+  document.getElementById('back-btn').addEventListener('click', mainMenu);
   document.getElementById('load-btn').addEventListener('click', loadLesson);
 });
 
 
+// Show button after scrolling 100px down
+window.addEventListener('scroll', function() {
+  const btn = document.getElementById('back-to-top');
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    btn.style.display = 'block';
+  } else {
+    btn.style.display = 'none';
+  }
+});
+
+// Scroll back to top smoothly
+document.getElementById('back-to-top').addEventListener('click', function() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
 
