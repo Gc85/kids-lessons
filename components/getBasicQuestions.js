@@ -6,7 +6,7 @@ export async function getBasicQuestions() {
 }
 
 async function loadBQ() {
-  const response = await fetch(`./modules/basicQuestions.json`);
+  const response = await fetch(`./components/basicQuestions.json`);
   if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
 
   return response.json();

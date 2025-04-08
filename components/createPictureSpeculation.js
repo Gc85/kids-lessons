@@ -11,7 +11,7 @@ export function createPictureSpeculationSection(lesson, book, level) {
 
   const picSpecImgDiv = createElem('div', 'flex-div', '');
   const picSpecImgElem = createElem('img', 'image-big', '');
-  picSpecImgElem.src = `./images/${book}/${level}/${lesson.dialogImage}.jpg`;
+  picSpecImgElem.src = `./assets/${book}/${level}/${lesson.dialogImage}.jpg`;
   picSpecImgElem.onclick = () => { showSrcMedia(); };
 
   const dialogMessageElem = createElem('p', 'main-text bold align-center', '');
@@ -22,7 +22,7 @@ export function createPictureSpeculationSection(lesson, book, level) {
 
   const dialogAudioPElem = createElem('p', 'audio', '');
   const dialogAudioElem = createElem('audio', '', '');
-  dialogAudioElem.src = `./images/${book}/${level}/${lesson.dialogAudio}.mp3`;
+  dialogAudioElem.src = `./assets/${book}/${level}/${lesson.dialogAudio}.mp3`;
   dialogAudioPElem.appendChild(dialogAudioElem);
 
 

@@ -12,7 +12,7 @@ export function createListeningSection(lesson, book, level) {
   lesson.listeningImages.forEach((listeningItem) => {
 
     const listeningImgElem = createElem('img', 'image-medium', '');
-    listeningImgElem.src = `./images/${book}/${level}/${listeningItem}.jpg`;
+    listeningImgElem.src = `./assets/${book}/${level}/${listeningItem}.jpg`;
     listeningImgElem.onclick = () => { showSrcMedia(); };
 
     listeningImgDiv.appendChild(listeningImgElem);
@@ -20,7 +20,7 @@ export function createListeningSection(lesson, book, level) {
 
   const listeningAudioPElem = createElem('p', 'audio', '');
   const listeningAudioElem = createElem('audio', '', '');
-  listeningAudioElem.src = `./images/${book}/${level}/${lesson.listeningAudio}.mp3`;
+  listeningAudioElem.src = `./assets/${book}/${level}/${lesson.listeningAudio}.mp3`;
   listeningAudioPElem.innerHTML = listeningAudioMessage;
   listeningAudioPElem.appendChild(listeningAudioElem);
 

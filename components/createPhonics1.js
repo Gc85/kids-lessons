@@ -13,7 +13,7 @@ export function createPhonics1Section(lesson, book, level) {
   lesson.phonics1Images.forEach((phonics1Item) => {
 
     const phonics1ImgElem = createElem('img', 'image-small', '');
-    phonics1ImgElem.src = `./images/${book}/${level}/${phonics1Item}.jpg`;
+    phonics1ImgElem.src = `./assets/${book}/${level}/${phonics1Item}.jpg`;
     phonics1ImgElem.onclick = () => { showSrcMedia(); };
 
     phonics1ImgDiv.appendChild(phonics1ImgElem);

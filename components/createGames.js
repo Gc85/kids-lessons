@@ -18,7 +18,7 @@ export function createGamesSection(divElem, activityName) {
     gameDivElem.appendChild(container);
 
   } else {
-    console.error('Could not find activity: Uncover');
+    console.error(`Could not find activity: ${activity}`);
   }
 
   return gameDivElem;

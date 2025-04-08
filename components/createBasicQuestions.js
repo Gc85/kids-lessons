@@ -17,7 +17,7 @@ export function createBQSection(lesson, bq) {
     if (findBQ) {
       const bqInsideDivElem = createElem('div', 'div-img', '');
       const bqImgElem = createElem('img', 'image-medium', '');
-      bqImgElem.src = `./images/bq/${findBQ.url}`;
+      bqImgElem.src = `./assets/bq/${findBQ.url}`;
 
       bqImgElem.onclick = () => { showSrcMedia(); };
 

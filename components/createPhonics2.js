@@ -13,7 +13,7 @@ export function createPhonics2Section(lesson, book, level) {
   lesson.phonics2Images.forEach((phonics2Item) => {
 
     const phonics2ImgElem = createElem('img', 'image-small', '');
-    phonics2ImgElem.src = `./images/${book}/${level}/${phonics2Item}.jpg`;
+    phonics2ImgElem.src = `./assets/${book}/${level}/${phonics2Item}.jpg`;
     phonics2ImgElem.onclick = () => { showSrcMedia(); };
 
     phonics2ImgDiv.appendChild(phonics2ImgElem);
@@ -21,7 +21,7 @@ export function createPhonics2Section(lesson, book, level) {
 
   const phonics2AudioPElem = createElem('p', 'audio', '');
   const phonics2AudioElem = createElem('audio', '', '');
-  phonics2AudioElem.src = `./images/${book}/${level}/${lesson.phonics2Audio}.mp3`;
+  phonics2AudioElem.src = `./assets/${book}/${level}/${lesson.phonics2Audio}.mp3`;
   phonics2AudioPElem.innerHTML = phonics2AudioMessage;
   phonics2AudioPElem.appendChild(phonics2AudioElem);
 

@@ -13,7 +13,7 @@ export function createReviewPhonicsSection(lesson, book, level) {
   lesson.reviewPhonicsImages.forEach((reviewPhonicsItem) => {
 
     const reviewPhonicsImgElem = createElem('img', 'image-small', '');
-    reviewPhonicsImgElem.src = `./images/${book}/${level}/${reviewPhonicsItem}.jpg`;
+    reviewPhonicsImgElem.src = `./assets/${book}/${level}/${reviewPhonicsItem}.jpg`;
     reviewPhonicsImgElem.onclick = () => { showSrcMedia(); };
 
     reviewPhonicsImgDiv.appendChild(reviewPhonicsImgElem);

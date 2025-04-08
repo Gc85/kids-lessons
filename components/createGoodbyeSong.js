@@ -11,7 +11,7 @@ export function createGoodbyeSongSection() {
   goodbyeSongMessage.innerHTML = goodbyeSongText.join('<br>');
 
   const goodbyeSongElem = createElem('audio', '', '');
-  goodbyeSongElem.src = `./images/kinder-goodbye-song.mp3`;
+  goodbyeSongElem.src = `./assets/kinder-goodbye-song.mp3`;
 
   goodbyeSongDiv.appendChild(goodbyeSongMessage);
   goodbyeSongDiv.appendChild(goodbyeSongElem);

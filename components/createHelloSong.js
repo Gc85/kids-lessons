@@ -11,7 +11,7 @@ export function createHelloSongSection() {
   helloSongMessage.innerHTML = helloSongText.join('<br>');
 
   const helloSongElem = createElem('audio', '', '');
-  helloSongElem.src = `./images/kinder-hello-song.mp3`;
+  helloSongElem.src = `./assets/kinder-hello-song.mp3`;
 
   helloSongDiv.appendChild(helloSongMessage);
   helloSongDiv.appendChild(helloSongElem);

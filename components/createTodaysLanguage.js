@@ -11,7 +11,7 @@ export function createTodaysLanguageSection(lesson, book, level) {
   todayLangTextElem.innerHTML = todayLangMessage;
 
   const todayLangImgElem = createElem('img', 'image-big', '');
-  todayLangImgElem.src = `./images/${book}/${level}/${lesson.todayLangImage}.jpg`;
+  todayLangImgElem.src = `./assets/${book}/${level}/${lesson.todayLangImage}.jpg`;
   todayLangImgElem.onclick = () => { showSrcMedia(); };
 
   todayLangImgDiv.appendChild(todayLangImgElem);

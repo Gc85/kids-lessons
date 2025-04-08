@@ -6,7 +6,7 @@ export function createHeading(lesson, heading, time1, time2) {
   spanElem.textContent = heading;
 
   const timerImgElem = createElem('img', '', 'timer');
-  timerImgElem.src = './images/timer-blue-black.svg';
+  timerImgElem.src = './assets/timer-blue-black.svg';
 
   const timerBlockElem = createElem('span', 'timer-align', '');
   timerBlockElem.appendChild(timerImgElem);

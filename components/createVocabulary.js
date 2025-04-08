@@ -13,7 +13,7 @@ export function createTodaysVocabularySection(lesson, book, level) {
   lesson.vocabImages.forEach((vocabItem) => {
 
     const vocabImgElem = createElem('img', 'image-small', '');
-    vocabImgElem.src = `./images/${book}/${level}/${vocabItem}.jpg`;
+    vocabImgElem.src = `./assets/${book}/${level}/${vocabItem}.jpg`;
     vocabImgElem.onclick = () => { showSrcMedia(); };
 
     vocabImgDiv.appendChild(vocabImgElem);
@@ -21,7 +21,7 @@ export function createTodaysVocabularySection(lesson, book, level) {
 
   const vocabAudioPElem = createElem('p', 'audio', '');
   const vocabAudioElem = createElem('audio', '', '');
-  vocabAudioElem.src = `./images/${book}/${level}/${lesson.vocabAudio}.mp3`;
+  vocabAudioElem.src = `./assets/${book}/${level}/${lesson.vocabAudio}.mp3`;
   vocabAudioPElem.innerHTML = vocabAudioMessage;
   vocabAudioPElem.appendChild(vocabAudioElem);
 
