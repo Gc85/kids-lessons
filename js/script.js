@@ -1,23 +1,23 @@
-import { fetchLessons, lessonsData } from './modules/fetchLessons.js';
-import { populateLessons } from "./modules/populateLessons.js";
-import { createElem, createPopup } from './modules/utils.js';
+import { fetchLessons, lessonsData } from '../components/fetchLessons.js';
+import { populateLessons } from "../components/populateLessons.js";
+import { createElem, createPopup } from '../components/utils.js';
 
 
-import { createGreetingSection } from './modules/createGreeting.js';
-import { createOpeningSection } from './modules/createOpeningPic.js';
-import { getBasicQuestions } from './modules/getBasicQuestions.js';
-import { createBQSection } from './modules/createBasicQuestions.js';
-import { createHelloSongSection } from './modules/createHelloSong.js';
-import { createGoodbyeSongSection } from './modules/createGoodbyeSong.js';
-import { createPictureSpeculationSection } from './modules/createPictureSpeculation.js';
-import { createTodaysLanguageSection } from './modules/createTodaysLanguage.js';
-import { createTodaysVocabularySection } from './modules/createVocabulary.js';
-import { createGamesSection } from './modules/createGames.js';
-import { createListeningSection } from './modules/createListening.js';
-import { createReviewPhonicsSection } from './modules/createReviewPhonics.js';
-import { createPhonics1Section } from './modules/createPhonics1.js';
-import { createPhonics2Section } from './modules/createPhonics2.js';
-import { createGoodbyeSection } from './modules/createGoodbye.js';
+import { createGreetingSection } from '../components/createGreeting.js';
+import { createOpeningSection } from '../components/createOpeningPic.js';
+import { getBasicQuestions } from '../components/getBasicQuestions.js';
+import { createBQSection } from '../components/createBasicQuestions.js';
+import { createHelloSongSection } from '../components/createHelloSong.js';
+import { createGoodbyeSongSection } from '../components/createGoodbyeSong.js';
+import { createPictureSpeculationSection } from '../components/createPictureSpeculation.js';
+import { createTodaysLanguageSection } from '../components/createTodaysLanguage.js';
+import { createTodaysVocabularySection } from '../components/createVocabulary.js';
+import { createGamesSection } from '../components/createGames.js';
+import { createListeningSection } from '../components/createListening.js';
+import { createReviewPhonicsSection } from '../components/createReviewPhonics.js';
+import { createPhonics1Section } from '../components/createPhonics1.js';
+import { createPhonics2Section } from '../components/createPhonics2.js';
+import { createGoodbyeSection } from '../components/createGoodbye.js';
 
 // Load selected lesson
 async function loadLesson() {
