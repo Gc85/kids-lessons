@@ -93,32 +93,32 @@ async function loadLesson() {
       gameSection.appendChild(gameH2Elem);
 
       const mainGameDivElem = createElem('div', 'div-main-game', '');
-      load('Uncover', null, 2, 8, null, null, true);
-      mainGameDivElem.appendChild(createGamesSection('div-uncover', 'Uncover'));
+      // load('Uncover', null, 2, 8, null, null, true);
+      // mainGameDivElem.appendChild(createGamesSection('div-uncover', 'Uncover'));
       mainGameDivElem.appendChild(createElem('hr', '', ''));
 
-      load('Shuffle', null, 2, 8, null, null, true);
-      mainGameDivElem.appendChild(createGamesSection('div-shuffle', 'Shuffle'));
+      // load('Shuffle', null, 2, 8, null, null, true);
+      // mainGameDivElem.appendChild(createGamesSection('div-shuffle', 'Shuffle'));
       mainGameDivElem.appendChild(createElem('hr', '', ''));
 
-      load('Wheel', null, 2, 7, null, null, true);
-      mainGameDivElem.appendChild(createGamesSection('div-wheel', 'Wheel'));
+      // load('Wheel', null, 2, 7, null, null, true);
+      // mainGameDivElem.appendChild(createGamesSection('div-wheel', 'Wheel'));
       mainGameDivElem.appendChild(createElem('hr', '', ''));
 
-      load('Afloat', null, 2, 7, null, null, true);
-      mainGameDivElem.appendChild(createGamesSection('div-afloat', 'Afloat'));
+      // load('Afloat', null, 2, 7, null, null, true);
+      // mainGameDivElem.appendChild(createGamesSection('div-afloat', 'Afloat'));
       mainGameDivElem.appendChild(createElem('hr', '', ''));
 
-      load('Cannon', null, 2, 7, null, null, true);
-      mainGameDivElem.appendChild(createGamesSection('div-cannon', 'Cannon'));
+      // load('Cannon', null, 2, 7, null, null, true);
+      // mainGameDivElem.appendChild(createGamesSection('div-cannon', 'Cannon'));
       mainGameDivElem.appendChild(createElem('hr', '', ''));
 
-      load('Rotate and Stop', null, 2, 8, null, null, true);
-      mainGameDivElem.appendChild(createGamesSection('div-rotate', 'Rotate and Stop'));
+      // load('Rotate and Stop', null, 2, 8, null, null, true);
+      // mainGameDivElem.appendChild(createGamesSection('div-rotate', 'Rotate and Stop'));
       mainGameDivElem.appendChild(createElem('hr', '', ''));
 
-      load('Yes or No?', null, 2, 8, null, null, true);
-      mainGameDivElem.appendChild(createGamesSection('div-yes-or-no', 'Yes or No?'));
+      // load('Yes or No?', null, 2, 8, null, null, true);
+      // mainGameDivElem.appendChild(createGamesSection('div-yes-or-no', 'Yes or No?'));
 
       gameSection.appendChild(mainGameDivElem);
 
@@ -166,8 +166,8 @@ async function loadLesson() {
 
       const warmDownDivElem = createElem('div', 'div-warm-down-game', '');
 
-      load('Uncover', null, 2, 8, null, null, true);
-      warmDownDivElem.appendChild(createGamesSection('div-uncover', 'Uncover'));
+      // load('Uncover', null, 2, 8, null, null, true);
+      // warmDownDivElem.appendChild(createGamesSection('div-uncover', 'Uncover'));
       warmDownDivElem.appendChild(createElem('hr', '', ''));
 
       warmDownSection.appendChild(warmDownDivElem);
