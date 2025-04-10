@@ -10,6 +10,7 @@ import { createBQSection } from '../components/createBasicQuestions.js';
 import { createHelloSongSection } from '../components/createHelloSong.js';
 import { createGoodbyeSongSection } from '../components/createGoodbyeSong.js';
 import { createPictureSpeculationSection } from '../components/createPictureSpeculation.js';
+import { createSayDialogueSection } from '../components/createSayDialogue.js';
 import { createTodaysLanguageSection } from '../components/createTodaysLanguage.js';
 import { createTodaysVocabularySection } from '../components/createVocabulary.js';
 import { createGamesSection } from '../components/createGames.js';
@@ -79,6 +80,9 @@ async function loadLesson() {
       presentationSection.appendChild(createPictureSpeculationSection(lesson, book, level));
       presentationSection.appendChild(createElem('hr', '', ''));
 
+      presentationSection.appendChild(createSayDialogueSection(lesson, book, level));
+      presentationSection.appendChild(createElem('hr', '', ''));
+
       presentationSection.appendChild(createTodaysLanguageSection(lesson, book, level));
       presentationSection.appendChild(createElem('hr', '', ''));
 
@@ -126,28 +130,51 @@ async function loadLesson() {
       lessonElem.appendChild(gameSection);
 
       // Production Section
+      // This section will be built differently for each level.
       const prodSection = createElem('div', 'production', '');
       const prodH2Elem = createElem('h2', 'section-heading align-center', '');
       prodH2Elem.textContent = `Production Section`;
       prodSection.appendChild(prodH2Elem);
 
-      prodSection.appendChild(createListeningSection(lesson, book, level));
-      prodSection.appendChild(createElem('hr', '', ''));
+      switch (level) {
 
-      if (lesson.lessonNumber % 4 !== 1) {
-        prodSection.appendChild(createReviewPhonicsSection(lesson, book, level));
-        prodSection.appendChild(createElem('hr', '', ''));
+        case "5":
+          if (type !== "Plus") {
+            prodSection.appendChild(createListeningSection(lesson, book, level));
+            prodSection.appendChild(createElem('hr', '', ''));
+
+            if (lesson.lessonNumber % 4 !== 1) {
+              prodSection.appendChild(createReviewPhonicsSection(lesson, book, level));
+              prodSection.appendChild(createElem('hr', '', ''));
+            }
+
+            prodSection.appendChild(createPhonics1Section(lesson, book, level, type));
+            prodSection.appendChild(createElem('hr', '', ''));
+
+            prodSection.appendChild(createPhonics2Section(lesson, book, level));
+            prodSection.appendChild(createElem('hr', '', ''));
+          } else {
+
+            prodSection.appendChild(createReviewPhonicsSection(lesson, book, level));
+              prodSection.appendChild(createElem('hr', '', ''));
+
+            prodSection.appendChild(createPhonics1Section(lesson, book, level));
+            prodSection.appendChild(createElem('hr', '', ''));
+
+
+            // prodSection.appendChild(createReadinggSection(lesson, book, level));
+            prodSection.appendChild(createElem('hr', '', ''));
+
+
+            prodSection.appendChild(createListeningSection(lesson, book, level));
+            prodSection.appendChild(createElem('hr', '', ''));
+          }
+
+          break;
+        default:
+          break;
+
       }
-
-      prodSection.appendChild(createPhonics1Section(lesson, book, level));
-      prodSection.appendChild(createElem('hr', '', ''));
-
-      prodSection.appendChild(createPhonics2Section(lesson, book, level));
-      prodSection.appendChild(createElem('hr', '', ''));
-
-
-
-
 
 
       const prodDivElem = createElem('div', 'div-prod-games', '');
