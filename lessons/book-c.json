@@ -42,7 +42,7 @@
           "dialogAudio": ["5c01-A01"],
           "dialog": "Teacher: What are you drawing?<br>Jake: I'm drawing a rabbit.<br>Teacher: How about you, Hina?<br>Hina: I'm drawing a ladybug.",
           "mainLanguage": "A: What are you drawing?<br>B: I'm drawing a (rabbit).",
-          "sayDialogImage": ["5c01-D02"],
+          "sayDialogueImage": ["5c01-D02"],
           "todayLangImage": ["5c01-D03"],
           "vocabImages": ["5c01-V01", "5c01-V02", "5c01-V03", "5c01-V04", "5c01-V05"],
           "vocabAudio": "5c01-A02",
@@ -62,7 +62,7 @@
           "dialogAudio": ["5c02-A01"],
           "dialog": "Hina: Pass me the red crayon, please.<br>Jake: Here you are.<br>Hina: Thank you.",
           "mainLanguage": "A: Pass me the (red) crayon, please.<br>B: Here you are.",
-          "sayDialogImage": ["5c02-D02"],
+          "sayDialogueImage": ["5c02-D02"],
           "todayLangImage": ["5c02-D03"],
           "vocabImages": ["5c02-V01", "5c02-V02", "5c02-V03", "5c02-V04", "5c02-V05", "5c02-V06", "5c02-V07", "5c02-V08"],
           "vocabAudio": "5c02-A02",
@@ -72,6 +72,50 @@
           "phonics1Images": ["5c02-P01", "5c02-P02"],
           "phonics2Images": ["5c02-P03", "5c02-P04", "5c02-P05", "5c02-P06"],
           "phonics2Audio": "5c02-A04",
+          "review": false
+        }
+      ]
+    },
+    "Plus": {
+      "C": [
+        {
+          "lessonNumber": 1,
+          "openingImage": ["5cp01-OP"],
+          "bq": ["5p-4p-w1"],
+          "title": "Lesson 1: They're (wings).",
+          "dialogImage": ["5cp01-D01"],
+          "dialogAudio": ["5cp01-A01"],
+          "dialog": "Jake: What are you drawing?<br>Hina: A butterfly.<br>Jake: What are these?<br>Hina: They're wings.",
+          "mainLanguage": "A: What are these?<br>B: They're (wings).",
+          "sayDialogueImage": ["5cp01-D02"],
+          "todayLangImage": ["5cp01-D03"],
+          "vocabImages": ["5cp01-V01", "5cp01-V02", "5cp01-V03", "5cp01-V04", "5cp01-V05"],
+          "vocabAudio": "5cp01-A02",
+          "reviewPhonicsImages": ["5c01-P01", "5c01-P02", "5c01-P03"],
+          "phonics1Images": ["5cp01-P01"],
+          "readingImages": ["5cp01-R01", "5cp01-R02"],
+          "listeningImages": ["5cp01-L01", "5cp01-L02", "5cp01-L03", "5cp01-L04", "5cp01-L05", "5cp01-L06"],
+          "listeningAudio": "5cp01-A03",
+          "review": false
+        },
+        {
+          "lessonNumber": 2,
+          "openingImage": ["5cp02-OP"],
+          "bq": ["5p-4p-w2"],
+          "title": "Lesson 2: (Three).",
+          "dialogImage": ["5cp02-D01"],
+          "dialogAudio": ["5cp02-A01"],
+          "dialog": "Jake: I'm drawing Easter eggs.<br>Hina: Nice! How many have you drawn?<br>Jake: Three.",
+          "mainLanguage": "A: How many have you drawn?<br>B: (Three).",
+          "sayDialogueImage": ["5cp02-D02"],
+          "todayLangImage": ["5cp02-D03"],
+          "vocabImages": ["5cp02-V01", "5cp02-V02", "5cp02-V03", "5cp02-V04", "5cp02-V05", "5cp02-V06", "5cp02-V07", "5cp02-V08", "5cp02-V09", "5cp02-V10"],
+          "vocabAudio": "5cp02-A02",
+          "reviewPhonicsImages": ["5c01-P01", "5c02-P01", "5c02-P02"],
+          "phonics1Images": ["5cp02-P01"],
+          "readingImages": ["5cp02-R01", "5cp02-R02"],
+          "listeningImages": ["5cp02-L01", "5cp02-L02", "5cp02-L03", "5cp02-L04", "5cp02-L05", "5cp02-L06"],
+          "listeningAudio": "5cp02-A03",
           "review": false
         }
       ]
