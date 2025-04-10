@@ -16,10 +16,12 @@ export function createBQSection(lesson, bq) {
 
     if (findBQ) {
       const bqInsideDivElem = createElem('div', 'div-img', '');
-      const bqImgElem = createElem('img', 'image-medium', '');
-      bqImgElem.src = `./assets/bq/${findBQ.url}`;
-
-      bqImgElem.onclick = () => { showSrcMedia(); };
+      if (findBQ.url !== false) {
+        const bqImgElem = createElem('img', 'image-medium', '');
+        bqImgElem.src = `./assets/bq/${findBQ.url}`;
+        bqImgElem.onclick = () => { showSrcMedia(); };
+        bqInsideDivElem.appendChild(bqImgElem);
+      }
 
       const bqPElem = createElem('p', '', '');
       // const bqTextMessage = >;
@@ -27,7 +29,6 @@ export function createBQSection(lesson, bq) {
       bqPElem.appendChild(document.createElement('br'));
       bqPElem.appendChild(document.createTextNode(`B: ${findBQ.description}`));
 
-      bqInsideDivElem.appendChild(bqImgElem);
       bqInsideDivElem.appendChild(bqPElem);
       bqImgDiv.appendChild(bqInsideDivElem);
     }
@@ -43,4 +44,3 @@ export function createBQSection(lesson, bq) {
 const bqMessage = [
   `<b>Aim:</b> <em>Show a flashcard and ask the students introduction questions.</em>`
 ]
-
