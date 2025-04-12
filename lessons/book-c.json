@@ -112,6 +112,32 @@
           "phonics2Images": ["5c03-P03", "5c03-P04", "5c03-P05", "5c03-P06"],
           "phonics2Audio": "5c03-A04",
           "review": false
+        },
+        {
+          "lessonNumber": 4,
+          "pdfs": [
+            { "file": "Cl5_CL4_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl5_CL4_Overview_Review", "desc": "Lesson Overview Review" },
+            { "file": "5C_HS", "desc": "Home Study" },
+            { "file": "5C_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["5c04-OP"],
+          "bq": ["01", "09"],
+          "title": "Lesson 4: Review.",
+          "dialogImage": ["5c04-D04"],
+          "dialogAudio": ["5c04-A01"],
+          "dialog": "Teacher: They all look great!",
+          "listeningImages": ["5c04-L01", "5c04-L02", "5c04-L03", "5c04-L04", "5c04-L05", "5c04-L06"],
+          "listeningAudio": "5c04-A02",
+          "reviewPhonics1Images": ["5c04-P01", "5c04-P02", "5c04-P03", "5c04-P04", "5c04-P05", "5c04-P06", "5c04-P07", "5c04-P08"],
+          "reviewPhonics2Images": ["5c04-P09", "5c04-P10", "5c04-P11", "5c04-P12"],
+          "reviewPhonics2Audio": "5c04-A03",
+          "reviewPhonics3Images": ["5c04-P13", "5c04-P14", "5c04-P15", "5c04-P16", "5c04-P17", "5c04-P18", "5c04-P19", "5c04-P20"],
+          "reviewPhonics3Audio": "5c04-A04",
+          "reviewPhonics4Images": ["5c04-P21", "5c04-P22", "5c04-P23", "5c04-P24", "5c04-P25", "5c04-P26", "5c04-P27", "5c04-P28"],
+          "reviewPhonics4Audio": "5c04-A05",
+          "reviewLessons": [1, 2, 3],
+          "review": true
         }
       ]
     },

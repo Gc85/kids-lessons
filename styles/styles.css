@@ -29,7 +29,8 @@ audio { border: 1px solid #000000; border-radius: 25px; margin: 5px; }
 .margin-5-0 { margin: 5px 0; }
 
 .flex-head { display: flex; align-items: center; justify-content: space-between; margin: 0.5em;}
-.span-heading { color: #686868; font-size: 1.5em; font-weight: bold; text-decoration: none; }
+.span-heading { color: #686868; font-size: 1.3em; font-weight: bold; text-decoration: none; }
+.review-head { margin: 10px 0; text-align: center; color: #0000e7; font-size: 1.4em; }
 
 .flex { display: flex; }
 .flex-div { display: flex; justify-content: center; align-items: center; }
