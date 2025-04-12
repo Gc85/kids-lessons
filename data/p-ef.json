@@ -1,0 +1,111 @@
+{
+  "phonics-cards": [
+		{
+      "id": "P-EF-a",
+      "name": "A, a, Alligator"
+    },
+    {
+      "id": "P-EF-b",
+      "name": "B, b, Bus"
+    },
+    {
+      "id": "P-EF-c",
+      "name": "C, c, Cap"
+    },
+    {
+      "id": "P-EF-d",
+      "name": "D, d, Desk"
+    },
+    {
+      "id": "P-EF-e",
+      "name": "E, e, Elf"
+    },
+    {
+      "id": "P-EF-f",
+      "name": "F, f, Fin"
+    },
+    {
+      "id": "P-EF-g",
+      "name": "G, g, Gorilla"
+    },
+    {
+      "id": "P-EF-h",
+      "name": "H, h, Hen"
+    },
+    {
+      "id": "P-EF-i",
+      "name": "I, i, In"
+    },
+    {
+      "id": "P-EF-j",
+      "name": "J, j, Juice"
+    },
+    {
+      "id": "P-EF-k",
+      "name": "K, k, Key"
+    },
+    {
+      "id": "P-EF-l",
+      "name": "L, l, Lemon"
+    },
+    {
+      "id": "P-EF-m",
+      "name": "M, m, Mop"
+    },
+    {
+      "id": "P-EF-n",
+      "name": "N, n, Nurse"
+    },
+    {
+      "id": "P-EF-o",
+      "name": "O, o, Ostrich"
+    },
+    {
+      "id": "P-EF-p",
+      "name": "P, p, Pan"
+    },
+    {
+      "id": "P-EF-q",
+      "name": "Q, q, Question"
+    },
+    {
+      "id": "P-EF-r",
+      "name": "R, r, Rocket"
+    },
+    {
+      "id": "P-EF-s",
+      "name": "S, s, Seal"
+    },
+    {
+      "id": "P-EF-t",
+      "name": "T, t, Top"
+    },
+    {
+      "id": "P-EF-u",
+      "name": "U, u, Under"
+    },
+    {
+      "id": "P-EF-v",
+      "name": "V, v, Vest"
+    },
+    {
+      "id": "P-EF-w",
+      "name": "W, w, Web"
+    },
+    {
+      "id": "P-EF-x",
+      "name": "X, x, Mix"
+    },
+    {
+      "id": "P-EF-y",
+      "name": "Y, y, Yo-yo"
+    },
+    {
+      "id": "P-EF-z",
+      "name": "Z, z, Zebra"
+    }
+  ],
+	"meta": {
+		"base-path": "./media/phonics/CL5/P-EF/"
+	}
+}

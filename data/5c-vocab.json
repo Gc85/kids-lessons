@@ -1,0 +1,383 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "5c01-V01",
+			"name": "bird"
+		},
+		{
+			"id": "5c01-V02",
+			"name": "butterfly"
+		},
+		{
+			"id": "5c01-V03",
+			"name": "ladybug"
+		},
+		{
+			"id": "5c01-V04",
+			"name": "rabbit"
+		},
+		{
+			"id": "5c01-V05",
+			"name": "turtle"
+		},
+		{
+			"id": "5c02-V01",
+			"name": "black"
+		},
+		{
+			"id": "5c02-V02",
+			"name": "blue"
+		},
+		{
+			"id": "5c02-V03",
+			"name": "green"
+		},
+		{
+			"id": "5c02-V04",
+			"name": "pink"
+		},
+		{
+			"id": "5c02-V05",
+			"name": "purple"
+		},
+		{
+			"id": "5c02-V06",
+			"name": "red"
+		},
+		{
+			"id": "5c02-V07",
+			"name": "white"
+		},
+		{
+			"id": "5c02-V08",
+			"name": "yellow"
+		},
+		{
+			"id": "5c03-V01",
+			"name": "top"
+		},
+		{
+			"id": "5c03-V02",
+			"name": "second"
+		},
+		{
+			"id": "5c03-V03",
+			"name": "third"
+		},
+		{
+			"id": "5c03-V04",
+			"name": "fourth"
+		},
+		{
+			"id": "5c03-V05",
+			"name": "bottom"
+		},
+		{
+			"id": "5c05-V01",
+			"name": "basketball"
+		},
+		{
+			"id": "5c05-V02",
+			"name": "dodgeball"
+		},
+		{
+			"id": "5c05-V03",
+			"name": "soccer"
+		},
+		{
+			"id": "5c05-V04",
+			"name": "softball"
+		},
+		{
+			"id": "5c05-V05",
+			"name": "tennis"
+		},
+		{
+			"id": "5c06-V01",
+			"name": "China"
+		},
+		{
+			"id": "5c06-V02",
+			"name": "France"
+		},
+		{
+			"id": "5c06-V03",
+			"name": "India"
+		},
+		{
+			"id": "5c06-V04",
+			"name": "Mexico"
+		},
+		{
+			"id": "5c06-V05",
+			"name": "Russia"
+		},
+		{
+			"id": "5c07-V01",
+			"name": "do figure skating"
+		},
+		{
+			"id": "5c07-V02",
+			"name": "do judo"
+		},
+		{
+			"id": "5c07-V03",
+			"name": "play hockey"
+		},
+		{
+			"id": "5c07-V04",
+			"name": "play soccer"
+		},
+		{
+			"id": "5c07-V05",
+			"name": "play tennis"
+		},
+		{
+			"id": "5c09-V01",
+			"name": "an apple pie"
+		},
+		{
+			"id": "5c09-V02",
+			"name": "a hamburger"
+		},
+		{
+			"id": "5c09-V03",
+			"name": "a shake"
+		},
+		{
+			"id": "5c09-V04",
+			"name": "some chicken nuggets"
+		},
+		{
+			"id": "5c09-V05",
+			"name": "some fries"
+		},
+		{
+			"id": "5c10-V01",
+			"name": "cold"
+		},
+		{
+			"id": "5c10-V02",
+			"name": "crowded"
+		},
+		{
+			"id": "5c10-V03",
+			"name": "messy"
+		},
+		{
+			"id": "5c10-V04",
+			"name": "noisy"
+		},
+		{
+			"id": "5c10-V05",
+			"name": "smelly"
+		},
+		{
+			"id": "5c11-V01",
+			"name": "ketchup"
+		},
+		{
+			"id": "5c11-V02",
+			"name": "mustard"
+		},
+		{
+			"id": "5c11-V03",
+			"name": "napkins"
+		},
+		{
+			"id": "5c11-V04",
+			"name": "spoons"
+		},
+		{
+			"id": "5c11-V05",
+			"name": "straws"
+		},
+		{
+			"id": "5c13-V01",
+			"name": "grandma"
+		},
+		{
+			"id": "5c13-V02",
+			"name": "grandpa"
+		},
+		{
+			"id": "5c13-V03",
+			"name": "dad"
+		},
+		{
+			"id": "5c13-V04",
+			"name": "mom"
+		},
+		{
+			"id": "5c13-V05",
+			"name": "older brother"
+		},
+		{
+			"id": "5c13-V06",
+			"name": "older sister"
+		},
+		{
+			"id": "5c14-V01",
+			"name": "chef"
+		},
+		{
+			"id": "5c14-V02",
+			"name": "librarian"
+		},
+		{
+			"id": "5c14-V03",
+			"name": "nurse"
+		},
+		{
+			"id": "5c14-V04",
+			"name": "sales clerk"
+		},
+		{
+			"id": "5c14-V05",
+			"name": "security guard"
+		},
+		{
+			"id": "5c15-V01",
+			"name": "a bank"
+		},
+		{
+			"id": "5c15-V02",
+			"name": "a department store"
+		},
+		{
+			"id": "5c15-V03",
+			"name": "an elementary school"
+		},
+		{
+			"id": "5c15-V04",
+			"name": "a hospital"
+		},
+		{
+			"id": "5c15-V05",
+			"name": "a restaurant"
+		},
+		{
+			"id": "5c17-V01",
+			"name": "beach"
+		},
+		{
+			"id": "5c17-V02",
+			"name": "harbor"
+		},
+		{
+			"id": "5c17-V03",
+			"name": "ice rink"
+		},
+		{
+			"id": "5c17-V04",
+			"name": "mall"
+		},
+		{
+			"id": "5c17-V05",
+			"name": "zoo"
+		},
+		{
+			"id": "5c18-V01",
+			"name": "camera"
+		},
+		{
+			"id": "5c18-V02",
+			"name": "key"
+		},
+		{
+			"id": "5c18-V03",
+			"name": "phone"
+		},
+		{
+			"id": "5c18-V04",
+			"name": "ticket"
+		},
+		{
+			"id": "5c18-V05",
+			"name": "wallet"
+		},
+		{
+			"id": "5c19-V01",
+			"name": "behind"
+		},
+		{
+			"id": "5c19-V02",
+			"name": "in front of"
+		},
+		{
+			"id": "5c19-V03",
+			"name": "next to"
+		},
+		{
+			"id": "5c19-V04",
+			"name": "on"
+		},
+		{
+			"id": "5c19-V05",
+			"name": "under"
+		},
+		{
+			"id": "5c21-V01",
+			"name": "cloudy"
+		},
+		{
+			"id": "5c21-V02",
+			"name": "hot"
+		},
+		{
+			"id": "5c21-V03",
+			"name": "rainy"
+		},
+		{
+			"id": "5c21-V04",
+			"name": "sunny"
+		},
+		{
+			"id": "5c21-V05",
+			"name": "windy"
+		},
+		{
+			"id": "5c22-V01",
+			"name": "fleece"
+		},
+		{
+			"id": "5c22-V02",
+			"name": "hat"
+		},
+		{
+			"id": "5c22-V03",
+			"name": "rain boots"
+		},
+		{
+			"id": "5c22-V04",
+			"name": "shorts"
+		},
+		{
+			"id": "5c22-V05",
+			"name": "warm socks"
+		},
+		{
+			"id": "5c23-V01",
+			"name": "bears"
+		},
+		{
+			"id": "5c23-V02",
+			"name": "deer"
+		},
+		{
+			"id": "5c23-V03",
+			"name": "moose"
+		},
+		{
+			"id": "5c23-V04",
+			"name": "racoons"
+		},
+		{
+			"id": "5c23-V05",
+			"name": "squirrels"
+		}
+	],
+	"meta": {
+		"base-path": "./L5c/media/"
+	}
+}

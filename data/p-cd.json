@@ -1,0 +1,111 @@
+{
+  "phonicsCards": [
+    {
+      "id": "P-CD-a",
+      "desc": "A, a, Ant"
+    },
+    {
+      "id": "P-CD-b",
+      "desc": "B, b, Bag"
+    },
+    {
+      "id": "P-CD-c",
+      "desc": "C, c, Cat"
+    },
+    {
+      "id": "P-CD-d",
+      "desc": "D, d, Duck"
+    },
+    {
+      "id": "P-CD-e",
+      "desc": "E, e, Elk"
+    },
+    {
+      "id": "P-CD-f",
+      "desc": "F, f, Fan"
+    },
+    {
+      "id": "P-CD-g",
+      "desc": "G, g, Gum"
+    },
+    {
+      "id": "P-CD-h",
+      "desc": "H, h, Hand"
+    },
+    {
+      "id": "P-CD-i",
+      "desc": "I, i, Ink"
+    },
+    {
+      "id": "P-CD-j",
+      "desc": "J, j, Jet"
+    },
+    {
+      "id": "P-CD-k",
+      "desc": "K, k, King"
+    },
+    {
+      "id": "P-CD-l",
+      "desc": "L, l, Lamp"
+    },
+    {
+      "id": "P-CD-m",
+      "desc": "M, m, Map"
+    },
+    {
+      "id": "P-CD-n",
+      "desc": "N, n, Nut"
+    },
+    {
+      "id": "P-CD-o",
+      "desc": "O, o, Octopus"
+    },
+    {
+      "id": "P-CD-p",
+      "desc": "P, p, Pen"
+    },
+    {
+      "id": "P-CD-q",
+      "desc": "Q, q, Quilt"
+    },
+    {
+      "id": "P-CD-r",
+      "desc": "R, r, Red"
+    },
+    {
+      "id": "P-CD-s",
+      "desc": "S, s, Six"
+    },
+    {
+      "id": "P-CD-t",
+      "desc": "T, t, Tent"
+    },
+    {
+      "id": "P-CD-u",
+      "desc": "U, u, Umpire"
+    },
+    {
+      "id": "P-CD-v",
+      "desc": "V, v, Van"
+    },
+    {
+      "id": "P-CD-w",
+      "desc": "W, w, Wombat"
+    },
+    {
+      "id": "P-CD-x",
+      "desc": "X, x, Axe"
+    },
+    {
+      "id": "P-CD-y",
+      "desc": "Y, y, Yam"
+    },
+    {
+      "id": "P-CD-z",
+      "desc": "Z, z, Zig-zag"
+    }
+  ],
+	"meta": {
+		"base-path": "./media/phonics/CL5/P-CD/"
+	}
+}

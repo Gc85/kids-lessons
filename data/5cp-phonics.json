@@ -1,0 +1,79 @@
+{
+	"phonicsCards": [
+		{
+			"id": "5cp01-P01",
+			"desc": "ARE, are, are."
+		},
+		{
+			"id": "5cp02-P01",
+			"desc": "AW, aw, dr<span class='phonics-hint'>aw</span>n."
+		},
+		{
+			"id": "5cp03-P01",
+			"desc": "AY, ay, ok<span class='phonics-hint'>ay</span>."
+		},
+		{
+			"id": "5cp05-P01",
+			"desc": "WHY, why, why."
+		},
+		{
+			"id": "5cp06-P01",
+			"desc": "LY, ly, friend<span class='phonics-hint'>ly</span>."
+		},
+		{
+			"id": "5cp07-P01",
+			"desc": "ANY, any, any."
+		},
+		{
+			"id": "5cp09-P01",
+			"desc": "FL, fl, <span class='phonics-hint'>fl</span>avor."
+		},
+		{
+			"id": "5cp10-P01",
+			"desc": "OU, ou, s<span class='phonics-hint'>ou</span>nds."
+		},
+		{
+			"id": "5cp11-P01",
+			"desc": "WR, wr, <span class='phonics-hint'>wr</span>ong."
+		},
+		{
+			"id": "5cp13-P01",
+			"desc": "UE, ue, bl<span class='phonics-hint'>ue</span>."
+		},
+		{
+			"id": "5cp14-P01",
+			"desc": "OLD, old, old."
+		},
+		{
+			"id": "5cp15-P01",
+			"desc": "SHE, she, she."
+		},
+		{
+			"id": "5cp17-P01",
+			"desc": "CH, ch, bea<span class='phonics-hint'>ch</span>."
+		},
+		{
+			"id": "5cp18-P01",
+			"desc": "WAS, was, Where <span class='phonics-hint'>was</span> it?"
+		},
+		{
+			"id": "5cp19-P01",
+			"desc": "FF, ff, o<span class='phonics-hint'>ff</span>."
+		},
+		{
+			"id": "5cp21-P01",
+			"desc": "AI, ai, r<span class='phonics-hint'>ai</span>n."
+		},
+		{
+			"id": "5cp22-P01",
+			"desc": "AM, am, am"
+		},
+		{
+			"id": "5cp23-P01",
+			"desc": "AN, an, <span class='phonics-hint'>an</span> owl."
+		}
+	],
+	"meta": {
+		"base-path": "./CL5cp/media/"
+	}
+}

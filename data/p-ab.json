@@ -1,0 +1,111 @@
+{
+  "phonics-cards": [
+    {
+      "id": "P-AB-a",
+      "name": "A, a, Apple"
+    },
+    {
+      "id": "P-AB-b",
+      "name": "B, b, Bat"
+    },
+    {
+      "id": "P-AB-c",
+      "name": "C, c, Cup"
+    },
+    {
+      "id": "P-AB-d",
+      "name": "D, d, Dog"
+    },
+    {
+      "id": "P-AB-e",
+      "name": "E, e, Egg"
+    },
+    {
+      "id": "P-AB-f",
+      "name": "F, f, Fish"
+    },
+    {
+      "id": "P-AB-g",
+      "name": "G, g, Golf"
+    },
+    {
+      "id": "P-AB-h",
+      "name": "H, h, Hat"
+    },
+    {
+      "id": "P-AB-i",
+      "name": "I, i, Insect"
+    },
+    {
+      "id": "P-AB-j",
+      "name": "J, j, Jam"
+    },
+    {
+      "id": "P-AB-k",
+      "name": "K, k, Kite"
+    },
+    {
+      "id": "P-AB-l",
+      "name": "L, l, Leg"
+    },
+    {
+      "id": "P-AB-m",
+      "name": "M, m, Milk"
+    },
+    {
+      "id": "P-AB-n",
+      "name": "N, n, Net"
+    },
+    {
+      "id": "P-AB-o",
+      "name": "O, o, Omelette"
+    },
+    {
+      "id": "P-AB-p",
+      "name": "P, p, Pig"
+    },
+    {
+      "id": "P-AB-q",
+      "name": "Q, q, Queen"
+    },
+    {
+      "id": "P-AB-r",
+      "name": "R, r, Rabbit"
+    },
+    {
+      "id": "P-AB-s",
+      "name": "S, s, Sun"
+    },
+    {
+      "id": "P-AB-t",
+      "name": "T, t, Tiger"
+    },
+    {
+      "id": "P-AB-u",
+      "name": "U, u, Umbrella"
+    },
+    {
+      "id": "P-AB-v",
+      "name": "V, v, Violin"
+    },
+    {
+      "id": "P-AB-w",
+      "name": "W, w, Watch"
+    },
+    {
+      "id": "P-AB-x",
+      "name": "X, x, Box"
+    },
+    {
+      "id": "P-AB-y",
+      "name": "Y, y, Yak"
+    },
+    {
+      "id": "P-AB-z",
+      "name": "Z, z, Zipper"
+    }
+  ],
+	"meta": {
+		"base-path": "./media/phonics/CL5/P-AB/"
+	}
+}

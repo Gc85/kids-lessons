@@ -1,7 +1,7 @@
 import { createElem } from "./utils.js";
 import { createHeading } from "./createHeading.js";
 
-export function createTodaysVocabularySection(lesson, book, level) {
+export function createTodaysVocabularySection(lesson, book, level, vocab) {
 
   const vocabDivElem = createElem('div', 'div-opening', '');
   const vocabH2Elm = createHeading(lesson, `Vocabulary`, '2', '2');
@@ -11,12 +11,15 @@ export function createTodaysVocabularySection(lesson, book, level) {
   vocabTextElem.innerHTML = vocabMessage;
 
   lesson.vocabImages.forEach((vocabItem) => {
+    const findVocab = vocab.vocabularyImages.find(v => v.id === vocabItem);
 
-    const vocabImgElem = createElem('img', 'image-small', '');
-    vocabImgElem.src = `./assets/${book}/${level}/${vocabItem}.jpg`;
-    vocabImgElem.onclick = () => { showSrcMedia(); };
+    if (findVocab) {
+      const vocabImgElem = createElem('img', 'image-small', '');
+      vocabImgElem.src = `./assets/${book}/${level}/${vocabItem}.jpg`;
+      vocabImgElem.onclick = () => { showSrcMedia(); };
 
-    vocabImgDiv.appendChild(vocabImgElem);
+      vocabImgDiv.appendChild(vocabImgElem);
+    }
   });
 
   const vocabAudioPElem = createElem('p', 'audio', '');

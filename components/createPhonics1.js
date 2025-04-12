@@ -1,23 +1,40 @@
 import { createElem } from "./utils.js";
 import { createHeading } from "./createHeading.js";
 
-export function createPhonics1Section(lesson, book, level, type) {
+export function createPhonics1Section(lesson, book, level, type, phonics) {
 
   const phonics1DivElem = createElem('div', 'div-opening', '');
   const phonics1H2Elm = createHeading(lesson, `Today's Phonics - Part 1`, '2', '2');
-  const phonics1ImgDiv = createElem('div', 'flex-div flex-wrap flex-justify-evenly', '');
 
   const phonics1TextElem = createElem('p', 'main-text', '');
   (type === "Normal") ? phonics1TextElem.innerHTML = phonicsNormalMessage.join('<br>') : phonics1TextElem.innerHTML = phonicsPlusMessage.join('<br>');
 
+  const phonics1ImgDivElem = createElem('div', 'flex flex-justify-evenly', '');
   lesson.phonics1Images.forEach((phonics1Item) => {
-    let phonics1ImgElem = '';
-    (type === "Normal") ? phonics1ImgElem = createElem('img', 'image-small', '') : phonics1ImgElem = createElem('img', 'image-medium', '');
+    const findPhonics = phonics.phonicsCards.find(p => p.id === phonics1Item);
 
-    phonics1ImgElem.src = `./assets/${book}/${level}/${phonics1Item}.jpg`;
-    phonics1ImgElem.onclick = () => { showSrcMedia(); };
+    if (findPhonics) {
+      const phonics1ImgTextElem = createElem('div', 'phonics-center', '');
+      let phonics1ImgElem = '';
+      (type === "Normal") ? phonics1ImgElem = createElem('img', 'image-small', '') : phonics1ImgElem = createElem('img', 'image-medium', '');
 
-    phonics1ImgDiv.appendChild(phonics1ImgElem);
+      if (type === "Normal") {
+        phonics1ImgElem.src = `./assets/phonics/CL${level}/${phonics1Item.slice(0, 4)}/${phonics1Item}.jpg`;
+      } else if (type === "Plus") {
+        phonics1ImgElem.src = `./assets/${book}/${level}/${phonics1Item}.jpg`;
+      } else {
+        // Add Kinder link here.
+      }
+
+      phonics1ImgElem.onclick = () => { showSrcMedia(); };
+
+      const phonics1DescElem = createElem('p', 'phonics-text', '');
+      phonics1DescElem.innerHTML = `${findPhonics.desc}`;
+      phonics1ImgTextElem.appendChild(phonics1ImgElem);
+      phonics1ImgTextElem.appendChild(phonics1DescElem);
+
+      phonics1ImgDivElem.appendChild(phonics1ImgTextElem);
+    }
   });
 
   const phonics1TextElem2 = createElem('p', 'main-text', '');
@@ -25,7 +42,7 @@ export function createPhonics1Section(lesson, book, level, type) {
 
   phonics1DivElem.appendChild(phonics1H2Elm);
   phonics1DivElem.appendChild(phonics1TextElem);
-  phonics1DivElem.appendChild(phonics1ImgDiv);
+  phonics1DivElem.appendChild(phonics1ImgDivElem);
   phonics1DivElem.appendChild(phonics1TextElem2);
 
   return phonics1DivElem;

@@ -35,6 +35,12 @@
       "C": [
         {
           "lessonNumber": 1,
+          "pdfs": [
+            { "file": "Cl5_CL4_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl5_CL4_Overview", "desc": "Lesson Overview" },
+            { "file": "5B_HS", "desc": "Previous Home Study" },
+            { "file": "5C_LT", "desc": "Lesson Transcript" }
+          ],
           "openingImage": ["5c01-OP"],
           "bq": ["01", "09"],
           "title": "Lesson 1: What are you drawing?",
@@ -48,13 +54,19 @@
           "vocabAudio": "5c01-A02",
           "listeningImages": ["5c01-L01", "5c01-L02", "5c01-L03", "5c01-L04"],
           "listeningAudio": "5c01-A03",
-          "phonics1Images": ["5c01-P01", "5c01-P02", "5c01-P03"],
+          "phonics1Images": ["P-CD-i", "P-CD-f", "P-CD-n"],
           "phonics2Images": ["5c01-P04", "5c01-P05", "5c01-P06", "5c01-P07"],
           "phonics2Audio": "5c01-A04",
           "review": false
         },
         {
           "lessonNumber": 2,
+          "pdfs": [
+            { "file": "Cl5_CL4_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl5_CL4_Overview", "desc": "Lesson Overview" },
+            { "file": "5C_HS", "desc": "Home Study" },
+            { "file": "5C_LT", "desc": "Lesson Transcript" }
+          ],
           "openingImage": ["5c02-OP"],
           "bq": ["01", "09"],
           "title": "Lesson 2: Pass me the (red) crayon, please.",
@@ -68,10 +80,37 @@
           "vocabAudio": "5c02-A02",
           "listeningImages": ["5c02-L01", "5c02-L02", "5c02-L03", "5c02-L04"],
           "listeningAudio": "5c02-A03",
-          "reviewPhonicsImages": ["5c01-P01", "5c01-P02", "5c01-P03"],
-          "phonics1Images": ["5c02-P01", "5c02-P02"],
+          "reviewPhonicsImages": ["P-CD-i", "P-CD-f", "P-CD-n"],
+          "phonics1Images": ["P-CD-t", "P-CD-x"],
           "phonics2Images": ["5c02-P03", "5c02-P04", "5c02-P05", "5c02-P06"],
           "phonics2Audio": "5c02-A04",
+          "review": false
+        },
+        {
+          "lessonNumber": 3,
+          "pdfs": [
+            { "file": "Cl5_CL4_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl5_CL4_Overview", "desc": "Lesson Overview" },
+            { "file": "5C_HS", "desc": "Home Study" },
+            { "file": "5C_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["5c03-OP"],
+          "bq": ["01", "09"],
+          "title": "Lesson 3: Put it in the (top) drawer.",
+          "dialogImage": ["5c03-D01"],
+          "dialogAudio": ["5c03-A01"],
+          "dialog": "Teacher: Put your things away.<br>Hina: Where should I put this?<br>Jake: Put it in the top drawer.",
+          "mainLanguage": "A:  Where should I put this?<br>B: Put it in the (top) drawer.",
+          "sayDialogueImage": ["5c03-D02"],
+          "todayLangImage": ["5c03-D03"],
+          "vocabImages": ["5c03-V01", "5c03-V02", "5c03-V03", "5c03-V04", "5c03-V05"],
+          "vocabAudio": "5c03-A02",
+          "listeningImages": ["5c03-L01", "5c03-L02", "5c03-L03", "5c03-L04"],
+          "listeningAudio": "5c03-A03",
+          "reviewPhonicsImages": ["P-CD-i", "P-CD-f", "P-CD-n", "P-CD-t", "P-CD-x"],
+          "phonics1Images": ["P-CD-q", "P-CD-w"],
+          "phonics2Images": ["5c03-P03", "5c03-P04", "5c03-P05", "5c03-P06"],
+          "phonics2Audio": "5c03-A04",
           "review": false
         }
       ]
@@ -80,6 +119,11 @@
       "C": [
         {
           "lessonNumber": 1,
+          "pdfs": [
+            { "file": "Cl5_CL4_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl5_CL4_Plus_Overview", "desc": "Lesson Overview" },
+            { "file": "5CP_LT", "desc": "Lesson Transcript" }
+          ],
           "openingImage": ["5cp01-OP"],
           "bq": ["5p-4p-w1"],
           "title": "Lesson 1: They're (wings).",
@@ -91,7 +135,7 @@
           "todayLangImage": ["5cp01-D03"],
           "vocabImages": ["5cp01-V01", "5cp01-V02", "5cp01-V03", "5cp01-V04", "5cp01-V05"],
           "vocabAudio": "5cp01-A02",
-          "reviewPhonicsImages": ["5c01-P01", "5c01-P02", "5c01-P03"],
+          "reviewPhonicsImages": ["P-CD-i", "P-CD-f", "P-CD-n"],
           "phonics1Images": ["5cp01-P01"],
           "readingImages": ["5cp01-R01", "5cp01-R02"],
           "listeningImages": ["5cp01-L01", "5cp01-L02", "5cp01-L03", "5cp01-L04", "5cp01-L05", "5cp01-L06"],
@@ -100,6 +144,11 @@
         },
         {
           "lessonNumber": 2,
+          "pdfs": [
+            { "file": "Cl5_CL4_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl5_CL4_Plus_Overview", "desc": "Lesson Overview" },
+            { "file": "5CP_LT", "desc": "Lesson Transcript" }
+          ],
           "openingImage": ["5cp02-OP"],
           "bq": ["5p-4p-w2"],
           "title": "Lesson 2: (Three).",
@@ -111,11 +160,36 @@
           "todayLangImage": ["5cp02-D03"],
           "vocabImages": ["5cp02-V01", "5cp02-V02", "5cp02-V03", "5cp02-V04", "5cp02-V05", "5cp02-V06", "5cp02-V07", "5cp02-V08", "5cp02-V09", "5cp02-V10"],
           "vocabAudio": "5cp02-A02",
-          "reviewPhonicsImages": ["5c01-P01", "5c02-P01", "5c02-P02"],
+          "reviewPhonicsImages": ["P-CD-i", "P-CD-t", "P-CD-x"],
           "phonics1Images": ["5cp02-P01"],
           "readingImages": ["5cp02-R01", "5cp02-R02"],
           "listeningImages": ["5cp02-L01", "5cp02-L02", "5cp02-L03", "5cp02-L04", "5cp02-L05", "5cp02-L06"],
           "listeningAudio": "5cp02-A03",
+          "review": false
+        },
+        {
+          "lessonNumber": 3,
+          "pdfs": [
+            { "file": "Cl5_CL4_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl5_CL4_Plus_Overview", "desc": "Lesson Overview" },
+            { "file": "5CP_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["5cp03-OP"],
+          "bq": ["5p-4p-w3"],
+          "title": "Lesson 3: Put away the (crayons), please.",
+          "dialogImage": ["5cp03-D01"],
+          "dialogAudio": ["5cp03-A01"],
+          "dialog": "Teacher: Put away the crayons, please.<br>Hina: Okay. Where do they go?<br>Teacher: In the bottom drawer.",
+          "mainLanguage": "A: Put away the (crayons), please.<br>B: Okay.",
+          "sayDialogueImage": ["5cp03-D02"],
+          "todayLangImage": ["5cp03-D03"],
+          "vocabImages": ["5cp03-V01", "5cp03-V02", "5cp03-V03", "5cp03-V04", "5cp03-V05"],
+          "vocabAudio": "5cp03-A02",
+          "reviewPhonicsImages": ["P-CD-i", "P-CD-q", "P-CD-w"],
+          "phonics1Images": ["5cp03-P01"],
+          "readingImages": ["5cp03-R01", "5cp03-R02"],
+          "listeningImages": ["5cp03-L01", "5cp03-L02", "5cp03-L03", "5cp03-L04", "5cp03-L05", "5cp03-L06"],
+          "listeningAudio": "5cp03-A03",
           "review": false
         }
       ]

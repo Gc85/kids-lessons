@@ -31,13 +31,14 @@ audio { border: 1px solid #000000; border-radius: 25px; margin: 5px; }
 .flex-head { display: flex; align-items: center; justify-content: space-between; margin: 0.5em;}
 .span-heading { color: #686868; font-size: 1.5em; font-weight: bold; text-decoration: none; }
 
+.flex { display: flex; }
 .flex-div { display: flex; justify-content: center; align-items: center; }
 .flex-wrap { flex-wrap: wrap; }
 .flex-direction { flex-direction: column; }
 .flex-justify-evenly { justify-content: space-evenly; }
 
 img { cursor: pointer; border-radius: 15px; padding: 2px; }
-.div-img { display: flex; flex-wrap: wrap; justify-content: center; text-align: center; }
+.div-img { display: flex; flex-wrap: wrap; flex-direction: column; text-align: center; align-items: center; }
 
 .image-big { width: 336px; height: 240px; }
 .image-medium { width: 168px; height: 120px; }
@@ -57,10 +58,16 @@ img { cursor: pointer; border-radius: 15px; padding: 2px; }
 .main-text { margin: 0.5em; font-size: 0.9em; }
 .bold { font-weight: 600; }
 
+.phonics-center { text-align: center; }
+.phonics-text { margin: 0; }
+
 .phonics-hint { color: #ff0000; font-style: italic; font-weight: 700; }
 
 #back-btn, #load-btn { border-radius: 10px; }
 #back-btn:hover, #load-btn:hover { background-color: #0BD6D9; border-radius: 10px; cursor: pointer; }
+
+.pdf-link-group { margin: 5px 0; padding-inline-start: 20px; }
+a { text-decoration: none; }
 
 #popup {
   position: fixed;
