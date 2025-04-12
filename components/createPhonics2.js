@@ -21,8 +21,11 @@ export function createPhonics2Section(lesson, book, level) {
 
   const phonics2AudioPElem = createElem('p', 'audio', '');
   const phonics2AudioElem = createElem('audio', '', '');
+  const phonics2AudioText = createElem('p', '', '');
+  phonics2AudioText.innerHTML = phonics2AudioMessage;
+  phonics2AudioPElem.appendChild(phonics2AudioText);
+
   phonics2AudioElem.src = `./assets/${book}/${level}/${lesson.phonics2Audio}.mp3`;
-  phonics2AudioPElem.innerHTML = phonics2AudioMessage;
   phonics2AudioPElem.appendChild(phonics2AudioElem);
 
   phonics2DivElem.appendChild(phonics2H2Elm);

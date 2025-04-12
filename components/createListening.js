@@ -20,8 +20,11 @@ export function createListeningSection(lesson, book, level) {
 
   const listeningAudioPElem = createElem('p', 'audio', '');
   const listeningAudioElem = createElem('audio', '', '');
+  const listeningAudioText = createElem('p', '', '');
+  listeningAudioText.innerHTML = listeningAudioMessage;
+  listeningAudioPElem.appendChild(listeningAudioText);
+
   listeningAudioElem.src = `./assets/${book}/${level}/${lesson.listeningAudio}.mp3`;
-  listeningAudioPElem.innerHTML = listeningAudioMessage;
   listeningAudioPElem.appendChild(listeningAudioElem);
 
 

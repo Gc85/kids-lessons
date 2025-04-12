@@ -24,8 +24,11 @@ export function createTodaysVocabularySection(lesson, book, level, vocab) {
 
   const vocabAudioPElem = createElem('p', 'audio', '');
   const vocabAudioElem = createElem('audio', '', '');
+  const vocabAudioText = createElem('p', '', '');
+  vocabAudioText.innerHTML = vocabAudioMessage;
+  vocabAudioPElem.appendChild(vocabAudioText);
+
   vocabAudioElem.src = `./assets/${book}/${level}/${lesson.vocabAudio}.mp3`;
-  vocabAudioPElem.innerHTML = vocabAudioMessage;
   vocabAudioPElem.appendChild(vocabAudioElem);
 
   vocabDivElem.appendChild(vocabH2Elm);
