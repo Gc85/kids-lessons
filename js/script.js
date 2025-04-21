@@ -68,8 +68,13 @@ async function loadLesson() {
       const warmDownSection = createElem('div', 'warm-down', '');
       const warmDownH2Elem = createElem('h2', 'section-heading align-center', '');
 
-      // Warmup Section
+      const bq = await getBasicQuestions();
+      const vocab = await getLessonVocabulary(book, level, type);
+      const phonics = await getLessonPhonics(book);
+      const plusPhonics = await getLessonPlusPhonics(book, level);
 
+      // ***************************************************************************************************** //
+      // Warmup Section
       warmupH2Elem.textContent = `Warmup Section`;
       warmupSection.appendChild(warmupH2Elem);
 
@@ -83,7 +88,6 @@ async function loadLesson() {
       warmupSection.appendChild(createElem('hr', '', ''));
 
       if (level !== 'Kinder') {
-        const bq = await getBasicQuestions();
         warmupSection.appendChild(createBQSection(lesson, bq));
       }
 
@@ -93,6 +97,7 @@ async function loadLesson() {
       }
       lessonElem.appendChild(warmupSection);
 
+      // ***************************************************************************************************** //
       // Presentation Section
       presentationH2Elem.textContent = `Presentation Section`;
       presentationSection.appendChild(presentationH2Elem);
@@ -108,7 +113,6 @@ async function loadLesson() {
         presentationSection.appendChild(createTodaysLanguageSection(lesson, book, level));
         presentationSection.appendChild(createElem('hr', '', ''));
 
-        const vocab = await getLessonVocabulary(book, level, type);
         presentationSection.appendChild(createTodaysVocabularySection(lesson, book, level, vocab));
         lessonElem.appendChild(presentationSection);
 
@@ -124,23 +128,21 @@ async function loadLesson() {
               prodSection.appendChild(createElem('hr', '', ''));
 
               if (lesson.lessonNumber % 4 !== 1) {
-                const reviewPhonics = await getLessonPhonics(book);
-                prodSection.appendChild(createReviewPhonicsSection(lesson, level, reviewPhonics));
+                prodSection.appendChild(createReviewPhonicsSection(lesson, level, phonics, lessonsData, type, book));
                 prodSection.appendChild(createElem('hr', '', ''));
               }
 
-              const phonics = await getLessonPhonics(book);
               prodSection.appendChild(createPhonics1Section(lesson, book, level, type, phonics));
               prodSection.appendChild(createElem('hr', '', ''));
 
               prodSection.appendChild(createPhonics2Section(lesson, book, level));
               prodSection.appendChild(createElem('hr', '', ''));
             } else {
-              const reviewPhonics = await getLessonPhonics(book);
-              prodSection.appendChild(createReviewPhonicsSection(lesson, level, reviewPhonics));
+
+              prodSection.appendChild(createReviewPhonicsSection(lesson, level, phonics, lessonsData, type, book));
               prodSection.appendChild(createElem('hr', '', ''));
 
-              const plusPhonics = await getLessonPlusPhonics(book, level);
+
               prodSection.appendChild(createPhonics1Section(lesson, book, level, type, plusPhonics));
               prodSection.appendChild(createElem('hr', '', ''));
 
@@ -187,78 +189,82 @@ async function loadLesson() {
           lessonElem.appendChild(presentationSection);
 
         }
-        const reviewHeadH3Elem = createElem('h3', 'review-head', '');
-        const splitTitle = lesson.title.replace(/:\s*/, ':<br>');
-        reviewHeadH3Elem.innerHTML = `${splitTitle}`;
-        presentationSection.appendChild(reviewHeadH3Elem);
 
-        presentationSection.appendChild(createPictureSpeculationSection(lesson, book, level));
-        // presentationSection.appendChild(createElem('hr', '', ''));
+        if (type !== "Plus") {
+          const reviewHeadH3Elem = createElem('h3', 'review-head', '');
+          const splitTitle = lesson.title.replace(/:\s*/, ':<br>');
+          reviewHeadH3Elem.innerHTML = `${splitTitle}`;
+          presentationSection.appendChild(reviewHeadH3Elem);
+          presentationSection.appendChild(createPictureSpeculationSection(lesson, book, level));
+        } else {
+          // Add some content for Review Plus lessons here...
+        }
 
+        // ***************************************************************************************************** //
 
         addMainGameSection(gameH2Elem, gameSection, mainGameDivElem, lessonElem);
 
+        // ***************************************************************************************************** //
         prodH2Elem.textContent = `Production Section`;
         prodSection.appendChild(prodH2Elem);
 
+        let heading, textMessage, audioMessage, phonicsImages, phonicsAudio;
         switch (level) {
+
           case "5":
             if (type !== "Plus") {
               prodSection.appendChild(createListeningSection(lesson, book, level));
               prodSection.appendChild(createElem('hr', '', ''));
 
-              // if (lesson.lessonNumber % 4 !== 1) {
-              //   const reviewPhonics = await getLessonPhonics(book);
-              //   prodSection.appendChild(createReviewPhonicsSection(lesson, level, reviewPhonics));
-              //   prodSection.appendChild(createElem('hr', '', ''));
-              // }
-              debugger;
-              let heading = `Phonics - Part 1`;
-              let textMessage = [
+              prodSection.appendChild(createReviewPhonicsSection(lesson, level, phonics, plusPhonics, lessonsData, type, book));
+              prodSection.appendChild(createElem('hr', '', ''));
+
+              heading = `Phonics - Part 1`;
+              textMessage = [
                 `<b>Let's say the words together!</b>`,
                 ``,
-                `<b>Aim:</b> <em>Review the letters taught in the previous 3 lessons of the course.</em>`
+                `<b>Aim:</b> <em>Use the reviewed phonics to build 3-letter words focusing on proper pronuncitaion sounds of letters, not the letter itself.</em>`
               ]
-              let audioMessage;
-              let reviewPhonicsImages = lesson.reviewPhonics1Images;
-              let reviewPhonicsAudio;
-              prodSection.appendChild(createUnitReviewPhonics(lesson, book, level, heading, textMessage, audioMessage, reviewPhonicsImages, reviewPhonicsAudio));
+              // let audioMessage;
+              phonicsImages = lesson.phonics1Images;
+              prodSection.appendChild(createUnitReviewPhonics(lesson, book, level, heading, textMessage, audioMessage, phonicsImages, phonicsAudio));
               prodSection.appendChild(createElem('hr', '', ''));
 
               heading = `Phonics - Part 2`;
               audioMessage = [
                 `<em>Pause audio and confirm correct answer before continuing.</em>`
               ]
-              reviewPhonicsImages = lesson.reviewPhonics2Images;
-              reviewPhonicsAudio = lesson.reviewPhonics2Audio;
-              prodSection.appendChild(createUnitReviewPhonics(lesson, book, level, heading, textMessage, audioMessage, reviewPhonicsImages, reviewPhonicsAudio));
+              phonicsImages = lesson.phonics2Images;
+              phonicsAudio = lesson.phonics2Audio;
+              prodSection.appendChild(createUnitReviewPhonics(lesson, book, level, heading, textMessage, audioMessage, phonicsImages, phonicsAudio));
               prodSection.appendChild(createElem('hr', '', ''));
 
               heading = `Phonics - Part 3`;
-              reviewPhonicsImages = lesson.reviewPhonics3Images;
-              reviewPhonicsAudio = lesson.reviewPhonics3Audio;
-              prodSection.appendChild(createUnitReviewPhonics(lesson, book, level, heading, textMessage, audioMessage, reviewPhonicsImages, reviewPhonicsAudio));
+              phonicsImages = lesson.phonics3Images;
+              phonicsAudio = lesson.phonics3Audio;
+              prodSection.appendChild(createUnitReviewPhonics(lesson, book, level, heading, textMessage, audioMessage, phonicsImages, phonicsAudio));
               prodSection.appendChild(createElem('hr', '', ''));
 
               heading = `Phonics - Part 4`;
-              reviewPhonicsImages = lesson.reviewPhonics4Images;
-              reviewPhonicsAudio = lesson.reviewPhonics4Audio;
-              prodSection.appendChild(createUnitReviewPhonics(lesson, book, level, heading, textMessage, audioMessage, reviewPhonicsImages, reviewPhonicsAudio));
+              phonicsImages = lesson.phonics4Images;
+              phonicsAudio = lesson.phonics4Audio;
+              prodSection.appendChild(createUnitReviewPhonics(lesson, book, level, heading, textMessage, audioMessage, phonicsImages, phonicsAudio));
               prodSection.appendChild(createElem('hr', '', ''));
 
-              // const phonics = await getLessonPhonics(book);
-              // prodSection.appendChild(createPhonics1Section(lesson, book, level, type, phonics));
-              // prodSection.appendChild(createElem('hr', '', ''));
-
-              // prodSection.appendChild(createPhonics2Section(lesson, book, level));
-              // prodSection.appendChild(createElem('hr', '', ''));
             } else {
-              const reviewPhonics = await getLessonPhonics(book);
-              prodSection.appendChild(createReviewPhonicsSection(lesson, level, reviewPhonics));
+
+              prodSection.appendChild(createReviewPhonicsSection(lesson, level, phonics, plusPhonics, lessonsData, type, book));
               prodSection.appendChild(createElem('hr', '', ''));
 
-              const plusPhonics = await getLessonPlusPhonics(book, level);
-              prodSection.appendChild(createPhonics1Section(lesson, book, level, type, plusPhonics));
+              heading = `Phonics`;
+              textMessage = [
+                `<b>Let's say the words together!</b>`,
+                ``,
+                `<b>Aim:</b> <em>Help students find the matches to the phonics.</em>`
+              ]
+              // let audioMessage;
+              phonicsImages = lesson.phonics1Images;
+              prodSection.appendChild(createUnitReviewPhonics(lesson, book, level, heading, textMessage, audioMessage, phonicsImages, phonicsAudio));
               prodSection.appendChild(createElem('hr', '', ''));
 
               prodSection.appendChild(createReadingSection(lesson, book, level));
@@ -277,18 +283,7 @@ async function loadLesson() {
         prodDivElem.innerHTML = `Phonics Practice Games<br>Tic Tac Toe ABC<br>Memory ABC<br><br>Vocab Games<br>Rotate and Stop<br>Tic Tac Toe<br>Memory`;
         prodSection.appendChild(prodDivElem);
         lessonElem.appendChild(prodSection);
-
-
       }
-
-
-
-
-
-      // Production Section
-      // This section will be built differently for each level.
-
-
 
       // Warm Down Section
       warmDownH2Elem.textContent = `Warm Down Section`;
@@ -364,7 +359,7 @@ document.getElementById('back-to-top').addEventListener('click', function() {
 function addMainGameSection(gameH2Elem, gameSection, mainGameDivElem, lessonElem) {
   // Game Section - WIP
 
-  gameH2Elem.textContent = `Game Section`;
+  gameH2Elem.textContent = `Game Section - WIP`;
   gameSection.appendChild(gameH2Elem);
 
   // load('Uncover', null, 2, 8, null, null, true);

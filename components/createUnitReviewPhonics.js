@@ -1,48 +1,43 @@
 import { createElem } from "./utils.js";
 import { createHeading } from "./createHeading.js";
 
-export function createUnitReviewPhonics(lesson, book, level, heading, textMessage, audioMessage, reviewPhonicsImages, reviewPhonicsAudio) {
+export function createUnitReviewPhonics(lesson, book, level, heading, textMessage, audioMessage, phonicsImages, phonicsAudio) {
 
-  const reviewPhonicsDivElem = createElem('div', 'div-opening', '');
-  const reviewPhonicsH2Elm = createHeading(lesson, `${heading}`, '2', '2');
-  const reviewPhonicsImgDiv = createElem('div', 'flex-div flex-wrap flex-justify-evenly', '');
+  const phonicsDivElem = createElem('div', 'div-opening', '');
+  const phonicsH2Elm = createHeading(lesson, `${heading}`, '2', '2');
+  const phonicsImgDiv = createElem('div', 'flex-div flex-wrap flex-justify-evenly', '');
 
-  const reviewPhonicsTextElem = createElem('p', 'main-text', '');
-  reviewPhonicsTextElem.innerHTML = textMessage.join('<br>');
+  const phonicsTextElem = createElem('p', 'main-text', '');
+  phonicsTextElem.innerHTML = textMessage.join('<br>');
 
-  reviewPhonicsImages.forEach((reviewPhonicsItem) => {
-    const reviewPhonicsImgElem = createElem('img', 'image-small', '');
-    reviewPhonicsImgElem.src = `./assets/${book}/${level}/${reviewPhonicsItem}.jpg`;
-    reviewPhonicsImgElem.onclick = () => { showSrcMedia(); };
+  phonicsImages.forEach((phonicsItem) => {
+    let phonicsImgElem;
+    if (lesson.phonics1Images.length > 1) {
+      phonicsImgElem = createElem('img', 'image-small', '');
+    } else {
+      phonicsImgElem = createElem('img', 'image-big', '');
+    }
+    phonicsImgElem.src = `./assets/${book}/${level}/${phonicsItem}.jpg`;
+    phonicsImgElem.onclick = () => { showSrcMedia(); };
 
-    reviewPhonicsImgDiv.appendChild(reviewPhonicsImgElem);
+    phonicsImgDiv.appendChild(phonicsImgElem);
   });
 
-  reviewPhonicsDivElem.appendChild(reviewPhonicsH2Elm);
-  reviewPhonicsDivElem.appendChild(reviewPhonicsTextElem);
-  reviewPhonicsDivElem.appendChild(reviewPhonicsImgDiv);
+  phonicsDivElem.appendChild(phonicsH2Elm);
+  phonicsDivElem.appendChild(phonicsTextElem);
+  phonicsDivElem.appendChild(phonicsImgDiv);
 
-  const reviewPhonicsAudioPElem = createElem('p', 'audio', '');
-  const reviewPhonicsAudioElem = createElem('audio', '', '');
-  const reviewPhonicsAudioText = createElem('p', '', '');
+  const phonicsAudioPElem = createElem('p', 'audio', '');
+  const phonicsAudioElem = createElem('audio', '', '');
+  const phonicsAudioText = createElem('p', '', '');
 
   if (audioMessage) {
-    reviewPhonicsAudioText.innerHTML = audioMessage;
-    reviewPhonicsAudioPElem.appendChild(reviewPhonicsAudioText);
-    reviewPhonicsAudioElem.src = `./assets/${book}/${level}/${reviewPhonicsAudio}.mp3`;
-    reviewPhonicsAudioPElem.appendChild(reviewPhonicsAudioElem);
-    reviewPhonicsDivElem.appendChild(reviewPhonicsAudioPElem);
+    phonicsAudioText.innerHTML = audioMessage;
+    phonicsAudioPElem.appendChild(phonicsAudioText);
+    phonicsAudioElem.src = `./assets/${book}/${level}/${phonicsAudio}.mp3`;
+    phonicsAudioPElem.appendChild(phonicsAudioElem);
+    phonicsDivElem.appendChild(phonicsAudioPElem);
   }
 
-  return reviewPhonicsDivElem;
+  return phonicsDivElem;
 }
-
-const reviewPhonicsMessage = [
-  `<b>Let's say the words together!</b>`,
-  ``,
-  `<b>Aim:</b> <em>Review the letters and sounds taught in the previous 3 lessons of the course.</em>`
-]
-
-const reviewPhonicsAudioMessage = [
-  `<em>Pause audio and confirm correct answer before continuing.</em>`
-]

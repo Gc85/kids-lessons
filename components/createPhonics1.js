@@ -59,7 +59,7 @@ const phonicsPlusMessage = [
   `<b>Let's practice today's letters and sounds!</b>`,
   ``,
   `<b>Aim:</b> <em>First, present and practice the phonics/word for today's lesson. Present it as a whole. E.g. "are" is going to be the whole word, and not letter by letter.`,
-  `Next, excourage students find the today's phonics on the opposite page and circle &amp; count all occurances.`,
+  `Next, excourage students to find today's phonics on the opposite page and circle &amp; count all occurances.`,
   `Lastly, have students write their phonics in their books and show you.`
 ]
 

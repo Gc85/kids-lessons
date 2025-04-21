@@ -8,7 +8,7 @@ export function createPhonics2Section(lesson, book, level) {
   const phonics2ImgDiv = createElem('div', 'flex-div flex-wrap flex-justify-evenly', '');
 
   const phonics2TextElem = createElem('p', 'main-text', '');
-  phonics2TextElem.innerHTML = phonics2Message.join('<br>');;
+  phonics2TextElem.innerHTML = phonics2Message.join('<br>');
 
   lesson.phonics2Images.forEach((phonics2Item) => {
 
