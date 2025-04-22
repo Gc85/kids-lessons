@@ -2,25 +2,32 @@ import { fetchLessons, lessonsData } from '../components/fetchLessons.js';
 import { populateLessons } from "../components/populateLessons.js";
 import { createElem, createPopup } from '../components/utils.js';
 
-import { createGreetingSection } from '../components/createGreeting.js';
-import { createPDFLinksSection } from '../components/createPDFLinks.js';
-import { createOpeningSection } from '../components/createOpeningPic.js';
+// Warmup Section
+import { createUnitWarmupSection } from '../components/createUnitWarmupSection.js';
 import { getBasicQuestions } from '../components/getBasicQuestions.js';
-import { createBQSection } from '../components/createBasicQuestions.js';
-import { createHelloSongSection } from '../components/createHelloSong.js';
 import { createGoodbyeSongSection } from '../components/createGoodbyeSong.js';
-import { createPictureSpeculationSection } from '../components/createPictureSpeculation.js';
-import { createSayDialogueSection } from '../components/createSayDialogue.js';
-import { createTodaysLanguageSection } from '../components/createTodaysLanguage.js';
+
+// Presentation Section
+import { createUnitPresentationSection } from '../components/createUnitPresentationSection.js';
 import { getLessonVocabulary } from '../components/getLessonVocabulary.js';
-import { createTodaysVocabularySection } from '../components/createVocabulary.js';
+
+// Review lessons - WIP
+import { createPictureSpeculationSection } from '../components/createPictureSpeculation.js';
+
+
+// Games
 import { createGamesSection } from '../components/createGames.js';
+
+// Production Section
+import { createUnitProductionSection } from '../components/createUnitProductionSection.js';
+
+
 import { createListeningSection } from '../components/createListening.js';
 import { getLessonPhonics } from '../components/getLessonPhonics.js';
 import { getLessonPlusPhonics } from '../components/getLessonPlusPhonics.js';
 import { createReviewPhonicsSection } from '../components/createReviewPhonics.js';
-import { createPhonics1Section } from '../components/createPhonics1.js';
-import { createPhonics2Section } from '../components/createPhonics2.js';
+// import { createPhonics1Section } from '../components/createPhonics1.js';
+// import { createPhonics2Section } from '../components/createPhonics2.js';
 import { createReadingSection } from '../components/createReading.js';
 
 import { createUnitReviewPhonics } from '../components/createUnitReviewPhonics.js';
@@ -75,26 +82,7 @@ async function loadLesson() {
 
       // ***************************************************************************************************** //
       // Warmup Section
-      warmupH2Elem.textContent = `Warmup Section`;
-      warmupSection.appendChild(warmupH2Elem);
-
-      warmupSection.appendChild(createGreetingSection(lesson));
-      warmupSection.appendChild(createElem('hr', '', ''));
-
-      warmupSection.appendChild(createPDFLinksSection(lesson));
-      warmupSection.appendChild(createElem('hr', '', ''));
-
-      warmupSection.appendChild(createOpeningSection(lesson, book, level));
-      warmupSection.appendChild(createElem('hr', '', ''));
-
-      if (level !== 'Kinder') {
-        warmupSection.appendChild(createBQSection(lesson, bq));
-      }
-
-      if (level === 'Kinder' && type === 'Normal') {
-        warmupSection.appendChild(createHelloSongSection());
-        warmupSection.appendChild(createElem('hr', '', ''));
-      }
+      createUnitWarmupSection(warmupSection, warmupH2Elem, lesson, book, level, type, bq);
       lessonElem.appendChild(warmupSection);
 
       // ***************************************************************************************************** //
@@ -102,63 +90,20 @@ async function loadLesson() {
       presentationH2Elem.textContent = `Presentation Section`;
       presentationSection.appendChild(presentationH2Elem);
 
+      const isReview = lesson.review;
+
       if (!lesson.review) {
-        // Section for lessons 1 - 3 of each Unit
-        presentationSection.appendChild(createPictureSpeculationSection(lesson, book, level));
-        presentationSection.appendChild(createElem('hr', '', ''));
-
-        presentationSection.appendChild(createSayDialogueSection(lesson, book, level));
-        presentationSection.appendChild(createElem('hr', '', ''));
-
-        presentationSection.appendChild(createTodaysLanguageSection(lesson, book, level));
-        presentationSection.appendChild(createElem('hr', '', ''));
-
-        presentationSection.appendChild(createTodaysVocabularySection(lesson, book, level, vocab));
+        // Create Unit Presentation Section for lessons 1 - 3 of each Unit
+        createUnitPresentationSection(presentationSection, lesson, isReview, book, level, vocab);
         lessonElem.appendChild(presentationSection);
 
+        // Add Games section - WIP
         addMainGameSection(gameH2Elem, gameSection, mainGameDivElem, lessonElem);
 
-        prodH2Elem.textContent = `Production Section`;
-        prodSection.appendChild(prodH2Elem);
-
-        switch (level) {
-          case "5":
-            if (type !== "Plus") {
-              prodSection.appendChild(createListeningSection(lesson, book, level));
-              prodSection.appendChild(createElem('hr', '', ''));
-
-              if (lesson.lessonNumber % 4 !== 1) {
-                prodSection.appendChild(createReviewPhonicsSection(lesson, level, phonics, lessonsData, type, book));
-                prodSection.appendChild(createElem('hr', '', ''));
-              }
-
-              prodSection.appendChild(createPhonics1Section(lesson, book, level, type, phonics));
-              prodSection.appendChild(createElem('hr', '', ''));
-
-              prodSection.appendChild(createPhonics2Section(lesson, book, level));
-              prodSection.appendChild(createElem('hr', '', ''));
-            } else {
-
-              prodSection.appendChild(createReviewPhonicsSection(lesson, level, phonics, lessonsData, type, book));
-              prodSection.appendChild(createElem('hr', '', ''));
-
-
-              prodSection.appendChild(createPhonics1Section(lesson, book, level, type, plusPhonics));
-              prodSection.appendChild(createElem('hr', '', ''));
-
-              prodSection.appendChild(createReadingSection(lesson, book, level));
-              prodSection.appendChild(createElem('hr', '', ''));
-
-              prodSection.appendChild(createListeningSection(lesson, book, level));
-              prodSection.appendChild(createElem('hr', '', ''));
-            }
-            break;
-          case "4":
-            break;
-          default:
-            break;
-
-        }
+        // Create Unit Production Section for lessons 1 - 3 of each Unit
+        createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, phonics, plusPhonics, lessonsData);
+        
+        // Games to be added...
         prodDivElem.innerHTML = `Phonics Practice Games<br>Tic Tac Toe ABC<br>Memory ABC<br><br>Vocab Games<br>Rotate and Stop<br>Tic Tac Toe<br>Memory`;
         prodSection.appendChild(prodDivElem);
         lessonElem.appendChild(prodSection);
@@ -168,34 +113,14 @@ async function loadLesson() {
           const getReviewLesson = lessonsData[level][type][book].find(
             rl => rl.lessonNumber === reviewLesson
           );
-          const reviewHeadH3Elem = createElem('h3', 'review-head', '');
-          const splitTitle = getReviewLesson.title.replace(/:\s*/, ':<br>');
-          reviewHeadH3Elem.innerHTML = `${splitTitle}`;
-          presentationSection.appendChild(reviewHeadH3Elem);
-
-          presentationSection.appendChild(createPictureSpeculationSection(getReviewLesson, book, level));
-          presentationSection.appendChild(createElem('hr', '', ''));
-
-          presentationSection.appendChild(createSayDialogueSection(getReviewLesson, book, level));
-          presentationSection.appendChild(createElem('hr', '', ''));
-
-          presentationSection.appendChild(createTodaysLanguageSection(getReviewLesson, book, level));
-          presentationSection.appendChild(createElem('hr', '', ''));
-
           const vocab = await getLessonVocabulary(book, level, type);
-          presentationSection.appendChild(createTodaysVocabularySection(getReviewLesson, book, level, vocab));
-          presentationSection.appendChild(createElem('hr', '', ''));
+          createUnitPresentationSection(presentationSection, getReviewLesson, isReview, book, level, vocab);
 
           lessonElem.appendChild(presentationSection);
-
         }
 
         if (type !== "Plus") {
-          const reviewHeadH3Elem = createElem('h3', 'review-head', '');
-          const splitTitle = lesson.title.replace(/:\s*/, ':<br>');
-          reviewHeadH3Elem.innerHTML = `${splitTitle}`;
-          presentationSection.appendChild(reviewHeadH3Elem);
-          presentationSection.appendChild(createPictureSpeculationSection(lesson, book, level));
+          createUnitPresentationSection(presentationSection, lesson, isReview, book, level, vocab)
         } else {
           // Add some content for Review Plus lessons here...
         }
@@ -210,7 +135,6 @@ async function loadLesson() {
 
         let heading, textMessage, audioMessage, phonicsImages, phonicsAudio;
         switch (level) {
-
           case "5":
             if (type !== "Plus") {
               prodSection.appendChild(createListeningSection(lesson, book, level));
