@@ -9,7 +9,7 @@ export function createPhonics1Section(lesson, book, level, type, phonics) {
   const phonics1TextElem = createElem('p', 'main-text', '');
   (type === "Normal") ? phonics1TextElem.innerHTML = phonicsNormalMessage.join('<br>') : phonics1TextElem.innerHTML = phonicsPlusMessage.join('<br>');
 
-  const phonics1ImgDivElem = createElem('div', 'flex flex-justify-evenly', '');
+  const phonics1ImgDivElem = createElem('div', 'flex flex-justify-evenly flex-wrap', '');
   lesson.phonics1Images.forEach((phonics1Item) => {
     const findPhonics = phonics.phonicsCards.find(p => p.id === phonics1Item);
 
@@ -19,7 +19,12 @@ export function createPhonics1Section(lesson, book, level, type, phonics) {
       (type === "Normal") ? phonics1ImgElem = createElem('img', 'image-small', '') : phonics1ImgElem = createElem('img', 'image-medium', '');
 
       if (type === "Normal") {
-        phonics1ImgElem.src = `./assets/phonics/CL${level}/${phonics1Item.slice(0, 4)}/${phonics1Item}.jpg`;
+        if (level === "5" || level === "4") {
+          phonics1ImgElem.src = `./assets/phonics/CL5/${phonics1Item.slice(0, 4)}/${phonics1Item}.jpg`;
+        } else {
+          phonics1ImgElem.src = `./assets/phonics/CL${level}/${phonics1Item.slice(0, 4)}/${phonics1Item}.jpg`;
+        }
+
       } else if (type === "Plus") {
         phonics1ImgElem.src = `./assets/${book}/${level}/${phonics1Item}.jpg`;
       } else {
