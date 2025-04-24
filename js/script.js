@@ -100,9 +100,10 @@ async function loadLesson() {
         // Add Games section - WIP
         addMainGameSection(gameH2Elem, gameSection, mainGameDivElem, lessonElem);
 
+        debugger;
         // Create Unit Production Section for lessons 1 - 3 of each Unit
         createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, phonics, plusPhonics, lessonsData);
-        
+
         // Games to be added...
         prodDivElem.innerHTML = `Phonics Practice Games<br>Tic Tac Toe ABC<br>Memory ABC<br><br>Vocab Games<br>Rotate and Stop<br>Tic Tac Toe<br>Memory`;
         prodSection.appendChild(prodDivElem);
