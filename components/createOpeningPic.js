@@ -1,7 +1,7 @@
 import { createElem } from './utils.js';
 import { createHeading } from './createHeading.js';
 
-export function createOpeningSection(lesson, book, level) {
+export function createOpeningSection(lesson, book, level, message) {
   const openingDivElem = createElem('div', 'div-opening', '');
 
   const openingH2Elm = createHeading(lesson, `Opening Image`, '3', '3');
@@ -13,7 +13,7 @@ export function createOpeningSection(lesson, book, level) {
   openingImgElem.onclick = () => { showSrcMedia(); };
 
   const openingTextElem = createElem('p', 'main-text', '');
-  openingTextElem.innerHTML = openingMessage;
+  openingTextElem.innerHTML = message;
 
   openingImgDiv.appendChild(openingImgElem);
 
@@ -23,7 +23,3 @@ export function createOpeningSection(lesson, book, level) {
 
   return openingDivElem;
 }
-
-const openingMessage = [
-  `<b>Aim:</b> <em>Introduce today's lesson to the students.</em>`
-]

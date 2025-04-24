@@ -1,13 +1,13 @@
 import { createElem } from "./utils.js";
 import { createHeading } from "./createHeading.js";
 
-export function createReadingSection(lesson, book, level) {
+export function createReadingSection(lesson, book, level, textMessage) {
   const readingDivElem = createElem('div', 'div-opening', '');
   const readingH2Elm = createHeading(lesson, `Reading Section`, '2', '2');
   const readingImgDiv = createElem('div', 'flex-div flex-wrap flex-justify-evenly', '');
 
   const readingTextElem = createElem('p', 'main-text', '');
-  readingTextElem.innerHTML = readingMessage;
+  readingTextElem.innerHTML = textMessage;
 
   lesson.readingImages.forEach((readingItem) => {
 
@@ -23,7 +23,3 @@ export function createReadingSection(lesson, book, level) {
   readingDivElem.appendChild(readingImgDiv);
   return readingDivElem;
 }
-
-const readingMessage = [
-  `<b>Aim:</b> <em>Practice reading comprehension.</em>`
-]

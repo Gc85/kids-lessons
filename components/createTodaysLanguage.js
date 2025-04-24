@@ -1,14 +1,14 @@
 import { createElem } from "./utils.js";
 import { createHeading } from "./createHeading.js";
 
-export function createTodaysLanguageSection(lesson, book, level) {
+export function createTodaysLanguageSection(lesson, book, level, message) {
 
   const todayLangDivElem = createElem('div', 'div-opening', '');
   const todayLangH2Elm = createHeading(lesson, `Today's Language`, '1', '1');
   const todayLangImgDiv = createElem('div', 'flex-div', '');
 
   const todayLangTextElem = createElem('p', 'main-text', '');
-  todayLangTextElem.innerHTML = todayLangMessage;
+  todayLangTextElem.innerHTML = message;
 
   const todayLangImgElem = createElem('img', 'image-big', '');
   todayLangImgElem.src = `./assets/${book}/${level}/${lesson.todayLangImage}.jpg`;
@@ -22,7 +22,3 @@ export function createTodaysLanguageSection(lesson, book, level) {
 
   return todayLangDivElem;
 }
-
-const todayLangMessage = [
-  `<b>Aim:</b> <em>Present target language in context.</em>`
-]

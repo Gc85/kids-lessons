@@ -1,12 +1,12 @@
 import { createElem } from "./utils.js";
 import { createHeading } from "./createHeading.js";
 
-export function createBQSection(lesson, bq) {
+export function createBQSection(lesson, bq, message) {
   const bqDivElem = createElem('div', 'div-bq', '');
   const bqH2Elm = createHeading(lesson, `Basic Questions`, '3', '3');
 
   const bqTextElem = createElem('p', 'main-text', '');
-  bqTextElem.innerHTML = bqMessage;
+  bqTextElem.innerHTML = message;
 
   const bqImgDiv = createElem('div', 'flex-div', '');
 
@@ -40,7 +40,3 @@ export function createBQSection(lesson, bq) {
 
   return bqDivElem;
 }
-
-const bqMessage = [
-  `<b>Aim:</b> <em>Show a flashcard and ask the students introduction questions.</em>`
-]

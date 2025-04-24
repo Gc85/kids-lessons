@@ -1,6 +1,6 @@
 import { createElem } from './utils.js';
 
-export function createHelloSongSection() {
+export function createHelloSongSection(message) {
   const helloDivElem = createElem('div', 'div-hello', '');
 
   const helloSongHeadElem = createElem('h2', '', '');
@@ -8,7 +8,7 @@ export function createHelloSongSection() {
 
   const helloSongDiv = createElem('div', 'flex-div flex-direction', '');
   const helloSongMessage = createElem('p', 'align-center', '');
-  helloSongMessage.innerHTML = helloSongText.join('<br>');
+  helloSongMessage.innerHTML = message.join('<br>');
 
   const helloSongElem = createElem('audio', '', '');
   helloSongElem.src = `./assets/kinder-hello-song.mp3`;
@@ -21,11 +21,3 @@ export function createHelloSongSection() {
 
   return helloDivElem;
 }
-
-const helloSongText = [
-  `<b>Let's sing our Hello Song.</b>`,
-  ``,
-  `A: Hello. Hello. Hello, how are you?`,
-  `B: I'm fine. I'm fine. I hope that you are too.`,
-  `<i>(Repeat verse)</i>`
-];
