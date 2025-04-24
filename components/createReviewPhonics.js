@@ -65,7 +65,6 @@ export function createReviewPhonicsSection(lesson, level, reviewPhonics, plusPho
         });
       }
     };
-    console.log(reviewPhonicsArray);
     // Helper function: matches Plus phonics like 5[a-f]p or 4[a-f]p
     const isPlusPhonic = id => /^[45][a-f]p/.test(id);
 
@@ -112,5 +111,5 @@ const reviewPhonicsMessage1 = [
 const reviewPhonicsMessage2 = [
   `<b>Let's practice today's letters and sounds!</b>`,
   ``,
-  `<b>Aim:</b> <em>Review phonics taught in previous lessons.<br>For level 5's, practice making 3-letter words with basic phonics.</em>`
+  `<b>Aim:</b> <em>Review phonics taught in previous lessons.<br>For normal phonics, encourage students to make 3-letter words.</em>`
 ]
