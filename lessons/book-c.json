@@ -237,6 +237,421 @@
         }
       ]
     }
-
+  },
+  "4": {
+    "Normal": {
+      "C": [
+        {
+          "lessonNumber": 1,
+          "pdfs": [
+            { "file": "Cl5_CL4_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl5_CL4_Overview", "desc": "Lesson Overview" },
+            { "file": "4B_HS", "desc": "Previous Home Study" },
+            { "file": "4C_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["4c01-OP"],
+          "bq": ["01", "20"],
+          "title": "Lesson 1: Who's using the (tape)?",
+          "dialogImage": ["4c01-D01"],
+          "dialogAudio": ["4c01-A01"],
+          "dialog": "Olivia: Who's using the tape?<br>Kota: I am.<br>Olivia: Can I have it after you?<br>Kota: Okay.",
+          "mainLanguage": "A: Who's using the (tape)?<br>B: (Doug) is.<br> OR <br>B: I am.",
+          "sayDialogueImage": ["4c01-D02"],
+          "todayLangImage": ["4c01-D03"],
+          "vocabImages": ["4c01-V01", "4c01-V02", "4c01-V03", "4c01-V04", "4c01-V05"],
+          "vocabAudio": "4c01-A02",
+          "listeningImages": ["4c01-L01", "4c01-L02", "4c01-L03", "4c01-L04", "4c01-L05", "4c01-L06"],
+          "listeningAudio": "4c01-A03",
+          "phonics1Images": ["P-CD-i", "P-CD-f", "P-CD-n", "P-CD-q", "P-CD-t", "P-CD-w", "P-CD-x"],
+          "phonics2Images": ["4c01-P08", "4c01-P09", "4c01-P10", "4c01-P11", "4c01-P12", "4c01-P13", "4c01-P14", "4c01-P15"],
+          "phonics2Audio": "4c01-A04",
+          "review": false
+        },
+        {
+          "lessonNumber": 2,
+          "pdfs": [
+            { "file": "Cl5_CL4_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl5_CL4_Overview", "desc": "Lesson Overview" },
+            { "file": "4C_HS", "desc": "Home Study" },
+            { "file": "4C_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["4c02-OP"],
+          "bq": ["01", "20"],
+          "title": "Lesson 2: Pass me the (red) crayon, please.",
+          "dialogImage": ["4c02-D01"],
+          "dialogAudio": ["4c02-A01"],
+          "dialog": "Hina: Pass me the red crayon, please.<br>Jake: Here you are.<br>Hina: Thank you.",
+          "mainLanguage": "A: Pass me the (red) crayon, please.<br>B: Here you are.",
+          "sayDialogueImage": ["4c02-D02"],
+          "todayLangImage": ["4c02-D03"],
+          "vocabImages": ["4c02-V01", "4c02-V02", "4c02-V03", "4c02-V04", "4c02-V05", "4c02-V06", "4c02-V07", "4c02-V08"],
+          "vocabAudio": "4c02-A02",
+          "listeningImages": ["4c02-L01", "4c02-L02", "4c02-L03", "4c02-L04"],
+          "listeningAudio": "4c02-A03",
+          "reviewPhonicsImages": ["P-CD-i", "P-CD-f", "P-CD-n"],
+          "phonics1Images": ["P-CD-t", "P-CD-x"],
+          "phonics2Images": ["4c02-P03", "4c02-P04", "4c02-P05", "4c02-P06"],
+          "phonics2Audio": "4c02-A04",
+          "review": false
+        },
+        {
+          "lessonNumber": 3,
+          "pdfs": [
+            { "file": "Cl5_CL4_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl5_CL4_Overview", "desc": "Lesson Overview" },
+            { "file": "4C_HS", "desc": "Home Study" },
+            { "file": "4C_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["4c03-OP"],
+          "bq": ["01", "09"],
+          "title": "Lesson 3: Put it in the (top) drawer.",
+          "dialogImage": ["4c03-D01"],
+          "dialogAudio": ["4c03-A01"],
+          "dialog": "Teacher: Put your things away.<br>Hina: Where should I put this?<br>Jake: Put it in the top drawer.",
+          "mainLanguage": "A:  Where should I put this?<br>B: Put it in the (top) drawer.",
+          "sayDialogueImage": ["4c03-D02"],
+          "todayLangImage": ["4c03-D03"],
+          "vocabImages": ["4c03-V01", "4c03-V02", "4c03-V03", "4c03-V04", "4c03-V05"],
+          "vocabAudio": "4c03-A02",
+          "listeningImages": ["4c03-L01", "4c03-L02", "4c03-L03", "4c03-L04"],
+          "listeningAudio": "4c03-A03",
+          "reviewPhonicsImages": ["P-CD-i", "P-CD-f", "P-CD-n", "P-CD-t", "P-CD-x"],
+          "phonics1Images": ["P-CD-q", "P-CD-w"],
+          "phonics2Images": ["4c03-P03", "4c03-P04", "4c03-P05", "4c03-P06"],
+          "phonics2Audio": "4c03-A04",
+          "review": false
+        },
+        {
+          "lessonNumber": 4,
+          "pdfs": [
+            { "file": "Cl5_CL4_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl5_CL4_Overview_Review", "desc": "Lesson Overview Review" },
+            { "file": "4C_HS", "desc": "Home Study" },
+            { "file": "4C_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["4c04-OP"],
+          "bq": ["01", "09"],
+          "title": "Lesson 4: Review.",
+          "dialogImage": ["4c04-D04"],
+          "dialogAudio": ["4c04-A01"],
+          "dialog": "Teacher: They all look great!",
+          "listeningImages": ["4c04-L01", "4c04-L02", "4c04-L03", "4c04-L04", "4c04-L05", "4c04-L06"],
+          "listeningAudio": "4c04-A02",
+          "phonics1Images": ["4c04-P01", "4c04-P02", "4c04-P03", "4c04-P04", "4c04-P05", "4c04-P06", "4c04-P07", "4c04-P08"],
+          "phonics2Images": ["4c04-P09", "4c04-P10", "4c04-P11", "4c04-P12"],
+          "phonics2Audio": "4c04-A03",
+          "phonics3Images": ["4c04-P13", "4c04-P14", "4c04-P15", "4c04-P16", "4c04-P17", "4c04-P18", "4c04-P19", "4c04-P20"],
+          "phonics3Audio": "4c04-A04",
+          "phonics4Images": ["4c04-P21", "4c04-P22", "4c04-P23", "4c04-P24", "4c04-P25", "4c04-P26", "4c04-P27", "4c04-P28"],
+          "phonics4Audio": "4c04-A05",
+          "reviewLessons": [1, 2, 3],
+          "review": true
+        }
+      ]
+    },
+    "Plus": {
+      "C": [
+        {
+          "lessonNumber": 1,
+          "pdfs": [
+            { "file": "Cl5_CL4_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl5_CL4_Plus_Overview", "desc": "Lesson Overview" },
+            { "file": "4CP_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["4cp01-OP"],
+          "bq": ["5p-4p-w1"],
+          "title": "Lesson 1: They're (wings).",
+          "dialogImage": ["4cp01-D01"],
+          "dialogAudio": ["4cp01-A01"],
+          "dialog": "Jake: What are you drawing?<br>Hina: A butterfly.<br>Jake: What are these?<br>Hina: They're wings.",
+          "mainLanguage": "A: What are these?<br>B: They're (wings).",
+          "sayDialogueImage": ["4cp01-D02"],
+          "todayLangImage": ["4cp01-D03"],
+          "vocabImages": ["4cp01-V01", "4cp01-V02", "4cp01-V03", "4cp01-V04", "4cp01-V05"],
+          "vocabAudio": "4cp01-A02",
+          "reviewPhonicsImages": ["P-CD-i", "P-CD-f", "P-CD-n"],
+          "phonics1Images": ["4cp01-P01"],
+          "readingImages": ["4cp01-R01", "4cp01-R02"],
+          "listeningImages": ["4cp01-L01", "4cp01-L02", "4cp01-L03", "4cp01-L04", "4cp01-L05", "4cp01-L06"],
+          "listeningAudio": "4cp01-A03",
+          "review": false
+        },
+        {
+          "lessonNumber": 2,
+          "pdfs": [
+            { "file": "Cl5_CL4_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl5_CL4_Plus_Overview", "desc": "Lesson Overview" },
+            { "file": "4CP_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["4cp02-OP"],
+          "bq": ["5p-4p-w2"],
+          "title": "Lesson 2: (Three).",
+          "dialogImage": ["4cp02-D01"],
+          "dialogAudio": ["4cp02-A01"],
+          "dialog": "Jake: I'm drawing Easter eggs.<br>Hina: Nice! How many have you drawn?<br>Jake: Three.",
+          "mainLanguage": "A: How many have you drawn?<br>B: (Three).",
+          "sayDialogueImage": ["4cp02-D02"],
+          "todayLangImage": ["4cp02-D03"],
+          "vocabImages": ["4cp02-V01", "4cp02-V02", "4cp02-V03", "4cp02-V04", "4cp02-V05", "4cp02-V06", "4cp02-V07", "4cp02-V08", "4cp02-V09", "4cp02-V10"],
+          "vocabAudio": "4cp02-A02",
+          "reviewPhonicsImages": ["P-CD-i", "P-CD-t", "P-CD-x"],
+          "phonics1Images": ["4cp02-P01"],
+          "readingImages": ["4cp02-R01", "4cp02-R02"],
+          "listeningImages": ["4cp02-L01", "4cp02-L02", "4cp02-L03", "4cp02-L04", "4cp02-L05", "4cp02-L06"],
+          "listeningAudio": "4cp02-A03",
+          "review": false
+        },
+        {
+          "lessonNumber": 3,
+          "pdfs": [
+            { "file": "Cl5_CL4_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl5_CL4_Plus_Overview", "desc": "Lesson Overview" },
+            { "file": "4CP_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["4cp03-OP"],
+          "bq": ["5p-4p-w3"],
+          "title": "Lesson 3: Put away the (crayons), please.",
+          "dialogImage": ["4cp03-D01"],
+          "dialogAudio": ["4cp03-A01"],
+          "dialog": "Teacher: Put away the crayons, please.<br>Hina: Okay. Where do they go?<br>Teacher: In the bottom drawer.",
+          "mainLanguage": "A: Put away the (crayons), please.<br>B: Okay.",
+          "sayDialogueImage": ["4cp03-D02"],
+          "todayLangImage": ["4cp03-D03"],
+          "vocabImages": ["4cp03-V01", "4cp03-V02", "4cp03-V03", "4cp03-V04", "4cp03-V05"],
+          "vocabAudio": "4cp03-A02",
+          "reviewPhonicsImages": ["P-CD-i", "P-CD-q", "P-CD-w"],
+          "phonics1Images": ["4cp03-P01"],
+          "readingImages": ["4cp03-R01", "4cp03-R02"],
+          "listeningImages": ["4cp03-L01", "4cp03-L02", "4cp03-L03", "4cp03-L04", "4cp03-L05", "4cp03-L06"],
+          "listeningAudio": "4cp03-A03",
+          "review": false
+        },
+        {
+          "lessonNumber": 4,
+          "pdfs": [
+            { "file": "Cl5_CL4_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl5_CL4_Plus_Overview_Review", "desc": "Lesson Overview" },
+            { "file": "4CP_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["4cp04-OP"],
+          "bq": ["5p-4p-3p-w4"],
+          "title": "Lesson 4: Review.",
+          "phonics1Images": ["4cp04-P01"],
+          "readingImages": ["4cp04-R01", "4cp04-R02"],
+          "listeningImages": ["4cp04-L01", "4cp04-L02", "4cp04-L03"],
+          "listeningAudio": "4cp04-A01",
+          "reviewLessons": [1, 2, 3],
+          "review": true
+        }
+      ]
+    }
+  },
+  "3": {
+    "Normal": {
+      "C": [
+        {
+          "lessonNumber": 1,
+          "pdfs": [
+            { "file": "Cl3_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl3_Overview", "desc": "Lesson Overview" },
+            { "file": "3B_HS", "desc": "Previous Home Study" },
+            { "file": "3C_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["3c01-OP"],
+          "bq": ["01", "09"],
+          "title": "Lesson 1: What are you drawing?",
+          "dialogImage": ["3c01-D01"],
+          "dialogAudio": ["3c01-A01"],
+          "dialog": "Teacher: What are you drawing?<br>Jake: I'm drawing a rabbit.<br>Teacher: How about you, Hina?<br>Hina: I'm drawing a ladybug.",
+          "mainLanguage": "A: What are you drawing?<br>B: I'm drawing a (rabbit).",
+          "sayDialogueImage": ["3c01-D02"],
+          "todayLangImage": ["3c01-D03"],
+          "vocabImages": ["3c01-V01", "3c01-V02", "3c01-V03", "3c01-V04", "3c01-V05"],
+          "vocabAudio": "3c01-A02",
+          "listeningImages": ["3c01-L01", "3c01-L02", "3c01-L03", "3c01-L04"],
+          "listeningAudio": "3c01-A03",
+          "phonics1Images": ["P-CD-i", "P-CD-f", "P-CD-n"],
+          "phonics2Images": ["3c01-P04", "3c01-P05", "3c01-P06", "3c01-P07"],
+          "phonics2Audio": "3c01-A04",
+          "review": false
+        },
+        {
+          "lessonNumber": 2,
+          "pdfs": [
+            { "file": "Cl3_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl3_Overview", "desc": "Lesson Overview" },
+            { "file": "3C_HS", "desc": "Home Study" },
+            { "file": "3C_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["3c02-OP"],
+          "bq": ["01", "09"],
+          "title": "Lesson 2: Pass me the (red) crayon, please.",
+          "dialogImage": ["3c02-D01"],
+          "dialogAudio": ["3c02-A01"],
+          "dialog": "Hina: Pass me the red crayon, please.<br>Jake: Here you are.<br>Hina: Thank you.",
+          "mainLanguage": "A: Pass me the (red) crayon, please.<br>B: Here you are.",
+          "sayDialogueImage": ["3c02-D02"],
+          "todayLangImage": ["3c02-D03"],
+          "vocabImages": ["3c02-V01", "3c02-V02", "3c02-V03", "3c02-V04", "3c02-V05", "3c02-V06", "3c02-V07", "3c02-V08"],
+          "vocabAudio": "3c02-A02",
+          "listeningImages": ["3c02-L01", "3c02-L02", "3c02-L03", "3c02-L04"],
+          "listeningAudio": "3c02-A03",
+          "reviewPhonicsImages": ["P-CD-i", "P-CD-f", "P-CD-n"],
+          "phonics1Images": ["P-CD-t", "P-CD-x"],
+          "phonics2Images": ["3c02-P03", "3c02-P04", "3c02-P05", "3c02-P06"],
+          "phonics2Audio": "3c02-A04",
+          "review": false
+        },
+        {
+          "lessonNumber": 3,
+          "pdfs": [
+            { "file": "Cl3_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl3_Overview", "desc": "Lesson Overview" },
+            { "file": "3C_HS", "desc": "Home Study" },
+            { "file": "3C_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["3c03-OP"],
+          "bq": ["01", "09"],
+          "title": "Lesson 3: Put it in the (top) drawer.",
+          "dialogImage": ["3c03-D01"],
+          "dialogAudio": ["3c03-A01"],
+          "dialog": "Teacher: Put your things away.<br>Hina: Where should I put this?<br>Jake: Put it in the top drawer.",
+          "mainLanguage": "A:  Where should I put this?<br>B: Put it in the (top) drawer.",
+          "sayDialogueImage": ["3c03-D02"],
+          "todayLangImage": ["3c03-D03"],
+          "vocabImages": ["3c03-V01", "3c03-V02", "3c03-V03", "3c03-V04", "3c03-V05"],
+          "vocabAudio": "3c03-A02",
+          "listeningImages": ["3c03-L01", "3c03-L02", "3c03-L03", "3c03-L04"],
+          "listeningAudio": "3c03-A03",
+          "reviewPhonicsImages": ["P-CD-i", "P-CD-f", "P-CD-n", "P-CD-t", "P-CD-x"],
+          "phonics1Images": ["P-CD-q", "P-CD-w"],
+          "phonics2Images": ["3c03-P03", "3c03-P04", "3c03-P05", "3c03-P06"],
+          "phonics2Audio": "3c03-A04",
+          "review": false
+        },
+        {
+          "lessonNumber": 4,
+          "pdfs": [
+            { "file": "Cl3_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl3_Overview_Review", "desc": "Lesson Overview Review" },
+            { "file": "3C_HS", "desc": "Home Study" },
+            { "file": "3C_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["3c04-OP"],
+          "bq": ["01", "09"],
+          "title": "Lesson 4: Review.",
+          "dialogImage": ["3c04-D04"],
+          "dialogAudio": ["3c04-A01"],
+          "dialog": "Teacher: They all look great!",
+          "listeningImages": ["3c04-L01", "3c04-L02", "3c04-L03", "3c04-L04", "3c04-L05", "3c04-L06"],
+          "listeningAudio": "3c04-A02",
+          "phonics1Images": ["3c04-P01", "3c04-P02", "3c04-P03", "3c04-P04", "3c04-P05", "3c04-P06", "3c04-P07", "3c04-P08"],
+          "phonics2Images": ["3c04-P09", "3c04-P10", "3c04-P11", "3c04-P12"],
+          "phonics2Audio": "3c04-A03",
+          "phonics3Images": ["3c04-P13", "3c04-P14", "3c04-P15", "3c04-P16", "3c04-P17", "3c04-P18", "3c04-P19", "3c04-P20"],
+          "phonics3Audio": "3c04-A04",
+          "phonics4Images": ["3c04-P21", "3c04-P22", "3c04-P23", "3c04-P24", "3c04-P25", "3c04-P26", "3c04-P27", "3c04-P28"],
+          "phonics4Audio": "3c04-A05",
+          "reviewLessons": [1, 2, 3],
+          "review": true
+        }
+      ]
+    },
+    "Plus": {
+      "C": [
+        {
+          "lessonNumber": 1,
+          "pdfs": [
+            { "file": "Cl3_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl3_Plus_Overview", "desc": "Lesson Overview" },
+            { "file": "3CP_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["3cp01-OP"],
+          "bq": ["3p-w1"],
+          "title": "Lesson 1: They're (wings).",
+          "dialogImage": ["3cp01-D01"],
+          "dialogAudio": ["3cp01-A01"],
+          "dialog": "Jake: What are you drawing?<br>Hina: A butterfly.<br>Jake: What are these?<br>Hina: They're wings.",
+          "mainLanguage": "A: What are these?<br>B: They're (wings).",
+          "sayDialogueImage": ["3cp01-D02"],
+          "todayLangImage": ["3cp01-D03"],
+          "vocabImages": ["3cp01-V01", "3cp01-V02", "3cp01-V03", "3cp01-V04", "3cp01-V05"],
+          "vocabAudio": "3cp01-A02",
+          "reviewPhonicsImages": ["P-CD-i", "P-CD-f", "P-CD-n"],
+          "phonics1Images": ["3cp01-P01"],
+          "readingImages": ["3cp01-R01", "3cp01-R02"],
+          "listeningImages": ["3cp01-L01", "3cp01-L02", "3cp01-L03", "3cp01-L04", "3cp01-L05", "3cp01-L06"],
+          "listeningAudio": "3cp01-A03",
+          "review": false
+        },
+        {
+          "lessonNumber": 2,
+          "pdfs": [
+            { "file": "Cl3_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl3_Plus_Overview", "desc": "Lesson Overview" },
+            { "file": "3CP_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["3cp02-OP"],
+          "bq": ["3p-w2"],
+          "title": "Lesson 2: (Three).",
+          "dialogImage": ["3cp02-D01"],
+          "dialogAudio": ["3cp02-A01"],
+          "dialog": "Jake: I'm drawing Easter eggs.<br>Hina: Nice! How many have you drawn?<br>Jake: Three.",
+          "mainLanguage": "A: How many have you drawn?<br>B: (Three).",
+          "sayDialogueImage": ["3cp02-D02"],
+          "todayLangImage": ["3cp02-D03"],
+          "vocabImages": ["3cp02-V01", "3cp02-V02", "3cp02-V03", "3cp02-V04", "3cp02-V05", "3cp02-V06", "3cp02-V07", "3cp02-V08", "3cp02-V09", "3cp02-V10"],
+          "vocabAudio": "3cp02-A02",
+          "reviewPhonicsImages": ["P-CD-i", "P-CD-t", "P-CD-x"],
+          "phonics1Images": ["3cp02-P01"],
+          "readingImages": ["3cp02-R01", "3cp02-R02"],
+          "listeningImages": ["3cp02-L01", "3cp02-L02", "3cp02-L03", "3cp02-L04", "3cp02-L05", "3cp02-L06"],
+          "listeningAudio": "3cp02-A03",
+          "review": false
+        },
+        {
+          "lessonNumber": 3,
+          "pdfs": [
+            { "file": "Cl3_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl3_Plus_Overview", "desc": "Lesson Overview" },
+            { "file": "3CP_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["3cp03-OP"],
+          "bq": ["3p-w3"],
+          "title": "Lesson 3: Put away the (crayons), please.",
+          "dialogImage": ["3cp03-D01"],
+          "dialogAudio": ["3cp03-A01"],
+          "dialog": "Teacher: Put away the crayons, please.<br>Hina: Okay. Where do they go?<br>Teacher: In the bottom drawer.",
+          "mainLanguage": "A: Put away the (crayons), please.<br>B: Okay.",
+          "sayDialogueImage": ["3cp03-D02"],
+          "todayLangImage": ["3cp03-D03"],
+          "vocabImages": ["3cp03-V01", "3cp03-V02", "3cp03-V03", "3cp03-V04", "3cp03-V05"],
+          "vocabAudio": "3cp03-A02",
+          "reviewPhonicsImages": ["P-CD-i", "P-CD-q", "P-CD-w"],
+          "phonics1Images": ["3cp03-P01"],
+          "readingImages": ["3cp03-R01", "3cp03-R02"],
+          "listeningImages": ["3cp03-L01", "3cp03-L02", "3cp03-L03", "3cp03-L04", "3cp03-L05", "3cp03-L06"],
+          "listeningAudio": "3cp03-A03",
+          "review": false
+        },
+        {
+          "lessonNumber": 4,
+          "pdfs": [
+            { "file": "Cl3_ActivityBank", "desc": "Activity Bank" },
+            { "file": "Cl3_Plus_Review_Overview", "desc": "Lesson Overview" },
+            { "file": "3CP_LT", "desc": "Lesson Transcript" }
+          ],
+          "openingImage": ["3cp04-OP"],
+          "bq": ["5p-4p-3p-w4"],
+          "title": "Lesson 4: Review.",
+          "phonics1Images": ["3cp04-P01"],
+          "readingImages": ["3cp04-R01", "3cp04-R02"],
+          "listeningImages": ["3cp04-L01", "3cp04-L02", "3cp04-L03"],
+          "listeningAudio": "3cp04-A01",
+          "reviewLessons": [1, 2, 3],
+          "review": true
+        }
+      ]
+    }
   }
 }
