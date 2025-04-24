@@ -1,0 +1,83 @@
+{
+  "phonicsCards": [
+		{
+			"id": "4cp01-P01",
+			"name": "more"
+		},
+		{
+			"id": "4cp02-P01",
+			"name": "ache"
+		},
+		{
+			"id": "4cp03-P01",
+			"name": "with"
+		},
+		{
+			"id": "4cp05-P01",
+			"name": "many"
+		},
+		{
+			"id": "4cp06-P01",
+			"name": "show"
+		},
+		{
+			"id": "4cp07-P01",
+			"name": "your"
+		},
+		{
+			"id": "4cp09-P01",
+			"name": "down"
+		},
+		{
+			"id": "4cp10-P01",
+			"name": "would"
+		},
+		{
+			"id": "4cp11-P01",
+			"name": "by"
+		},
+		{
+			"id": "4cp13-P01",
+			"name": "today"
+		},
+		{
+			"id": "4cp14-P01",
+			"name": "the"
+		},
+		{
+			"id": "4cp15-P01",
+			"name": "when"
+		},
+		{
+			"id": "4cp17-P01",
+			"name": "Could"
+		},
+		{
+			"id": "4cp17-P02",
+			"name": "could"
+		},
+		{
+			"id": "4cp18-P01",
+			"name": "again"
+		},
+		{
+			"id": "4cp19-P01",
+			"name": "minutes"
+		},
+		{
+			"id": "4cp21-P01",
+			"name": "about"
+		},
+		{
+			"id": "4cp22-P01",
+			"name": "of"
+		},
+		{
+			"id": "4cp23-P01",
+			"name": "do"
+		}
+  ],
+	"meta": {
+		"base-path": "./CL4cp/media/"
+	}
+}

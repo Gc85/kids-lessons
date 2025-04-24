@@ -1,0 +1,103 @@
+{
+  "phonics-cards": [
+		{
+			"id": "Kc01-PH",
+			"name": "Big A says A, a, anchovy.<br>Big A says A, a, ambulance."
+		},
+		{
+			"id": "Kc02-PH",
+			"name": "Big B says B, b, box.<br>Big B says B, b, butter."
+		},
+		{
+			"id": "Kc03-PH",
+			"name": "Big C says C, c, Cleo.<br>Big C says C, c, coffee."
+		},
+		{
+			"id": "Kc04-PH",
+			"name": "Big D says D, d, dog.<br>Big D says D, d, dress."
+		},
+		{
+			"id": "Kc05-PH",
+			"name": "Big E says E, e, escalator.<br>Big E says E, e, envelope."
+		},
+		{
+			"id": "Kc06-PH",
+			"name": "Big F says F, f, Felix.<br>Big F says F, f, four."
+		},
+		{
+			"id": "Kc07-PH",
+			"name": "Big G says G, g, game.<br>Big G says G, g, golf."
+		},
+		{
+			"id": "Kc08-PH",
+			"name": "Big H says H, h, Harri.<br>Big H says H, h, hug."
+		},
+		{
+			"id": "Kc09-PH",
+			"name": "Big I says I, i, iguana.<br>Big I says I, i, itch."
+		},
+		{
+			"id": "Kc10-PH",
+			"name": "Big J says J, j, juggle.<br>Big J says J, j, jump."
+		},
+		{
+			"id": "Kc11-PH",
+			"name": "Big K says K, k, Ken.<br>Big K says K, k, kiosk."
+		},
+		{
+			"id": "Kc12-PH",
+			"name": "Big L says L, l, laugh.<br>Big L says L, l, lion."
+		},
+		{
+			"id": "Kc13-PH",
+			"name": "Big M says M, m, mailbox.<br>Big M says M, m, mustache."
+		},
+		{
+			"id": "Kc14-PH",
+			"name": "Big N says N, n, noodles.<br>Big N says N, n, necklace."
+		},
+		{
+			"id": "Kc15-PH",
+			"name": "Big O says O, o, Olla.<br>Big O says O, o, octopus."
+		},
+		{
+			"id": "Kc16-PH",
+			"name": "Big P says P, p, pay.<br>Big P says P, p, peach."
+		},
+		{
+			"id": "Kc17-PH",
+			"name": "Big Q says Q, q, quad.<br>Big Q says Q, q, aquamarine."
+		},
+		{
+			"id": "Kc18-PH",
+			"name": "Big R says R, r, rashguard.<br>Big R says R, r, rope."
+		},
+		{
+			"id": "Kc19-PH",
+			"name": "Big S says S, s, sunglasses.<br>Big S says S, s, sand."
+		},
+		{
+			"id": "Kc20-PH",
+			"name": "Big T says T, t, tower.<br>Big T says T, t, turtle."
+		},
+		{
+			"id": "Kc21-PH",
+			"name": "Big U says U, u, uncle.<br>Big U says U, u, umbrella."
+		},
+		{
+			"id": "Kc22-PH",
+			"name": "Big V says V, v, vase.<br>Big V says V, v, vacuum."
+		},
+		{
+			"id": "Kc23-PH",
+			"name": "Big W says W, w, watermelon.<br>Big X says X, x, sax."
+		},
+		{
+			"id": "Kc24-PH",
+			"name": "Big Y says Y, y, yellow.<br>Big Z says Z, z, zigzag."
+		}
+  ],
+	"meta": {
+		"base-path": "./kc/media/"
+	}
+}

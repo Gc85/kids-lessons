@@ -1,0 +1,403 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "4cp01-V01",
+			"name": "glitter / jar"
+		},
+		{
+			"id": "4cp01-V02",
+			"name": "glue / stick"
+		},
+		{
+			"id": "4cp01-V03",
+			"name": "paint / tube"
+		},
+		{
+			"id": "4cp01-V04",
+			"name": "stickers / sheet"
+		},
+		{
+			"id": "4cp01-V05",
+			"name": "tape / roll"
+		},
+		{
+			"id": "4cp02-V01",
+			"name": "a headache"
+		},
+		{
+			"id": "4cp02-V02",
+			"name": "a sore throat"
+		},
+		{
+			"id": "4cp02-V03",
+			"name": "a stomachache"
+		},
+		{
+			"id": "4cp02-V04",
+			"name": "a toothache"
+		},
+		{
+			"id": "4cp02-V05",
+			"name": "an earache"
+		},
+		{
+			"id": "4cp03-V01",
+			"name": "diamonds"
+		},
+		{
+			"id": "4cp03-V02",
+			"name": "spots"
+		},
+		{
+			"id": "4cp03-V03",
+			"name": "stars"
+		},
+		{
+			"id": "4cp03-V04",
+			"name": "stripes"
+		},
+		{
+			"id": "4cp03-V05",
+			"name": "zigzags"
+		},
+		{
+			"id": "4cp05-V01",
+			"name": "twenty"
+		},
+		{
+			"id": "4cp05-V02",
+			"name": "forty"
+		},
+		{
+			"id": "4cp05-V03",
+			"name": "sixty"
+		},
+		{
+			"id": "4cp05-V04",
+			"name": "eighty"
+		},
+		{
+			"id": "4cp05-V05",
+			"name": "a hundred"
+		},
+		{
+			"id": "4cp06-V01",
+			"name": "a backbend"
+		},
+		{
+			"id": "4cp06-V02",
+			"name": "a flip"
+		},
+		{
+			"id": "4cp06-V03",
+			"name": "a handspring"
+		},
+		{
+			"id": "4cp06-V04",
+			"name": "a handstand"
+		},
+		{
+			"id": "4cp06-V05",
+			"name": "the splits"
+		},
+		{
+			"id": "4cp07-V01",
+			"name": "cold"
+		},
+		{
+			"id": "4cp07-V02",
+			"name": "hot"
+		},
+		{
+			"id": "4cp07-V03",
+			"name": "put on your hat"
+		},
+		{
+			"id": "4cp07-V04",
+			"name": "put on your jacket"
+		},
+		{
+			"id": "4cp07-V05",
+			"name": "put on your sweater"
+		},
+		{
+			"id": "4cp07-V06",
+			"name": "take off your hat"
+		},
+		{
+			"id": "4cp07-V07",
+			"name": "take off your jacket"
+		},
+		{
+			"id": "4cp07-V08",
+			"name": "take off your sweater"
+		},
+		{
+			"id": "4cp09-V01",
+			"name": "across the street"
+		},
+		{
+			"id": "4cp09-V02",
+			"name": "around the corner"
+		},
+		{
+			"id": "4cp09-V03",
+			"name": "behind that building"
+		},
+		{
+			"id": "4cp09-V04",
+			"name": "down the street"
+		},
+		{
+			"id": "4cp09-V05",
+			"name": "inside the station"
+		},
+		{
+			"id": "4cp10-V01",
+			"name": "green pepper"
+		},
+		{
+			"id": "4cp10-V02",
+			"name": "ham"
+		},
+		{
+			"id": "4cp10-V03",
+			"name": "mushroom"
+		},
+		{
+			"id": "4cp10-V04",
+			"name": "onion"
+		},
+		{
+			"id": "4cp10-V05",
+			"name": "pepperoni"
+		},
+		{
+			"id": "4cp10-V06",
+			"name": "pineapple"
+		},
+		{
+			"id": "4cp10-V07",
+			"name": "sausage"
+		},
+		{
+			"id": "4cp10-V08",
+			"name": "tomato"
+		},
+		{
+			"id": "4cp11-V01",
+			"name": "along the wall"
+		},
+		{
+			"id": "4cp11-V02",
+			"name": "by the window"
+		},
+		{
+			"id": "4cp11-V03",
+			"name": "in the corner"
+		},
+		{
+			"id": "4cp11-V04",
+			"name": "near the middle"
+		},
+		{
+			"id": "4cp11-V05",
+			"name": "on the patio"
+		},
+		{
+			"id": "4cp13-V01",
+			"name": "doing pull-ups"
+		},
+		{
+			"id": "4cp13-V02",
+			"name": "doing push-ups"
+		},
+		{
+			"id": "4cp13-V03",
+			"name": "doing sit-ups"
+		},
+		{
+			"id": "4cp13-V04",
+			"name": "playing dodgeball"
+		},
+		{
+			"id": "4cp13-V05",
+			"name": "running"
+		},
+		{
+			"id": "4cp14-V01",
+			"name": "charcoal"
+		},
+		{
+			"id": "4cp14-V02",
+			"name": "colored pencils"
+		},
+		{
+			"id": "4cp14-V03",
+			"name": "crayons"
+		},
+		{
+			"id": "4cp14-V04",
+			"name": "markers"
+		},
+		{
+			"id": "4cp14-V05",
+			"name": "pencils"
+		},
+		{
+			"id": "4cp15-V01",
+			"name": "design cars"
+		},
+		{
+			"id": "4cp15-V02",
+			"name": "draw cartoons"
+		},
+		{
+			"id": "4cp15-V03",
+			"name": "make comic books"
+		},
+		{
+			"id": "4cp15-V04",
+			"name": "paint portraits"
+		},
+		{
+			"id": "4cp15-V05",
+			"name": "teach art classes"
+		},
+		{
+			"id": "4cp17-V01",
+			"name": "dry the windshield"
+		},
+		{
+			"id": "4cp17-V02",
+			"name": "fill this bucket"
+		},
+		{
+			"id": "4cp17-V03",
+			"name": "rinse the hood"
+		},
+		{
+			"id": "4cp17-V04",
+			"name": "scrub the tiles"
+		},
+		{
+			"id": "4cp17-V05",
+			"name": "vacuum the trunk"
+		},
+		{
+			"id": "4cp18-V01",
+			"name": "bugs"
+		},
+		{
+			"id": "4cp18-V02",
+			"name": "fossils"
+		},
+		{
+			"id": "4cp18-V03",
+			"name": "germs"
+		},
+		{
+			"id": "4cp18-V04",
+			"name": "mummies"
+		},
+		{
+			"id": "4cp18-V05",
+			"name": "plants"
+		},
+		{
+			"id": "4cp19-V01",
+			"name": "by bike"
+		},
+		{
+			"id": "4cp19-V02",
+			"name": "by bus"
+		},
+		{
+			"id": "4cp19-V03",
+			"name": "by subway"
+		},
+		{
+			"id": "4cp19-V04",
+			"name": "by train"
+		},
+		{
+			"id": "4cp19-V05",
+			"name": "on foot"
+		},
+		{
+			"id": "4cp21-V01",
+			"name": "beach"
+		},
+		{
+			"id": "4cp21-V02",
+			"name": "lake"
+		},
+		{
+			"id": "4cp21-V03",
+			"name": "mountains"
+		},
+		{
+			"id": "4cp21-V04",
+			"name": "river"
+		},
+		{
+			"id": "4cp21-V05",
+			"name": "woods"
+		},
+		{
+			"id": "4cp22-V01",
+			"name": "10%"
+		},
+		{
+			"id": "4cp22-V02",
+			"name": "20%"
+		},
+		{
+			"id": "4cp22-V03",
+			"name": "30%"
+		},
+		{
+			"id": "4cp22-V04",
+			"name": "40%"
+		},
+		{
+			"id": "4cp22-V05",
+			"name": "50%"
+		},
+		{
+			"id": "4cp22-V06",
+			"name": "60%"
+		},
+		{
+			"id": "4cp22-V07",
+			"name": "rain"
+		},
+		{
+			"id": "4cp22-V08",
+			"name": "snow"
+		},
+		{
+			"id": "4cp23-V01",
+			"name": "a cooler"
+		},
+		{
+			"id": "4cp23-V02",
+			"name": "a grill"
+		},
+		{
+			"id": "4cp23-V03",
+			"name": "some ice"
+		},
+		{
+			"id": "4cp23-V04",
+			"name": "some meat"
+		},
+		{
+			"id": "4cp23-V05",
+			"name": "some tongs"
+		}
+	],
+	"meta": {
+		"base-path": "./CL4cp/media/"
+	}
+}
