@@ -43,6 +43,7 @@ This new template aims to:
 ├── assets/             # Images, icons, audio, etc. for thee lessons.
                         # Organized by "Book" → "Level". Files not included in GitHub due to privacy.
 ├── components/         # Reusable JavaScript modules for each part of the lesson.
+├── data/               # JSON files for each level containing vocabulary and phonics.
 ├── js/                 # Main JavaScript directory.
     └── script.js       # Root logic for the lesson system.
 ├── lessons/            # JSON files representing each individual book.
