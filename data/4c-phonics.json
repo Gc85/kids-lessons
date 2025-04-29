@@ -1,0 +1,199 @@
+{
+	"phonicsCards": [
+		{
+			"id": "4c02-P01",
+			"desc": "s t _ _"
+		},
+		{
+			"id": "4c02-P02",
+			"desc": "s t a r"
+		},
+		{
+			"id": "4c02-P03",
+			"desc": "p _ _ k"
+		},
+		{
+			"id": "4c02-P04",
+			"desc": "p a r k"
+		},
+		{
+			"id": "4c03-P01",
+			"desc": "p _ n _"
+		},
+		{
+			"id": "4c03-P02",
+			"desc": "p i n e"
+		},
+		{
+			"id": "4c03-P03",
+			"desc": "n _ n _"
+		},
+		{
+			"id": "4c03-P04",
+			"desc": "n i n e"
+		},
+		{
+			"id": "4c06-P01",
+			"desc": "r _ _ n"
+		},
+		{
+			"id": "4c06-P02",
+			"desc": "r a i n"
+		},
+		{
+			"id": "4c06-P03",
+			"desc": "t _ _ l"
+		},
+		{
+			"id": "4c06-P04",
+			"desc": "t a i l"
+		},
+		{
+			"id": "4c07-P01",
+			"desc": "c u _ _"
+		},
+		{
+			"id": "4c07-P02",
+			"desc": "c u f f"
+		},
+		{
+			"id": "4c07-P03",
+			"desc": "c l i _ _"
+		},
+		{
+			"id": "4c07-P04",
+			"desc": "c l i f f"
+		},
+		{
+			"id": "4c10-P01",
+			"desc": "_ _ i n"
+		},
+		{
+			"id": "4c10-P02",
+			"desc": "c h i n"
+		},
+		{
+			"id": "4c10-P03",
+			"desc": "b e n _ _"
+		},
+		{
+			"id": "4c10-P04",
+			"desc": "b e n c h"
+		},
+		{
+			"id": "4c11-P01",
+			"desc": "r i _ _"
+		},
+		{
+			"id": "4c11-P02",
+			"desc": "r i n g"
+		},
+		{
+			"id": "4c11-P03",
+			"desc": "s i _ _"
+		},
+		{
+			"id": "4c11-P04",
+			"desc": "s i n g"
+		},
+		{
+			"id": "4c14-P01",
+			"desc": "s _ _"
+		},
+		{
+			"id": "4c14-P02",
+			"desc": "s a w"
+		},
+		{
+			"id": "4c14-P03",
+			"desc": "p _ _"
+		},
+		{
+			"id": "4c14-P04",
+			"desc": "p a w"
+		},
+		{
+			"id": "4c15-P01",
+			"desc": "m o _ _"
+		},
+		{
+			"id": "4c15-P02",
+			"desc": "m o t h"
+		},
+		{
+			"id": "4c15-P03",
+			"desc": "b a _ _"
+		},
+		{
+			"id": "4c15-P04",
+			"desc": "b a t h"
+		},
+		{
+			"id": "4c18-P01",
+			"desc": "_ _ t"
+		},
+		{
+			"id": "4c18-P02",
+			"desc": "e a t"
+		},
+		{
+			"id": "4c18-P03",
+			"desc": "l _ _ f"
+		},
+		{
+			"id": "4c18-P04",
+			"desc": "l e a f"
+		},
+		{
+			"id": "4c19-P01",
+			"desc": "t _ _"
+		},
+		{
+			"id": "4c19-P02",
+			"desc": "t o y"
+		},
+		{
+			"id": "4c19-P03",
+			"desc": "b _ _"
+		},
+		{
+			"id": "4c19-P04",
+			"desc": "b o y"
+		},
+		{
+			"id": "4c22-P01",
+			"desc": "_ _ a l e"
+		},
+		{
+			"id": "4c22-P02",
+			"desc": "w h a l e"
+		},
+		{
+			"id": "4c22-P03",
+			"desc": "_ _ i t e"
+		},
+		{
+			"id": "4c22-P04",
+			"desc": "w h i t e"
+		},
+		{
+			"id": "4c23-P01",
+			"desc": "p a _ _"
+		},
+		{
+			"id": "4c23-P02",
+			"desc": "p a s s"
+		},
+		{
+			"id": "4c23-P03",
+			"desc": "d r e _ _"
+		},
+		{
+			"id": "4c23-P04",
+			"desc": "d r e s s"
+		}
+	],
+	"meta": {
+		"base-path": "./L4c/media/"
+	}
+}

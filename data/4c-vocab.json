@@ -1,0 +1,375 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "4c01-V01",
+			"name": "crayons"
+		},
+		{
+			"id": "4c01-V02",
+			"name": "ruler"
+		},
+		{
+			"id": "4c01-V03",
+			"name": "scissors"
+		},
+		{
+			"id": "4c01-V04",
+			"name": "stapler"
+		},
+		{
+			"id": "4c01-V05",
+			"name": "tape"
+		},
+		{
+			"id": "4c02-V01",
+			"name": "change seats"
+		},
+		{
+			"id": "4c02-V02",
+			"name": "close the window"
+		},
+		{
+			"id": "4c02-V03",
+			"name": "go to the bathroom"
+		},
+		{
+			"id": "4c02-V04",
+			"name": "go to the nurse's office"
+		},
+		{
+			"id": "4c02-V05",
+			"name": "open the window"
+		},
+		{
+			"id": "4c03-V01",
+			"name": "first one from the left"
+		},
+		{
+			"id": "4c03-V02",
+			"name": "first one from the right"
+		},
+		{
+			"id": "4c03-V03",
+			"name": "middle one"
+		},
+		{
+			"id": "4c03-V04",
+			"name": "second one from the left"
+		},
+		{
+			"id": "4c03-V05",
+			"name": "second one from the right"
+		},
+		{
+			"id": "4c05-V01",
+			"name": "cartwheels"
+		},
+		{
+			"id": "4c05-V02",
+			"name": "pull-ups"
+		},
+		{
+			"id": "4c05-V03",
+			"name": "push-ups"
+		},
+		{
+			"id": "4c05-V04",
+			"name": "sit-ups"
+		},
+		{
+			"id": "4c05-V05",
+			"name": "somersaults"
+		},
+		{
+			"id": "4c06-V01",
+			"name": "jump rope"
+		},
+		{
+			"id": "4c06-V02",
+			"name": "play catch"
+		},
+		{
+			"id": "4c06-V03",
+			"name": "play hide-and-seek"
+		},
+		{
+			"id": "4c06-V04",
+			"name": "play tag"
+		},
+		{
+			"id": "4c06-V05",
+			"name": "run a race"
+		},
+		{
+			"id": "4c07-V01",
+			"name": "get some ice cream"
+		},
+		{
+			"id": "4c07-V02",
+			"name": "get some lemonade"
+		},
+		{
+			"id": "4c07-V03",
+			"name": "go home"
+		},
+		{
+			"id": "4c07-V04",
+			"name": "go swimming"
+		},
+		{
+			"id": "4c07-V05",
+			"name": "rest in the shade"
+		},
+		{
+			"id": "4c09-V01",
+			"name": "a cake shop"
+		},
+		{
+			"id": "4c09-V02",
+			"name": "a fish and chip shop"
+		},
+		{
+			"id": "4c09-V03",
+			"name": "a hamburger restaurant"
+		},
+		{
+			"id": "4c09-V04",
+			"name": "an ice cream parlor"
+		},
+		{
+			"id": "4c09-V05",
+			"name": "a pizza place"
+		},
+		{
+			"id": "4c10-V01",
+			"name": "a hamburger"
+		},
+		{
+			"id": "4c10-V02",
+			"name": "a sundae"
+		},
+		{
+			"id": "4c10-V03",
+			"name": "some chocolate cake"
+		},
+		{
+			"id": "4c10-V04",
+			"name": "some fish and chips"
+		},
+		{
+			"id": "4c10-V05",
+			"name": "some pizza"
+		},
+		{
+			"id": "4c11-V01",
+			"name": "by the flowers"
+		},
+		{
+			"id": "4c11-V02",
+			"name": "by the pond"
+		},
+		{
+			"id": "4c11-V03",
+			"name": "on the bench"
+		},
+		{
+			"id": "4c11-V04",
+			"name": "on the grass"
+		},
+		{
+			"id": "4c11-V05",
+			"name": "under the tree"
+		},
+		{
+			"id": "4c13-V01",
+			"name": "art"
+		},
+		{
+			"id": "4c13-V02",
+			"name": "home ec"
+		},
+		{
+			"id": "4c13-V03",
+			"name": "math"
+		},
+		{
+			"id": "4c13-V04",
+			"name": "P.E."
+		},
+		{
+			"id": "4c13-V05",
+			"name": "science"
+		},
+		{
+			"id": "4c14-V01",
+			"name": "bake cookies"
+		},
+		{
+			"id": "4c14-V02",
+			"name": "do an experiment"
+		},
+		{
+			"id": "4c14-V03",
+			"name": "draw pictures"
+		},
+		{
+			"id": "4c14-V04",
+			"name": "have a test"
+		},
+		{
+			"id": "4c14-V05",
+			"name": "play soccer"
+		},
+		{
+			"id": "4c15-V01",
+			"name": "an athlete"
+		},
+		{
+			"id": "4c15-V02",
+			"name": "a baker"
+		},
+		{
+			"id": "4c15-V03",
+			"name": "a cartoonist"
+		},
+		{
+			"id": "4c15-V04",
+			"name": "a fashion designer"
+		},
+		{
+			"id": "4c15-V05",
+			"name": "a scientist"
+		},
+		{
+			"id": "4c17-V01",
+			"name": "clean your room"
+		},
+		{
+			"id": "4c17-V02",
+			"name": "do your homework"
+		},
+		{
+			"id": "4c17-V03",
+			"name": "help with dinner"
+		},
+		{
+			"id": "4c17-V04",
+			"name": "help with the laundry"
+		},
+		{
+			"id": "4c17-V05",
+			"name": "wash the car"
+		},
+		{
+			"id": "4c18-V01",
+			"name": "listening to music"
+		},
+		{
+			"id": "4c18-V02",
+			"name": "looking at the Internet"
+		},
+		{
+			"id": "4c18-V03",
+			"name": "playing video games"
+		},
+		{
+			"id": "4c18-V04",
+			"name": "reading comic books"
+		},
+		{
+			"id": "4c18-V05",
+			"name": "watching TV"
+		},
+		{
+			"id": "4c19-V01",
+			"name": "cycle"
+		},
+		{
+			"id": "4c19-V02",
+			"name": "take the bus"
+		},
+		{
+			"id": "4c19-V03",
+			"name": "take the subway"
+		},
+		{
+			"id": "4c19-V04",
+			"name": "take the train"
+		},
+		{
+			"id": "4c19-V05",
+			"name": "walk"
+		},
+		{
+			"id": "4c21-V01",
+			"name": "Monday"
+		},
+		{
+			"id": "4c21-V02",
+			"name": "Tuesday"
+		},
+		{
+			"id": "4c21-V03",
+			"name": "Wednesday"
+		},
+		{
+			"id": "4c21-V04",
+			"name": "Thursday"
+		},
+		{
+			"id": "4c21-V05",
+			"name": "Friday"
+		},
+		{
+			"id": "4c21-V06",
+			"name": "Saturday"
+		},
+		{
+			"id": "4c21-V07",
+			"name": "Sunday"
+		},
+		{
+			"id": "4c22-V01",
+			"name": "rainy / rain boots"
+		},
+		{
+			"id": "4c22-V02",
+			"name": "rainy / rain coats"
+		},
+		{
+			"id": "4c22-V03",
+			"name": "rainy / umbrellas"
+		},
+		{
+			"id": "4c22-V04",
+			"name": "sunny / hats"
+		},
+		{
+			"id": "4c22-V05",
+			"name": "sunny / sunscreen"
+		},
+		{
+			"id": "4c23-V01",
+			"name": "go fishing"
+		},
+		{
+			"id": "4c23-V02",
+			"name": "go hiking"
+		},
+		{
+			"id": "4c23-V03",
+			"name": "have a barbecue"
+		},
+		{
+			"id": "4c23-V04",
+			"name": "pick berries"
+		},
+		{
+			"id": "4c23-V05",
+			"name": "see deer"
+		}
+	],
+	"meta": {
+		"base-path": "./L4c/media/"
+	}
+}

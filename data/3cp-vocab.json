@@ -1,0 +1,367 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "3cp01-V01",
+			"name": "a blanket"
+		},
+		{
+			"id": "3cp01-V02",
+			"name": "a pillow"
+		},
+		{
+			"id": "3cp01-V03",
+			"name": "some hot tea"
+		},
+		{
+			"id": "3cp01-V04",
+			"name": "some soup"
+		},
+		{
+			"id": "3cp01-V05",
+			"name": "some warm milk"
+		},
+		{
+			"id": "3cp02-V01",
+			"name": "doing a project"
+		},
+		{
+			"id": "3cp02-V02",
+			"name": "practicing for a concert"
+		},
+		{
+			"id": "3cp02-V03",
+			"name": "rehearsing for a play"
+		},
+		{
+			"id": "3cp02-V04",
+			"name": "studying for a test"
+		},
+		{
+			"id": "3cp02-V05",
+			"name": "watching DVDs"
+		},
+		{
+			"id": "3cp03-V01",
+			"name": "Monday / burnables"
+		},
+		{
+			"id": "3cp03-V02",
+			"name": "Tuesday / cans"
+		},
+		{
+			"id": "3cp03-V03",
+			"name": "Wednesday / cardboard"
+		},
+		{
+			"id": "3cp03-V04",
+			"name": "Thursday / glass"
+		},
+		{
+			"id": "3cp03-V05",
+			"name": "Friday / plastics"
+		},
+		{
+			"id": "3cp05-V01",
+			"name": "baking hot cross buns"
+		},
+		{
+			"id": "3cp05-V02",
+			"name": "coloring eggs"
+		},
+		{
+			"id": "3cp05-V03",
+			"name": "eating chocolate eggs"
+		},
+		{
+			"id": "3cp05-V04",
+			"name": "going to the Easter show"
+		},
+		{
+			"id": "3cp05-V05",
+			"name": "hunting for eggs"
+		},
+		{
+			"id": "3cp06-V01",
+			"name": "dango / sweet rice dumplings"
+		},
+		{
+			"id": "3cp06-V02",
+			"name": "dorayaki / red bean pancakes"
+		},
+		{
+			"id": "3cp06-V03",
+			"name": "gyoza / pot stickers"
+		},
+		{
+			"id": "3cp06-V04",
+			"name": "mochi / rice cakes"
+		},
+		{
+			"id": "3cp06-V05",
+			"name": "onigiri / rice balls"
+		},
+		{
+			"id": "3cp07-V01",
+			"name": "judo uniform"
+		},
+		{
+			"id": "3cp07-V02",
+			"name": "rugby helmet"
+		},
+		{
+			"id": "3cp07-V03",
+			"name": "scuba gear"
+		},
+		{
+			"id": "3cp07-V04",
+			"name": "soccer ball"
+		},
+		{
+			"id": "3cp07-V05",
+			"name": "surfboard"
+		},
+		{
+			"id": "3cp09-V01",
+			"name": "at a garage sale"
+		},
+		{
+			"id": "3cp09-V02",
+			"name": "at the mall"
+		},
+		{
+			"id": "3cp09-V03",
+			"name": "for Christmas"
+		},
+		{
+			"id": "3cp09-V04",
+			"name": "for my birthday"
+		},
+		{
+			"id": "3cp09-V05",
+			"name": "online"
+		},
+		{
+			"id": "3cp10-V01",
+			"name": "bicycles"
+		},
+		{
+			"id": "3cp10-V02",
+			"name": "cars"
+		},
+		{
+			"id": "3cp10-V03",
+			"name": "mountains"
+		},
+		{
+			"id": "3cp10-V04",
+			"name": "poeple"
+		},
+		{
+			"id": "3cp10-V05",
+			"name": "skyscrapers"
+		},
+		{
+			"id": "3cp11-V01",
+			"name": "basketball"
+		},
+		{
+			"id": "3cp11-V02",
+			"name": "field hockey"
+		},
+		{
+			"id": "3cp11-V03",
+			"name": "rugby"
+		},
+		{
+			"id": "3cp11-V04",
+			"name": "soccer"
+		},
+		{
+			"id": "3cp11-V05",
+			"name": "volleyball"
+		},
+		{
+			"id": "3cp13-V01",
+			"name": "change the program"
+		},
+		{
+			"id": "3cp13-V02",
+			"name": "set the timer"
+		},
+		{
+			"id": "3cp13-V03",
+			"name": "turn it off"
+		},
+		{
+			"id": "3cp13-V04",
+			"name": "turn it on"
+		},
+		{
+			"id": "3cp13-V05",
+			"name": "unlock the door"
+		},
+		{
+			"id": "3cp14-V01",
+			"name": "comedy show"
+		},
+		{
+			"id": "3cp14-V02",
+			"name": "cooking show"
+		},
+		{
+			"id": "3cp14-V03",
+			"name": "game show"
+		},
+		{
+			"id": "3cp14-V04",
+			"name": "nature show"
+		},
+		{
+			"id": "3cp14-V05",
+			"name": "sci-fi show"
+		},
+		{
+			"id": "3cp15-V01",
+			"name": "climb stairs"
+		},
+		{
+			"id": "3cp15-V02",
+			"name": "solve math problems"
+		},
+		{
+			"id": "3cp15-V03",
+			"name": "speak six languages"
+		},
+		{
+			"id": "3cp15-V04",
+			"name": "swim underwater"
+		},
+		{
+			"id": "3cp15-V05",
+			"name": "tell the time"
+		},
+		{
+			"id": "3cp17-V01",
+			"name": "butter"
+		},
+		{
+			"id": "3cp17-V02",
+			"name": "pickled plum"
+		},
+		{
+			"id": "3cp17-V03",
+			"name": "seaweed"
+		},
+		{
+			"id": "3cp17-V04",
+			"name": "shrimp"
+		},
+		{
+			"id": "3cp17-V05",
+			"name": "soy sauce"
+		},
+		{
+			"id": "3cp18-V01",
+			"name": "clearing the table"
+		},
+		{
+			"id": "3cp18-V02",
+			"name": "drying it"
+		},
+		{
+			"id": "3cp18-V03",
+			"name": "loading the dishwasher"
+		},
+		{
+			"id": "3cp18-V04",
+			"name": "putting it away"
+		},
+		{
+			"id": "3cp18-V05",
+			"name": "washing the dishes"
+		},
+		{
+			"id": "3cp19-V01",
+			"name": "a dolphin"
+		},
+		{
+			"id": "3cp19-V02",
+			"name": "a kiwi bird"
+		},
+		{
+			"id": "3cp19-V03",
+			"name": "a whale"
+		},
+		{
+			"id": "3cp19-V04",
+			"name": "glow-worms"
+		},
+		{
+			"id": "3cp19-V05",
+			"name": "penguins"
+		},
+		{
+			"id": "3cp21-V01",
+			"name": "detective"
+		},
+		{
+			"id": "3cp21-V02",
+			"name": "monster"
+		},
+		{
+			"id": "3cp21-V03",
+			"name": "professor"
+		},
+		{
+			"id": "3cp21-V04",
+			"name": "rock star"
+		},
+		{
+			"id": "3cp21-V05",
+			"name": "superhero"
+		},
+		{
+			"id": "3cp22-V01",
+			"name": "for a walk"
+		},
+		{
+			"id": "3cp22-V02",
+			"name": "on his bike"
+		},
+		{
+			"id": "3cp22-V03",
+			"name": "to buy a magazine"
+		},
+		{
+			"id": "3cp22-V04",
+			"name": "to buy some snacks"
+		},
+		{
+			"id": "3cp22-V05",
+			"name": "to meet a friend"
+		},
+		{
+			"id": "3cp23-V01",
+			"name": "dairy"
+		},
+		{
+			"id": "3cp23-V02",
+			"name": "eggs"
+		},
+		{
+			"id": "3cp23-V03",
+			"name": "peanuts"
+		},
+		{
+			"id": "3cp23-V04",
+			"name": "shellfish"
+		},
+		{
+			"id": "3cp23-V05",
+			"name": "wheat"
+		}
+	],
+	"meta": {
+		"base-path": "./CL3cp/media/"
+	}
+}
