@@ -1,12 +1,12 @@
 import { createElem } from './utils.js';
 import { createHeading } from './createHeading.js';
 
-export function createPDFLinksSection(lesson) {
+export function createPDFLinksSection(lesson, message) {
   const pdfLinksDivElem = createElem('div', 'div-pdf-links', '');
   const pdfLinksH2Elm = createHeading(lesson, `PDF Links`, '1', '1');
 
   const pdfLinksTextElem = createElem('p', 'main-text', '');
-  pdfLinksTextElem.innerHTML = pdfLinksMessage;
+  pdfLinksTextElem.innerHTML = message;
 
   const pdfULElem = createElem('ul', 'pdf-link-group', '');
 
@@ -27,7 +27,3 @@ export function createPDFLinksSection(lesson) {
 
   return pdfLinksDivElem;
 }
-
-const pdfLinksMessage = [
-  `<b>Useful PDFs:</b>`
-]

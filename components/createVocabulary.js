@@ -1,14 +1,14 @@
 import { createElem } from "./utils.js";
 import { createHeading } from "./createHeading.js";
 
-export function createTodaysVocabularySection(lesson, book, level, vocab) {
+export function createTodaysVocabularySection(lesson, book, level, vocab, textMessage, audioMessage) {
 
   const vocabDivElem = createElem('div', 'div-opening', '');
   const vocabH2Elm = createHeading(lesson, `Vocabulary`, '2', '2');
   const vocabImgDiv = createElem('div', 'flex-div flex-wrap flex-justify-evenly', '');
 
   const vocabTextElem = createElem('p', 'main-text', '');
-  vocabTextElem.innerHTML = vocabMessage;
+  vocabTextElem.innerHTML = textMessage;
 
   lesson.vocabImages.forEach((vocabItem) => {
     const findVocab = vocab.vocabularyImages.find(v => v.id === vocabItem);
@@ -25,7 +25,7 @@ export function createTodaysVocabularySection(lesson, book, level, vocab) {
   const vocabAudioPElem = createElem('p', 'audio', '');
   const vocabAudioElem = createElem('audio', '', '');
   const vocabAudioText = createElem('p', '', '');
-  vocabAudioText.innerHTML = vocabAudioMessage;
+  vocabAudioText.innerHTML = audioMessage;
   vocabAudioPElem.appendChild(vocabAudioText);
 
   vocabAudioElem.src = `./assets/${book}/${level}/${lesson.vocabAudio}.mp3`;
@@ -38,11 +38,3 @@ export function createTodaysVocabularySection(lesson, book, level, vocab) {
 
   return vocabDivElem;
 }
-
-const vocabMessage = [
-  `<b>Aim:</b> <em>Present flashcards and practice saying the target language.</em>`
-]
-
-const vocabAudioMessage = [
-  `<em>Play audio and sing along with the students.</em>`
-]
