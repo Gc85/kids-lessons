@@ -102,6 +102,7 @@ async function loadLesson() {
         // Add Games section - WIP
         addMainGameSection(gameH2Elem, gameSection, mainGameDivElem, lessonElem);
 
+        debugger;
         // Create Unit Production Section for lessons 1 - 3 of each Unit
         createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, phonicsFor5, phonicsFor4, plusPhonics, lessonsData);
 
