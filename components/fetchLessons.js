@@ -28,7 +28,7 @@ export async function fetchLessons() {
     }
 
     // Set dropdown defaults AFTER lessonsData is loaded
-    levelElem.value = '5';
+    levelElem.value = '4';
     typeElem.value = 'Normal';
     bookElem.value = books[bookIndex];
 
