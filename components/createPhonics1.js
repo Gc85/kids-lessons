@@ -1,17 +1,26 @@
 import { createElem } from "./utils.js";
 import { createHeading } from "./createHeading.js";
 
-export function createPhonics1Section(lesson, book, level, type, phonics) {
+export function createPhonics1Section(lesson, book, level, type, phonicsFor5, phonicsFor4) {
 
   const phonics1DivElem = createElem('div', 'div-opening', '');
   const phonics1H2Elm = createHeading(lesson, `Today's Phonics - Part 1`, '2', '2');
 
   const phonics1TextElem = createElem('p', 'main-text', '');
-  (type === "Normal") ? phonics1TextElem.innerHTML = phonicsNormalMessage.join('<br>') : phonics1TextElem.innerHTML = phonicsPlusMessage.join('<br>');
+  if (lesson.lessonNumber % 4 === 1 || level === "5") {
+    (type === "Normal") ? phonics1TextElem.innerHTML = phonics5NormalMessage.join('<br>') : phonics1TextElem.innerHTML = phonics5PlusMessage.join('<br>');
+  } else  {
+    (type === "Normal") ? phonics1TextElem.innerHTML = phonics4NormalMessage.join('<br>') : phonics1TextElem.innerHTML = phonics4PlusMessage.join('<br>');
+  }
 
-  const phonics1ImgDivElem = createElem('div', 'flex flex-justify-evenly', '');
+  const phonics1ImgDivElem = createElem('div', 'flex flex-justify-evenly flex-wrap', '');
   lesson.phonics1Images.forEach((phonics1Item) => {
-    const findPhonics = phonics.phonicsCards.find(p => p.id === phonics1Item);
+    let findPhonics;
+    if (lesson.lessonNumber % 4 === 1 || level === "5") {
+      findPhonics = phonicsFor5.phonicsCards.find(p => p.id === phonics1Item);
+    } else  {
+      findPhonics = phonicsFor4.phonicsCards.find(p => p.id === phonics1Item);
+    }
 
     if (findPhonics) {
       const phonics1ImgTextElem = createElem('div', 'phonics-center', '');
@@ -19,7 +28,13 @@ export function createPhonics1Section(lesson, book, level, type, phonics) {
       (type === "Normal") ? phonics1ImgElem = createElem('img', 'image-small', '') : phonics1ImgElem = createElem('img', 'image-medium', '');
 
       if (type === "Normal") {
-        phonics1ImgElem.src = `./assets/phonics/CL${level}/${phonics1Item.slice(0, 4)}/${phonics1Item}.jpg`;
+        if (lesson.lessonNumber % 4 === 1 || level === "5") {
+          phonics1ImgElem.src = `./assets/phonics/CL5/${phonics1Item.slice(0, 4)}/${phonics1Item}.jpg`;
+        } else {
+          phonics1ImgElem.src = `./assets/${book}/${level}/${phonics1Item}.jpg`;
+          // phonics1ImgElem.src = `./assets/phonics/CL${level}/${phonics1Item.slice(0, 4)}/${phonics1Item}.jpg`;
+        }
+
       } else if (type === "Plus") {
         phonics1ImgElem.src = `./assets/${book}/${level}/${phonics1Item}.jpg`;
       } else {
@@ -38,7 +53,7 @@ export function createPhonics1Section(lesson, book, level, type, phonics) {
   });
 
   const phonics1TextElem2 = createElem('p', 'main-text', '');
-  (type === "Normal") ? phonics1TextElem2.innerHTML = phonics1PracticeMessage.join('<br>') : '';
+  (type === "Normal" && (lesson.lessonNumber % 4 === 1 || level === "5")) ? phonics1TextElem2.innerHTML = phonics1PracticeMessage.join('<br>') : '';
 
   phonics1DivElem.appendChild(phonics1H2Elm);
   phonics1DivElem.appendChild(phonics1TextElem);
@@ -48,14 +63,29 @@ export function createPhonics1Section(lesson, book, level, type, phonics) {
   return phonics1DivElem;
 }
 
-const phonicsNormalMessage = [
+const phonics5NormalMessage = [
   `<b>Let's practice today's letters and sounds!</b>`,
   ``,
   `<b>Aim:</b> <em>Present and practice the phonics of today's lesson.`,
   `It's very important to present the phonics sound together with the full word, e.g. "a", "a", "apple".</em>`
 ]
 
-const phonicsPlusMessage = [
+const phonics4NormalMessage = [
+  `<b>Let's practice today's letters and sounds!</b>`,
+  ``,
+  `<b>Aim:</b> <em>Present and practice the phonics of today's lesson.`,
+  `As these are two-letter phonics, they need to be practiced as such, e.g. "ar", "ar", "star" OR "i_e", "i_e", "nine".</em>`
+]
+
+const phonics5PlusMessage = [
+  `<b>Let's practice today's letters and sounds!</b>`,
+  ``,
+  `<b>Aim:</b> <em>First, present and practice the phonics/word for today's lesson. Present it as a whole. E.g. "are" is going to be the whole word, and not letter by letter.`,
+  `Next, excourage students to find today's phonics on the opposite page and circle &amp; count all occurances.`,
+  `Lastly, have students write their phonics in their books and show you.`
+]
+
+const phonics4PlusMessage = [
   `<b>Let's practice today's letters and sounds!</b>`,
   ``,
   `<b>Aim:</b> <em>First, present and practice the phonics/word for today's lesson. Present it as a whole. E.g. "are" is going to be the whole word, and not letter by letter.`,
@@ -64,7 +94,7 @@ const phonicsPlusMessage = [
 ]
 
 const phonics1PracticeMessage = [
-  `<b>Practice making two-letter combinations where possible: "vowel" + "consonant" and vice-versa.</b>`,
+  `<b>When possible, practice creating two- or three-letter combinations by pairing a vowel with the consonants.</b>`,
   `<span class="phonics-hint">Example: "a", "b", "a", "b", "ab" AND "b", "a", "b", "a", "ba".</span>`,
   `<em>After practicing phonics, instruct students to complete the phonics writing part in their books, focusing on the correct stroke order of each letter.</em>`
 ]

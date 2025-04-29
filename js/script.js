@@ -12,25 +12,26 @@ import { createUnitPresentationSection } from '../components/createUnitPresentat
 import { getLessonVocabulary } from '../components/getLessonVocabulary.js';
 
 // Review lessons - WIP
-import { createPictureSpeculationSection } from '../components/createPictureSpeculation.js';
+// import { createPictureSpeculationSection } from '../components/createPictureSpeculation.js';
 
 
 // Games
-import { createGamesSection } from '../components/createGames.js';
+// import { createGamesSection } from '../components/createGames.js';
 
 // Production Section
 import { createUnitProductionSection } from '../components/createUnitProductionSection.js';
 
 
-import { createListeningSection } from '../components/createListening.js';
-import { getLessonPhonics } from '../components/getLessonPhonics.js';
+// import { createListeningSection } from '../components/createListening.js';
+import { getLessonPhonics5 } from '../components/getLessonPhonics5.js';
+import { getLessonPhonics4 } from '../components/getLessonPhonics4.js';
 import { getLessonPlusPhonics } from '../components/getLessonPlusPhonics.js';
-import { createReviewPhonicsSection } from '../components/createReviewPhonics.js';
+// import { createReviewPhonicsSection } from '../components/createReviewPhonics.js';
 // import { createPhonics1Section } from '../components/createPhonics1.js';
 // import { createPhonics2Section } from '../components/createPhonics2.js';
-import { createReadingSection } from '../components/createReading.js';
+// import { createReadingSection } from '../components/createReading.js';
 
-import { createUnitReviewPhonics } from '../components/createUnitReviewPhonics.js';
+// import { createUnitReviewPhonics } from '../components/createUnitReviewPhonics.js';
 
 import { createGoodbyeSection } from '../components/createGoodbye.js';
 
@@ -77,7 +78,8 @@ async function loadLesson() {
 
       const bq = await getBasicQuestions();
       const vocab = await getLessonVocabulary(book, level, type);
-      const phonics = await getLessonPhonics(book);
+      const phonicsFor5 = await getLessonPhonics5(book, level);
+      const phonicsFor4 = await getLessonPhonics4(book, level);
       const plusPhonics = await getLessonPlusPhonics(book, level);
 
       // ***************************************************************************************************** //
@@ -101,8 +103,8 @@ async function loadLesson() {
         addMainGameSection(gameH2Elem, gameSection, mainGameDivElem, lessonElem);
 
         // Create Unit Production Section for lessons 1 - 3 of each Unit
-        createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, phonics, plusPhonics, lessonsData);
-        
+        createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, phonicsFor5, phonicsFor4, plusPhonics, lessonsData);
+
         // Games to be added...
         prodDivElem.innerHTML = `Phonics Practice Games<br>Tic Tac Toe ABC<br>Memory ABC<br><br>Vocab Games<br>Rotate and Stop<br>Tic Tac Toe<br>Memory`;
         prodSection.appendChild(prodDivElem);
@@ -130,82 +132,8 @@ async function loadLesson() {
         addMainGameSection(gameH2Elem, gameSection, mainGameDivElem, lessonElem);
 
         // ***************************************************************************************************** //
-        prodH2Elem.textContent = `Production Section`;
-        prodSection.appendChild(prodH2Elem);
 
-        let heading, textMessage, audioMessage, phonicsImages, phonicsAudio;
-        switch (level) {
-          case "5":
-            if (type !== "Plus") {
-              prodSection.appendChild(createListeningSection(lesson, book, level));
-              prodSection.appendChild(createElem('hr', '', ''));
-
-              prodSection.appendChild(createReviewPhonicsSection(lesson, level, phonics, plusPhonics, lessonsData, type, book));
-              prodSection.appendChild(createElem('hr', '', ''));
-
-              heading = `Phonics - Part 1`;
-              textMessage = [
-                `<b>Let's say the words together!</b>`,
-                ``,
-                `<b>Aim:</b> <em>Use the reviewed phonics to build 3-letter words focusing on proper pronuncitaion sounds of letters, not the letter itself.</em>`
-              ]
-              // let audioMessage;
-              phonicsImages = lesson.phonics1Images;
-              prodSection.appendChild(createUnitReviewPhonics(lesson, book, level, heading, textMessage, audioMessage, phonicsImages, phonicsAudio));
-              prodSection.appendChild(createElem('hr', '', ''));
-
-              heading = `Phonics - Part 2`;
-              audioMessage = [
-                `<em>Pause audio and confirm correct answer before continuing.</em>`
-              ]
-              phonicsImages = lesson.phonics2Images;
-              phonicsAudio = lesson.phonics2Audio;
-              prodSection.appendChild(createUnitReviewPhonics(lesson, book, level, heading, textMessage, audioMessage, phonicsImages, phonicsAudio));
-              prodSection.appendChild(createElem('hr', '', ''));
-
-              heading = `Phonics - Part 3`;
-              phonicsImages = lesson.phonics3Images;
-              phonicsAudio = lesson.phonics3Audio;
-              prodSection.appendChild(createUnitReviewPhonics(lesson, book, level, heading, textMessage, audioMessage, phonicsImages, phonicsAudio));
-              prodSection.appendChild(createElem('hr', '', ''));
-
-              heading = `Phonics - Part 4`;
-              phonicsImages = lesson.phonics4Images;
-              phonicsAudio = lesson.phonics4Audio;
-              prodSection.appendChild(createUnitReviewPhonics(lesson, book, level, heading, textMessage, audioMessage, phonicsImages, phonicsAudio));
-              prodSection.appendChild(createElem('hr', '', ''));
-
-            } else {
-
-              prodSection.appendChild(createReviewPhonicsSection(lesson, level, phonics, plusPhonics, lessonsData, type, book));
-              prodSection.appendChild(createElem('hr', '', ''));
-
-              heading = `Phonics`;
-              textMessage = [
-                `<b>Let's say the words together!</b>`,
-                ``,
-                `<b>Aim:</b> <em>Help students find the matches to the phonics.</em>`
-              ]
-              // let audioMessage;
-              phonicsImages = lesson.phonics1Images;
-              prodSection.appendChild(createUnitReviewPhonics(lesson, book, level, heading, textMessage, audioMessage, phonicsImages, phonicsAudio));
-              prodSection.appendChild(createElem('hr', '', ''));
-
-              prodSection.appendChild(createReadingSection(lesson, book, level));
-              prodSection.appendChild(createElem('hr', '', ''));
-
-              prodSection.appendChild(createListeningSection(lesson, book, level));
-              prodSection.appendChild(createElem('hr', '', ''));
-            }
-            break;
-          case "4":
-            break;
-          default:
-            break;
-
-        }
-        prodDivElem.innerHTML = `Phonics Practice Games<br>Tic Tac Toe ABC<br>Memory ABC<br><br>Vocab Games<br>Rotate and Stop<br>Tic Tac Toe<br>Memory`;
-        prodSection.appendChild(prodDivElem);
+        createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, phonicsFor5, phonicsFor4, plusPhonics, lessonsData);
         lessonElem.appendChild(prodSection);
       }
 

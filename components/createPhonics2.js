@@ -1,28 +1,33 @@
 import { createElem } from "./utils.js";
 import { createHeading } from "./createHeading.js";
 
-export function createPhonics2Section(lesson, book, level) {
+export function createPhonics2Section(lesson, book, level, heading, phonicsTextMessage, phonicsAudioMessage, partNumber) {
 
   const phonics2DivElem = createElem('div', 'div-opening', '');
-  const phonics2H2Elm = createHeading(lesson, `Today's Phonics - Part 2`, '2', '2');
+  const phonics2H2Elm = createHeading(lesson, heading, '2', '2');
   const phonics2ImgDiv = createElem('div', 'flex-div flex-wrap flex-justify-evenly', '');
 
   const phonics2TextElem = createElem('p', 'main-text', '');
-  phonics2TextElem.innerHTML = phonics2Message.join('<br>');
+  phonics2TextElem.innerHTML = phonicsTextMessage.join('<br>');
 
-  lesson.phonics2Images.forEach((phonics2Item) => {
+  let lessonPhonics;
+  if (partNumber === 3) {
+    lessonPhonics = lesson.phonics3Images;
+  } else {
+    lessonPhonics = lesson.phonics2Images;
+  }
 
+  lessonPhonics.forEach((phonics2Item) => {
     const phonics2ImgElem = createElem('img', 'image-small', '');
     phonics2ImgElem.src = `./assets/${book}/${level}/${phonics2Item}.jpg`;
     phonics2ImgElem.onclick = () => { showSrcMedia(); };
-
     phonics2ImgDiv.appendChild(phonics2ImgElem);
   });
 
   const phonics2AudioPElem = createElem('p', 'audio', '');
   const phonics2AudioElem = createElem('audio', '', '');
   const phonics2AudioText = createElem('p', '', '');
-  phonics2AudioText.innerHTML = phonics2AudioMessage;
+  phonics2AudioText.innerHTML = phonicsAudioMessage;
   phonics2AudioPElem.appendChild(phonics2AudioText);
 
   phonics2AudioElem.src = `./assets/${book}/${level}/${lesson.phonics2Audio}.mp3`;
@@ -35,13 +40,3 @@ export function createPhonics2Section(lesson, book, level) {
 
   return phonics2DivElem;
 }
-
-const phonics2Message = [
-  `<b>Let's practice today's letters and sounds!</b>`,
-  ``,
-  `<b>Aim:</b> <em>Present the Phonics quiz and practice the phonics with students.</em>`
-]
-
-const phonics2AudioMessage = [
-  `<em>The students indicate which picture matches the audio. Pause audio after each answer. Confirm correct answer before continuing.</em>`
-]
