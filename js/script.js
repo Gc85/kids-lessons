@@ -1,6 +1,6 @@
 import { fetchLessons, lessonsData } from '../components/fetchLessons.js';
 import { populateLessons } from "../components/populateLessons.js";
-import { createElem, createPopup } from '../components/utils.js';
+import { createElem, createPopup, getSelectedRadioValue } from '../components/utils.js';
 
 // Warmup Section
 import { createUnitWarmupSection } from '../components/createUnitWarmupSection.js';
@@ -24,8 +24,8 @@ import { createUnitProductionSection } from '../components/createUnitProductionS
 
 // import { createListeningSection } from '../components/createListening.js';
 import { getLessonPhonics5 } from '../components/getLessonPhonics5.js';
-import { getLessonPhonics4 } from '../components/getLessonPhonics4.js';
-import { getLessonPlusPhonics } from '../components/getLessonPlusPhonics.js';
+// import { getLessonPhonics4 } from '../components/getLessonPhonics4.js';
+// import { getLessonPlusPhonics } from '../components/getLessonPlusPhonics.js';
 // import { createReviewPhonicsSection } from '../components/createReviewPhonics.js';
 // import { createPhonics1Section } from '../components/createPhonics1.js';
 // import { createPhonics2Section } from '../components/createPhonics2.js';
@@ -37,9 +37,14 @@ import { createGoodbyeSection } from '../components/createGoodbye.js';
 
 // Load selected lesson
 async function loadLesson() {
-  const level = document.getElementById('level').value;
-  const type = document.getElementById('type').value;
-  const book = document.getElementById('book').value;
+
+  const level = getSelectedRadioValue('level');
+  const type = getSelectedRadioValue('type');
+  const book = getSelectedRadioValue('book');
+
+  // const level = document.getElementById('level').value;
+  // const type = document.getElementById('type').value;
+  // const book = document.getElementById('book').value;
   const lessonIndex = document.getElementById('lesson').value;
 
   if (lessonsData[level] && lessonsData[level][type] && lessonsData[level][type][book]) {
@@ -78,9 +83,9 @@ async function loadLesson() {
 
       const bq = await getBasicQuestions();
       const vocab = await getLessonVocabulary(book, level, type);
-      const phonicsFor5 = await getLessonPhonics5(book, level);
-      const phonicsFor4 = await getLessonPhonics4(book, level);
-      const plusPhonics = await getLessonPlusPhonics(book, level);
+      const lessonPhonics = await getLessonPhonics5(book, level);
+      // const phonicsFor4 = await getLessonPhonics4(book, level);
+      // const plusPhonics = await getLessonPlusPhonics(book, level);
 
       // ***************************************************************************************************** //
       // Warmup Section
@@ -102,9 +107,8 @@ async function loadLesson() {
         // Add Games section - WIP
         addMainGameSection(gameH2Elem, gameSection, mainGameDivElem, lessonElem);
 
-        debugger;
         // Create Unit Production Section for lessons 1 - 3 of each Unit
-        createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, phonicsFor5, phonicsFor4, plusPhonics, lessonsData);
+        createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, lessonPhonics, lessonsData);
 
         // Games to be added...
         prodDivElem.innerHTML = `Phonics Practice Games<br>Tic Tac Toe ABC<br>Memory ABC<br><br>Vocab Games<br>Rotate and Stop<br>Tic Tac Toe<br>Memory`;
@@ -134,7 +138,7 @@ async function loadLesson() {
 
         // ***************************************************************************************************** //
 
-        createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, phonicsFor5, phonicsFor4, plusPhonics, lessonsData);
+        createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, lessonPhonics, lessonsData);
         lessonElem.appendChild(prodSection);
       }
 
@@ -183,13 +187,18 @@ document.addEventListener("DOMContentLoaded", async () => {
   await fetchLessons();
 
   // ✅ Attach event listeners properly
-  document.getElementById('book').addEventListener('change', () => { console.log("Book changed to:", document.getElementById('book').value); populateLessons(lessonsData) });
-  document.getElementById('level').addEventListener('change', () => { console.log("Level changed to:", document.getElementById('level').value); populateLessons(lessonsData) } );
-  document.getElementById('type').addEventListener('change', () => { console.log("Type changed to:", document.getElementById('type').value); populateLessons(lessonsData) });
+  ['book', 'level', 'type'].forEach(name => {
+    document.querySelectorAll(`input[name="${name}"]`).forEach(radio => {
+      radio.addEventListener('change', () => {
+        console.log(`${name} changed to:`, radio.value);
+        populateLessons(lessonsData);
+      });
+    });
+  });
+
   document.getElementById('back-btn').addEventListener('click', mainMenu);
   document.getElementById('load-btn').addEventListener('click', loadLesson);
 });
-
 
 // Show button after scrolling 100px down
 window.addEventListener('scroll', function() {

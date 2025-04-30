@@ -31,7 +31,7 @@ export function createUnitReviewPhonics(lesson, book, level, heading, textMessag
   const phonicsAudioElem = createElem('audio', '', '');
   const phonicsAudioText = createElem('p', '', '');
 
-  if (audioMessage) {
+  if (phonicsAudio) {
     phonicsAudioText.innerHTML = audioMessage;
     phonicsAudioPElem.appendChild(phonicsAudioText);
     phonicsAudioElem.src = `./assets/${book}/${level}/${phonicsAudio}.mp3`;

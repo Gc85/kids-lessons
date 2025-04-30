@@ -103,7 +103,347 @@
     {
       "id": "P-CD-z",
       "desc": "Z, z, Zig-zag"
-    }
+    },
+		{
+			"id": "5cp01-P01",
+			"desc": "ARE, are, are."
+		},
+		{
+			"id": "5cp02-P01",
+			"desc": "AW, aw, dr<span class='phonics-hint'>aw</span>n."
+		},
+		{
+			"id": "5cp03-P01",
+			"desc": "AY, ay, ok<span class='phonics-hint'>ay</span>."
+		},
+		{
+			"id": "5cp05-P01",
+			"desc": "WHY, why, why."
+		},
+		{
+			"id": "5cp06-P01",
+			"desc": "LY, ly, friend<span class='phonics-hint'>ly</span>."
+		},
+		{
+			"id": "5cp07-P01",
+			"desc": "ANY, any, any."
+		},
+		{
+			"id": "5cp09-P01",
+			"desc": "FL, fl, <span class='phonics-hint'>fl</span>avor."
+		},
+		{
+			"id": "5cp10-P01",
+			"desc": "OU, ou, s<span class='phonics-hint'>ou</span>nds."
+		},
+		{
+			"id": "5cp11-P01",
+			"desc": "WR, wr, <span class='phonics-hint'>wr</span>ong."
+		},
+		{
+			"id": "5cp13-P01",
+			"desc": "UE, ue, bl<span class='phonics-hint'>ue</span>."
+		},
+		{
+			"id": "5cp14-P01",
+			"desc": "OLD, old, old."
+		},
+		{
+			"id": "5cp15-P01",
+			"desc": "SHE, she, she."
+		},
+		{
+			"id": "5cp17-P01",
+			"desc": "CH, ch, bea<span class='phonics-hint'>ch</span>."
+		},
+		{
+			"id": "5cp18-P01",
+			"desc": "WAS, was, Where <span class='phonics-hint'>was</span> it?"
+		},
+		{
+			"id": "5cp19-P01",
+			"desc": "FF, ff, o<span class='phonics-hint'>ff</span>."
+		},
+		{
+			"id": "5cp21-P01",
+			"desc": "AI, ai, r<span class='phonics-hint'>ai</span>n."
+		},
+		{
+			"id": "5cp22-P01",
+			"desc": "AM, am, am"
+		},
+		{
+			"id": "5cp23-P01",
+			"desc": "AN, an, <span class='phonics-hint'>an</span> owl."
+		},
+    {
+			"id": "4c02-P01",
+			"desc": "s t _ _"
+		},
+		{
+			"id": "4c02-P02",
+			"desc": "s t a r"
+		},
+		{
+			"id": "4c02-P03",
+			"desc": "p _ _ k"
+		},
+		{
+			"id": "4c02-P04",
+			"desc": "p a r k"
+		},
+		{
+			"id": "4c03-P01",
+			"desc": "p _ n _"
+		},
+		{
+			"id": "4c03-P02",
+			"desc": "p i n e"
+		},
+		{
+			"id": "4c03-P03",
+			"desc": "n _ n _"
+		},
+		{
+			"id": "4c03-P04",
+			"desc": "n i n e"
+		},
+		{
+			"id": "4c06-P01",
+			"desc": "r _ _ n"
+		},
+		{
+			"id": "4c06-P02",
+			"desc": "r a i n"
+		},
+		{
+			"id": "4c06-P03",
+			"desc": "t _ _ l"
+		},
+		{
+			"id": "4c06-P04",
+			"desc": "t a i l"
+		},
+		{
+			"id": "4c07-P01",
+			"desc": "c u _ _"
+		},
+		{
+			"id": "4c07-P02",
+			"desc": "c u f f"
+		},
+		{
+			"id": "4c07-P03",
+			"desc": "c l i _ _"
+		},
+		{
+			"id": "4c07-P04",
+			"desc": "c l i f f"
+		},
+		{
+			"id": "4c10-P01",
+			"desc": "_ _ i n"
+		},
+		{
+			"id": "4c10-P02",
+			"desc": "c h i n"
+		},
+		{
+			"id": "4c10-P03",
+			"desc": "b e n _ _"
+		},
+		{
+			"id": "4c10-P04",
+			"desc": "b e n c h"
+		},
+		{
+			"id": "4c11-P01",
+			"desc": "r i _ _"
+		},
+		{
+			"id": "4c11-P02",
+			"desc": "r i n g"
+		},
+		{
+			"id": "4c11-P03",
+			"desc": "s i _ _"
+		},
+		{
+			"id": "4c11-P04",
+			"desc": "s i n g"
+		},
+		{
+			"id": "4c14-P01",
+			"desc": "s _ _"
+		},
+		{
+			"id": "4c14-P02",
+			"desc": "s a w"
+		},
+		{
+			"id": "4c14-P03",
+			"desc": "p _ _"
+		},
+		{
+			"id": "4c14-P04",
+			"desc": "p a w"
+		},
+		{
+			"id": "4c15-P01",
+			"desc": "m o _ _"
+		},
+		{
+			"id": "4c15-P02",
+			"desc": "m o t h"
+		},
+		{
+			"id": "4c15-P03",
+			"desc": "b a _ _"
+		},
+		{
+			"id": "4c15-P04",
+			"desc": "b a t h"
+		},
+		{
+			"id": "4c18-P01",
+			"desc": "_ _ t"
+		},
+		{
+			"id": "4c18-P02",
+			"desc": "e a t"
+		},
+		{
+			"id": "4c18-P03",
+			"desc": "l _ _ f"
+		},
+		{
+			"id": "4c18-P04",
+			"desc": "l e a f"
+		},
+		{
+			"id": "4c19-P01",
+			"desc": "t _ _"
+		},
+		{
+			"id": "4c19-P02",
+			"desc": "t o y"
+		},
+		{
+			"id": "4c19-P03",
+			"desc": "b _ _"
+		},
+		{
+			"id": "4c19-P04",
+			"desc": "b o y"
+		},
+		{
+			"id": "4c22-P01",
+			"desc": "_ _ a l e"
+		},
+		{
+			"id": "4c22-P02",
+			"desc": "w h a l e"
+		},
+		{
+			"id": "4c22-P03",
+			"desc": "_ _ i t e"
+		},
+		{
+			"id": "4c22-P04",
+			"desc": "w h i t e"
+		},
+		{
+			"id": "4c23-P01",
+			"desc": "p a _ _"
+		},
+		{
+			"id": "4c23-P02",
+			"desc": "p a s s"
+		},
+		{
+			"id": "4c23-P03",
+			"desc": "d r e _ _"
+		},
+		{
+			"id": "4c23-P04",
+			"desc": "d r e s s"
+		},
+    {
+			"id": "4cp01-P01",
+			"name": "more"
+		},
+		{
+			"id": "4cp02-P01",
+			"name": "ache"
+		},
+		{
+			"id": "4cp03-P01",
+			"name": "with"
+		},
+		{
+			"id": "4cp05-P01",
+			"name": "many"
+		},
+		{
+			"id": "4cp06-P01",
+			"name": "show"
+		},
+		{
+			"id": "4cp07-P01",
+			"name": "your"
+		},
+		{
+			"id": "4cp09-P01",
+			"name": "down"
+		},
+		{
+			"id": "4cp10-P01",
+			"name": "would"
+		},
+		{
+			"id": "4cp11-P01",
+			"name": "by"
+		},
+		{
+			"id": "4cp13-P01",
+			"name": "today"
+		},
+		{
+			"id": "4cp14-P01",
+			"name": "the"
+		},
+		{
+			"id": "4cp15-P01",
+			"name": "when"
+		},
+		{
+			"id": "4cp17-P01",
+			"name": "Could"
+		},
+		{
+			"id": "4cp17-P02",
+			"name": "could"
+		},
+		{
+			"id": "4cp18-P01",
+			"name": "again"
+		},
+		{
+			"id": "4cp19-P01",
+			"name": "minutes"
+		},
+		{
+			"id": "4cp21-P01",
+			"name": "about"
+		},
+		{
+			"id": "4cp22-P01",
+			"name": "of"
+		},
+		{
+			"id": "4cp23-P01",
+			"name": "do"
+		}
   ],
 	"meta": {
 		"base-path": "./media/phonics/CL5/P-CD/"

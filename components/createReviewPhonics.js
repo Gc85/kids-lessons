@@ -1,9 +1,8 @@
 import { createElem } from "./utils.js";
 import { createHeading } from "./createHeading.js";
 
-export function createReviewPhonicsSection(lesson, level, phonicsFor5, phonicsFor4, plusPhonics, lessonsData, type, book) {
+export function createReviewPhonicsSection(lesson, level, lessonPhonics, lessonsData, type, book) {
   let level4L3 = false;
-  debugger;
 
   const reviewPhonicsDivElem = createElem('div', 'div-opening', '');
   const reviewPhonicsH2Elm = createHeading(lesson, `Review Phonics`, '2', '2');
@@ -14,27 +13,17 @@ export function createReviewPhonicsSection(lesson, level, phonicsFor5, phonicsFo
   if (!lesson.review) {
     reviewPhonicsTextElem.innerHTML = reviewPhonicsMessage1.join('<br>');
     lesson.reviewPhonicsImages.forEach((reviewPhonicsItem) => {
-      let findPhonics;
-      if (level === "4" && lesson.lessonNumber % 4 === 3) {
-        findPhonics = phonicsFor4.phonicsCards.find(p => p.id === reviewPhonicsItem);
-        level4L3 = true;
-      } else {
-        findPhonics = phonicsFor5.phonicsCards.find(p => p.id === reviewPhonicsItem);
-      }
-
-      debugger;
+      const findPhonics = lessonPhonics.phonicsCards.find((p) => p.id === reviewPhonicsItem);
 
       const reviewPhonics1ImgTextElem = createElem('div', 'phonics-center', '');
       const reviewPhonicsImgElem = createElem('img', 'image-small', '');
       const reviewPhonicsDescElem = createElem('p', 'phonics-text', '');
       if (findPhonics) {
-        if (!level4L3) {
-          reviewPhonicsImgElem.src = `./assets/phonics/CL${level}/${reviewPhonicsItem.slice(0, 4)}/${reviewPhonicsItem}.jpg`;
+        if (findPhonics.id.slice(0, 1) === "P") {
+          reviewPhonicsImgElem.src = `./assets/phonics/CL5/${reviewPhonicsItem.slice(0, 4)}/${reviewPhonicsItem}.jpg`;
         } else {
           reviewPhonicsImgElem.src = `./assets/${book}/${level}/${reviewPhonicsItem}.jpg`;
-          level4L3 = false;
         }
-
         reviewPhonicsImgElem.onclick = () => { showSrcMedia(); };
         reviewPhonicsDescElem.innerHTML = `${findPhonics.desc}`;
       } else {
@@ -53,15 +42,11 @@ export function createReviewPhonicsSection(lesson, level, phonicsFor5, phonicsFo
 
     for (const reviewLesson of lesson.reviewLessons) {
       const getReviewLesson = lessonsData[level][type][book].find( rl => rl.lessonNumber === reviewLesson );
-      let findPhonics;
 
       if (type !== "Plus") {
         getReviewLesson.phonics1Images.forEach((reviewPhonicsItem) => {
-          (level === 5) ? findPhonics = phonicsFor5.phonicsCards.find( p => p.id === reviewPhonicsItem ) : "";
-          (level === 4) ? findPhonics = phonicsFor5.phonicsCards.find( p => p.id === reviewPhonicsItem ) : "";
-          // const findPhonics = phonicsFor5.phonicsCards.find( p => p.id === reviewPhonicsItem );
+          const findPhonics = lessonPhonics.phonicsCards.find((p) => p.id === reviewPhonicsItem);
 
-          // const findPhonics = phonicsFor5.phonicsCards.find( p => p.id === reviewPhonicsItem );
           if (!seenPhonicsIds.has(findPhonics.id)) {
             reviewPhonicsArray.push(findPhonics);
             seenPhonicsIds.add(findPhonics.id);
@@ -70,7 +55,7 @@ export function createReviewPhonicsSection(lesson, level, phonicsFor5, phonicsFo
       } else {
         // Get normal phonics
         getReviewLesson.reviewPhonicsImages.forEach((reviewPhonicsItem) => {
-          // const findPhonics = phonicsFor5.phonicsCards.find( p => p.id === reviewPhonicsItem );
+          const findPhonics = lessonPhonics.phonicsCards.find((p) => p.id === reviewPhonicsItem);
           if (!seenPhonicsIds.has(findPhonics.id)) {
             reviewPhonicsArray.push(findPhonics);
             seenPhonicsIds.add(findPhonics.id);
@@ -78,7 +63,7 @@ export function createReviewPhonicsSection(lesson, level, phonicsFor5, phonicsFo
         });
         // Get Plus phonics
         getReviewLesson.phonics1Images.forEach((reviewPhonicsItem) => {
-          // const findPhonics = plusPhonics.phonicsCards.find( p => p.id === reviewPhonicsItem );
+          const findPhonics = lessonPhonics.phonicsCards.find((p) => p.id === reviewPhonicsItem);
           if (!seenPhonicsIds.has(findPhonics.id)) {
             reviewPhonicsArray.push(findPhonics);
             seenPhonicsIds.add(findPhonics.id);
@@ -102,7 +87,7 @@ export function createReviewPhonicsSection(lesson, level, phonicsFor5, phonicsFo
       const currentPhonic = reorderedPhonicsArray[phonic];
 
       if (currentPhonic.id.slice(0, 1) === "P") {
-        reviewPhonicsImgElem.src = `./assets/phonics/CL${level}/${currentPhonic.id.slice(0, 4)}/${currentPhonic.id}.jpg`;
+        reviewPhonicsImgElem.src = `./assets/phonics/CL5/${currentPhonic.id.slice(0, 4)}/${currentPhonic.id}.jpg`;
       } else {
         reviewPhonicsImgElem.src = `./assets/${book}/${level}/${currentPhonic.id}.jpg`;
       }
