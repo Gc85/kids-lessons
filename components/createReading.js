@@ -7,7 +7,7 @@ export function createReadingSection(lesson, book, level, textMessage) {
   const readingImgDiv = createElem('div', 'flex-div flex-wrap flex-justify-evenly', '');
 
   const readingTextElem = createElem('p', 'main-text', '');
-  readingTextElem.innerHTML = textMessage;
+  readingTextElem.innerHTML = textMessage.join('<br>');
 
   lesson.readingImages.forEach((readingItem) => {
 
