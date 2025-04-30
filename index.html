@@ -12,33 +12,41 @@
 		<div class="flex-menu-container">
 			<div class="flex-row-1">
 				<div id="select-book">
-					<label for="book">Select Book:</label>
-					<select id="book">
-							<option value="A">Book A</option>
-							<option value="B">Book B</option>
-							<option value="C">Book C</option>
-							<option value="D">Book D</option>
-							<option value="E">Book E</option>
-							<option value="F">Book F</option>
-					</select>
+					<label>Select Book:</label>
+					<div id="book-options">
+						<p class="labels">
+							<label><input type="radio" name="book" value="A"> A</label>
+							<label><input type="radio" name="book" value="B"> B</label>
+							<label><input type="radio" name="book" value="C"> C</label>
+						</p>
+						<p class="labels">
+							<label><input type="radio" name="book" value="D"> D</label>
+							<label><input type="radio" name="book" value="E"> E</label>
+							<label><input type="radio" name="book" value="F"> F</label>
+						</p>
+					</div>
 				</div>
 
 				<div id="select-level">
-					<label for="level">Select Level:</label>
-					<select id="level">
-							<option value="Kinder">Kinder</option>
-							<option value="5">5</option>
-							<option value="4">4</option>
-							<option value="3">3</option>
-					</select>
+					<label>Select Level:</label>
+					<div id="level-options">
+						<p class="labels">
+							<label><input type="radio" name="level" value="5"> 5</label>
+							<label><input type="radio" name="level" value="4"> 4</label>
+							<label><input type="radio" name="level" value="3"> 3</label>
+						</p>
+						<p class="labels">
+							<label><input type="radio" name="level" value="Kinder"> Kinder</label>
+						</p>
+					</div>
 				</div>
 
 				<div id="select-type">
-					<label for="type">Select Type:</label>
-					<select id="type">
-							<option value="Normal">Normal</option>
-							<option value="Plus">Plus</option>
-					</select>
+					<label>Select Type:</label>
+					<div id="type-options">
+						<label><input type="radio" name="type" value="Normal"> Normal</label>
+						<label><input type="radio" name="type" value="Plus"> Plus</label>
+					</div>
 				</div>
 			</div>
 			<div class="flex-row-2">

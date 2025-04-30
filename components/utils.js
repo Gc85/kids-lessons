@@ -13,3 +13,8 @@ export function createPopup(message) {
   popup.querySelector('p').textContent = message;
   popup.classList.remove('hidden');
 }
+
+export function getSelectedRadioValue(name) {
+  const selected = document.querySelector(`input[name="${name}"]:checked`);
+  return selected ? selected.value : null;
+}

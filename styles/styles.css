@@ -6,7 +6,7 @@ h2 { margin: 10px 0; }
 .flex-menu-container { display: flex;  flex-direction: column; align-items: center; background-color: #e4e4ff; margin-top: 50px;}
 .body-flex-container { display: flex; justify-content: center; padding: 5px; }
 .flex-row-1, .flex-row-2, .flex-row-3 { display: flex; padding: 5px;}
-.flex-row-1 { justify-content: space-evenly; width: 90%;}
+.flex-row-1 { justify-content: space-evenly; }
 .flex-row-3 { justify-content: space-between; width: 90%; }
 
 #lesson { width: 350px; max-width: 400; }
@@ -14,9 +14,36 @@ h2 { margin: 10px 0; }
 .lesson-title { border: 1px solid #000000; border-radius: 15px; background-color: #e4e4ff; width: 100%; }
 .section-heading { text-decoration: underline; }
 
-#select-book, #select-level, #select-type, #select-lesson { margin: 0 10px; display: flex; flex-direction: column; justify-content: center; align-items: center; }
-#select-book label, #select-level label, #select-type label, #select-lesson label { text-align: center; margin-bottom: 5px; }
-#select-book select, #select-level select, #select-type select { width: 100%; text-align: center; }
+#select-book, #select-level, #select-type {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+}
+
+#select-lesson {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.labels {
+	margin: 0;
+}
+
+#book-options, #level-options {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+#type-options {
+	display: flex;
+	flex-direction: column;
+}
+
 
 #timer { width: 20px; height: 20px; }
 .timer-align { display: block; text-align: center; font-size: 0.8em; font-weight: 700; }

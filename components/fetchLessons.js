@@ -17,20 +17,24 @@ export async function fetchLessons() {
     lessonsData = await response.json();
     // console.log('✅ Loaded lessons:', lessonsData);
 
-     // Ensure the DOM elements exist before setting values
-    const levelElem = document.getElementById('level');
-    const typeElem = document.getElementById('type');
-    const bookElem = document.getElementById('book');
+    // Ensure the DOM elements exist before setting values
+    const defaultLevel = document.querySelector(`input[name="level"][value="4"]`);
+    const defaultType = document.querySelector(`input[name="type"][value="Normal"]`);
+    const defaultBook = document.querySelector(`input[name="book"][value="${books[bookIndex]}"]`);
 
-    if (!levelElem || !typeElem || !bookElem) {
-      console.error('❌ Dropdown elements not found in the DOM.');
+    if (!defaultLevel || !defaultType || !defaultBook) {
+      console.error('❌ One or more default radio buttons not found in the DOM.');
       return;
     }
 
+    defaultLevel.checked = true;
+    defaultType.checked = true;
+    defaultBook.checked = true;
+
     // Set dropdown defaults AFTER lessonsData is loaded
-    levelElem.value = '4';
-    typeElem.value = 'Normal';
-    bookElem.value = books[bookIndex];
+    document.querySelector(`input[name="level"][value="4"]`).checked = true;
+    document.querySelector(`input[name="type"][value="Normal"]`).checked = true;
+    document.querySelector(`input[name="book"][value="${books[bookIndex]}"]`).checked = true;
 
     // Call `populateLessons()` ONLY when lessonsData is ready
     // console.log("📢 Calling populateLessons now...");

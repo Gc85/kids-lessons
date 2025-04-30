@@ -1,4 +1,4 @@
-import { createPopup } from "./utils.js";
+import { createPopup, getSelectedRadioValue } from "./utils.js";
 
 // Populate the lesson dropdown when book selection changes
 export function populateLessons(lessonsData) {
@@ -10,9 +10,9 @@ export function populateLessons(lessonsData) {
     return;
   }
 
-  const level = document.getElementById('level').value;
-  const type = document.getElementById('type').value;
-  const book = document.getElementById('book').value;
+  const level = getSelectedRadioValue('level');
+  const type = getSelectedRadioValue('type');
+  const book = getSelectedRadioValue('book');
 
   if (!lessonsData[level] || !lessonsData[level][type] || !lessonsData[level][type][book]) {
     createPopup('Sorry, there are currently no lessons in this section.');
