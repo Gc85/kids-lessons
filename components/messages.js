@@ -4,8 +4,8 @@ export const listeningTextMessage = [
 
 export const phonicsTextMessage = [
   `<b>Let's practice today's letters and sounds!</b>`,
-   ``,
-   `<b>Aim:</b> <em>Present the Phonics quiz and practice the phonics with students.</em>`
+  ``,
+  `<b>Aim:</b> <em>Present the Phonics quiz and practice the phonics with students.</em>`
 ];
 
 export const phonics1PlusTextMessage = [
