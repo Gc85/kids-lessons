@@ -32,7 +32,7 @@ export async function fetchLessons() {
     defaultBook.checked = true;
 
     // Set dropdown defaults AFTER lessonsData is loaded
-    document.querySelector(`input[name="level"][value="4"]`).checked = true;
+    document.querySelector(`input[name="level"][value="3"]`).checked = true;
     document.querySelector(`input[name="type"][value="Normal"]`).checked = true;
     document.querySelector(`input[name="book"][value="${books[bookIndex]}"]`).checked = true;
 

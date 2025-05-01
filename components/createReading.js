@@ -9,9 +9,11 @@ export function createReadingSection(lesson, book, level, textMessage) {
   const readingTextElem = createElem('p', 'main-text', '');
   readingTextElem.innerHTML = textMessage.join('<br>');
 
+  const lenImages = lesson.listeningImages.length;
   lesson.readingImages.forEach((readingItem) => {
+    let readingImgElem;
+    (lenImages > 1) ? readingImgElem = createElem('img', 'image-medium', '') : readingImgElem = createElem('img', 'image-big', '');
 
-    const readingImgElem = createElem('img', 'image-medium', '');
     readingImgElem.src = `./assets/${book}/${level}/${readingItem}.jpg`;
     readingImgElem.onclick = () => { showSrcMedia(); };
 

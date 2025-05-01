@@ -111,8 +111,10 @@ async function loadLesson() {
         createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, lessonPhonics, lessonsData);
 
         // Games to be added...
-        prodDivElem.innerHTML = `Phonics Practice Games<br>Tic Tac Toe ABC<br>Memory ABC<br><br>Vocab Games<br>Rotate and Stop<br>Tic Tac Toe<br>Memory`;
-        prodSection.appendChild(prodDivElem);
+        if (level !== "3") {
+          prodDivElem.innerHTML = `Phonics Practice Games<br>Tic Tac Toe ABC<br>Memory ABC<br><br>Vocab Games<br>Rotate and Stop<br>Tic Tac Toe<br>Memory`;
+          prodSection.appendChild(prodDivElem);
+        }
         lessonElem.appendChild(prodSection);
       } else {
         // Section for all Review lessons
@@ -139,8 +141,10 @@ async function loadLesson() {
         // ***************************************************************************************************** //
 
         createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, lessonPhonics, lessonsData);
-        prodDivElem.innerHTML = `Phonics Practice Games<br>Tic Tac Toe ABC<br>Memory ABC<br><br>Vocab Games<br>Rotate and Stop<br>Tic Tac Toe<br>Memory`;
-        prodSection.appendChild(prodDivElem);
+        if (level !== "3") {
+          prodDivElem.innerHTML = `Phonics Practice Games<br>Tic Tac Toe ABC<br>Memory ABC<br><br>Vocab Games<br>Rotate and Stop<br>Tic Tac Toe<br>Memory`;
+          prodSection.appendChild(prodDivElem);
+        }
         lessonElem.appendChild(prodSection);
       }
 

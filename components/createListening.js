@@ -8,10 +8,11 @@ export function createListeningSection(lesson, book, level, textMessage, audioMe
 
   const listeningTextElem = createElem('p', 'main-text', '');
   listeningTextElem.innerHTML = textMessage;
+  const lenImages = lesson.listeningImages.length;
 
   lesson.listeningImages.forEach((listeningItem) => {
-
-    const listeningImgElem = createElem('img', 'image-medium', '');
+    let listeningImgElem;
+    (lenImages > 1) ? listeningImgElem = createElem('img', 'image-medium', '') : listeningImgElem = createElem('img', 'image-big', '');
     listeningImgElem.src = `./assets/${book}/${level}/${listeningItem}.jpg`;
     listeningImgElem.onclick = () => { showSrcMedia(); };
 

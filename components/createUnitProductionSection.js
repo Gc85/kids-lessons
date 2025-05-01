@@ -13,6 +13,8 @@ import { createReviewPhonicsSection } from "./createReviewPhonics.js";
 import { createPhonics1Section } from "./createPhonics1.js";
 import { createPhonics2Section } from "./createPhonics2.js";
 import { createReadingSection } from "./createReading.js";
+import { createWritingSection } from "./createWriting.js";
+import { createSpeakingSection } from "./createSpeaking.js";
 import { createUnitReviewPhonics } from "./createUnitReviewPhonics.js";
 
 export function createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, lessonPhonics, lessonsData) {
@@ -142,6 +144,31 @@ export function createUnitProductionSection(prodSection, prodH2Elem, lesson, boo
         }
 
       }
+      break;
+    case "3":
+      if (type !== "Plus") {
+        if (!lesson.review) {
+          prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
+          prodSection.appendChild(createElem("hr", "", ""));
+
+          prodSection.appendChild(createWritingSection(lesson, book, level, readingTextMessage));
+          prodSection.appendChild(createElem("hr", "", ""));
+
+          prodSection.appendChild(createReadingSection(lesson, book, level, readingTextMessage));
+        } else {
+          prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
+          prodSection.appendChild(createElem("hr", "", ""));
+
+          prodSection.appendChild(createSpeakingSection(lesson, book, level, readingTextMessage));
+          prodSection.appendChild(createElem("hr", "", ""));
+
+          prodSection.appendChild(createWritingSection(lesson, book, level, readingTextMessage));
+        }
+
+      } else {
+
+      }
+
       break;
     default:
       break;

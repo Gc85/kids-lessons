@@ -10,12 +10,24 @@ export function createSayDialogueSection(lesson, book, level, message) {
   const sayDialogueTextElem = createElem('p', 'main-text', '');
   sayDialogueTextElem.innerHTML = message.join('<br>');
 
-  const sayDialogueImgElem = createElem('img', 'image-big', '');
-  sayDialogueImgElem.src = `./assets/${book}/${level}/${lesson.sayDialogueImage}.jpg`;
-  sayDialogueImgElem.onclick = () => { showSrcMedia(); };
+  const lenImages = lesson.sayDialogueImage.length;
 
-  sayDialogueImgDiv.appendChild(sayDialogueImgElem);
+  if (lenImages > 1) {
+    lesson.sayDialogueImage.forEach((sayDialogueItem) => {
+      const sayDialogueImgElem = createElem('img', 'image-medium', '');
 
+      sayDialogueImgElem.src = `./assets/${book}/${level}/${sayDialogueItem}.jpg`;
+      sayDialogueImgElem.onclick = () => { showSrcMedia(); };
+
+      sayDialogueImgDiv.appendChild(sayDialogueImgElem);
+    });
+  } else {
+    const sayDialogueImgElem = createElem('img', 'image-big', '');
+    sayDialogueImgElem.src = `./assets/${book}/${level}/${lesson.sayDialogueImage}.jpg`;
+    sayDialogueImgElem.onclick = () => { showSrcMedia(); };
+
+    sayDialogueImgDiv.appendChild(sayDialogueImgElem);
+  }
   sayDialogueDivElem.appendChild(sayDialogueH2Elm);
   sayDialogueDivElem.appendChild(sayDialogueTextElem);
   sayDialogueDivElem.appendChild(sayDialogueImgDiv);
