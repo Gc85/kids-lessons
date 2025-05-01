@@ -5,7 +5,7 @@ import { createSayDialogueSection } from './createSayDialogue.js';
 import { createTodaysLanguageSection } from './createTodaysLanguage.js';
 import { createTodaysVocabularySection } from './createVocabulary.js';
 
-export function createUnitPresentationSection(presentationSection, lesson, isReview, book, level, vocab) {
+export function createUnitPresentationSection(presentationSection, lesson, isReview, book, level, type, vocab) {
 
   let textMessage, audioMessage;
 
@@ -40,7 +40,11 @@ export function createUnitPresentationSection(presentationSection, lesson, isRev
       `<em>Play audio and sing along with the students.</em>`
     ];
     presentationSection.appendChild(createTodaysVocabularySection(lesson, book, level, vocab, textMessage, audioMessage));
-    isReview ? presentationSection.appendChild(createElem('hr', '', '')) : '';
+    if (isReview) {
+      if (type !== "Plus" || lesson.lessonNumber !== 3) {
+        presentationSection.appendChild(createElem('hr', '', ''));
+      }
+    }
   }
   return presentationSection;
 }
