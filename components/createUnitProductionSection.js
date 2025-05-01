@@ -80,7 +80,6 @@ export function createUnitProductionSection(prodSection, prodH2Elem, lesson, boo
       break;
     case "4":
       if (type !== "Plus") {
-        debugger;
         prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
         prodSection.appendChild(createElem("hr", "", ""));
 
@@ -116,26 +115,32 @@ export function createUnitProductionSection(prodSection, prodH2Elem, lesson, boo
 
           heading = `Phonics 3: Write`;
           prodSection.appendChild(createUnitReviewPhonics(lesson, book, level, heading, phonics3TextMessage, audioMessage, lesson.phonics3Images, lesson.phonics3Audio));
-          // prodSection.appendChild(createElem("hr", "", ""));
+        }
+      } else {
+        if (!lesson.review) {
+          prodSection.appendChild(createReviewPhonicsSection(lesson, level, lessonPhonics, lessonsData, type, book));
+          prodSection.appendChild(createElem("hr", "", ""));
 
-          // heading = `Phonics 4: Write Some More`;
-          // prodSection.appendChild(createUnitReviewPhonics(lesson, book, level, heading, phonics3TextMessage, audioMessage, lesson.phonics4Images, lesson.phonics4Audio));
+          heading = `Today's Phonics`;
+          prodSection.appendChild(createPhonics1Section(lesson, book, level, type, heading, lessonPhonics));
+          prodSection.appendChild(createElem("hr", "", ""));
+
+          prodSection.appendChild(createReadingSection(lesson, book, level, readingTextMessage));
+          prodSection.appendChild(createElem("hr", "", ""));
+
+          prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
+          prodSection.appendChild(createElem("hr", "", ""));
+        } else {
+          prodSection.appendChild(createReviewPhonicsSection(lesson, level, lessonPhonics, lessonsData, type, book));
+          prodSection.appendChild(createElem("hr", "", ""));
+
+          prodSection.appendChild(createReadingSection(lesson, book, level, readingTextMessage));
+          prodSection.appendChild(createElem("hr", "", ""));
+
+          prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
+          prodSection.appendChild(createElem("hr", "", ""));
         }
 
-
-      } else {
-        prodSection.appendChild(createReviewPhonicsSection(lesson, level, lessonPhonics, lessonsData, type, book));
-        prodSection.appendChild(createElem("hr", "", ""));
-
-        heading = `Today's Phonics`;
-        prodSection.appendChild(createPhonics1Section(lesson, book, level, type, heading, plusPhonics));
-        prodSection.appendChild(createElem("hr", "", ""));
-
-        prodSection.appendChild(createReadingSection(lesson, book, level, readingTextMessage));
-        prodSection.appendChild(createElem("hr", "", ""));
-
-        prodSection.appendChild(createListeningSection(lesson, book, level, lisTextMessage, audioMessage));
-        prodSection.appendChild(createElem("hr", "", ""));
       }
       break;
     default:

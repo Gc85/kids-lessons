@@ -101,7 +101,7 @@ async function loadLesson() {
 
       if (!lesson.review) {
         // Create Unit Presentation Section for lessons 1 - 3 of each Unit
-        createUnitPresentationSection(presentationSection, lesson, isReview, book, level, vocab);
+        createUnitPresentationSection(presentationSection, lesson, isReview, book, level, type, vocab);
         lessonElem.appendChild(presentationSection);
 
         // Add Games section - WIP
@@ -121,13 +121,13 @@ async function loadLesson() {
             rl => rl.lessonNumber === reviewLesson
           );
           const vocab = await getLessonVocabulary(book, level, type);
-          createUnitPresentationSection(presentationSection, getReviewLesson, isReview, book, level, vocab);
+          createUnitPresentationSection(presentationSection, getReviewLesson, isReview, book, level, type, vocab);
 
           lessonElem.appendChild(presentationSection);
         }
 
         if (type !== "Plus") {
-          createUnitPresentationSection(presentationSection, lesson, isReview, book, level, vocab)
+          createUnitPresentationSection(presentationSection, lesson, isReview, book, level, type, vocab)
         } else {
           // Add some content for Review Plus lessons here...
         }
@@ -139,6 +139,8 @@ async function loadLesson() {
         // ***************************************************************************************************** //
 
         createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, lessonPhonics, lessonsData);
+        prodDivElem.innerHTML = `Phonics Practice Games<br>Tic Tac Toe ABC<br>Memory ABC<br><br>Vocab Games<br>Rotate and Stop<br>Tic Tac Toe<br>Memory`;
+        prodSection.appendChild(prodDivElem);
         lessonElem.appendChild(prodSection);
       }
 

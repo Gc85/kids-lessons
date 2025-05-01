@@ -2,8 +2,6 @@ import { createElem } from "./utils.js";
 import { createHeading } from "./createHeading.js";
 
 export function createReviewPhonicsSection(lesson, level, lessonPhonics, lessonsData, type, book) {
-  let level4L3 = false;
-
   const reviewPhonicsDivElem = createElem('div', 'div-opening', '');
   const reviewPhonicsH2Elm = createHeading(lesson, `Review Phonics`, '2', '2');
 
@@ -53,14 +51,18 @@ export function createReviewPhonicsSection(lesson, level, lessonPhonics, lessons
           }
         });
       } else {
-        // Get normal phonics
-        getReviewLesson.reviewPhonicsImages.forEach((reviewPhonicsItem) => {
-          const findPhonics = lessonPhonics.phonicsCards.find((p) => p.id === reviewPhonicsItem);
-          if (!seenPhonicsIds.has(findPhonics.id)) {
-            reviewPhonicsArray.push(findPhonics);
-            seenPhonicsIds.add(findPhonics.id);
-          }
-        });
+
+        if (level !== "4" || type !== "Plus") {
+          // Get normal phonics
+          getReviewLesson.reviewPhonicsImages.forEach((reviewPhonicsItem) => {
+            const findPhonics = lessonPhonics.phonicsCards.find((p) => p.id === reviewPhonicsItem);
+            if (!seenPhonicsIds.has(findPhonics.id)) {
+              reviewPhonicsArray.push(findPhonics);
+              seenPhonicsIds.add(findPhonics.id);
+            }
+          });
+        }
+
         // Get Plus phonics
         getReviewLesson.phonics1Images.forEach((reviewPhonicsItem) => {
           const findPhonics = lessonPhonics.phonicsCards.find((p) => p.id === reviewPhonicsItem);
