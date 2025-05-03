@@ -20,8 +20,27 @@ export function createReadingSection(lesson, book, level, textMessage) {
     readingImgDiv.appendChild(readingImgElem);
   });
 
+  const lessonRegEx = /3[A-Za-z]p/;
+  const speakingTextElem = createElem('p', 'main-text', '');
+
+  const pdfULElem = createElem('ul', 'pdf-link-group', '');
+  if (lesson.review && lessonRegEx.test(lesson.openingImage.slice(0,3))) {
+    speakingTextElem.innerHTML = `Please use the below PDF to do the Speaking part of the lesson:`;
+    const pdfLIElem = createElem('li', '', '');
+    const pdfLinkElem = createElem('a', 'pdf-link', '');
+    pdfLinkElem.href = `./assets/pdfs/${lesson.pdfs[3].file}.pdf`;
+    pdfLinkElem.target = `_blank`;
+    pdfLinkElem.innerHTML = `${lesson.pdfs[3].desc}`;
+
+    pdfLIElem.appendChild(pdfLinkElem);
+    pdfULElem.appendChild(pdfLIElem);
+  }
+
+  speakingTextElem.appendChild(pdfULElem)
   readingDivElem.appendChild(readingH2Elm);
   readingDivElem.appendChild(readingTextElem);
   readingDivElem.appendChild(readingImgDiv);
+  readingDivElem.appendChild(speakingTextElem);
+
   return readingDivElem;
 }
