@@ -18,8 +18,6 @@ import { createSpeakingSection } from "./createSpeaking.js";
 import { createUnitReviewPhonics } from "./createUnitReviewPhonics.js";
 
 export function createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, lessonPhonics, lessonsData) {
-  // let heading, , , phonicsTextMessage, , phonicsAudioMessage, partNumber;
-  // let ,;
   let heading, partNumber, phonicsAudio;
 
   prodH2Elem.textContent = `Production Section`;
@@ -166,6 +164,25 @@ export function createUnitProductionSection(prodSection, prodH2Elem, lesson, boo
         }
 
       } else {
+        if (!lesson.review) {
+          prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
+          prodSection.appendChild(createElem("hr", "", ""));
+
+          prodSection.appendChild(createWritingSection(lesson, book, level, readingTextMessage));
+          prodSection.appendChild(createElem("hr", "", ""));
+
+          prodSection.appendChild(createReadingSection(lesson, book, level, readingTextMessage));
+        } else {
+          prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
+          prodSection.appendChild(createElem("hr", "", ""));
+
+          // Include Speaking section....
+          prodSection.appendChild(createReadingSection(lesson, book, level, readingTextMessage));
+          prodSection.appendChild(createElem("hr", "", ""));
+
+          prodSection.appendChild(createWritingSection(lesson, book, level, readingTextMessage));
+          prodSection.appendChild(createElem("hr", "", ""));
+        }
 
       }
 
