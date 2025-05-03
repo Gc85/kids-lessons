@@ -6,6 +6,7 @@ import { listeningTextMessage,
   phonics3TextMessage,
   phonicsPlusTextMessage,
   readingTextMessage,
+  writingTextMessage,
   audioMessage } from "./messages.js";
 
 import { createListeningSection } from "./createListening.js";
@@ -33,7 +34,6 @@ export function createUnitProductionSection(prodSection, prodH2Elem, lesson, boo
           prodSection.appendChild(createReviewPhonicsSection(lesson, level, lessonPhonics, lessonsData, type, book));
           prodSection.appendChild(createElem("hr", "", ""));
         }
-
         if (!lesson.review) {
           heading = `Today's Phonics`;
           prodSection.appendChild(createPhonics1Section(lesson, book, level, type, heading, lessonPhonics));
@@ -87,7 +87,6 @@ export function createUnitProductionSection(prodSection, prodH2Elem, lesson, boo
           prodSection.appendChild(createReviewPhonicsSection(lesson, level, lessonPhonics, lessonsData, type, book));
           prodSection.appendChild(createElem("hr", "", ""));
         }
-
         if (!lesson.review) {
           heading = `Today's Phonics`;
           prodSection.appendChild(createPhonics1Section(lesson, book, level, type, heading, lessonPhonics));
@@ -140,7 +139,6 @@ export function createUnitProductionSection(prodSection, prodH2Elem, lesson, boo
           prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
           prodSection.appendChild(createElem("hr", "", ""));
         }
-
       }
       break;
     case "3":
@@ -162,13 +160,12 @@ export function createUnitProductionSection(prodSection, prodH2Elem, lesson, boo
 
           prodSection.appendChild(createWritingSection(lesson, book, level, readingTextMessage));
         }
-
       } else {
         if (!lesson.review) {
           prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
           prodSection.appendChild(createElem("hr", "", ""));
 
-          prodSection.appendChild(createWritingSection(lesson, book, level, readingTextMessage));
+          prodSection.appendChild(createWritingSection(lesson, book, level, writingTextMessage));
           prodSection.appendChild(createElem("hr", "", ""));
 
           prodSection.appendChild(createReadingSection(lesson, book, level, readingTextMessage));
@@ -176,16 +173,12 @@ export function createUnitProductionSection(prodSection, prodH2Elem, lesson, boo
           prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
           prodSection.appendChild(createElem("hr", "", ""));
 
-          // Include Speaking section....
           prodSection.appendChild(createReadingSection(lesson, book, level, readingTextMessage));
           prodSection.appendChild(createElem("hr", "", ""));
 
-          prodSection.appendChild(createWritingSection(lesson, book, level, readingTextMessage));
-          prodSection.appendChild(createElem("hr", "", ""));
+          prodSection.appendChild(createWritingSection(lesson, book, level, writingTextMessage));
         }
-
       }
-
       break;
     default:
       break;

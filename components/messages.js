@@ -38,6 +38,12 @@ export const readingTextMessage = [
   `<b>Aim:</b> <em>Practice reading comprehension with students.</em>`
 ];
 
+export const writingTextMessage = [
+  `<b>Let's practice today's question and answer!</b>`,
+  ``,
+  `<b>Aim:</b> <em>Present and practice the question and answer of today's lesson.</em>`
+];
+
 export const audioMessage = [
   `<em>Pause audio after each answer. Confirm correct answer before continuing.</em>`
 ];
