@@ -9,7 +9,7 @@ export function createReadingSection(lesson, book, level, textMessage) {
   const readingTextElem = createElem('p', 'main-text', '');
   readingTextElem.innerHTML = textMessage.join('<br>');
 
-  const lenImages = lesson.listeningImages.length;
+  const lenImages = lesson.readingImages.length;
   lesson.readingImages.forEach((readingItem) => {
     let readingImgElem;
     (lenImages > 1) ? readingImgElem = createElem('img', 'image-medium', '') : readingImgElem = createElem('img', 'image-big', '');
@@ -36,7 +36,7 @@ export function createReadingSection(lesson, book, level, textMessage) {
     pdfULElem.appendChild(pdfLIElem);
   }
 
-  speakingTextElem.appendChild(pdfULElem)
+  speakingTextElem.appendChild(pdfULElem);
   readingDivElem.appendChild(readingH2Elm);
   readingDivElem.appendChild(readingTextElem);
   readingDivElem.appendChild(readingImgDiv);
