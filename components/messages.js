@@ -38,6 +38,12 @@ export const readingTextMessage = [
   `<b>Aim:</b> <em>Practice reading comprehension with students.</em>`
 ];
 
+export const speakingTextMessage = [
+  `<b>Let's practice reading!</b>`,
+  ``,
+  `<b>Aim:</b> <em>Practice speaking with students, then have students ask and answer with each other.</em>`
+];
+
 export const writingTextMessage = [
   `<b>Let's practice today's question and answer!</b>`,
   ``,
