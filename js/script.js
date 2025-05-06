@@ -10,28 +10,13 @@ import { createGoodbyeSongSection } from '../components/createGoodbyeSong.js';
 // Presentation Section
 import { createUnitPresentationSection } from '../components/createUnitPresentationSection.js';
 import { getLessonVocabulary } from '../components/getLessonVocabulary.js';
-
-// Review lessons - WIP
-// import { createPictureSpeculationSection } from '../components/createPictureSpeculation.js';
-
+import { getLessonPhonics } from '../components/getLessonPhonics.js';
 
 // Games
 // import { createGamesSection } from '../components/createGames.js';
 
 // Production Section
 import { createUnitProductionSection } from '../components/createUnitProductionSection.js';
-
-
-// import { createListeningSection } from '../components/createListening.js';
-import { getLessonPhonics5 } from '../components/getLessonPhonics5.js';
-// import { getLessonPhonics4 } from '../components/getLessonPhonics4.js';
-// import { getLessonPlusPhonics } from '../components/getLessonPlusPhonics.js';
-// import { createReviewPhonicsSection } from '../components/createReviewPhonics.js';
-// import { createPhonics1Section } from '../components/createPhonics1.js';
-// import { createPhonics2Section } from '../components/createPhonics2.js';
-// import { createReadingSection } from '../components/createReading.js';
-
-// import { createUnitReviewPhonics } from '../components/createUnitReviewPhonics.js';
 
 import { createGoodbyeSection } from '../components/createGoodbye.js';
 
@@ -42,9 +27,6 @@ async function loadLesson() {
   const type = getSelectedRadioValue('type');
   const book = getSelectedRadioValue('book');
 
-  // const level = document.getElementById('level').value;
-  // const type = document.getElementById('type').value;
-  // const book = document.getElementById('book').value;
   const lessonIndex = document.getElementById('lesson').value;
 
   if (lessonsData[level] && lessonsData[level][type] && lessonsData[level][type][book]) {
@@ -83,9 +65,7 @@ async function loadLesson() {
 
       const bq = await getBasicQuestions();
       const vocab = await getLessonVocabulary(book, level, type);
-      const lessonPhonics = await getLessonPhonics5(book, level);
-      // const phonicsFor4 = await getLessonPhonics4(book, level);
-      // const plusPhonics = await getLessonPlusPhonics(book, level);
+      const lessonPhonics = await getLessonPhonics(book, level);
 
       // ***************************************************************************************************** //
       // Warmup Section
