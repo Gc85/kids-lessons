@@ -6,20 +6,18 @@ import { listeningTextMessage,
   phonics3TextMessage,
   phonicsPlusTextMessage,
   readingTextMessage,
+  speakingTextMessage,
   writingTextMessage,
   audioMessage } from "./messages.js";
 
-import { createListeningSection } from "./createListening.js";
 import { createReviewPhonicsSection } from "./createReviewPhonics.js";
 import { createPhonics1Section } from "./createPhonics1.js";
 import { createPhonics2Section } from "./createPhonics2.js";
-import { createReadingSection } from "./createReading.js";
-import { createWritingSection } from "./createWriting.js";
-import { createSpeakingSection } from "./createSpeaking.js";
+import { createLisReadSpeakWriteSection } from "./createLisReadSpeakWrite.js";
 import { createUnitReviewPhonics } from "./createUnitReviewPhonics.js";
 
 export function createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, lessonPhonics, lessonsData) {
-  let heading, partNumber, phonicsAudio;
+  let heading, partNumber, phonicsAudio, blockType;
 
   prodH2Elem.textContent = `Production Section`;
   prodSection.appendChild(prodH2Elem);
@@ -27,7 +25,8 @@ export function createUnitProductionSection(prodSection, prodH2Elem, lesson, boo
   switch (level) {
     case "5":
       if (type !== "Plus") {
-        prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
+        blockType = `Listening`;
+        prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, listeningTextMessage, audioMessage));
         prodSection.appendChild(createElem("hr", "", ""));
 
         if (lesson.lessonNumber % 4 !== 1) {
@@ -72,15 +71,18 @@ export function createUnitProductionSection(prodSection, prodH2Elem, lesson, boo
           prodSection.appendChild(createUnitReviewPhonics(lesson, book, level, heading, phonicsPlusTextMessage, audioMessage, lesson.phonics1Images, phonicsAudio));
           prodSection.appendChild(createElem("hr", "", ""));
         }
-        prodSection.appendChild(createReadingSection(lesson, book, level, readingTextMessage));
+        blockType = `Reading`;
+        prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, readingTextMessage, audioMessage));
         prodSection.appendChild(createElem("hr", "", ""));
 
-        prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
+        blockType = `Listening`;
+        prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, listeningTextMessage, audioMessage));
       }
       break;
     case "4":
       if (type !== "Plus") {
-        prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
+        blockType = `Listening`;
+        prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, listeningTextMessage, audioMessage));
         prodSection.appendChild(createElem("hr", "", ""));
 
         if (lesson.lessonNumber % 4 !== 1) {
@@ -124,19 +126,23 @@ export function createUnitProductionSection(prodSection, prodH2Elem, lesson, boo
           prodSection.appendChild(createPhonics1Section(lesson, book, level, type, heading, lessonPhonics));
           prodSection.appendChild(createElem("hr", "", ""));
 
-          prodSection.appendChild(createReadingSection(lesson, book, level, readingTextMessage));
+          blockType = `Reading`;
+          prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, readingTextMessage, audioMessage));
           prodSection.appendChild(createElem("hr", "", ""));
 
-          prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
+          blockType = `Listening`;
+          prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, listeningTextMessage, audioMessage));
           prodSection.appendChild(createElem("hr", "", ""));
         } else {
           prodSection.appendChild(createReviewPhonicsSection(lesson, level, lessonPhonics, lessonsData, type, book));
           prodSection.appendChild(createElem("hr", "", ""));
 
-          prodSection.appendChild(createReadingSection(lesson, book, level, readingTextMessage));
+          blockType = `Reading`;
+          prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, readingTextMessage, audioMessage));
           prodSection.appendChild(createElem("hr", "", ""));
 
-          prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
+          blockType = `Listening`;
+          prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, listeningTextMessage, audioMessage));
           prodSection.appendChild(createElem("hr", "", ""));
         }
       }
@@ -144,39 +150,51 @@ export function createUnitProductionSection(prodSection, prodH2Elem, lesson, boo
     case "3":
       if (type !== "Plus") {
         if (!lesson.review) {
-          prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
+          blockType = `Listening`;
+          prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, listeningTextMessage, audioMessage));
           prodSection.appendChild(createElem("hr", "", ""));
 
-          prodSection.appendChild(createWritingSection(lesson, book, level, readingTextMessage));
+          blockType = `Writing`;
+          prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, writingTextMessage, audioMessage));
           prodSection.appendChild(createElem("hr", "", ""));
 
-          prodSection.appendChild(createReadingSection(lesson, book, level, readingTextMessage));
+          blockType = `Reading`;
+          prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, readingTextMessage, audioMessage));
         } else {
-          prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
+          blockType = `Listening`;
+          prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, listeningTextMessage, audioMessage));
           prodSection.appendChild(createElem("hr", "", ""));
 
-          prodSection.appendChild(createSpeakingSection(lesson, book, level, readingTextMessage));
+          blockType = `Speaking`;
+          prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, speakingTextMessage, audioMessage));
           prodSection.appendChild(createElem("hr", "", ""));
 
-          prodSection.appendChild(createWritingSection(lesson, book, level, readingTextMessage));
+          blockType = `Writing`;
+          prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, writingTextMessage, audioMessage));
         }
       } else {
         if (!lesson.review) {
-          prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
+          blockType = `Listening`;
+          prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, listeningTextMessage, audioMessage));
           prodSection.appendChild(createElem("hr", "", ""));
 
-          prodSection.appendChild(createWritingSection(lesson, book, level, writingTextMessage));
+          blockType = `Writing`;
+          prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, writingTextMessage, audioMessage));
           prodSection.appendChild(createElem("hr", "", ""));
 
-          prodSection.appendChild(createReadingSection(lesson, book, level, readingTextMessage));
+          blockType = `Reading`;
+          prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, readingTextMessage, audioMessage));
         } else {
-          prodSection.appendChild(createListeningSection(lesson, book, level, listeningTextMessage, audioMessage));
+          blockType = `Listening`;
+          prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, listeningTextMessage, audioMessage));
           prodSection.appendChild(createElem("hr", "", ""));
 
-          prodSection.appendChild(createReadingSection(lesson, book, level, readingTextMessage));
+          blockType = `Reading`;
+          prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, readingTextMessage, audioMessage));
           prodSection.appendChild(createElem("hr", "", ""));
 
-          prodSection.appendChild(createWritingSection(lesson, book, level, writingTextMessage));
+          blockType = `Writing`;
+          prodSection.appendChild(createLisReadSpeakWriteSection(lesson, blockType, book, level, writingTextMessage, audioMessage));
         }
       }
       break;
