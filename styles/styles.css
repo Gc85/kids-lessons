@@ -162,3 +162,17 @@ a { text-decoration: none; }
 .arrow {
 	font-size: 1.2em;
 }
+
+.clickable-heading {
+  cursor: pointer;
+  color: #1e90ff;
+  transition: color 0.2s ease-in-out;
+}
+
+.clickable-heading:hover {
+  color: #ff4500;
+}
+
+.game-name, .game-aim {
+	margin: 0;
+}

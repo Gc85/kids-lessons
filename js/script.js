@@ -13,7 +13,7 @@ import { getLessonVocabulary } from '../components/getLessonVocabulary.js';
 import { getLessonPhonics } from '../components/getLessonPhonics.js';
 
 // Games
-// import { createGamesSection } from '../components/createGames.js';
+import { createVocabGamesSection, addMainGameSection } from '../components/createVocabGames.js';
 
 // Production Section
 import { createUnitProductionSection } from '../components/createUnitProductionSection.js';
@@ -85,17 +85,10 @@ async function loadLesson() {
         lessonElem.appendChild(presentationSection);
 
         // Add Games section - WIP
-        addMainGameSection(gameH2Elem, gameSection, mainGameDivElem, lessonElem);
+        addMainGameSection(lesson, lessonsData, level, type, book, gameH2Elem, gameSection, mainGameDivElem, lessonElem);
 
         // Create Unit Production Section for lessons 1 - 3 of each Unit
         createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, lessonPhonics, lessonsData);
-
-        // Games to be added...
-        if (level !== "3") {
-          prodDivElem.innerHTML = `Phonics Practice Games<br>Tic Tac Toe ABC<br>Memory ABC<br><br>Vocab Games<br>Rotate and Stop<br>Tic Tac Toe<br>Memory`;
-          prodSection.appendChild(prodDivElem);
-        }
-        lessonElem.appendChild(prodSection);
       } else {
         // Section for all Review lessons
         for (const reviewLesson of lesson.reviewLessons) {
@@ -116,16 +109,11 @@ async function loadLesson() {
 
         // ***************************************************************************************************** //
 
-        addMainGameSection(gameH2Elem, gameSection, mainGameDivElem, lessonElem);
+        addMainGameSection(lesson, lessonsData, level, type, book, gameH2Elem, gameSection, mainGameDivElem, lessonElem);
 
         // ***************************************************************************************************** //
 
         createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, lessonPhonics, lessonsData);
-        if (level !== "3") {
-          prodDivElem.innerHTML = `Phonics Practice Games<br>Tic Tac Toe ABC<br>Memory ABC<br><br>Vocab Games<br>Rotate and Stop<br>Tic Tac Toe<br>Memory`;
-          prodSection.appendChild(prodDivElem);
-        }
-        lessonElem.appendChild(prodSection);
       }
 
       // Warm Down Section
@@ -134,8 +122,7 @@ async function loadLesson() {
 
       const warmDownDivElem = createElem('div', 'div-warm-down-game', '');
 
-      // load('Uncover', null, 2, 8, null, null, true);
-      // warmDownDivElem.appendChild(createGamesSection('div-uncover', 'Uncover'));
+      warmDownDivElem.appendChild(createVocabGamesSection(lesson, lessonsData, level, type, book, 'Kids-Uncover'));
       warmDownDivElem.appendChild(createElem('hr', '', ''));
 
       warmDownSection.appendChild(warmDownDivElem);
@@ -204,40 +191,4 @@ document.getElementById('back-to-top').addEventListener('click', function() {
   });
 });
 
-function addMainGameSection(gameH2Elem, gameSection, mainGameDivElem, lessonElem) {
-  // Game Section - WIP
 
-  gameH2Elem.textContent = `Game Section - WIP`;
-  gameSection.appendChild(gameH2Elem);
-
-  // load('Uncover', null, 2, 8, null, null, true);
-  // mainGameDivElem.appendChild(createGamesSection('div-uncover', 'Uncover'));
-  mainGameDivElem.appendChild(createElem('hr', '', ''));
-
-  // load('Shuffle', null, 2, 8, null, null, true);
-  // mainGameDivElem.appendChild(createGamesSection('div-shuffle', 'Shuffle'));
-  mainGameDivElem.appendChild(createElem('hr', '', ''));
-
-  // load('Wheel', null, 2, 7, null, null, true);
-  // mainGameDivElem.appendChild(createGamesSection('div-wheel', 'Wheel'));
-  mainGameDivElem.appendChild(createElem('hr', '', ''));
-
-  // load('Afloat', null, 2, 7, null, null, true);
-  // mainGameDivElem.appendChild(createGamesSection('div-afloat', 'Afloat'));
-  mainGameDivElem.appendChild(createElem('hr', '', ''));
-
-  // load('Cannon', null, 2, 7, null, null, true);
-  // mainGameDivElem.appendChild(createGamesSection('div-cannon', 'Cannon'));
-  mainGameDivElem.appendChild(createElem('hr', '', ''));
-
-  // load('Rotate and Stop', null, 2, 8, null, null, true);
-  // mainGameDivElem.appendChild(createGamesSection('div-rotate', 'Rotate and Stop'));
-  mainGameDivElem.appendChild(createElem('hr', '', ''));
-
-  // load('Yes or No?', null, 2, 8, null, null, true);
-  // mainGameDivElem.appendChild(createGamesSection('div-yes-or-no', 'Yes or No?'));
-
-  gameSection.appendChild(mainGameDivElem);
-
-  lessonElem.appendChild(gameSection);
-}

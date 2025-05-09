@@ -89,12 +89,4 @@ export function createLisReadSpeakWriteSection(lesson, blockType, book, level, t
   }
 
   return blockDivElem;
-
-
-
 }
-
-// createListeningSection(lesson, book, level, textMessage, audioMessage)
-// createReadingSection(lesson, book, level, textMessage)
-// createWritingSection(lesson, book, level, textMessage)
-// createSpeakingSection(lesson, book, level, textMessage)
