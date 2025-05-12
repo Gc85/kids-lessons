@@ -1,6 +1,3 @@
-import { createElem } from "./utils.js";
-import { createHeading } from "./createHeading.js";
-
 export function createListeningSection(lesson, book, level, textMessage, audioMessage) {
   const listeningDivElem = createElem('div', 'div-opening', '');
   const listeningH2Elm = createHeading(lesson, `Listening Quiz`, '2', '2');
