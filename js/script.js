@@ -1,6 +1,6 @@
 import { fetchLessons, lessonsData } from '../components/fetchLessons.js';
 import { populateLessons } from "../components/populateLessons.js";
-import { createElem, createPopup, getSelectedRadioValue } from '../components/utils.js';
+import { createElem, createPopup, getSelectedRadioValue, createSegueVideo } from '../components/utils.js';
 
 // Warmup Section
 import { createUnitWarmupSection } from '../components/createUnitWarmupSection.js';
@@ -89,6 +89,8 @@ async function loadLesson() {
 
         // Create Unit Production Section for lessons 1 - 3 of each Unit
         createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, lessonPhonics, lessonsData);
+        lessonElem.appendChild(prodSection);
+
       } else {
         // Section for all Review lessons
         for (const reviewLesson of lesson.reviewLessons) {
@@ -114,6 +116,7 @@ async function loadLesson() {
         // ***************************************************************************************************** //
 
         createUnitProductionSection(prodSection, prodH2Elem, lesson, book, level, type, lessonPhonics, lessonsData);
+        lessonElem.appendChild(prodSection);
       }
 
       // Warm Down Section
@@ -127,6 +130,10 @@ async function loadLesson() {
 
       warmDownSection.appendChild(warmDownDivElem);
       warmDownSection.appendChild(createGoodbyeSection(lesson));
+
+      const closingSeguePElem = createElem('p', 'flex-div margin-5-0', '');
+      closingSeguePElem.appendChild(createSegueVideo(`Closing`));
+      warmDownSection.appendChild(closingSeguePElem);
 
       lessonElem.appendChild(warmDownSection);
 

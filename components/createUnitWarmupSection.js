@@ -1,4 +1,4 @@
-import { createElem } from "./utils.js";
+import { createElem, createSegueVideo } from "./utils.js";
 
 import { createGreetingSection } from '../components/createGreeting.js';
 import { createPDFLinksSection } from '../components/createPDFLinks.js';
@@ -11,6 +11,10 @@ export function createUnitWarmupSection(warmupSection, warmupH2Elem, lesson, boo
   let message;
   warmupH2Elem.textContent = `Warmup Section`;
   warmupSection.appendChild(warmupH2Elem);
+  const openingSeguePElem = createElem('p', 'flex-div margin-5-0', '');
+
+  openingSeguePElem.appendChild(createSegueVideo(`Opening`));
+  warmupSection.appendChild(openingSeguePElem);
 
   message = [
     `<b>Hello, my name's (Joe).`,
