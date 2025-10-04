@@ -1,0 +1,371 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "3a01-V01",
+			"name": "funniest"
+		},
+		{
+			"id": "3a01-V02",
+			"name": "most exciting"
+		},
+		{
+			"id": "3a01-V03",
+			"name": "saddest"
+		},
+		{
+			"id": "3a01-V04",
+			"name": "scariest"
+		},
+		{
+			"id": "3a01-V05",
+			"name": "worst"
+		},
+		{
+			"id": "3a02-V01",
+			"name": "cheese"
+		},
+		{
+			"id": "3a02-V02",
+			"name": "mayonnaise"
+		},
+		{
+			"id": "3a02-V03",
+			"name": "onion"
+		},
+		{
+			"id": "3a02-V04",
+			"name": "pickles"
+		},
+		{
+			"id": "3a02-V05",
+			"name": "tomato"
+		},
+		{
+			"id": "3a03-V01",
+			"name": "cookies"
+		},
+		{
+			"id": "3a03-V02",
+			"name": "flowers"
+		},
+		{
+			"id": "3a03-V03",
+			"name": "soap"
+		},
+		{
+			"id": "3a03-V04",
+			"name": "look / looks"
+		},
+		{
+			"id": "3a03-V05",
+			"name": "smell / smells"
+		},
+		{
+			"id": "3a03-V06",
+			"name": "taste / tastes"
+		},
+		{
+			"id": "3a05-V01",
+			"name": "backpack / camping"
+		},
+		{
+			"id": "3a05-V02",
+			"name": "bike / cycling"
+		},
+		{
+			"id": "3a05-V03",
+			"name": "fishing rod / fishing"
+		},
+		{
+			"id": "3a05-V04",
+			"name": "goggles / skiing"
+		},
+		{
+			"id": "3a05-V05",
+			"name": "swim ring / swimming"
+		},
+		{
+			"id": "3a06-V01",
+			"name": "biggest lake"
+		},
+		{
+			"id": "3a06-V02",
+			"name": "biggest prefecture"
+		},
+		{
+			"id": "3a06-V03",
+			"name": "highest mountain"
+		},
+		{
+			"id": "3a06-V04",
+			"name": "longest river"
+		},
+		{
+			"id": "3a06-V05",
+			"name": "smallest prefecture"
+		},
+		{
+			"id": "3a07-V01",
+			"name": "a beautiful shell"
+		},
+		{
+			"id": "3a07-V02",
+			"name": "a colorful feather"
+		},
+		{
+			"id": "3a07-V03",
+			"name": "a huge leaf"
+		},
+		{
+			"id": "3a07-V04",
+			"name": "an interesting rock"
+		},
+		{
+			"id": "3a07-V05",
+			"name": "a tiny bug"
+		},
+		{
+			"id": "3a09-V01",
+			"name": "bookstore / a magazine"
+		},
+		{
+			"id": "3a09-V02",
+			"name": "department store / some socks"
+		},
+		{
+			"id": "3a09-V03",
+			"name": "pet store / a goldfish"
+		},
+		{
+			"id": "3a09-V04",
+			"name": "stationary store / some pens"
+		},
+		{
+			"id": "3a09-V05",
+			"name": "supermarket / some candy"
+		},
+		{
+			"id": "3a10-V01",
+			"name": "this T-shirt / a small"
+		},
+		{
+			"id": "3a10-V02",
+			"name": "this skirt / a medium"
+		},
+		{
+			"id": "3a10-V03",
+			"name": "these shorts / a large"
+		},
+		{
+			"id": "3a10-V04",
+			"name": "this hat / red"
+		},
+		{
+			"id": "3a10-V05",
+			"name": "these shoes / white"
+		},
+		{
+			"id": "3a11-V01",
+			"name": "a poster"
+		},
+		{
+			"id": "3a11-V02",
+			"name": "a stuffed animal"
+		},
+		{
+			"id": "3a11-V03",
+			"name": "a T-shirt"
+		},
+		{
+			"id": "3a11-V04",
+			"name": "some chocolates"
+		},
+		{
+			"id": "3a11-V05",
+			"name": "some cookies"
+		},
+		{
+			"id": "3a13-V01",
+			"name": "around the corner"
+		},
+		{
+			"id": "3a13-V02",
+			"name": "over the river"
+		},
+		{
+			"id": "3a13-V03",
+			"name": "past the gas station"
+		},
+		{
+			"id": "3a13-V04",
+			"name": "through the tunnel"
+		},
+		{
+			"id": "3a13-V05",
+			"name": "under the bridge"
+		},
+		{
+			"id": "3a14-V01",
+			"name": "lock your bike"
+		},
+		{
+			"id": "3a14-V02",
+			"name": "put on sunscreen"
+		},
+		{
+			"id": "3a14-V03",
+			"name": "put on your helmet"
+		},
+		{
+			"id": "3a14-V04",
+			"name": "tie your shoelaces"
+		},
+		{
+			"id": "3a14-V05",
+			"name": "wash your hands"
+		},
+		{
+			"id": "3a15-V01",
+			"name": "her bike / knee"
+		},
+		{
+			"id": "3a15-V02",
+			"name": "his skateboard / hand"
+		},
+		{
+			"id": "3a15-V03",
+			"name": "the jungle gym / foot"
+		},
+		{
+			"id": "3a15-V04",
+			"name": "the monkey bars / shoulder"
+		},
+		{
+			"id": "3a15-V05",
+			"name": "the swing / elbow"
+		},
+		{
+			"id": "3a17-V01",
+			"name": "call Grandma"
+		},
+		{
+			"id": "3a17-V02",
+			"name": "go shopping"
+		},
+		{
+			"id": "3a17-V03",
+			"name": "go to the park"
+		},
+		{
+			"id": "3a17-V04",
+			"name": "make jello"
+		},
+		{
+			"id": "3a17-V05",
+			"name": "see a movie"
+		},
+		{
+			"id": "3a18-V01",
+			"name": "doing face painting"
+		},
+		{
+			"id": "3a18-V02",
+			"name": "going to the fireworks display"
+		},
+		{
+			"id": "3a18-V03",
+			"name": "performing at the festival"
+		},
+		{
+			"id": "3a18-V04",
+			"name": "playing cello at the concert"
+		},
+		{
+			"id": "3a18-V05",
+			"name": "speaking at the ceremony"
+		},
+		{
+			"id": "3a19-V01",
+			"name": "ride my bike"
+		},
+		{
+			"id": "3a19-V02",
+			"name": "ride my scooter"
+		},
+		{
+			"id": "3a19-V03",
+			"name": "take the bus"
+		},
+		{
+			"id": "3a19-V04",
+			"name": "take the train"
+		},
+		{
+			"id": "3a19-V05",
+			"name": "walk"
+		},
+		{
+			"id": "3a21-V01",
+			"name": "baking"
+		},
+		{
+			"id": "3a21-V02",
+			"name": "fishing"
+		},
+		{
+			"id": "3a21-V03",
+			"name": "playing catch"
+		},
+		{
+			"id": "3a21-V04",
+			"name": "singing"
+		},
+		{
+			"id": "3a21-V05",
+			"name": "watching tv"
+		},
+		{
+			"id": "3a22-V01",
+			"name": "a chef / cooking"
+		},
+		{
+			"id": "3a22-V02",
+			"name": "a conductor / music"
+		},
+		{
+			"id": "3a22-V03",
+			"name": "a designer / fashion"
+		},
+		{
+			"id": "3a22-V04",
+			"name": "an engineer / math"
+		},
+		{
+			"id": "3a22-V05",
+			"name": "a zookeeper / animals"
+		},
+		{
+			"id": "3a23-V01",
+			"name": "lost the game"
+		},
+		{
+			"id": "3a23-V02",
+			"name": "set a new record"
+		},
+		{
+			"id": "3a23-V03",
+			"name": "won a ___ medal"
+		},
+		{
+			"id": "3a23-V04",
+			"name": "won ___ prize"
+		},
+		{
+			"id": "3a23-V05",
+			"name": "won the game"
+		}
+	],
+	"meta": {
+		"base-path": "./CL3a/media/"
+	}
+}

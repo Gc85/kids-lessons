@@ -1,0 +1,103 @@
+{
+  "phonicsCards": [
+		{
+			"id": "ke01-PH",
+			"name": "Big A says A, a, alphabet.<br>Big A says A, a, angry."
+		},
+		{
+			"id": "ke02-PH",
+			"name": "Big B says B, b, boat.<br>Big B says B, b, bird."
+		},
+		{
+			"id": "ke03-PH",
+			"name": "Big C says C, c, cloud.<br>Big C says C, c, caterpillar."
+		},
+		{
+			"id": "ke04-PH",
+			"name": "Big D says D, d, Dara.<br>Big D says D, d, diamond."
+		},
+		{
+			"id": "ke05-PH",
+			"name": "Big E says E, e, eggplant.<br>Big E says E, e, escape."
+		},
+		{
+			"id": "ke06-PH",
+			"name": "Big F says F, f, face.<br>Big F says F, f, fur."
+		},
+		{
+			"id": "ke07-PH",
+			"name": "Big G says G, g, Gavin.<br>Big G says G, g, goldfish."
+		},
+		{
+			"id": "ke08-PH",
+			"name": "Big H says H, h, house.<br>Big H says H, h, heart."
+		},
+		{
+			"id": "ke09-PH",
+			"name": "Big I says I, i, Izzy.<br>Big I says I, i, into."
+		},
+		{
+			"id": "ke10-PH",
+			"name": "Big J says J, j, jug.<br>Big J says J, j, jelly."
+		},
+		{
+			"id": "ke11-PH",
+			"name": "Big K says K, k, king.<br>Big K says K, k, kangaroo."
+		},
+		{
+			"id": "ke12-PH",
+			"name": "Big L says L, l, lamp.<br>Big L says L, l, ladle."
+		},
+		{
+			"id": "ke13-PH",
+			"name": "Big M says M, m, mouse.<br>Big M says M, m, mouth."
+		},
+		{
+			"id": "ke14-PH",
+			"name": "Big N says N, n, nature.<br>Big N says N, n, nail."
+		},
+		{
+			"id": "ke15-PH",
+			"name": "Big O says O, o, otter.<br>Big O says O, o, orange."
+		},
+		{
+			"id": "ke16-PH",
+			"name": "Big P says P, p, potato.<br>Big P says P, p, puddle."
+		},
+		{
+			"id": "ke17-PH",
+			"name": "Big Q says Q, q, quiet.<br>Big Q says Q, q, square."
+		},
+		{
+			"id": "ke18-PH",
+			"name": "Big R says R, r, rainbow.<br>Big R says R, r, roof."
+		},
+		{
+			"id": "ke19-PH",
+			"name": "Big S says S, s, stretch.<br>Big S says S, s, sky."
+		},
+		{
+			"id": "ke20-PH",
+			"name": "Big T says T, t, teacher.<br>Big T says T, t, tree."
+		},
+		{
+			"id": "ke21-PH",
+			"name": "Big U says U, u, umbrella.<br>Big U says U, u, unpack."
+		},
+		{
+			"id": "ke22-PH",
+			"name": "Big V says V, v, vanilla.<br>Big V says V, v, van."
+		},
+		{
+			"id": "ke23-PH",
+			"name": "Big W says W, w, Wei.<br>Big X says X, x, box."
+		},
+		{
+			"id": "ke24-PH",
+			"name": "Big Y says Y, y, Yanis.<br>Big Z says Z, z, zebra."
+		}
+  ],
+	"meta": {
+		"base-path": "./ke/media/"
+	}
+}

@@ -1,0 +1,387 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "3f01-V01",
+			"name": "animals"
+		},
+		{
+			"id": "3f01-V02",
+			"name": "bikes"
+		},
+		{
+			"id": "3f01-V03",
+			"name": "clothes"
+		},
+		{
+			"id": "3f01-V04",
+			"name": "magazines"
+		},
+		{
+			"id": "3f01-V05",
+			"name": "shoes"
+		},
+		{
+			"id": "3f02-V01",
+			"name": "ghosts"
+		},
+		{
+			"id": "3f02-V02",
+			"name": "vampires"
+		},
+		{
+			"id": "3f02-V03",
+			"name": "werewolves"
+		},
+		{
+			"id": "3f02-V04",
+			"name": "witches"
+		},
+		{
+			"id": "3f02-V05",
+			"name": "zombies"
+		},
+		{
+			"id": "3f03-V01",
+			"name": "in the front"
+		},
+		{
+			"id": "3f03-V02",
+			"name": "in the middle"
+		},
+		{
+			"id": "3f03-V03",
+			"name": "in the back"
+		},
+		{
+			"id": "3f03-V04",
+			"name": "on the left"
+		},
+		{
+			"id": "3f03-V05",
+			"name": "on the right"
+		},
+		{
+			"id": "3f05-V01",
+			"name": "doing my homework"
+		},
+		{
+			"id": "3f05-V02",
+			"name": "going home"
+		},
+		{
+			"id": "3f05-V03",
+			"name": "going out for dinner"
+		},
+		{
+			"id": "3f05-V04",
+			"name": "going to music club"
+		},
+		{
+			"id": "3f05-V05",
+			"name": "playing with my friends"
+		},
+		{
+			"id": "3f06-V01",
+			"name": "in the art club"
+		},
+		{
+			"id": "3f06-V02",
+			"name": "in the choir"
+		},
+		{
+			"id": "3f06-V03",
+			"name": "in the math club"
+		},
+		{
+			"id": "3f06-V04",
+			"name": "on the badminton team"
+		},
+		{
+			"id": "3f06-V05",
+			"name": "on the swim team"
+		},
+		{
+			"id": "3f07-V01",
+			"name": "call my mom"
+		},
+		{
+			"id": "3f07-V02",
+			"name": "go home"
+		},
+		{
+			"id": "3f07-V03",
+			"name": "meet a friend"
+		},
+		{
+			"id": "3f07-V04",
+			"name": "use the bathroom"
+		},
+		{
+			"id": "3f07-V05",
+			"name": "wash my hands"
+		},
+		{
+			"id": "3f09-V01",
+			"name": "my hairbrush"
+		},
+		{
+			"id": "3f09-V02",
+			"name": "my hair dryer"
+		},
+		{
+			"id": "3f09-V03",
+			"name": "my toothbrush"
+		},
+		{
+			"id": "3f09-V04",
+			"name": "shampoo"
+		},
+		{
+			"id": "3f09-V05",
+			"name": "toothpaste"
+		},
+		{
+			"id": "3f10-V01",
+			"name": "horseback riding"
+		},
+		{
+			"id": "3f10-V02",
+			"name": "kayaking"
+		},
+		{
+			"id": "3f10-V03",
+			"name": "mountain biking"
+		},
+		{
+			"id": "3f10-V04",
+			"name": "sandboarding"
+		},
+		{
+			"id": "3f10-V05",
+			"name": "snorkeling"
+		},
+		{
+			"id": "3f11-V01",
+			"name": "that constellation"
+		},
+		{
+			"id": "3f11-V02",
+			"name": "that planet"
+		},
+		{
+			"id": "3f11-V03",
+			"name": "the meteor shower"
+		},
+		{
+			"id": "3f11-V04",
+			"name": "the moon"
+		},
+		{
+			"id": "3f11-V05",
+			"name": "the stars"
+		},
+		{
+			"id": "3f13-V01",
+			"name": "books"
+		},
+		{
+			"id": "3f13-V02",
+			"name": "clothes"
+		},
+		{
+			"id": "3f13-V03",
+			"name": "DVDs"
+		},
+		{
+			"id": "3f13-V04",
+			"name": "toys"
+		},
+		{
+			"id": "3f13-V05",
+			"name": "video games"
+		},
+		{
+			"id": "3f14-V01",
+			"name": "bath towel"
+		},
+		{
+			"id": "3f14-V02",
+			"name": "blanket"
+		},
+		{
+			"id": "3f14-V03",
+			"name": "jacket"
+		},
+		{
+			"id": "3f14-V04",
+			"name": "pillowcase"
+		},
+		{
+			"id": "3f14-V05",
+			"name": "tennis shoes"
+		},
+		{
+			"id": "3f15-V01",
+			"name": "an apple / a banana"
+		},
+		{
+			"id": "3f15-V02",
+			"name": "ham / cheese"
+		},
+		{
+			"id": "3f15-V03",
+			"name": "milk / juice"
+		},
+		{
+			"id": "3f15-V04",
+			"name": "rice / bread"
+		},
+		{
+			"id": "3f15-V05",
+			"name": "salad / yogurt"
+		},
+		{
+			"id": "3f17-V01",
+			"name": "five minutes"
+		},
+		{
+			"id": "3f17-V02",
+			"name": "ten minutes"
+		},
+		{
+			"id": "3f17-V03",
+			"name": "fifteen minutes"
+		},
+		{
+			"id": "3f17-V04",
+			"name": "twenty minutes"
+		},
+		{
+			"id": "3f17-V05",
+			"name": "thirty minutes"
+		},
+		{
+			"id": "3f18-V01",
+			"name": "bees"
+		},
+		{
+			"id": "3f18-V02",
+			"name": "centipedes"
+		},
+		{
+			"id": "3f18-V03",
+			"name": "scorpions"
+		},
+		{
+			"id": "3f18-V04",
+			"name": "snakes"
+		},
+		{
+			"id": "3f18-V05",
+			"name": "spiders"
+		},
+		{
+			"id": "3f19-V01",
+			"name": "climbing"
+		},
+		{
+			"id": "3f19-V02",
+			"name": "nursing"
+		},
+		{
+			"id": "3f19-V03",
+			"name": "playing"
+		},
+		{
+			"id": "3f19-V04",
+			"name": "sleeping"
+		},
+		{
+			"id": "3f19-V05",
+			"name": "wrestling"
+		},
+		{
+			"id": "3f21-V01",
+			"name": "ballet recital"
+		},
+		{
+			"id": "3f21-V02",
+			"name": "dance competition"
+		},
+		{
+			"id": "3f21-V03",
+			"name": "karate competition"
+		},
+		{
+			"id": "3f21-V04",
+			"name": "piano recital"
+		},
+		{
+			"id": "3f21-V05",
+			"name": "violin recital"
+		},
+		{
+			"id": "3f22-V01",
+			"name": "one"
+		},
+		{
+			"id": "3f22-V02",
+			"name": "two"
+		},
+		{
+			"id": "3f22-V03",
+			"name": "three"
+		},
+		{
+			"id": "3f22-V04",
+			"name": "four"
+		},
+		{
+			"id": "3f22-V05",
+			"name": "five"
+		},
+		{
+			"id": "3f22-V06",
+			"name": "six"
+		},
+		{
+			"id": "3f22-V07",
+			"name": "seven"
+		},
+		{
+			"id": "3f22-V08",
+			"name": "eight"
+		},
+		{
+			"id": "3f22-V09",
+			"name": "nine"
+		},
+		{
+			"id": "3f22-V10",
+			"name": "ten"
+		},
+		{
+			"id": "3f23-V01",
+			"name": "competition"
+		},
+		{
+			"id": "3f23-V02",
+			"name": "concert"
+		},
+		{
+			"id": "3f23-V03",
+			"name": "game"
+		},
+		{
+			"id": "3f23-V04",
+			"name": "movie"
+		},
+		{
+			"id": "3f23-V05",
+			"name": "recital"
+		}
+	],
+	"meta": {
+		"base-path": "./L3f/media/"
+	}
+}

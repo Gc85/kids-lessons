@@ -1,0 +1,199 @@
+{
+	"phonicsCards": [
+		{
+			"id": "4d02-P01",
+			"name": "_ _ i p"
+		},
+		{
+			"id": "4d02-P02",
+			"name": "d r i p"
+		},
+		{
+			"id": "4d02-P03",
+			"name": "_ _ u m"
+		},
+		{
+			"id": "4d02-P04",
+			"name": "d r u m"
+		},
+		{
+			"id": "4d03-P01",
+			"name": "_ _ u g"
+		},
+		{
+			"id": "4d03-P02",
+			"name": "p l u g"
+		},
+		{
+			"id": "4d03-P03",
+			"name": "_ _ u s"
+		},
+		{
+			"id": "4d03-P04",
+			"name": "p l u s"
+		},
+		{
+			"id": "4d06-P01",
+			"name": "d _ _ _"
+		},
+		{
+			"id": "4d06-P02",
+			"name": "d i c e"
+		},
+		{
+			"id": "4d06-P03",
+			"name": "r _ _ _"
+		},
+		{
+			"id": "4d06-P04",
+			"name": "r i c e"
+		},
+		{
+			"id": "4d07-P01",
+			"name": "b a _ _"
+		},
+		{
+			"id": "4d07-P02",
+			"name": "b a n k"
+		},
+		{
+			"id": "4d07-P03",
+			"name": "p i _ _"
+		},
+		{
+			"id": "4d07-P04",
+			"name": "p i n k"
+		},
+		{
+			"id": "4d10-P01",
+			"name": "f _ _ _"
+		},
+		{
+			"id": "4d10-P02",
+			"name": "f a c e"
+		},
+		{
+			"id": "4d10-P03",
+			"name": "r _ _ _"
+		},
+		{
+			"id": "4d10-P04",
+			"name": "r a c e"
+		},
+		{
+			"id": "4d11-P01",
+			"name": "d i _ _"
+		},
+		{
+			"id": "4d11-P02",
+			"name": "d i s h"
+		},
+		{
+			"id": "4d11-P03",
+			"name": "_ _ e d"
+		},
+		{
+			"id": "4d11-P04",
+			"name": "s h e d"
+		},
+		{
+			"id": "4d14-P01",
+			"name": "b _ _ f"
+		},
+		{
+			"id": "4d14-P02",
+			"name": "b e e f"
+		},
+		{
+			"id": "4d14-P03",
+			"name": "f _ _ t"
+		},
+		{
+			"id": "4d14-P04",
+			"name": "f e e t"
+		},
+		{
+			"id": "4d15-P01",
+			"name": "n _ t _"
+		},
+		{
+			"id": "4d15-P02",
+			"name": "n o t e"
+		},
+		{
+			"id": "4d15-P03",
+			"name": "r _ p _"
+		},
+		{
+			"id": "4d15-P04",
+			"name": "r o p e"
+		},
+		{
+			"id": "4d18-P01",
+			"name": "s o _ _"
+		},
+		{
+			"id": "4d18-P02",
+			"name": "s o c k"
+		},
+		{
+			"id": "4d18-P03",
+			"name": "t a _ _"
+		},
+		{
+			"id": "4d18-P04",
+			"name": "t a c k"
+		},
+		{
+			"id": "4d19-P01",
+			"name": "b e _ _"
+		},
+		{
+			"id": "4d19-P02",
+			"name": "b e l l"
+		},
+		{
+			"id": "4d19-P03",
+			"name": "h i _ _"
+		},
+		{
+			"id": "4d19-P04",
+			"name": "h i l l"
+		},
+		{
+			"id": "4d22-P01",
+			"name": "_ _ l"
+		},
+		{
+			"id": "4d22-P02",
+			"name": "o w l"
+		},
+		{
+			"id": "4d22-P03",
+			"name": "c _ _"
+		},
+		{
+			"id": "4d22-P04",
+			"name": "c o w"
+		},
+		{
+			"id": "4d23-P01",
+			"name": "b a _ _"
+		},
+		{
+			"id": "4d23-P02",
+			"name": "b a t s"
+		},
+		{
+			"id": "4d23-P03",
+			"name": "n u _ _"
+		},
+		{
+			"id": "4d23-P04",
+			"name": "n u t s"
+		}
+	],
+	"meta": {
+		"base-path": "./CL4d/media/"
+	}
+}

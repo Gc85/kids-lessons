@@ -1,0 +1,103 @@
+{
+  "phonicsCards": [
+		{
+			"id": "Kb01-PH",
+			"name": "Big A says A, a, ankle.<br>Big A says A, a, avocado."
+		},
+		{
+			"id": "Kb02-PH",
+			"name": "Big B says B, b, Baz.<br>Big B says B, b, basket."
+		},
+		{
+			"id": "Kb03-PH",
+			"name": "Big C says C, c, carrot.<br>Big C says C, c, cone."
+		},
+		{
+			"id": "Kb04-PH",
+			"name": "Big D says D, d, dish.<br>Big D says D, d, dandelion."
+		},
+		{
+			"id": "Kb05-PH",
+			"name": "Big E says E, e, eggs.<br>Big E says E, e, empty."
+		},
+		{
+			"id": "Kb06-PH",
+			"name": "Big F says F, f, feet.<br>Big F says F, f, fingers."
+		},
+		{
+			"id": "Kb07-PH",
+			"name": "Big G says G, g, glass.<br>Big G says G, g, goggles."
+		},
+		{
+			"id": "Kb08-PH",
+			"name": "Big H says H, h, hair.<br>Big H says H, h, head."
+		},
+		{
+			"id": "Kb09-PH",
+			"name": "Big I says I, i, indigo.<br>Big I says I, i, ink."
+		},
+		{
+			"id": "Kb10-PH",
+			"name": "Big J says J, j, jacket.<br>Big J says J, j, juice."
+		},
+		{
+			"id": "Kb11-PH",
+			"name": "Big K says K, k, kiwifruit.<br>Big K says K, k, key."
+		},
+		{
+			"id": "Kb12-PH",
+			"name": "Big L says L, l, lights.<br>Big L says L, l, lock."
+		},
+		{
+			"id": "Kb13-PH",
+			"name": "Big M says M, m, menu.<br>Big M says M, m, milk."
+		},
+		{
+			"id": "Kb14-PH",
+			"name": "Big N says N, n, Nia.<br>Big N says N, n, napkin."
+		},
+		{
+			"id": "Kb15-PH",
+			"name": "Big O says O, o, olive.<br>Big O says O, o, on."
+		},
+		{
+			"id": "Kb16-PH",
+			"name": "Big P says P, p, Parker.<br>Big P says P, p, pizza."
+		},
+		{
+			"id": "Kb17-PH",
+			"name": "Big Q says Q, q, queen.<br>Big Q says Q, q, Quin."
+		},
+		{
+			"id": "Kb18-PH",
+			"name": "Big R says R, r, Riley.<br>Big R says R, r, road."
+		},
+		{
+			"id": "Kb19-PH",
+			"name": "Big S says S, s, sock.<br>Big S says S, s, scissors."
+		},
+		{
+			"id": "Kb20-PH",
+			"name": "Big T says T, t, tissue.<br>Big T says T, t, tomato."
+		},
+		{
+			"id": "Kb21-PH",
+			"name": "Big U says U, u, underwater.<br>Big U says U, u, upside down."
+		},
+		{
+			"id": "Kb22-PH",
+			"name": "Big V says V, v, video.<br>Big V says V, v, volcano."
+		},
+		{
+			"id": "Kb23-PH",
+			"name": "Big W says W, w, windy.<br>Big X says X, x, relax."
+		},
+		{
+			"id": "Kb24-PH",
+			"name": "Big Y says Y, y, yard.<br>Big Z says Z, z, zero."
+		}
+  ],
+	"meta": {
+		"base-path": "./kb/media/"
+	}
+}

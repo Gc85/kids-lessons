@@ -1,0 +1,151 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "KcpS1-V01",
+			"name": "cardboard"
+		},
+		{
+			"id": "KcpS1-V02",
+			"name": "glass"
+		},
+		{
+			"id": "KcpS1-V03",
+			"name": "metal"
+		},
+		{
+			"id": "KcpS1-V04",
+			"name": "newspaper"
+		},
+		{
+			"id": "KcpS1-V05",
+			"name": "plastic"
+		},
+		{
+			"id": "KcpS1-V06",
+			"name": "wood"
+		},
+		{
+			"id": "KcpS2-V01",
+			"name": "Grandma's"
+		},
+		{
+			"id": "KcpS2-V02",
+			"name": "the beach"
+		},
+		{
+			"id": "KcpS2-V03",
+			"name": "the fair"
+		},
+		{
+			"id": "KcpS2-V04",
+			"name": "the mall"
+		},
+		{
+			"id": "KcpS2-V05",
+			"name": "the park"
+		},
+		{
+			"id": "KcpS2-V06",
+			"name": "the zoo"
+		},
+		{
+			"id": "KcpS3-V01",
+			"name": "a funny face"
+		},
+		{
+			"id": "KcpS3-V02",
+			"name": "a magic wand"
+		},
+		{
+			"id": "KcpS3-V03",
+			"name": "a red nose"
+		},
+		{
+			"id": "KcpS3-V04",
+			"name": "a top hat"
+		},
+		{
+			"id": "KcpS3-V05",
+			"name": "juggling pins"
+		},
+		{
+			"id": "KcpS3-V06",
+			"name": "long legs"
+		},
+		{
+			"id": "KcpS4-V01",
+			"name": "bread"
+		},
+		{
+			"id": "KcpS4-V02",
+			"name": "chicken"
+		},
+		{
+			"id": "KcpS4-V03",
+			"name": "ice"
+		},
+		{
+			"id": "KcpS4-V04",
+			"name": "rice"
+		},
+		{
+			"id": "KcpS4-V05",
+			"name": "shampoo"
+		},
+		{
+			"id": "KcpS4-V06",
+			"name": "tofu"
+		},
+		{
+			"id": "KcpS5-V01",
+			"name": "a spiral"
+		},
+		{
+			"id": "KcpS5-V02",
+			"name": "cone-shaped"
+		},
+		{
+			"id": "KcpS5-V03",
+			"name": "egg-shaped"
+		},
+		{
+			"id": "KcpS5-V04",
+			"name": "fan-shaped"
+		},
+		{
+			"id": "KcpS5-V05",
+			"name": "round"
+		},
+		{
+			"id": "KcpS5-V06",
+			"name": "star-shaped"
+		},
+		{
+			"id": "KcpS6-V01",
+			"name": "bath"
+		},
+		{
+			"id": "KcpS6-V02",
+			"name": "nap"
+		},
+		{
+			"id": "KcpS6-V03",
+			"name": "picture"
+		},
+		{
+			"id": "KcpS6-V04",
+			"name": "shower"
+		},
+		{
+			"id": "KcpS6-V05",
+			"name": "swim"
+		},
+		{
+			"id": "KcpS6-V06",
+			"name": "walk"
+		}
+	],
+	"meta": {
+		"base-path": "./Kcp/media/"
+	}
+}

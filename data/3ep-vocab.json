@@ -1,0 +1,387 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "3ep01-V01",
+			"name": "behind / bookshelf"
+		},
+		{
+			"id": "3ep01-V02",
+			"name": "next to / computer"
+		},
+		{
+			"id": "3ep01-V03",
+			"name": "on / table"
+		},
+		{
+			"id": "3ep01-V04",
+			"name": "on top of / cabinet"
+		},
+		{
+			"id": "3ep01-V05",
+			"name": "under / chair"
+		},
+		{
+			"id": "3ep02-V01",
+			"name": "braver"
+		},
+		{
+			"id": "3ep02-V02",
+			"name": "faster"
+		},
+		{
+			"id": "3ep02-V03",
+			"name": "funnier"
+		},
+		{
+			"id": "3ep02-V04",
+			"name": "smarter"
+		},
+		{
+			"id": "3ep02-V05",
+			"name": "stronger"
+		},
+		{
+			"id": "3ep03-V01",
+			"name": "Brazil"
+		},
+		{
+			"id": "3ep03-V02",
+			"name": "Japan"
+		},
+		{
+			"id": "3ep03-V03",
+			"name": "New Zealand"
+		},
+		{
+			"id": "3ep03-V04",
+			"name": "South Africa"
+		},
+		{
+			"id": "3ep03-V05",
+			"name": "South Korea"
+		},
+		{
+			"id": "3ep05-V01",
+			"name": "cereal"
+		},
+		{
+			"id": "3ep05-V02",
+			"name": "pancakes"
+		},
+		{
+			"id": "3ep05-V03",
+			"name": "scrambled eggs"
+		},
+		{
+			"id": "3ep05-V04",
+			"name": "waffles"
+		},
+		{
+			"id": "3ep05-V05",
+			"name": "juice"
+		},
+		{
+			"id": "3ep05-V06",
+			"name": "milk"
+		},
+		{
+			"id": "3ep05-V07",
+			"name": "tea"
+		},
+		{
+			"id": "3ep05-V08",
+			"name": "water"
+		},
+		{
+			"id": "3ep06-V01",
+			"name": "play"
+		},
+		{
+			"id": "3ep06-V02",
+			"name": "practice"
+		},
+		{
+			"id": "3ep06-V03",
+			"name": "run"
+		},
+		{
+			"id": "3ep06-V04",
+			"name": "study"
+		},
+		{
+			"id": "3ep06-V05",
+			"name": "train"
+		},
+		{
+			"id": "3ep07-V01",
+			"name": "cycling"
+		},
+		{
+			"id": "3ep07-V02",
+			"name": "fruit picking"
+		},
+		{
+			"id": "3ep07-V03",
+			"name": "grocery shopping"
+		},
+		{
+			"id": "3ep07-V04",
+			"name": "running"
+		},
+		{
+			"id": "3ep07-V05",
+			"name": "swimming"
+		},
+		{
+			"id": "3ep09-V01",
+			"name": "cameras"
+		},
+		{
+			"id": "3ep09-V02",
+			"name": "chisels"
+		},
+		{
+			"id": "3ep09-V03",
+			"name": "cutters"
+		},
+		{
+			"id": "3ep09-V04",
+			"name": "flower beds"
+		},
+		{
+			"id": "3ep09-V05",
+			"name": "pottery wheel"
+		},
+		{
+			"id": "3ep10-V01",
+			"name": "second"
+		},
+		{
+			"id": "3ep10-V02",
+			"name": "third"
+		},
+		{
+			"id": "3ep10-V03",
+			"name": "fourth"
+		},
+		{
+			"id": "3ep10-V04",
+			"name": "fifth"
+		},
+		{
+			"id": "3ep10-V05",
+			"name": "sixth"
+		},
+		{
+			"id": "3ep10-V06",
+			"name": "week"
+		},
+		{
+			"id": "3ep10-V07",
+			"name": "month"
+		},
+		{
+			"id": "3ep11-V01",
+			"name": "break any more vases"
+		},
+		{
+			"id": "3ep11-V02",
+			"name": "come home late again"
+		},
+		{
+			"id": "3ep11-V03",
+			"name": "fail any more tests"
+		},
+		{
+			"id": "3ep11-V04",
+			"name": "forget to tidy up my desk again"
+		},
+		{
+			"id": "3ep11-V05",
+			"name": "tell any more lies"
+		},
+		{
+			"id": "3ep13-V01",
+			"name": "big antlers"
+		},
+		{
+			"id": "3ep13-V02",
+			"name": "cute faces"
+		},
+		{
+			"id": "3ep13-V03",
+			"name": "long fins"
+		},
+		{
+			"id": "3ep13-V04",
+			"name": "sharp teeth"
+		},
+		{
+			"id": "3ep13-V05",
+			"name": "wide hooves"
+		},
+		{
+			"id": "3ep14-V01",
+			"name": "Africa"
+		},
+		{
+			"id": "3ep14-V02",
+			"name": "Antarctica"
+		},
+		{
+			"id": "3ep14-V03",
+			"name": "Asia"
+		},
+		{
+			"id": "3ep14-V04",
+			"name": "North America"
+		},
+		{
+			"id": "3ep14-V05",
+			"name": "South America"
+		},
+		{
+			"id": "3ep15-V01",
+			"name": "continent / Asia"
+		},
+		{
+			"id": "3ep15-V02",
+			"name": "country / Russia"
+		},
+		{
+			"id": "3ep15-V03",
+			"name": "desert / the Sahara"
+		},
+		{
+			"id": "3ep15-V04",
+			"name": "freshwater lake / Lake Superior"
+		},
+		{
+			"id": "3ep15-V05",
+			"name": "ocean / the Pacific"
+		},
+		{
+			"id": "3ep17-V01",
+			"name": "bitter"
+		},
+		{
+			"id": "3ep17-V02",
+			"name": "salty"
+		},
+		{
+			"id": "3ep17-V03",
+			"name": "sour"
+		},
+		{
+			"id": "3ep17-V04",
+			"name": "spicy"
+		},
+		{
+			"id": "3ep17-V05",
+			"name": "sweet"
+		},
+		{
+			"id": "3ep18-V01",
+			"name": "classmate"
+		},
+		{
+			"id": "3ep18-V02",
+			"name": "cousin"
+		},
+		{
+			"id": "3ep18-V03",
+			"name": "friend"
+		},
+		{
+			"id": "3ep18-V04",
+			"name": "neighbor"
+		},
+		{
+			"id": "3ep18-V05",
+			"name": "teacher"
+		},
+		{
+			"id": "3ep19-V01",
+			"name": "lean back"
+		},
+		{
+			"id": "3ep19-V02",
+			"name": "lean forward"
+		},
+		{
+			"id": "3ep19-V03",
+			"name": "look ahead"
+		},
+		{
+			"id": "3ep19-V04",
+			"name": "look down"
+		},
+		{
+			"id": "3ep19-V05",
+			"name": "sit straight up"
+		},
+		{
+			"id": "3ep21-V01",
+			"name": "dog sledding /  January"
+		},
+		{
+			"id": "3ep21-V02",
+			"name": "picking berries / August"
+		},
+		{
+			"id": "3ep21-V03",
+			"name": "seeing the autumn leaves / September"
+		},
+		{
+			"id": "3ep21-V04",
+			"name": "seeing the Northern Lights / March"
+		},
+		{
+			"id": "3ep21-V05",
+			"name": "whale watching / June"
+		},
+		{
+			"id": "3ep22-V01",
+			"name": "cook / making tacos"
+		},
+		{
+			"id": "3ep22-V02",
+			"name": "draw / drawing people"
+		},
+		{
+			"id": "3ep22-V03",
+			"name": "play / playing table tennis"
+		},
+		{
+			"id": "3ep22-V04",
+			"name": "read / reading spooky stories"
+		},
+		{
+			"id": "3ep22-V05",
+			"name": "sing / singing pop songs"
+		},
+		{
+			"id": "3ep23-V01",
+			"name": "band / pop"
+		},
+		{
+			"id": "3ep23-V02",
+			"name": "club / table tennis"
+		},
+		{
+			"id": "3ep23-V03",
+			"name": "exhibition / photography"
+		},
+		{
+			"id": "3ep23-V04",
+			"name": "restaurant / Mexican"
+		},
+		{
+			"id": "3ep23-V05",
+			"name": "show / horror"
+		}
+	],
+	"meta": {
+		"base-path": "./CL3ep/media/"
+	}
+}

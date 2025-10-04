@@ -1,0 +1,151 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "kepS1-V01",
+			"name": "butterfly"
+		},
+		{
+			"id": "kepS1-V02",
+			"name": "duck"
+		},
+		{
+			"id": "kepS1-V03",
+			"name": "flower"
+		},
+		{
+			"id": "kepS1-V04",
+			"name": "hill"
+		},
+		{
+			"id": "kepS1-V05",
+			"name": "pond"
+		},
+		{
+			"id": "kepS1-V06",
+			"name": "tree"
+		},
+		{
+			"id": "kepS2-V01",
+			"name": "brother"
+		},
+		{
+			"id": "kepS2-V02",
+			"name": "dad"
+		},
+		{
+			"id": "kepS2-V03",
+			"name": "grandma"
+		},
+		{
+			"id": "kepS2-V04",
+			"name": "grandpa"
+		},
+		{
+			"id": "kepS2-V05",
+			"name": "mom"
+		},
+		{
+			"id": "kepS2-V06",
+			"name": "sister"
+		},
+		{
+			"id": "kepS3-V01",
+			"name": "fish"
+		},
+		{
+			"id": "kepS3-V02",
+			"name": "ketchup"
+		},
+		{
+			"id": "kepS3-V03",
+			"name": "noodles"
+		},
+		{
+			"id": "kepS3-V04",
+			"name": "pizza"
+		},
+		{
+			"id": "kepS3-V05",
+			"name": "rice"
+		},
+		{
+			"id": "kepS3-V06",
+			"name": "soup"
+		},
+		{
+			"id": "kepS4-V01",
+			"name": "blue"
+		},
+		{
+			"id": "kepS4-V02",
+			"name": "green"
+		},
+		{
+			"id": "kepS4-V03",
+			"name": "orange"
+		},
+		{
+			"id": "kepS4-V04",
+			"name": "pink"
+		},
+		{
+			"id": "kepS4-V05",
+			"name": "white"
+		},
+		{
+			"id": "kepS4-V06",
+			"name": "yellow"
+		},
+		{
+			"id": "kepS5-V01",
+			"name": "back"
+		},
+		{
+			"id": "kepS5-V02",
+			"name": "fingers"
+		},
+		{
+			"id": "kepS5-V03",
+			"name": "head"
+		},
+		{
+			"id": "kepS5-V04",
+			"name": "mouth"
+		},
+		{
+			"id": "kepS5-V05",
+			"name": "nose"
+		},
+		{
+			"id": "kepS5-V06",
+			"name": "toes"
+		},
+		{
+			"id": "kepS6-V01",
+			"name": "cold"
+		},
+		{
+			"id": "kepS6-V02",
+			"name": "happy"
+		},
+		{
+			"id": "kepS6-V03",
+			"name": "old"
+		},
+		{
+			"id": "kepS6-V04",
+			"name": "quiet"
+		},
+		{
+			"id": "kepS6-V05",
+			"name": "small"
+		},
+		{
+			"id": "kepS6-V06",
+			"name": "young"
+		}
+	],
+	"meta": {
+		"base-path": "./kep/media/"
+	}
+}

@@ -1,0 +1,95 @@
+{
+  "phonicsCards": [
+		{
+			"id": "4dp01-P01",
+			"name": "walk"
+		},
+		{
+			"id": "4dp02-P01",
+			"name": "make"
+		},
+		{
+			"id": "4dp03-P01",
+			"name": "was"
+		},
+		{
+			"id": "4dp05-P01",
+			"name": "does"
+		},
+		{
+			"id": "4dp06-P01",
+			"name": "hour"
+		},
+		{
+			"id": "4dp07-P01",
+			"name": "away"
+		},
+		{
+			"id": "4dp09-P01",
+			"name": "me"
+		},
+		{
+			"id": "4dp10-P01",
+			"name": "in"
+		},
+		{
+			"id": "4dp11-P01",
+			"name": "eat"
+		},
+		{
+			"id": "4dp13-P01",
+			"name": "It"
+		},
+		{
+			"id": "4dp13-P02",
+			"name": "it"
+		},
+		{
+			"id": "4dp14-P01",
+			"name": "play"
+		},
+		{
+			"id": "4dp15-P01",
+			"name": "Great"
+		},
+		{
+			"id": "4dp15-P02",
+			"name": "great"
+		},
+		{
+			"id": "4dp17-P01",
+			"name": "Yes"
+		},
+		{
+			"id": "4dp17-P02",
+			"name": "yes"
+		},
+		{
+			"id": "4dp18-P01",
+			"name": "their"
+		},
+		{
+			"id": "4dp19-P01",
+			"name": "good"
+		},
+		{
+			"id": "4dp21-P01",
+			"name": "her"
+		},
+		{
+			"id": "4dp22-P01",
+			"name": "Okay"
+		},
+		{
+			"id": "4dp22-P02",
+			"name": "okay"
+		},
+		{
+			"id": "4dp23-P01",
+			"name": "look"
+		}
+  ],
+	"meta": {
+		"base-path": "./CL4dp/media/"
+	}
+}

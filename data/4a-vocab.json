@@ -1,0 +1,371 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "3a01-V01",
+			"name": "auditorium"
+		},
+		{
+			"id": "3a01-V02",
+			"name": "cafeteria"
+		},
+		{
+			"id": "3a01-V03",
+			"name": "gymnasium"
+		},
+		{
+			"id": "3a01-V04",
+			"name": "library"
+		},
+		{
+			"id": "3a01-V05",
+			"name": "playground"
+		},
+		{
+			"id": "3a02-V01",
+			"name": "brother"
+		},
+		{
+			"id": "3a02-V02",
+			"name": "friend"
+		},
+		{
+			"id": "3a02-V03",
+			"name": "sister"
+		},
+		{
+			"id": "3a02-V04",
+			"name": "boy"
+		},
+		{
+			"id": "3a02-V05",
+			"name": "girl"
+		},
+		{
+			"id": "3a03-V01",
+			"name": "collecting trading cards"
+		},
+		{
+			"id": "3a03-V02",
+			"name": "drawing pictures"
+		},
+		{
+			"id": "3a03-V03",
+			"name": "playing tennis"
+		},
+		{
+			"id": "3a03-V04",
+			"name": "playing the piano"
+		},
+		{
+			"id": "3a03-V05",
+			"name": "playing video games"
+		},
+		{
+			"id": "3a05-V01",
+			"name": "curry"
+		},
+		{
+			"id": "3a05-V02",
+			"name": "fried rice"
+		},
+		{
+			"id": "3a05-V03",
+			"name": "pasta"
+		},
+		{
+			"id": "3a05-V04",
+			"name": "pizza"
+		},
+		{
+			"id": "3a05-V05",
+			"name": "steak"
+		},
+		{
+			"id": "3a06-V01",
+			"name": "have a snack"
+		},
+		{
+			"id": "3a06-V02",
+			"name": "go to the park"
+		},
+		{
+			"id": "3a06-V03",
+			"name": "play a video game"
+		},
+		{
+			"id": "3a06-V04",
+			"name": "play with my friends"
+		},
+		{
+			"id": "3a06-V05",
+			"name": "watch TV"
+		},
+		{
+			"id": "3a07-V01",
+			"name": "clean your room"
+		},
+		{
+			"id": "3a07-V02",
+			"name": "do your homework"
+		},
+		{
+			"id": "3a07-V03",
+			"name": "feed the cat"
+		},
+		{
+			"id": "3a07-V04",
+			"name": "wash your hands"
+		},
+		{
+			"id": "3a07-V05",
+			"name": "water the plants"
+		},
+		{
+			"id": "3a09-V01",
+			"name": "bag"
+		},
+		{
+			"id": "3a09-V02",
+			"name": "ball"
+		},
+		{
+			"id": "3a09-V03",
+			"name": "hat"
+		},
+		{
+			"id": "3a09-V04",
+			"name": "lunch box"
+		},
+		{
+			"id": "3a09-V05",
+			"name": "towel"
+		},
+		{
+			"id": "3a10-V01",
+			"name": "cheese"
+		},
+		{
+			"id": "3a10-V02",
+			"name": "pasta"
+		},
+		{
+			"id": "3a10-V03",
+			"name": "rice"
+		},
+		{
+			"id": "3a10-V04",
+			"name": "sandwiches"
+		},
+		{
+			"id": "3a10-V05",
+			"name": "sausages"
+		},
+		{
+			"id": "3a11-V01",
+			"name": "apple"
+		},
+		{
+			"id": "3a11-V02",
+			"name": "mango"
+		},
+		{
+			"id": "3a11-V03",
+			"name": "melon"
+		},
+		{
+			"id": "3a11-V04",
+			"name": "orange"
+		},
+		{
+			"id": "3a11-V05",
+			"name": "pear"
+		},
+		{
+			"id": "3a13-V01",
+			"name": "at home"
+		},
+		{
+			"id": "3a13-V02",
+			"name": "at school"
+		},
+		{
+			"id": "3a13-V03",
+			"name": "at the dentist"
+		},
+		{
+			"id": "3a13-V04",
+			"name": "in the hospital"
+		},
+		{
+			"id": "3a13-V05",
+			"name": "on vacation"
+		},
+		{
+			"id": "3a14-V01",
+			"name": "ten"
+		},
+		{
+			"id": "3a14-V02",
+			"name": "twenty"
+		},
+		{
+			"id": "3a14-V03",
+			"name": "thirty"
+		},
+		{
+			"id": "3a14-V04",
+			"name": "forty"
+		},
+		{
+			"id": "3a14-V05",
+			"name": "fifty"
+		},
+		{
+			"id": "3a14-V06",
+			"name": "o'clock"
+		},
+		{
+			"id": "3a15-V01",
+			"name": "fever"
+		},
+		{
+			"id": "3a15-V02",
+			"name": "headache"
+		},
+		{
+			"id": "3a15-V03",
+			"name": "runny nose"
+		},
+		{
+			"id": "3a15-V04",
+			"name": "sore throat"
+		},
+		{
+			"id": "3a15-V05",
+			"name": "stomachache"
+		},
+		{
+			"id": "3a17-V01",
+			"name": "aquarium"
+		},
+		{
+			"id": "3a17-V02",
+			"name": "beach"
+		},
+		{
+			"id": "3a17-V03",
+			"name": "lake"
+		},
+		{
+			"id": "3a17-V04",
+			"name": "mall"
+		},
+		{
+			"id": "3a17-V05",
+			"name": "museum"
+		},
+		{
+			"id": "3a18-V01",
+			"name": "behind"
+		},
+		{
+			"id": "3a18-V02",
+			"name": "in"
+		},
+		{
+			"id": "3a18-V03",
+			"name": "in front of"
+		},
+		{
+			"id": "3a18-V04",
+			"name": "on"
+		},
+		{
+			"id": "3a18-V05",
+			"name": "under"
+		},
+		{
+			"id": "3a19-V01",
+			"name": "build a sandcastle"
+		},
+		{
+			"id": "3a19-V02",
+			"name": "collect some shells"
+		},
+		{
+			"id": "3a19-V03",
+			"name": "go swimming"
+		},
+		{
+			"id": "3a19-V04",
+			"name": "play volleyball"
+		},
+		{
+			"id": "3a19-V05",
+			"name": "relax"
+		},
+		{
+			"id": "3a21-V01",
+			"name": "first"
+		},
+		{
+			"id": "3a21-V02",
+			"name": "second"
+		},
+		{
+			"id": "3a21-V03",
+			"name": "third"
+		},
+		{
+			"id": "3a21-V04",
+			"name": "fourth"
+		},
+		{
+			"id": "3a21-V05",
+			"name": "fifth"
+		},
+		{
+			"id": "3a22-V01",
+			"name": "do some shopping"
+		},
+		{
+			"id": "3a22-V02",
+			"name": "eat some ice cream"
+		},
+		{
+			"id": "3a22-V03",
+			"name": "get some soda"
+		},
+		{
+			"id": "3a22-V04",
+			"name": "go bowling"
+		},
+		{
+			"id": "3a22-V05",
+			"name": "see a movie"
+		},
+		{
+			"id": "3a23-V01",
+			"name": "boring"
+		},
+		{
+			"id": "3a23-V02",
+			"name": "exciting"
+		},
+		{
+			"id": "3a23-V03",
+			"name": "funny"
+		},
+		{
+			"id": "3a23-V04",
+			"name": "interesting"
+		},
+		{
+			"id": "3a23-V05",
+			"name": "scary"
+		}
+	],
+	"meta": {
+		"base-path": "./L3a/media/"
+	}
+}

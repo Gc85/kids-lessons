@@ -1,0 +1,391 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "3f01-V01",
+			"name": "January"
+		},
+		{
+			"id": "3f01-V02",
+			"name": "February"
+		},
+		{
+			"id": "3f01-V03",
+			"name": " March"
+		},
+		{
+			"id": "3f01-V04",
+			"name": "April"
+		},
+		{
+			"id": "3f01-V05",
+			"name": "May"
+		},
+		{
+			"id": "3f01-V06",
+			"name": "June"
+		},
+		{
+			"id": "3f01-V07",
+			"name": "July"
+		},
+		{
+			"id": "3f01-V08",
+			"name": "August"
+		},
+		{
+			"id": "3f01-V09",
+			"name": "September"
+		},
+		{
+			"id": "3f01-V10",
+			"name": "October"
+		},
+		{
+			"id": "3f01-V11",
+			"name": "November"
+		},
+		{
+			"id": "3f01-V12",
+			"name": "December"
+		},
+		{
+			"id": "3f02-V01",
+			"name": "fly on broomsticks"
+		},
+		{
+			"id": "3f02-V02",
+			"name": "go through walls"
+		},
+		{
+			"id": "3f02-V03",
+			"name": "talk to animals"
+		},
+		{
+			"id": "3f02-V04",
+			"name": "turn into bats"
+		},
+		{
+			"id": "3f02-V05",
+			"name": "turn invisible"
+		},
+		{
+			"id": "3f03-V01",
+			"name": "did an experiment"
+		},
+		{
+			"id": "3f03-V02",
+			"name": "had a test"
+		},
+		{
+			"id": "3f03-V03",
+			"name": "watched a movie"
+		},
+		{
+			"id": "3f03-V04",
+			"name": "went on a field trip"
+		},
+		{
+			"id": "3f03-V05",
+			"name": "went trick-or-treating"
+		},
+		{
+			"id": "3f05-V01",
+			"name": "divided by"
+		},
+		{
+			"id": "3f05-V02",
+			"name": "minus"
+		},
+		{
+			"id": "3f05-V03",
+			"name": "plus"
+		},
+		{
+			"id": "3f05-V04",
+			"name": "times"
+		},
+		{
+			"id": "3f06-V01",
+			"name": "China / Beijing"
+		},
+		{
+			"id": "3f06-V02",
+			"name": "France / Paris"
+		},
+		{
+			"id": "3f06-V03",
+			"name": "Japan / Tokyo"
+		},
+		{
+			"id": "3f06-V04",
+			"name": "Russia / Moscow"
+		},
+		{
+			"id": "3f06-V05",
+			"name": "the US / Washington D.C."
+		},
+		{
+			"id": "3f07-V01",
+			"name": "beaches"
+		},
+		{
+			"id": "3f07-V02",
+			"name": "caves"
+		},
+		{
+			"id": "3f07-V03",
+			"name": "deserts"
+		},
+		{
+			"id": "3f07-V04",
+			"name": "volcanoes"
+		},
+		{
+			"id": "3f07-V05",
+			"name": "waterfalls"
+		},
+		{
+			"id": "3f09-V01",
+			"name": "(Taro)'s house"
+		},
+		{
+			"id": "3f09-V02",
+			"name": "the library"
+		},
+		{
+			"id": "3f09-V03",
+			"name": "the post office"
+		},
+		{
+			"id": "3f09-V04",
+			"name": "the shopping mall"
+		},
+		{
+			"id": "3f09-V05",
+			"name": "the swimming pool"
+		},
+		{
+			"id": "3f10-V01",
+			"name": "close the window"
+		},
+		{
+			"id": "3f10-V02",
+			"name": "have a snack"
+		},
+		{
+			"id": "3f10-V03",
+			"name": "open the window"
+		},
+		{
+			"id": "3f10-V04",
+			"name": "turn off the radio"
+		},
+		{
+			"id": "3f10-V05",
+			"name": "turn on the radio"
+		},
+		{
+			"id": "3f11-V01",
+			"name": "ate donuts"
+		},
+		{
+			"id": "3f11-V02",
+			"name": "listened to music"
+		},
+		{
+			"id": "3f11-V03",
+			"name": "played video games"
+		},
+		{
+			"id": "3f11-V04",
+			"name": "read comic books"
+		},
+		{
+			"id": "3f11-V05",
+			"name": "watched DVDs"
+		},
+		{
+			"id": "3f13-V01",
+			"name": "bread / rice"
+		},
+		{
+			"id": "3f13-V02",
+			"name": "cats / dogs"
+		},
+		{
+			"id": "3f13-V03",
+			"name": "math / Japanese"
+		},
+		{
+			"id": "3f13-V04",
+			"name": "soccer / basketball"
+		},
+		{
+			"id": "3f13-V05",
+			"name": "tea / juice"
+		},
+		{
+			"id": "3f14-V01",
+			"name": "behind the TV"
+		},
+		{
+			"id": "3f14-V02",
+			"name": "in the closet"
+		},
+		{
+			"id": "3f14-V03",
+			"name": "on the cabinet"
+		},
+		{
+			"id": "3f14-V04",
+			"name": "under the sofa"
+		},
+		{
+			"id": "3f14-V05",
+			"name": "under the table"
+		},
+		{
+			"id": "3f15-V01",
+			"name": "cold / turn on the heater"
+		},
+		{
+			"id": "3f15-V02",
+			"name": "hot / turn off the heater"
+		},
+		{
+			"id": "3f15-V03",
+			"name": "hungry / have a snack"
+		},
+		{
+			"id": "3f15-V04",
+			"name": "sleepy / take a nap"
+		},
+		{
+			"id": "3f15-V05",
+			"name": "thirsty / have a drink"
+		},
+		{
+			"id": "3f17-V01",
+			"name": "bags"
+		},
+		{
+			"id": "3f17-V02",
+			"name": "bottles"
+		},
+		{
+			"id": "3f17-V03",
+			"name": "boxes"
+		},
+		{
+			"id": "3f17-V04",
+			"name": "cans"
+		},
+		{
+			"id": "3f17-V05",
+			"name": "cups"
+		},
+		{
+			"id": "3f18-V01",
+			"name": "ten minutes"
+		},
+		{
+			"id": "3f18-V02",
+			"name": "twenty minutes"
+		},
+		{
+			"id": "3f18-V03",
+			"name": "thirty minutes"
+		},
+		{
+			"id": "3f18-V04",
+			"name": "forty minutes"
+		},
+		{
+			"id": "3f18-V05",
+			"name": "an hour"
+		},
+		{
+			"id": "3f19-V01",
+			"name": "diner"
+		},
+		{
+			"id": "3f19-V02",
+			"name": "entrance"
+		},
+		{
+			"id": "3f19-V03",
+			"name": "gift shop"
+		},
+		{
+			"id": "3f19-V04",
+			"name": "theater"
+		},
+		{
+			"id": "3f19-V05",
+			"name": "tram"
+		},
+		{
+			"id": "3f21-V01",
+			"name": "boring"
+		},
+		{
+			"id": "3f21-V02",
+			"name": "dangerous"
+		},
+		{
+			"id": "3f21-V03",
+			"name": "difficult"
+		},
+		{
+			"id": "3f21-V04",
+			"name": "easy"
+		},
+		{
+			"id": "3f21-V05",
+			"name": "great"
+		},
+		{
+			"id": "3f22-V01",
+			"name": "friendly"
+		},
+		{
+			"id": "3f22-V02",
+			"name": "funny"
+		},
+		{
+			"id": "3f22-V03",
+			"name": "kind"
+		},
+		{
+			"id": "3f22-V04",
+			"name": "mean"
+		},
+		{
+			"id": "3f22-V05",
+			"name": "smart"
+		},
+		{
+			"id": "3f23-V01",
+			"name": "that constellation"
+		},
+		{
+			"id": "3f23-V02",
+			"name": "that planet"
+		},
+		{
+			"id": "3f23-V03",
+			"name": "the meteor shower"
+		},
+		{
+			"id": "3f23-V04",
+			"name": "the moon"
+		},
+		{
+			"id": "3f23-V05",
+			"name": "the stars"
+		}
+	],
+	"meta": {
+		"base-path": "./CL3f/media/"
+	}
+}

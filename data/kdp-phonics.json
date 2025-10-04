@@ -1,0 +1,199 @@
+{
+	"phonicsCards": [
+		{
+			"id": "kdpS1-P01",
+			"name": "c a n - can"
+		},
+		{
+			"id": "kdpS1-P02",
+			"name": "h a t - hat"
+		},
+		{
+			"id": "kdpS1-P03",
+			"name": "l e g - leg"
+		},
+		{
+			"id": "kdpS1-P04",
+			"name": "p e g - peg"
+		},
+		{
+			"id": "kdpS1-P05",
+			"name": "p i n - pin"
+		},
+		{
+			"id": "kdpS1-P06",
+			"name": "r i p - rip"
+		},
+		{
+			"id": "kdpS1-P07",
+			"name": "s a d - sad"
+		},
+		{
+			"id": "kdpS1-P08",
+			"name": "w i n - win"
+		},
+		{
+			"id": "kdpS2-P01",
+			"name": "b u n - bun"
+		},
+		{
+			"id": "kdpS2-P02",
+			"name": "d o t - dot"
+		},
+		{
+			"id": "kdpS2-P03",
+			"name": "c u b - man"
+		},
+		{
+			"id": "kdpS2-P04",
+			"name": "m a t - mat"
+		},
+		{
+			"id": "kdpS2-P05",
+			"name": "n o d - nod"
+		},
+		{
+			"id": "kdpS2-P06",
+			"name": "p e n - pen"
+		},
+		{
+			"id": "kdpS2-P07",
+			"name": "r e d - red"
+		},
+		{
+			"id": "kdpS2-P08",
+			"name": "s i x - six"
+		},
+		{
+			"id": "kdpS3-P01",
+			"name": "b i n - bin"
+		},
+		{
+			"id": "kdpS3-P02",
+			"name": "b o x - box"
+		},
+		{
+			"id": "kdpS3-P03",
+			"name": "c u p - cup"
+		},
+		{
+			"id": "kdpS3-P04",
+			"name": "j u g - jug"
+		},
+		{
+			"id": "kdpS3-P05",
+			"name": "m i x - mix"
+		},
+		{
+			"id": "kdpS3-P06",
+			"name": "n u t - nut"
+		},
+		{
+			"id": "kdpS3-P07",
+			"name": "p a n - pan"
+		},
+		{
+			"id": "kdpS3-P08",
+			"name": "y a m - yam"
+		},
+		{
+			"id": "kdpS4-P01",
+			"name": "b o t - bot"
+		},
+		{
+			"id": "kdpS4-P02",
+			"name": "f i n - fin"
+		},
+		{
+			"id": "kdpS4-P03",
+			"name": "k i t - kit"
+		},
+		{
+			"id": "kdpS4-P04",
+			"name": "m a p - map"
+		},
+		{
+			"id": "kdpS4-P05",
+			"name": "r i m - rim"
+		},
+		{
+			"id": "kdpS4-P06",
+			"name": "s i p - sip"
+		},
+		{
+			"id": "kdpS4-P07",
+			"name": "t a g - tag"
+		},
+		{
+			"id": "kdpS4-P08",
+			"name": "z i p - zip"
+		},
+		{
+			"id": "kdpS5-P01",
+			"name": "b o b - bob"
+		},
+		{
+			"id": "kdpS5-P02",
+			"name": "b u s - bus"
+		},
+		{
+			"id": "kdpS5-P03",
+			"name": "c o d - cod"
+		},
+		{
+			"id": "kdpS5-P04",
+			"name": "n e t - net"
+		},
+		{
+			"id": "kdpS5-P05",
+			"name": "p i g - pig"
+		},
+		{
+			"id": "kdpS5-P06",
+			"name": "s u b - sub"
+		},
+		{
+			"id": "kdpS5-P07",
+			"name": "t e n - ten"
+		},
+		{
+			"id": "kdpS5-P08",
+			"name": "t i p - tip"
+		},
+		{
+			"id": "kdpS6-P01",
+			"name": "b i g - big"
+		},
+		{
+			"id": "kdpS6-P02",
+			"name": "c a t - cat"
+		},
+		{
+			"id": "kdpS6-P03",
+			"name": "d o g - dog"
+		},
+		{
+			"id": "kdpS6-P04",
+			"name": "f u n - fun"
+		},
+		{
+			"id": "kdpS6-P05",
+			"name": "h o t - hot"
+		},
+		{
+			"id": "kdpS6-P06",
+			"name": "l a p - lap"
+		},
+		{
+			"id": "kdpS6-P07",
+			"name": "s i t - sit"
+		},
+		{
+			"id": "kdpS6-P08",
+			"name": "t o p - top"
+		}
+	],
+	"meta": {
+		"base-path": "./kdp/media/"
+	}
+}

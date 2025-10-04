@@ -1,0 +1,367 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "3bp01-V01",
+			"name": "campout"
+		},
+		{
+			"id": "3bp01-V02",
+			"name": "Halloween party"
+		},
+		{
+			"id": "3bp01-V03",
+			"name": "movie night"
+		},
+		{
+			"id": "3bp01-V04",
+			"name": "pool party"
+		},
+		{
+			"id": "3bp01-V05",
+			"name": "slumber party"
+		},
+		{
+			"id": "3bp02-V01",
+			"name": "called your grandpa"
+		},
+		{
+			"id": "3bp02-V02",
+			"name": "cleaned your room"
+		},
+		{
+			"id": "3bp02-V03",
+			"name": "done your piano practice"
+		},
+		{
+			"id": "3bp02-V04",
+			"name": "finished your homework"
+		},
+		{
+			"id": "3bp02-V05",
+			"name": "taken out the trash"
+		},
+		{
+			"id": "3bp03-V01",
+			"name": "behind the door"
+		},
+		{
+			"id": "3bp03-V02",
+			"name": "inside the closet"
+		},
+		{
+			"id": "3bp03-V03",
+			"name": "in the basement"
+		},
+		{
+			"id": "3bp03-V04",
+			"name": "on the roof"
+		},
+		{
+			"id": "3bp03-V05",
+			"name": "under the bed"
+		},
+		{
+			"id": "3bp05-V01",
+			"name": "be back late"
+		},
+		{
+			"id": "3bp05-V02",
+			"name": "be late for dinner"
+		},
+		{
+			"id": "3bp05-V03",
+			"name": "forget your cellphone"
+		},
+		{
+			"id": "3bp05-V04",
+			"name": "forget your key"
+		},
+		{
+			"id": "3bp05-V05",
+			"name": "get dirty"
+		},
+		{
+			"id": "3bp06-V01",
+			"name": "better / Space Cats 4"
+		},
+		{
+			"id": "3bp06-V02",
+			"name": "funnier / Zoo Cop"
+		},
+		{
+			"id": "3bp06-V03",
+			"name": "more exciting / Sea Truckers"
+		},
+		{
+			"id": "3bp06-V04",
+			"name": "sadder / Nessie and Me"
+		},
+		{
+			"id": "3bp06-V05",
+			"name": "worse / Dino Town"
+		},
+		{
+			"id": "3bp07-V01",
+			"name": "dinosaurs"
+		},
+		{
+			"id": "3bp07-V02",
+			"name": "rainforests"
+		},
+		{
+			"id": "3bp07-V03",
+			"name": "the pyramids"
+		},
+		{
+			"id": "3bp07-V04",
+			"name": "the solar system"
+		},
+		{
+			"id": "3bp07-V05",
+			"name": "volcanoes"
+		},
+		{
+			"id": "3bp09-V01",
+			"name": "do homework"
+		},
+		{
+			"id": "3bp09-V02",
+			"name": "go for a walk"
+		},
+		{
+			"id": "3bp09-V03",
+			"name": "hang out"
+		},
+		{
+			"id": "3bp09-V04",
+			"name": "play a game"
+		},
+		{
+			"id": "3bp09-V05",
+			"name": "watch a movie"
+		},
+		{
+			"id": "3bp10-V01",
+			"name": "bored"
+		},
+		{
+			"id": "3bp10-V02",
+			"name": "hungry"
+		},
+		{
+			"id": "3bp10-V03",
+			"name": "hurt"
+		},
+		{
+			"id": "3bp10-V04",
+			"name": "lonely"
+		},
+		{
+			"id": "3bp10-V05",
+			"name": "scared"
+		},
+		{
+			"id": "3bp11-V01",
+			"name": "cut the wrapping paper"
+		},
+		{
+			"id": "3bp11-V02",
+			"name": "do the wrapping"
+		},
+		{
+			"id": "3bp11-V03",
+			"name": "put on the bows"
+		},
+		{
+			"id": "3bp11-V04",
+			"name": "tie the ribbons"
+		},
+		{
+			"id": "3bp11-V05",
+			"name": "write the name tags"
+		},
+		{
+			"id": "3bp13-V01",
+			"name": "playing badminton"
+		},
+		{
+			"id": "3bp13-V02",
+			"name": "practicing kendo"
+		},
+		{
+			"id": "3bp13-V03",
+			"name": "studying ballet"
+		},
+		{
+			"id": "3bp13-V04",
+			"name": "studying Korean"
+		},
+		{
+			"id": "3bp13-V05",
+			"name": "taking ukulele lessons"
+		},
+		{
+			"id": "3bp14-V01",
+			"name": "school start"
+		},
+		{
+			"id": "3bp14-V02",
+			"name": "the bus come"
+		},
+		{
+			"id": "3bp14-V03",
+			"name": "the show start"
+		},
+		{
+			"id": "3bp14-V04",
+			"name": "the store close"
+		},
+		{
+			"id": "3bp14-V05",
+			"name": "the train leave"
+		},
+		{
+			"id": "3bp15-V01",
+			"name": "my presentation"
+		},
+		{
+			"id": "3bp15-V02",
+			"name": "my test"
+		},
+		{
+			"id": "3bp15-V03",
+			"name": "the band concert"
+		},
+		{
+			"id": "3bp15-V04",
+			"name": "the school play"
+		},
+		{
+			"id": "3bp15-V05",
+			"name": "the track meet"
+		},
+		{
+			"id": "3bp17-V01",
+			"name": "buying some donuts"
+		},
+		{
+			"id": "3bp17-V02",
+			"name": "getting a haircut"
+		},
+		{
+			"id": "3bp17-V03",
+			"name": "hanging out with Tom"
+		},
+		{
+			"id": "3bp17-V04",
+			"name": "having lunch with her grandma"
+		},
+		{
+			"id": "3bp17-V05",
+			"name": "shopping for clothes"
+		},
+		{
+			"id": "3bp18-V01",
+			"name": "broke her laptop"
+		},
+		{
+			"id": "3bp18-V02",
+			"name": "dropped her cellphone"
+		},
+		{
+			"id": "3bp18-V03",
+			"name": "forgot her briefcase"
+		},
+		{
+			"id": "3bp18-V04",
+			"name": "left her tablet on the train"
+		},
+		{
+			"id": "3bp18-V05",
+			"name": "lost her wallet"
+		},
+		{
+			"id": "3bp19-V01",
+			"name": "acting / rehearsing for a play"
+		},
+		{
+			"id": "3bp19-V02",
+			"name": "dancing / practicing for a recital"
+		},
+		{
+			"id": "3bp19-V03",
+			"name": "karate / training for a competition"
+		},
+		{
+			"id": "3bp19-V04",
+			"name": "running / training for a race"
+		},
+		{
+			"id": "3bp19-V05",
+			"name": "singing / practicing for a concert"
+		},
+		{
+			"id": "3bp21-V01",
+			"name": "binoculars"
+		},
+		{
+			"id": "3bp21-V02",
+			"name": "gaiters"
+		},
+		{
+			"id": "3bp21-V03",
+			"name": "hiking boots"
+		},
+		{
+			"id": "3bp21-V04",
+			"name": "sunglasses"
+		},
+		{
+			"id": "3bp21-V05",
+			"name": "trekking poles"
+		},
+		{
+			"id": "3bp22-V01",
+			"name": "a puzzle game"
+		},
+		{
+			"id": "3bp22-V02",
+			"name": "a racing game"
+		},
+		{
+			"id": "3bp22-V03",
+			"name": "a role playing game"
+		},
+		{
+			"id": "3bp22-V04",
+			"name": "a strategy game"
+		},
+		{
+			"id": "3bp22-V05",
+			"name": "an action game"
+		},
+		{
+			"id": "3bp23-V01",
+			"name": "got a new hamster"
+		},
+		{
+			"id": "3bp23-V02",
+			"name": "got her birthday card"
+		},
+		{
+			"id": "3bp23-V03",
+			"name": "passed my math test"
+		},
+		{
+			"id": "3bp23-V04",
+			"name": "started tuba lessons"
+		},
+		{
+			"id": "3bp23-V05",
+			"name": "won my soccer game"
+		}
+	],
+	"meta": {
+		"base-path": "./CL3bp/media/"
+	}
+}

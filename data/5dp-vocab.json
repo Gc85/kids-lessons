@@ -1,0 +1,375 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "5dp01-V01",
+			"name": "action figures"
+		},
+		{
+			"id": "5dp01-V02",
+			"name": "baseball cards"
+		},
+		{
+			"id": "5dp01-V03",
+			"name": "race cars"
+		},
+		{
+			"id": "5dp01-V04",
+			"name": "seashells"
+		},
+		{
+			"id": "5dp01-V05",
+			"name": "teddy bears"
+		},
+		{
+			"id": "5dp02-V01",
+			"name": "cauliflower"
+		},
+		{
+			"id": "5dp02-V02",
+			"name": "pineapple"
+		},
+		{
+			"id": "5dp02-V03",
+			"name": "popcorn"
+		},
+		{
+			"id": "5dp02-V04",
+			"name": "pudding"
+		},
+		{
+			"id": "5dp02-V05",
+			"name": "pumpkin"
+		},
+		{
+			"id": "5dp03-V01",
+			"name": "eleven"
+		},
+		{
+			"id": "5dp03-V02",
+			"name": "twelve"
+		},
+		{
+			"id": "5dp03-V03",
+			"name": "thirteen"
+		},
+		{
+			"id": "5dp03-V04",
+			"name": "fourteen"
+		},
+		{
+			"id": "5dp03-V05",
+			"name": "fifteen"
+		},
+		{
+			"id": "5dp05-V01",
+			"name": "brother"
+		},
+		{
+			"id": "5dp05-V02",
+			"name": "dad"
+		},
+		{
+			"id": "5dp05-V03",
+			"name": "grandma"
+		},
+		{
+			"id": "5dp05-V04",
+			"name": "grandpa"
+		},
+		{
+			"id": "5dp05-V05",
+			"name": "mom"
+		},
+		{
+			"id": "5dp05-V06",
+			"name": "sister"
+		},
+		{
+			"id": "5dp06-V01",
+			"name": "basketball"
+		},
+		{
+			"id": "5dp06-V02",
+			"name": "judo"
+		},
+		{
+			"id": "5dp06-V03",
+			"name": "soccer"
+		},
+		{
+			"id": "5dp06-V04",
+			"name": "tennis"
+		},
+		{
+			"id": "5dp06-V05",
+			"name": "track and field"
+		},
+		{
+			"id": "5dp07-V01",
+			"name": "a dinosaur"
+		},
+		{
+			"id": "5dp07-V02",
+			"name": "a house"
+		},
+		{
+			"id": "5dp07-V03",
+			"name": "a monster"
+		},
+		{
+			"id": "5dp07-V04",
+			"name": "a spaceship"
+		},
+		{
+			"id": "5dp07-V05",
+			"name": "my family"
+		},
+		{
+			"id": "5dp09-V01",
+			"name": "butter"
+		},
+		{
+			"id": "5dp09-V02",
+			"name": "ketchup"
+		},
+		{
+			"id": "5dp09-V03",
+			"name": "mayo"
+		},
+		{
+			"id": "5dp09-V04",
+			"name": "pepper"
+		},
+		{
+			"id": "5dp09-V05",
+			"name": "salt"
+		},
+		{
+			"id": "5dp10-V01",
+			"name": "kiwifruit"
+		},
+		{
+			"id": "5dp10-V02",
+			"name": "mango"
+		},
+		{
+			"id": "5dp10-V03",
+			"name": "melon"
+		},
+		{
+			"id": "5dp10-V04",
+			"name": "orange"
+		},
+		{
+			"id": "5dp10-V05",
+			"name": "papaya"
+		},
+		{
+			"id": "5dp11-V01",
+			"name": "bells"
+		},
+		{
+			"id": "5dp11-V02",
+			"name": "candy canes"
+		},
+		{
+			"id": "5dp11-V03",
+			"name": "presents"
+		},
+		{
+			"id": "5dp11-V04",
+			"name": "star"
+		},
+		{
+			"id": "5dp11-V05",
+			"name": "tinsel"
+		},
+		{
+			"id": "5dp13-V01",
+			"name": "books"
+		},
+		{
+			"id": "5dp13-V02",
+			"name": "comics"
+		},
+		{
+			"id": "5dp13-V03",
+			"name": "crayons"
+		},
+		{
+			"id": "5dp13-V04",
+			"name": "games"
+		},
+		{
+			"id": "5dp13-V05",
+			"name": "toys"
+		},
+		{
+			"id": "5dp14-V01",
+			"name": "hairbrush"
+		},
+		{
+			"id": "5dp14-V02",
+			"name": "pajamas"
+		},
+		{
+			"id": "5dp14-V03",
+			"name": "slippers"
+		},
+		{
+			"id": "5dp14-V04",
+			"name": "toothbrush"
+		},
+		{
+			"id": "5dp14-V05",
+			"name": "towel"
+		},
+		{
+			"id": "5dp15-V01",
+			"name": "in the closet"
+		},
+		{
+			"id": "5dp15-V02",
+			"name": "in the laundry basket"
+		},
+		{
+			"id": "5dp15-V03",
+			"name": "in the washing machine"
+		},
+		{
+			"id": "5dp15-V04",
+			"name": "on your bed"
+		},
+		{
+			"id": "5dp15-V05",
+			"name": "under your bed"
+		},
+		{
+			"id": "5dp17-V01",
+			"name": "amusement park"
+		},
+		{
+			"id": "5dp17-V02",
+			"name": "carnival"
+		},
+		{
+			"id": "5dp17-V03",
+			"name": "safari park"
+		},
+		{
+			"id": "5dp17-V04",
+			"name": "skate park"
+		},
+		{
+			"id": "5dp17-V05",
+			"name": "zoo"
+		},
+		{
+			"id": "5dp18-V01",
+			"name": "boring"
+		},
+		{
+			"id": "5dp18-V02",
+			"name": "cool"
+		},
+		{
+			"id": "5dp18-V03",
+			"name": "exciting"
+		},
+		{
+			"id": "5dp18-V04",
+			"name": "fun"
+		},
+		{
+			"id": "5dp18-V05",
+			"name": "scary"
+		},
+		{
+			"id": "5dp19-V01",
+			"name": "a dollar"
+		},
+		{
+			"id": "5dp19-V02",
+			"name": "two dollars"
+		},
+		{
+			"id": "5dp19-V03",
+			"name": "three dollars"
+		},
+		{
+			"id": "5dp19-V04",
+			"name": "four dollars"
+		},
+		{
+			"id": "5dp19-V05",
+			"name": "five dollars"
+		},
+		{
+			"id": "5dp21-V01",
+			"name": "hedgehogs"
+		},
+		{
+			"id": "5dp21-V02",
+			"name": "kittens"
+		},
+		{
+			"id": "5dp21-V03",
+			"name": "lizards"
+		},
+		{
+			"id": "5dp21-V04",
+			"name": "puppies"
+		},
+		{
+			"id": "5dp21-V05",
+			"name": "turtles"
+		},
+		{
+			"id": "5dp22-V01",
+			"name": "cake pop"
+		},
+		{
+			"id": "5dp22-V02",
+			"name": "cookie"
+		},
+		{
+			"id": "5dp22-V03",
+			"name": "cupcake"
+		},
+		{
+			"id": "5dp22-V04",
+			"name": "donut"
+		},
+		{
+			"id": "5dp22-V05",
+			"name": "muffin"
+		},
+		{
+			"id": "5dp23-V01",
+			"name": "five"
+		},
+		{
+			"id": "5dp23-V02",
+			"name": "ten"
+		},
+		{
+			"id": "5dp23-V03",
+			"name": "fifteen"
+		},
+		{
+			"id": "5dp23-V04",
+			"name": "twenty"
+		},
+		{
+			"id": "5dp23-V05",
+			"name": "twenty-five"
+		},
+		{
+			"id": "5dp23-V06",
+			"name": "thirty"
+		}
+	],
+	"meta": {
+		"base-path": "./CL5dp/media/"
+	}
+}

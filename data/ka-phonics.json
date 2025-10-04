@@ -1,0 +1,103 @@
+{
+	"phonicsCards": [
+		{
+			"id": "Ka01-PH",
+			"name": "Big A says A, a, apple.<br>Big A says A, a, Anika."
+		},
+		{
+			"id": "Ka02-PH",
+			"name": "Big B says B, b, banana.<br>Big B says B, b, butterfly."
+		},
+		{
+			"id": "Ka03-PH",
+			"name": "Big C says C, c, cap.<br>Big C says C, c, cake."
+		},
+		{
+			"id": "Ka04-PH",
+			"name": "Big D says D, d, daisy.<br>Big D says D, d, duck."
+		},
+		{
+			"id": "Ka05-PH",
+			"name": "Big E says E, e, elbow.<br>Big E says E, e, Evan."
+		},
+		{
+			"id": "Ka06-PH",
+			"name": "Big F says F, f, fork.<br>Big F says F, f, fence."
+		},
+		{
+			"id": "Ka07-PH",
+			"name": "Big G says G, g, grass.<br>Big G says G, g, gate."
+		},
+		{
+			"id": "Ka08-PH",
+			"name": "Big H says H, h, horn.<br>Big H says H, h, horse."
+		},
+		{
+			"id": "Ka09-PH",
+			"name": "Big I says I, i, igloo.<br>Big I says I, i, insect."
+		},
+		{
+			"id": "Ka10-PH",
+			"name": "Big J says J, j, jeep.<br>Big J says J, j, jigsaw."
+		},
+		{
+			"id": "Ka11-PH",
+			"name": "Big K says K, k, kite.<br>Big K says K, k, Kai."
+		},
+		{
+			"id": "Ka12-PH",
+			"name": "Big L says L, l, leg.<br>Big L says L, l, leaf."
+		},
+		{
+			"id": "Ka13-PH",
+			"name": "Big M says M, m, monkey.<br>Big M says M, m, Maya."
+		},
+		{
+			"id": "Ka14-PH",
+			"name": "Big N says N, n, nest.<br>Big N says N, n, nose."
+		},
+		{
+			"id": "Ka15-PH",
+			"name": "Big O says O, o, orange.<br>Big O says O, o, ostrich."
+		},
+		{
+			"id": "Ka16-PH",
+			"name": "Big P says P, p, pink.<br>Big P says P, p, park."
+		},
+		{
+			"id": "Ka17-PH",
+			"name": "Big Q says Q, q, question.<br>Big Q says Q, q, quack."
+		},
+		{
+			"id": "Ka18-PH",
+			"name": "Big R says R, r, rain.<br>Big R says R, r, rock."
+		},
+		{
+			"id": "Ka19-PH",
+			"name": "Big S says S, s, sun.<br>Big S says S, s, sunflower."
+		},
+		{
+			"id": "Ka20-PH",
+			"name": "Big T says T, t, tail.<br>Big T says T, t, tent."
+		},
+		{
+			"id": "Ka21-PH",
+			"name": "Big U says U, u, underwear.<br>Big U says U, u, upstairs."
+		},
+		{
+			"id": "Ka22-PH",
+			"name": "Big V says V, v, violin.<br>Big V says V, v, vest."
+		},
+		{
+			"id": "Ka23-PH",
+			"name": "Big W says W, w, window.<br>Big X says X, x, six."
+		},
+		{
+			"id": "Ka24-PH",
+			"name": "Big Y says Y, y, yawn.<br>Big Z says Z, z, zipper."
+		}
+	],
+	"meta": {
+		"base-path": "./Ka/media/"
+	}
+}

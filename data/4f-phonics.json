@@ -1,0 +1,199 @@
+{
+	"phonicsCards": [
+		{
+			"id": "3f02-P01",
+			"name": "c r _ _"
+		},
+		{
+			"id": "3f02-P02",
+			"name": "c r o w"
+		},
+		{
+			"id": "3f02-P03",
+			"name": "w i n d _ _"
+		},
+		{
+			"id": "3f02-P04",
+			"name": "w i n d o w"
+		},
+		{
+			"id": "3f03-P01",
+			"name": "f l _ t _"
+		},
+		{
+			"id": "3f03-P02",
+			"name": "f l u t e"
+		},
+		{
+			"id": "3f03-P03",
+			"name": "t _ b _"
+		},
+		{
+			"id": "3f03-P04",
+			"name": "t u b e"
+		},
+		{
+			"id": "3f06-P01",
+			"name": "n e _ _"
+		},
+		{
+			"id": "3f06-P02",
+			"name": "n e s t"
+		},
+		{
+			"id": "3f06-P03",
+			"name": "_ _ o p"
+		},
+		{
+			"id": "3f06-P04",
+			"name": "s t o p"
+		},
+		{
+			"id": "3f07-P01",
+			"name": "_ _ i s"
+		},
+		{
+			"id": "3f07-P02",
+			"name": "t h i s"
+		},
+		{
+			"id": "3f07-P03",
+			"name": "_ _ a t"
+		},
+		{
+			"id": "3f07-P04",
+			"name": "t h a t"
+		},
+		{
+			"id": "3f10-P01",
+			"name": "b _ _ k"
+		},
+		{
+			"id": "3f10-P02",
+			"name": "b o o k"
+		},
+		{
+			"id": "3f10-P03",
+			"name": "f _ _ t"
+		},
+		{
+			"id": "3f10-P04",
+			"name": "f o o t"
+		},
+		{
+			"id": "3f11-P01",
+			"name": "g r _ p _"
+		},
+		{
+			"id": "3f11-P02",
+			"name": "g r a p e"
+		},
+		{
+			"id": "3f11-P03",
+			"name": "v _ s _"
+		},
+		{
+			"id": "3f11-P04",
+			"name": "v a s e"
+		},
+		{
+			"id": "3f14-P01",
+			"name": "c l _ _ d"
+		},
+		{
+			"id": "3f14-P02",
+			"name": "c l o u d"
+		},
+		{
+			"id": "3f14-P03",
+			"name": "_ _ t l e t"
+		},
+		{
+			"id": "3f14-P04",
+			"name": "o u t l e t"
+		},
+		{
+			"id": "3f15-P01",
+			"name": "c _ _ t"
+		},
+		{
+			"id": "3f15-P02",
+			"name": "c o a t"
+		},
+		{
+			"id": "3f15-P03",
+			"name": "s _ _ p"
+		},
+		{
+			"id": "3f15-P04",
+			"name": "s o a p"
+		},
+		{
+			"id": "3f18-P01",
+			"name": "c a n _ _"
+		},
+		{
+			"id": "3f18-P02",
+			"name": "c a n d y"
+		},
+		{
+			"id": "3f18-P03",
+			"name": "w i n _ _"
+		},
+		{
+			"id": "3f18-P04",
+			"name": "w i n d y"
+		},
+		{
+			"id": "3f19-P01",
+			"name": "f _ _ _ _"
+		},
+		{
+			"id": "3f19-P02",
+			"name": "f i g h t"
+		},
+		{
+			"id": "3f19-P03",
+			"name": "l _ _ _ _"
+		},
+		{
+			"id": "3f19-P04",
+			"name": "l i g h t"
+		},
+		{
+			"id": "3f22-P01",
+			"name": "j u _ _"
+		},
+		{
+			"id": "3f22-P02",
+			"name": "j u m p"
+		},
+		{
+			"id": "3f22-P03",
+			"name": "l a _ _"
+		},
+		{
+			"id": "3f22-P04",
+			"name": "l a m p"
+		},
+		{
+			"id": "3f23-P01",
+			"name": "_ _ a p"
+		},
+		{
+			"id": "3f23-P02",
+			"name": "c l a p"
+		},
+		{
+			"id": "3f23-P03",
+			"name": "_ _ i p"
+		},
+		{
+			"id": "3f23-P04",
+			"name": "c l i p"
+		}
+	],
+	"meta": {
+		"base-path": "./L3f/media/"
+	}
+}

@@ -1,0 +1,151 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "kfpS1-V01",
+			"name": "ghost"
+		},
+		{
+			"id": "kfpS1-V02",
+			"name": "moon"
+		},
+		{
+			"id": "kfpS1-V03",
+			"name": "pumpkin"
+		},
+		{
+			"id": "kfpS1-V04",
+			"name": "skeleton"
+		},
+		{
+			"id": "kfpS1-V05",
+			"name": "vampire"
+		},
+		{
+			"id": "kfpS1-V06",
+			"name": "witch"
+		},
+		{
+			"id": "kfpS2-V01",
+			"name": "berries"
+		},
+		{
+			"id": "kfpS2-V02",
+			"name": "hedgehog"
+		},
+		{
+			"id": "kfpS2-V03",
+			"name": "leaves"
+		},
+		{
+			"id": "kfpS2-V04",
+			"name": "mushrooms"
+		},
+		{
+			"id": "kfpS2-V05",
+			"name": "rocks"
+		},
+		{
+			"id": "kfpS2-V06",
+			"name": "snails"
+		},
+		{
+			"id": "kfpS3-V01",
+			"name": "bell"
+		},
+		{
+			"id": "kfpS3-V02",
+			"name": "candy cane"
+		},
+		{
+			"id": "kfpS3-V03",
+			"name": "present"
+		},
+		{
+			"id": "kfpS3-V04",
+			"name": "reindeer"
+		},
+		{
+			"id": "kfpS3-V05",
+			"name": "snowflake"
+		},
+		{
+			"id": "kfpS3-V06",
+			"name": "star"
+		},
+		{
+			"id": "kfpS4-V01",
+			"name": "book"
+		},
+		{
+			"id": "kfpS4-V02",
+			"name": "crayons"
+		},
+		{
+			"id": "kfpS4-V03",
+			"name": "glue"
+		},
+		{
+			"id": "kfpS4-V04",
+			"name": "paper"
+		},
+		{
+			"id": "kfpS4-V05",
+			"name": "scissors"
+		},
+		{
+			"id": "kfpS4-V06",
+			"name": "tape"
+		},
+		{
+			"id": "kfpS5-V01",
+			"name": "blow"
+		},
+		{
+			"id": "kfpS5-V02",
+			"name": "catch"
+		},
+		{
+			"id": "kfpS5-V03",
+			"name": "hide"
+		},
+		{
+			"id": "kfpS5-V04",
+			"name": "jump"
+		},
+		{
+			"id": "kfpS5-V05",
+			"name": "kick"
+		},
+		{
+			"id": "kfpS5-V06",
+			"name": "throw"
+		},
+		{
+			"id": "kfpS6-V01",
+			"name": "ears"
+		},
+		{
+			"id": "kfpS6-V02",
+			"name": "flippers"
+		},
+		{
+			"id": "kfpS6-V03",
+			"name": "mane"
+		},
+		{
+			"id": "kfpS6-V04",
+			"name": "pouch"
+		},
+		{
+			"id": "kfpS6-V05",
+			"name": "tail"
+		},
+		{
+			"id": "kfpS6-V06",
+			"name": "trunk"
+		}
+	],
+	"meta": {
+		"base-path": "./kfp/media/"
+	}
+}

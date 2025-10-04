@@ -1,0 +1,367 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "4d01-V01",
+			"name": "an astronaut"
+		},
+		{
+			"id": "4d01-V02",
+			"name": "a fairy"
+		},
+		{
+			"id": "4d01-V03",
+			"name": "a knight"
+		},
+		{
+			"id": "4d01-V04",
+			"name": "a sailor"
+		},
+		{
+			"id": "4d01-V05",
+			"name": "a superhero"
+		},
+		{
+			"id": "4d02-V01",
+			"name": "a cape"
+		},
+		{
+			"id": "4d02-V02",
+			"name": "a hat"
+		},
+		{
+			"id": "4d02-V03",
+			"name": "a helmet"
+		},
+		{
+			"id": "4d02-V04",
+			"name": "a wand"
+		},
+		{
+			"id": "4d02-V05",
+			"name": "some wings"
+		},
+		{
+			"id": "4d03-V01",
+			"name": "beard"
+		},
+		{
+			"id": "4d03-V02",
+			"name": "boots"
+		},
+		{
+			"id": "4d03-V03",
+			"name": "cape"
+		},
+		{
+			"id": "4d03-V04",
+			"name": "sword"
+		},
+		{
+			"id": "4d03-V05",
+			"name": "tights"
+		},
+		{
+			"id": "4d05-V01",
+			"name": "clean the windows"
+		},
+		{
+			"id": "4d05-V02",
+			"name": "mow the lawn"
+		},
+		{
+			"id": "4d05-V03",
+			"name": "put away the groceries"
+		},
+		{
+			"id": "4d05-V04",
+			"name": "vacuum the living room"
+		},
+		{
+			"id": "4d05-V05",
+			"name": "walk the dog"
+		},
+		{
+			"id": "4d06-V01",
+			"name": "look for insects"
+		},
+		{
+			"id": "4d06-V02",
+			"name": "play hopscotch"
+		},
+		{
+			"id": "4d06-V03",
+			"name": "play tag"
+		},
+		{
+			"id": "4d06-V04",
+			"name": "practice hockey"
+		},
+		{
+			"id": "4d06-V05",
+			"name": "practice soccer"
+		},
+		{
+			"id": "4d07-V01",
+			"name": "folding the laundry"
+		},
+		{
+			"id": "4d07-V02",
+			"name": "mowing the lawn"
+		},
+		{
+			"id": "4d07-V03",
+			"name": "putting away the groceries"
+		},
+		{
+			"id": "4d07-V04",
+			"name": "tidying up your room"
+		},
+		{
+			"id": "4d07-V05",
+			"name": "vacuuming the living room"
+		},
+		{
+			"id": "4d09-V01",
+			"name": "brownies"
+		},
+		{
+			"id": "4d09-V02",
+			"name": "cookies"
+		},
+		{
+			"id": "4d09-V03",
+			"name": "muffins"
+		},
+		{
+			"id": "4d09-V04",
+			"name": "pastries"
+		},
+		{
+			"id": "4d09-V05",
+			"name": "pies"
+		},
+		{
+			"id": "4d10-V01",
+			"name": "beat the eggs"
+		},
+		{
+			"id": "4d10-V02",
+			"name": "cut out the cookies"
+		},
+		{
+			"id": "4d10-V03",
+			"name": "mix the batter"
+		},
+		{
+			"id": "4d10-V04",
+			"name": "roll the dough"
+		},
+		{
+			"id": "4d10-V05",
+			"name": "weigh the chocolate"
+		},
+		{
+			"id": "4d11-V01",
+			"name": "five"
+		},
+		{
+			"id": "4d11-V02",
+			"name": "ten"
+		},
+		{
+			"id": "4d11-V03",
+			"name": "fifteen"
+		},
+		{
+			"id": "4d11-V04",
+			"name": "twenty"
+		},
+		{
+			"id": "4d11-V05",
+			"name": "twenty-five"
+		},
+		{
+			"id": "4d13-V01",
+			"name": "do a jigsaw puzzle"
+		},
+		{
+			"id": "4d13-V02",
+			"name": "draw pictures"
+		},
+		{
+			"id": "4d13-V03",
+			"name": "dress up"
+		},
+		{
+			"id": "4d13-V04",
+			"name": "play a board game"
+		},
+		{
+			"id": "4d13-V05",
+			"name": "play cards"
+		},
+		{
+			"id": "4d14-V01",
+			"name": "foggy"
+		},
+		{
+			"id": "4d14-V02",
+			"name": "raining"
+		},
+		{
+			"id": "4d14-V03",
+			"name": "snowing"
+		},
+		{
+			"id": "4d14-V04",
+			"name": "stormy"
+		},
+		{
+			"id": "4d14-V05",
+			"name": "windy"
+		},
+		{
+			"id": "4d15-V01",
+			"name": "doing a jigsaw puzzle"
+		},
+		{
+			"id": "4d15-V02",
+			"name": "drawing pictures"
+		},
+		{
+			"id": "4d15-V03",
+			"name": "dressing up"
+		},
+		{
+			"id": "4d15-V04",
+			"name": "playing a board game"
+		},
+		{
+			"id": "4d15-V05",
+			"name": "playing cards"
+		},
+		{
+			"id": "4d17-V01",
+			"name": "read a book"
+		},
+		{
+			"id": "4d17-V02",
+			"name": "saw a movie"
+		},
+		{
+			"id": "4d17-V03",
+			"name": "saw a play"
+		},
+		{
+			"id": "4d17-V04",
+			"name": "went to the castle"
+		},
+		{
+			"id": "4d17-V05",
+			"name": "went to the zoo"
+		},
+		{
+			"id": "4d18-V01",
+			"name": "aliens"
+		},
+		{
+			"id": "4d18-V02",
+			"name": "cowboys"
+		},
+		{
+			"id": "4d18-V03",
+			"name": "elves"
+		},
+		{
+			"id": "4d18-V04",
+			"name": "pirates"
+		},
+		{
+			"id": "4d18-V05",
+			"name": "robots"
+		},
+		{
+			"id": "4d19-V01",
+			"name": "boring"
+		},
+		{
+			"id": "4d19-V02",
+			"name": "exciting"
+		},
+		{
+			"id": "4d19-V03",
+			"name": "funny"
+		},
+		{
+			"id": "4d19-V04",
+			"name": "sad"
+		},
+		{
+			"id": "4d19-V05",
+			"name": "scary"
+		},
+		{
+			"id": "4d21-V01",
+			"name": "blanket"
+		},
+		{
+			"id": "4d21-V02",
+			"name": "kite"
+		},
+		{
+			"id": "4d21-V03",
+			"name": "net"
+		},
+		{
+			"id": "4d21-V04",
+			"name": "soccer ball"
+		},
+		{
+			"id": "4d21-V05",
+			"name": "thermos"
+		},
+		{
+			"id": "4d22-V01",
+			"name": "jungle gym"
+		},
+		{
+			"id": "4d22-V02",
+			"name": "monkey bars"
+		},
+		{
+			"id": "4d22-V03",
+			"name": "seesaw"
+		},
+		{
+			"id": "4d22-V04",
+			"name": "slide"
+		},
+		{
+			"id": "4d22-V05",
+			"name": "swings"
+		},
+		{
+			"id": "4d23-V01",
+			"name": "catch some insects"
+		},
+		{
+			"id": "4d23-V02",
+			"name": "fly the kite"
+		},
+		{
+			"id": "4d23-V03",
+			"name": "have some snacks"
+		},
+		{
+			"id": "4d23-V04",
+			"name": "kick the soccer ball"
+		},
+		{
+			"id": "4d23-V05",
+			"name": "play badminton"
+		}
+	],
+	"meta": {
+		"base-path": "./CL4d/media/"
+	}
+}

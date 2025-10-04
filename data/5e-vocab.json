@@ -1,0 +1,407 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "2e01-V01",
+			"name": "black"
+		},
+		{
+			"id": "2e01-V02",
+			"name": "blue"
+		},
+		{
+			"id": "2e01-V03",
+			"name": "green"
+		},
+		{
+			"id": "2e01-V04",
+			"name": "pink"
+		},
+		{
+			"id": "2e01-V05",
+			"name": "purple"
+		},
+		{
+			"id": "2e01-V06",
+			"name": "red"
+		},
+		{
+			"id": "2e01-V07",
+			"name": "white"
+		},
+		{
+			"id": "2e01-V08",
+			"name": "yellow"
+		},
+		{
+			"id": "2e02-V01",
+			"name": "a fork"
+		},
+		{
+			"id": "2e02-V02",
+			"name": "a knife"
+		},
+		{
+			"id": "2e02-V03",
+			"name": "a napkin"
+		},
+		{
+			"id": "2e02-V04",
+			"name": "a spoon"
+		},
+		{
+			"id": "2e02-V05",
+			"name": "some chopsticks"
+		},
+		{
+			"id": "2e03-V01",
+			"name": "mine"
+		},
+		{
+			"id": "2e03-V02",
+			"name": "my brother's"
+		},
+		{
+			"id": "2e03-V03",
+			"name": "my dad's"
+		},
+		{
+			"id": "2e03-V04",
+			"name": "my mom's"
+		},
+		{
+			"id": "2e03-V05",
+			"name": "my sister's"
+		},
+		{
+			"id": "2e05-V01",
+			"name": "cycling"
+		},
+		{
+			"id": "2e05-V02",
+			"name": "hiking"
+		},
+		{
+			"id": "2e05-V03",
+			"name": "playing soccer"
+		},
+		{
+			"id": "2e05-V04",
+			"name": "reading"
+		},
+		{
+			"id": "2e05-V05",
+			"name": "watching soccer"
+		},
+		{
+			"id": "2e06-V01",
+			"name": "an athlete"
+		},
+		{
+			"id": "2e06-V02",
+			"name": "a baker"
+		},
+		{
+			"id": "2e06-V03",
+			"name": "a firefighter"
+		},
+		{
+			"id": "2e06-V04",
+			"name": "a singer"
+		},
+		{
+			"id": "2e06-V05",
+			"name": "a vet"
+		},
+		{
+			"id": "2e07-V01",
+			"name": "carpenter"
+		},
+		{
+			"id": "2e07-V02",
+			"name": "nurse"
+		},
+		{
+			"id": "2e07-V03",
+			"name": "police officer"
+		},
+		{
+			"id": "2e07-V04",
+			"name": "teacher"
+		},
+		{
+			"id": "2e07-V05",
+			"name": "train driver"
+		},
+		{
+			"id": "2e09-V01",
+			"name": "book"
+		},
+		{
+			"id": "2e09-V02",
+			"name": "comic"
+		},
+		{
+			"id": "2e09-V03",
+			"name": "game"
+		},
+		{
+			"id": "2e09-V04",
+			"name": "movie"
+		},
+		{
+			"id": "2e09-V05",
+			"name": "TV show"
+		},
+		{
+			"id": "2e10-V01",
+			"name": "Sunday"
+		},
+		{
+			"id": "2e10-V02",
+			"name": "Monday"
+		},
+		{
+			"id": "2e10-V03",
+			"name": "Tuesday"
+		},
+		{
+			"id": "2e10-V04",
+			"name": "Wednesday"
+		},
+		{
+			"id": "2e10-V05",
+			"name": "Thursday"
+		},
+		{
+			"id": "2e10-V06",
+			"name": "Friday"
+		},
+		{
+			"id": "2e10-V07",
+			"name": "Saturday"
+		},
+		{
+			"id": "2e11-V01",
+			"name": "cold"
+		},
+		{
+			"id": "2e11-V02",
+			"name": "dark"
+		},
+		{
+			"id": "2e11-V03",
+			"name": "hot"
+		},
+		{
+			"id": "2e11-V04",
+			"name": "stormy"
+		},
+		{
+			"id": "2e11-V05",
+			"name": "windy"
+		},
+		{
+			"id": "2e13-V01",
+			"name": "arm"
+		},
+		{
+			"id": "2e13-V02",
+			"name": "back"
+		},
+		{
+			"id": "2e13-V03",
+			"name": "head"
+		},
+		{
+			"id": "2e13-V04",
+			"name": "leg"
+		},
+		{
+			"id": "2e13-V05",
+			"name": "shoulder"
+		},
+		{
+			"id": "2e14-V01",
+			"name": "beetles"
+		},
+		{
+			"id": "2e14-V02",
+			"name": "butterflies"
+		},
+		{
+			"id": "2e14-V03",
+			"name": "dragonflies"
+		},
+		{
+			"id": "2e14-V04",
+			"name": "grasshoppers"
+		},
+		{
+			"id": "2e14-V05",
+			"name": "spiders"
+		},
+		{
+			"id": "2e15-V01",
+			"name": "hat"
+		},
+		{
+			"id": "2e15-V02",
+			"name": "jacket"
+		},
+		{
+			"id": "2e15-V03",
+			"name": "lunch"
+		},
+		{
+			"id": "2e15-V04",
+			"name": "thermos"
+		},
+		{
+			"id": "2e15-V05",
+			"name": "towel"
+		},
+		{
+			"id": "2e17-V01",
+			"name": "dress"
+		},
+		{
+			"id": "2e17-V02",
+			"name": "pants"
+		},
+		{
+			"id": "2e17-V03",
+			"name": "shirt"
+		},
+		{
+			"id": "2e17-V04",
+			"name": "shoes"
+		},
+		{
+			"id": "2e17-V05",
+			"name": "T-shirt"
+		},
+		{
+			"id": "2e18-V01",
+			"name": "colored pencils"
+		},
+		{
+			"id": "2e18-V02",
+			"name": "coloring books"
+		},
+		{
+			"id": "2e18-V03",
+			"name": "playing cards"
+		},
+		{
+			"id": "2e18-V04",
+			"name": "stamps"
+		},
+		{
+			"id": "2e18-V05",
+			"name": "stickers"
+		},
+		{
+			"id": "2e19-V01",
+			"name": "cake"
+		},
+		{
+			"id": "2e19-V02",
+			"name": "chicken wings"
+		},
+		{
+			"id": "2e19-V03",
+			"name": "pie"
+		},
+		{
+			"id": "2e19-V04",
+			"name": "popcorn"
+		},
+		{
+			"id": "2e19-V05",
+			"name": "sandwiches"
+		},
+		{
+			"id": "2e21-V01",
+			"name": "concert"
+		},
+		{
+			"id": "2e21-V02",
+			"name": "fair"
+		},
+		{
+			"id": "2e21-V03",
+			"name": "farmer's market"
+		},
+		{
+			"id": "2e21-V04",
+			"name": "garage sale"
+		},
+		{
+			"id": "2e21-V05",
+			"name": "parade"
+		},
+		{
+			"id": "2e22-V01",
+			"name": "board game"
+		},
+		{
+			"id": "2e22-V02",
+			"name": "book"
+		},
+		{
+			"id": "2e22-V03",
+			"name": "keyring"
+		},
+		{
+			"id": "2e22-V04",
+			"name": "robot"
+		},
+		{
+			"id": "2e22-V05",
+			"name": "watch"
+		},
+		{
+			"id": "2e23-V01",
+			"name": "one"
+		},
+		{
+			"id": "2e23-V02",
+			"name": "two"
+		},
+		{
+			"id": "2e23-V03",
+			"name": "three"
+		},
+		{
+			"id": "2e23-V04",
+			"name": "four"
+		},
+		{
+			"id": "2e23-V05",
+			"name": "five"
+		},
+		{
+			"id": "2e23-V06",
+			"name": "six"
+		},
+		{
+			"id": "2e23-V07",
+			"name": "seven"
+		},
+		{
+			"id": "2e23-V08",
+			"name": "eight"
+		},
+		{
+			"id": "2e23-V09",
+			"name": "nine"
+		},
+		{
+			"id": "2e23-V10",
+			"name": "ten"
+		}
+	],
+	"meta": {
+		"base-path": "./l2e/media/"
+	}
+}

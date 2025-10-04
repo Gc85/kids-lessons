@@ -1,0 +1,199 @@
+{
+  "phonicsCards": [
+    {
+      "id": "KapS1-P01",
+      "name": "b u d - bud"
+    },
+    {
+      "id": "KapS1-P02",
+      "name": "c u p - cup"
+    },
+    {
+      "id": "KapS1-P03",
+      "name": "d i g - dig"
+    },
+    {
+      "id": "KapS1-P04",
+      "name": "j a m - jam"
+    },
+    {
+      "id": "KapS1-P05",
+      "name": "m a t - mat"
+    },
+    {
+      "id": "KapS1-P06",
+      "name": "m u d - mud"
+    },
+		{
+      "id": "KapS1-P07",
+      "name": "s i t - sit"
+    },
+    {
+      "id": "KapS1-P08",
+      "name": "t a g - tag"
+    },
+		{
+      "id": "KapS2-P01",
+      "name": "h u m - hum"
+    },
+    {
+      "id": "KapS2-P02",
+      "name": "k i d - kid"
+    },
+    {
+      "id": "KapS2-P03",
+      "name": "m a n - man"
+    },
+    {
+      "id": "KapS2-P04",
+      "name": "n o d - nod"
+    },
+    {
+      "id": "KapS2-P05",
+      "name": "p e n - pen"
+    },
+    {
+      "id": "KapS2-P06",
+      "name": "p e t - pet"
+    },
+    {
+      "id": "KapS2-P07",
+      "name": "r a m - ram"
+    },
+    {
+      "id": "KapS2-P08",
+      "name": "r a t - rat"
+    },
+		{
+      "id": "KapS3-P01",
+      "name": "b a t - bat"
+    },
+    {
+      "id": "KapS3-P02",
+      "name": "b o x - box"
+    },
+    {
+      "id": "KapS3-P03",
+      "name": "b u s - bus"
+    },
+    {
+      "id": "KapS3-P04",
+      "name": "f o x - fox"
+    },
+    {
+      "id": "KapS3-P05",
+      "name": "t o p - top"
+    },
+    {
+      "id": "KapS3-P06",
+      "name": "v a n - van"
+    },
+    {
+      "id": "KapS3-P07",
+      "name": "y a k - yak"
+    },
+    {
+      "id": "KapS3-P08",
+      "name": "z i p - zip"
+    },
+		{
+      "id": "KapS4-P01",
+      "name": "c a n - can"
+    },
+    {
+      "id": "KapS4-P02",
+      "name": "d a d - dad"
+    },
+    {
+      "id": "KapS4-P03",
+      "name": "h a t - hat"
+    },
+    {
+      "id": "KapS4-P04",
+      "name": "h o t - hot"
+    },
+    {
+      "id": "KapS4-P05",
+      "name": "l a p - lap"
+    },
+    {
+      "id": "KapS4-P06",
+      "name": "l e g - leg"
+    },
+    {
+      "id": "KapS4-P07",
+      "name": "n u t - nut"
+    },
+    {
+      "id": "KapS4-P08",
+      "name": "s u n - sun"
+    },
+		{
+      "id": "KapS5-P01",
+      "name": "f i n - fin"
+    },
+    {
+      "id": "KapS5-P02",
+      "name": "j u g - jug"
+    },
+    {
+      "id": "KapS5-P03",
+      "name": "k i t - kit"
+    },
+    {
+      "id": "KapS5-P04",
+      "name": "m a p - map"
+    },
+    {
+      "id": "KapS5-P05",
+      "name": "m u g - mug"
+    },
+    {
+      "id": "KapS5-P06",
+      "name": "n e t - net"
+    },
+    {
+      "id": "KapS5-P07",
+      "name": "r o d - rod"
+    },
+    {
+      "id": "KapS5-P08",
+      "name": "w e t - wet"
+    },
+		{
+      "id": "KapS6-P01",
+      "name": "o f f - off"
+    },
+    {
+      "id": "KapS6-P02",
+      "name": "r i b - rib"
+    },
+    {
+      "id": "KapS6-P03",
+      "name": "r u n - run"
+    },
+    {
+      "id": "KapS6-P04",
+      "name": "s e t - set"
+    },
+    {
+      "id": "KapS6-P05",
+      "name": "s i p - sip"
+    },
+    {
+      "id": "KapS6-P06",
+      "name": "s u m - sum"
+    },
+    {
+      "id": "KapS6-P07",
+      "name": "t a p - tap"
+    },
+    {
+      "id": "KapS6-P08",
+      "name": "w i n - win"
+    }
+  ],
+	"meta": {
+		"base-path": "./kap/media/"
+	}
+}

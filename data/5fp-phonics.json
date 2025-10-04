@@ -1,0 +1,79 @@
+{
+	"phonicsCards": [
+		{
+			"id": "5fp01-P01",
+			"name": "TWO / two - two."
+		},
+		{
+			"id": "5fp02-P01",
+			"name": "IR / ir - th<span class='phonics'>ir</span>sty."
+		},
+		{
+			"id": "5fp03-P01",
+			"name": "BE / be - be."
+		},
+		{
+			"id": "5fp05-P01",
+			"name": "AND / and - and."
+		},
+		{
+			"id": "5fp06-P01",
+			"name": "IS / is - is."
+		},
+		{
+			"id": "5fp07-P01",
+			"name": "DAY / day - day."
+		},
+		{
+			"id": "5fp09-P01",
+			"name": "ANY / any - any."
+		},
+		{
+			"id": "5fp10-P01",
+			"name": "EE / ee - gr<span class='phonics'>ee</span>n."
+		},
+		{
+			"id": "5fp11-P01",
+			"name": "ER / er - pap<span class='phonics'>er</span>."
+		},
+		{
+			"id": "5fp13-P01",
+			"name": "He / he - he."
+		},
+		{
+			"id": "5fp14-P01",
+			"name": "WE / we - we."
+		},
+		{
+			"id": "5fp15-P01",
+			"name": "Do / do - do."
+		},
+		{
+			"id": "5fp17-P01",
+			"name": "TR / tr - <span class='phonics'>tr</span>y."
+		},
+		{
+			"id": "5fp18-P01",
+			"name": "ING / ing - jump<span class='phonics'>ing</span>."
+		},
+		{
+			"id": "5fp19-P01",
+			"name": "Can / can - can."
+		},
+		{
+			"id": "5fp21-P01",
+			"name": "OF / of - of."
+		},
+		{
+			"id": "5fp22-P01",
+			"name": "CH / ch - <span class='phonics'>ch</span>ili."
+		},
+		{
+			"id": "5fp23-P01",
+			"name": "PL / pl - <span class='phonics'>pl</span>ease."
+		}
+	],
+	"meta": {
+		"base-path": "./CL5fp/media/"
+	}
+}

@@ -1,0 +1,199 @@
+{
+	"phonicsCards": [
+		{
+			"id": "KbpS1-P01",
+			"name": "b a g - bag"
+		},
+		{
+			"id": "KbpS1-P02",
+			"name": "b o x - box"
+		},
+		{
+			"id": "KbpS1-P03",
+			"name": "c a p - cap"
+		},
+		{
+			"id": "KbpS1-P04",
+			"name": "c a t - cat"
+		},
+		{
+			"id": "KbpS1-P05",
+			"name": "d o g - dog"
+		},
+		{
+			"id": "KbpS1-P06",
+			"name": "h e n - hen"
+		},
+		{
+			"id": "KbpS1-P07",
+			"name": "s i x - six"
+		},
+		{
+			"id": "KbpS1-P08",
+			"name": "t e n - ten"
+		},
+		{
+			"id": "KbpS2-P01",
+			"name": "b u n - bun"
+		},
+		{
+			"id": "KbpS2-P02",
+			"name": "b u s - bus"
+		},
+		{
+			"id": "KbpS2-P03",
+			"name": "c u p - cup"
+		},
+		{
+			"id": "KbpS2-P04",
+			"name": "d o t - dot"
+		},
+		{
+			"id": "KbpS2-P05",
+			"name": "g u m - gum"
+		},
+		{
+			"id": "KbpS2-P06",
+			"name": "m a t - mat"
+		},
+		{
+			"id": "KbpS2-P07",
+			"name": "r e d - red"
+		},
+		{
+			"id": "KbpS2-P08",
+			"name": "t u b - tub"
+		},
+		{
+			"id": "KbpS3-P01",
+			"name": "l a p - lap"
+		},
+		{
+			"id": "KbpS3-P02",
+			"name": "l e g - leg"
+		},
+		{
+			"id": "KbpS3-P03",
+			"name": "m a p - map"
+		},
+		{
+			"id": "KbpS3-P04",
+			"name": "p e n - pen"
+		},
+		{
+			"id": "KbpS3-P05",
+			"name": "p i g - pig"
+		},
+		{
+			"id": "KbpS3-P06",
+			"name": "r u g - rug"
+		},
+		{
+			"id": "KbpS3-P07",
+			"name": "s i t - sit"
+		},
+		{
+			"id": "KbpS3-P08",
+			"name": "t o p - top"
+		},
+		{
+			"id": "KbpS4-P01",
+			"name": "b i b - bib"
+		},
+		{
+			"id": "KbpS4-P02",
+			"name": "b u g - bug"
+		},
+		{
+			"id": "KbpS4-P03",
+			"name": "c u t - cut"
+		},
+		{
+			"id": "KbpS4-P04",
+			"name": "l i d - lid"
+		},
+		{
+			"id": "KbpS4-P05",
+			"name": "m i x - mix"
+		},
+		{
+			"id": "KbpS4-P06",
+			"name": "p o t - pot"
+		},
+		{
+			"id": "KbpS4-P07",
+			"name": "p o d - pod"
+		},
+		{
+			"id": "KbpS4-P08",
+			"name": "pom-pom"
+		},
+		{
+			"id": "KbpS5-P01",
+			"name": "b e d - bed"
+		},
+		{
+			"id": "KbpS5-P02",
+			"name": "f a n - fan"
+		},
+		{
+			"id": "KbpS5-P03",
+			"name": "h o t - hot"
+		},
+		{
+			"id": "KbpS5-P04",
+			"name": "j o g - jog"
+		},
+		{
+			"id": "KbpS5-P05",
+			"name": "m a n - man"
+		},
+		{
+			"id": "KbpS5-P06",
+			"name": "s u n - sun"
+		},
+		{
+			"id": "KbpS5-P07",
+			"name": "t a x i - taxi"
+		},
+		{
+			"id": "KbpS5-P08",
+			"name": "v a n - van"
+		},
+		{
+			"id": "KbpS6-P01",
+			"name": "e g g - egg"
+		},
+		{
+			"id": "KbpS6-P02",
+			"name": "f a t - fat"
+		},
+		{
+			"id": "KbpS6-P03",
+			"name": "f i n - fin"
+		},
+		{
+			"id": "KbpS6-P04",
+			"name": "h u t - hut"
+		},
+		{
+			"id": "KbpS6-P05",
+			"name": "l o g - log"
+		},
+		{
+			"id": "KbpS6-P06",
+			"name": "n e t - net"
+		},
+		{
+			"id": "KbpS6-P07",
+			"name": "p a d - pad"
+		},
+		{
+			"id": "KbpS6-P08",
+			"name": "w e b - web"
+		}
+	],
+	"meta": {
+		"base-path": "./kbp/media/"
+	}
+}

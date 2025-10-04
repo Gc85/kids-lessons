@@ -1,0 +1,367 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "3fp01-V01",
+			"name": "boat show"
+		},
+		{
+			"id": "3fp01-V02",
+			"name": "comic book convention"
+		},
+		{
+			"id": "3fp01-V03",
+			"name": "Japan festival"
+		},
+		{
+			"id": "3fp01-V04",
+			"name": "jazz festival"
+		},
+		{
+			"id": "3fp01-V05",
+			"name": "rodeo"
+		},
+		{
+			"id": "3fp02-V01",
+			"name": "ghost"
+		},
+		{
+			"id": "3fp02-V02",
+			"name": "mummy"
+		},
+		{
+			"id": "3fp02-V03",
+			"name": "vampire"
+		},
+		{
+			"id": "3fp02-V04",
+			"name": "werewolf"
+		},
+		{
+			"id": "3fp02-V05",
+			"name": "witch"
+		},
+		{
+			"id": "3fp03-V01",
+			"name": "experiment / biology"
+		},
+		{
+			"id": "3fp03-V02",
+			"name": "experiment / chemistry"
+		},
+		{
+			"id": "3fp03-V03",
+			"name": "movie / action"
+		},
+		{
+			"id": "3fp03-V04",
+			"name": "movie / horror"
+		},
+		{
+			"id": "3fp03-V05",
+			"name": "test / English"
+		},
+		{
+			"id": "3fp03-V06",
+			"name": "test / math"
+		},
+		{
+			"id": "3fp05-V01",
+			"name": "10,503"
+		},
+		{
+			"id": "3fp05-V02",
+			"name": "25,760"
+		},
+		{
+			"id": "3fp05-V03",
+			"name": "33,210"
+		},
+		{
+			"id": "3fp05-V04",
+			"name": "123,321"
+		},
+		{
+			"id": "3fp05-V05",
+			"name": "300,049"
+		},
+		{
+			"id": "3fp06-V01",
+			"name": "has fewer people"
+		},
+		{
+			"id": "3fp06-V02",
+			"name": "has more people"
+		},
+		{
+			"id": "3fp06-V03",
+			"name": "is bigger"
+		},
+		{
+			"id": "3fp06-V04",
+			"name": "is smaller"
+		},
+		{
+			"id": "3fp06-V05",
+			"name": "is cooler"
+		},
+		{
+			"id": "3fp06-V06",
+			"name": "is hotter"
+		},
+		{
+			"id": "3fp07-V01",
+			"name": "in the center"
+		},
+		{
+			"id": "3fp07-V02",
+			"name": "in the north"
+		},
+		{
+			"id": "3fp07-V03",
+			"name": "in the south"
+		},
+		{
+			"id": "3fp07-V04",
+			"name": "on the east coast"
+		},
+		{
+			"id": "3fp07-V05",
+			"name": "on the west coast"
+		},
+		{
+			"id": "3fp09-V01",
+			"name": "birthday card / my grandpa"
+		},
+		{
+			"id": "3fp09-V02",
+			"name": "Chrismas present / my mom"
+		},
+		{
+			"id": "3fp09-V03",
+			"name": "donuts / Bella"
+		},
+		{
+			"id": "3fp09-V04",
+			"name": "eraser / school"
+		},
+		{
+			"id": "3fp09-V05",
+			"name": "scarf / winter"
+		},
+		{
+			"id": "3fp10-V01",
+			"name": "hit / switch"
+		},
+		{
+			"id": "3fp10-V02",
+			"name": "pull / handle"
+		},
+		{
+			"id": "3fp10-V03",
+			"name": "pull / lever"
+		},
+		{
+			"id": "3fp10-V04",
+			"name": "push / button"
+		},
+		{
+			"id": "3fp10-V05",
+			"name": "turn / dial"
+		},
+		{
+			"id": "3fp11-V01",
+			"name": "eat"
+		},
+		{
+			"id": "3fp11-V02",
+			"name": "play"
+		},
+		{
+			"id": "3fp11-V03",
+			"name": "read"
+		},
+		{
+			"id": "3fp11-V04",
+			"name": "watch"
+		},
+		{
+			"id": "3fp13-V01",
+			"name": "affectionate"
+		},
+		{
+			"id": "3fp13-V02",
+			"name": "energetic"
+		},
+		{
+			"id": "3fp13-V03",
+			"name": "mysterious"
+		},
+		{
+			"id": "3fp13-V04",
+			"name": "playful"
+		},
+		{
+			"id": "3fp13-V05",
+			"name": "relaxing"
+		},
+		{
+			"id": "3fp14-V01",
+			"name": "hunting for mice"
+		},
+		{
+			"id": "3fp14-V02",
+			"name": "licking her paws"
+		},
+		{
+			"id": "3fp14-V03",
+			"name": "playing with a toy"
+		},
+		{
+			"id": "3fp14-V04",
+			"name": "taking a nap"
+		},
+		{
+			"id": "3fp14-V05",
+			"name": "watching the birds"
+		},
+		{
+			"id": "3fp15-V01",
+			"name": "ate / many snacks"
+		},
+		{
+			"id": "3fp15-V02",
+			"name": "drank / much soda"
+		},
+		{
+			"id": "3fp15-V03",
+			"name": "got up / early"
+		},
+		{
+			"id": "3fp15-V04",
+			"name": "put on / many clothes"
+		},
+		{
+			"id": "3fp17-V01",
+			"name": "chips"
+		},
+		{
+			"id": "3fp17-V02",
+			"name": "cookies"
+		},
+		{
+			"id": "3fp17-V03",
+			"name": "ice cream"
+		},
+		{
+			"id": "3fp17-V04",
+			"name": "juice"
+		},
+		{
+			"id": "3fp17-V05",
+			"name": "sodas"
+		},
+		{
+			"id": "3fp18-V01",
+			"name": "astronaut gallery"
+		},
+		{
+			"id": "3fp18-V02",
+			"name": "Living in Space show"
+		},
+		{
+			"id": "3fp18-V03",
+			"name": "Mars exhibit"
+		},
+		{
+			"id": "3fp18-V04",
+			"name": "shuttle visit"
+		},
+		{
+			"id": "3fp18-V05",
+			"name": "tram tour"
+		},
+		{
+			"id": "3fp19-V01",
+			"name": "buy a drink"
+		},
+		{
+			"id": "3fp19-V02",
+			"name": "check out the rocket park"
+		},
+		{
+			"id": "3fp19-V03",
+			"name": "get some souvenirs"
+		},
+		{
+			"id": "3fp19-V04",
+			"name": "take some pictures"
+		},
+		{
+			"id": "3fp19-V05",
+			"name": "use the restroom"
+		},
+		{
+			"id": "3fp21-V01",
+			"name": "blue moon"
+		},
+		{
+			"id": "3fp21-V02",
+			"name": "lunar eclipse"
+		},
+		{
+			"id": "3fp21-V03",
+			"name": "meteor shower"
+		},
+		{
+			"id": "3fp21-V04",
+			"name": "solar eclipse"
+		},
+		{
+			"id": "3fp21-V05",
+			"name": "supermoon"
+		},
+		{
+			"id": "3fp22-V01",
+			"name": "binoculars"
+		},
+		{
+			"id": "3fp22-V02",
+			"name": "flashlights"
+		},
+		{
+			"id": "3fp22-V03",
+			"name": "laser pointers"
+		},
+		{
+			"id": "3fp22-V04",
+			"name": "telescopes"
+		},
+		{
+			"id": "3fp22-V05",
+			"name": "tripods"
+		},
+		{
+			"id": "3fp23-V01",
+			"name": "clear"
+		},
+		{
+			"id": "3fp23-V02",
+			"name": "cloudy"
+		},
+		{
+			"id": "3fp23-V03",
+			"name": "cold"
+		},
+		{
+			"id": "3fp23-V04",
+			"name": "rainy"
+		},
+		{
+			"id": "3fp23-V05",
+			"name": "warm"
+		}
+	],
+	"meta": {
+		"base-path": "./CL3fp/media/"
+	}
+}

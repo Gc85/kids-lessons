@@ -1,0 +1,295 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "Ka01-V01",
+			"name": "Anika"
+		},
+		{
+			"id": "Ka01-V02",
+			"name": "Evan"
+		},
+		{
+			"id": "Ka01-V03",
+			"name": "Kai"
+		},
+		{
+			"id": "Ka01-V04",
+			"name": "Maya"
+		},
+		{
+			"id": "Ka02-V01",
+			"name": "hot"
+		},
+		{
+			"id": "Ka02-V02",
+			"name": "hungry"
+		},
+		{
+			"id": "Ka02-V03",
+			"name": "sleepy"
+		},
+		{
+			"id": "Ka02-V04",
+			"name": "thirsty"
+		},
+		{
+			"id": "Ka03-V01",
+			"name": "cake"
+		},
+		{
+			"id": "Ka03-V02",
+			"name": "fruit"
+		},
+		{
+			"id": "Ka03-V03",
+			"name": "juice"
+		},
+		{
+			"id": "Ka03-V04",
+			"name": "water"
+		},
+		{
+			"id": "Ka05-V01",
+			"name": "cow"
+		},
+		{
+			"id": "Ka05-V02",
+			"name": "donkey"
+		},
+		{
+			"id": "Ka05-V03",
+			"name": "horse"
+		},
+		{
+			"id": "Ka05-V04",
+			"name": "sheep"
+		},
+		{
+			"id": "Ka06-V01",
+			"name": "black"
+		},
+		{
+			"id": "Ka06-V02",
+			"name": "brown"
+		},
+		{
+			"id": "Ka06-V03",
+			"name": "gray"
+		},
+		{
+			"id": "Ka06-V04",
+			"name": "white"
+		},
+		{
+			"id": "Ka07-V01",
+			"name": "apples"
+		},
+		{
+			"id": "Ka07-V02",
+			"name": "carrots"
+		},
+		{
+			"id": "Ka07-V03",
+			"name": "grass"
+		},
+		{
+			"id": "Ka07-V04",
+			"name": "milk"
+		},
+		{
+			"id": "Ka09-V01",
+			"name": "books"
+		},
+		{
+			"id": "Ka09-V02",
+			"name": "pets"
+		},
+		{
+			"id": "Ka09-V03",
+			"name": "scooters"
+		},
+		{
+			"id": "Ka09-V04",
+			"name": "toys"
+		},
+		{
+			"id": "Ka10-V01",
+			"name": "big"
+		},
+		{
+			"id": "Ka10-V02",
+			"name": "fast"
+		},
+		{
+			"id": "Ka10-V03",
+			"name": "slow"
+		},
+		{
+			"id": "Ka10-V04",
+			"name": "small"
+		},
+		{
+			"id": "Ka11-V01",
+			"name": "2"
+		},
+		{
+			"id": "Ka11-V02",
+			"name": "3"
+		},
+		{
+			"id": "Ka11-V03",
+			"name": "5"
+		},
+		{
+			"id": "Ka11-V04",
+			"name": "10"
+		},
+		{
+			"id": "Ka13-V01",
+			"name": "climb"
+		},
+		{
+			"id": "Ka13-V02",
+			"name": "jump rope"
+		},
+		{
+			"id": "Ka13-V03",
+			"name": "ride a bike"
+		},
+		{
+			"id": "Ka13-V04",
+			"name": "run"
+		},
+		{
+			"id": "Ka14-V01",
+			"name": "circle"
+		},
+		{
+			"id": "Ka14-V02",
+			"name": "rectangle"
+		},
+		{
+			"id": "Ka14-V03",
+			"name": "square"
+		},
+		{
+			"id": "Ka14-V04",
+			"name": "triangle"
+		},
+		{
+			"id": "Ka15-V01",
+			"name": "down"
+		},
+		{
+			"id": "Ka15-V02",
+			"name": "over"
+		},
+		{
+			"id": "Ka15-V03",
+			"name": "under"
+		},
+		{
+			"id": "Ka15-V04",
+			"name": "up"
+		},
+		{
+			"id": "Ka17-V01",
+			"name": "forest"
+		},
+		{
+			"id": "Ka17-V02",
+			"name": "lake"
+		},
+		{
+			"id": "Ka17-V03",
+			"name": "mountains"
+		},
+		{
+			"id": "Ka17-V04",
+			"name": "river"
+		},
+		{
+			"id": "Ka18-V01",
+			"name": "binoculars"
+		},
+		{
+			"id": "Ka18-V02",
+			"name": "fishing rod"
+		},
+		{
+			"id": "Ka18-V03",
+			"name": "hiking boots"
+		},
+		{
+			"id": "Ka18-V04",
+			"name": "swim ring"
+		},
+		{
+			"id": "Ka19-V01",
+			"name": "cloudy"
+		},
+		{
+			"id": "Ka19-V02",
+			"name": "rainy"
+		},
+		{
+			"id": "Ka19-V03",
+			"name": "sunny"
+		},
+		{
+			"id": "Ka19-V04",
+			"name": "windy"
+		},
+		{
+			"id": "Ka21-V01",
+			"name": "brush my hair"
+		},
+		{
+			"id": "Ka21-V02",
+			"name": "brush my teeth"
+		},
+		{
+			"id": "Ka21-V03",
+			"name": "wash my face"
+		},
+		{
+			"id": "Ka21-V04",
+			"name": "wash my hands"
+		},
+		{
+			"id": "Ka22-V01",
+			"name": "head"
+		},
+		{
+			"id": "Ka22-V02",
+			"name": "nose"
+		},
+		{
+			"id": "Ka22-V03",
+			"name": "toes"
+		},
+		{
+			"id": "Ka22-V04",
+			"name": "tummy"
+		},
+		{
+			"id": "Ka23-V01",
+			"name": "first"
+		},
+		{
+			"id": "Ka23-V02",
+			"name": "second"
+		},
+		{
+			"id": "Ka23-V03",
+			"name": "third"
+		},
+		{
+			"id": "Ka23-V04",
+			"name": "fourth"
+		}
+	],
+	"meta": {
+		"base-path": "./Ka/media/"
+	}
+}

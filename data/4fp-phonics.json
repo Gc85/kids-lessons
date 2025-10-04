@@ -1,0 +1,79 @@
+{
+  "phonicsCards": [
+		{
+			"id": "4fp01-P01",
+			"name": "Three / three - three"
+		},
+		{
+			"id": "4fp02-P01",
+			"name": "This / this - this"
+		},
+		{
+			"id": "4fp03-P01",
+			"name": "One / one - one"
+		},
+		{
+			"id": "4fp05-P01",
+			"name": "For / for - for"
+		},
+		{
+			"id": "4fp06-P01",
+			"name": "Very / very - very"
+		},
+		{
+			"id": "4fp07-P01",
+			"name": "Where / where - where"
+		},
+		{
+			"id": "4fp09-P01",
+			"name": "About / about - about"
+		},
+		{
+			"id": "4fp10-P01",
+			"name": "These / these - these"
+		},
+		{
+			"id": "4fp11-P01",
+			"name": "Must / must - must"
+		},
+		{
+			"id": "4fp13-P01",
+			"name": "Them / them - them"
+		},
+		{
+			"id": "4fp14-P01",
+			"name": "My / my - my"
+		},
+		{
+			"id": "4fp15-P01",
+			"name": "Or / or - or"
+		},
+		{
+			"id": "4fp17-P01",
+			"name": "When / when - when"
+		},
+		{
+			"id": "4fp18-P01",
+			"name": "They / they - they"
+		},
+		{
+			"id": "4fp19-P01",
+			"name": "Hey / hey - hey"
+		},
+		{
+			"id": "4fp21-P01",
+			"name": "Right / right - right"
+		},
+		{
+			"id": "4fp22-P01",
+			"name": "Was / was - was"
+		},
+		{
+			"id": "4fp23-P01",
+			"name": "We / we - we"
+		}
+  ],
+	"meta": {
+		"base-path": "./CL4fp/media/"
+	}
+}

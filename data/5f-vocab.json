@@ -1,0 +1,367 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "2f01-V01",
+			"name": "a circle"
+		},
+		{
+			"id": "2f01-V02",
+			"name": "an oval"
+		},
+		{
+			"id": "2f01-V03",
+			"name": "a rectangle"
+		},
+		{
+			"id": "2f01-V04",
+			"name": "a square"
+		},
+		{
+			"id": "2f01-V05",
+			"name": "a triangle"
+		},
+		{
+			"id": "2f02-V01",
+			"name": "an apple"
+		},
+		{
+			"id": "2f02-V02",
+			"name": "a muffin"
+		},
+		{
+			"id": "2f02-V03",
+			"name": "a popsicle"
+		},
+		{
+			"id": "2f02-V04",
+			"name": "some ice cream"
+		},
+		{
+			"id": "2f02-V05",
+			"name": "some yogurt"
+		},
+		{
+			"id": "2f03-V01",
+			"name": "ghosts"
+		},
+		{
+			"id": "2f03-V02",
+			"name": "monsters"
+		},
+		{
+			"id": "2f03-V03",
+			"name": "ninjas"
+		},
+		{
+			"id": "2f03-V04",
+			"name": "superheroes"
+		},
+		{
+			"id": "2f03-V05",
+			"name": "wizards"
+		},
+		{
+			"id": "2f05-V01",
+			"name": "eraser"
+		},
+		{
+			"id": "2f05-V02",
+			"name": "notebook"
+		},
+		{
+			"id": "2f05-V03",
+			"name": "paint set"
+		},
+		{
+			"id": "2f05-V04",
+			"name": "pencil case"
+		},
+		{
+			"id": "2f05-V05",
+			"name": "textbook"
+		},
+		{
+			"id": "2f06-V01",
+			"name": "my bedroom"
+		},
+		{
+			"id": "2f06-V02",
+			"name": "the garage"
+		},
+		{
+			"id": "2f06-V03",
+			"name": "the kitchen"
+		},
+		{
+			"id": "2f06-V04",
+			"name": "the living room"
+		},
+		{
+			"id": "2f06-V05",
+			"name": "the yard"
+		},
+		{
+			"id": "2f07-V01",
+			"name": "basketball"
+		},
+		{
+			"id": "2f07-V02",
+			"name": "cheerleading"
+		},
+		{
+			"id": "2f07-V03",
+			"name": "dance"
+		},
+		{
+			"id": "2f07-V04",
+			"name": "hockey"
+		},
+		{
+			"id": "2f07-V05",
+			"name": "swim"
+		},
+		{
+			"id": "2f09-V01",
+			"name": "bananas"
+		},
+		{
+			"id": "2f09-V02",
+			"name": "cucumbers"
+		},
+		{
+			"id": "2f09-V03",
+			"name": "onions"
+		},
+		{
+			"id": "2f09-V04",
+			"name": "pickles"
+		},
+		{
+			"id": "2f09-V05",
+			"name": "tomatoes"
+		},
+		{
+			"id": "2f10-V01",
+			"name": "airplane"
+		},
+		{
+			"id": "2f10-V02",
+			"name": "chain"
+		},
+		{
+			"id": "2f10-V03",
+			"name": "crane"
+		},
+		{
+			"id": "2f10-V04",
+			"name": "doll"
+		},
+		{
+			"id": "2f10-V05",
+			"name": "snowflake"
+		},
+		{
+			"id": "2f11-V01",
+			"name": "bracelet"
+		},
+		{
+			"id": "2f11-V02",
+			"name": "hat"
+		},
+		{
+			"id": "2f11-V03",
+			"name": "necklace"
+		},
+		{
+			"id": "2f11-V04",
+			"name": "wallet"
+		},
+		{
+			"id": "2f11-V05",
+			"name": "watch"
+		},
+		{
+			"id": "2f13-V01",
+			"name": "English"
+		},
+		{
+			"id": "2f13-V02",
+			"name": "math"
+		},
+		{
+			"id": "2f13-V03",
+			"name": "music"
+		},
+		{
+			"id": "2f13-V04",
+			"name": "P.E."
+		},
+		{
+			"id": "2f13-V05",
+			"name": "science"
+		},
+		{
+			"id": "2f14-V01",
+			"name": "no"
+		},
+		{
+			"id": "2f14-V02",
+			"name": "two"
+		},
+		{
+			"id": "2f14-V03",
+			"name": "four"
+		},
+		{
+			"id": "2f14-V04",
+			"name": "six"
+		},
+		{
+			"id": "2f14-V05",
+			"name": "eight"
+		},
+		{
+			"id": "2f15-V01",
+			"name": "feathers"
+		},
+		{
+			"id": "2f15-V02",
+			"name": "fur"
+		},
+		{
+			"id": "2f15-V03",
+			"name": "scales"
+		},
+		{
+			"id": "2f15-V04",
+			"name": "a shell"
+		},
+		{
+			"id": "2f15-V05",
+			"name": "spines"
+		},
+		{
+			"id": "2f17-V01",
+			"name": "jungle gym"
+		},
+		{
+			"id": "2f17-V02",
+			"name": "monkey bars"
+		},
+		{
+			"id": "2f17-V03",
+			"name": "seesaws"
+		},
+		{
+			"id": "2f17-V04",
+			"name": "slides"
+		},
+		{
+			"id": "2f17-V05",
+			"name": "swings"
+		},
+		{
+			"id": "2f18-V01",
+			"name": "badminton"
+		},
+		{
+			"id": "2f18-V02",
+			"name": "cricket"
+		},
+		{
+			"id": "2f18-V03",
+			"name": "rugby"
+		},
+		{
+			"id": "2f18-V04",
+			"name": "soccer"
+		},
+		{
+			"id": "2f18-V05",
+			"name": "table tennis"
+		},
+		{
+			"id": "2f19-V01",
+			"name": "drums"
+		},
+		{
+			"id": "2f19-V02",
+			"name": "harmonica"
+		},
+		{
+			"id": "2f19-V03",
+			"name": "piano"
+		},
+		{
+			"id": "2f19-V04",
+			"name": "violin"
+		},
+		{
+			"id": "2f19-V05",
+			"name": "xylophone"
+		},
+		{
+			"id": "2f21-V01",
+			"name": "cheese"
+		},
+		{
+			"id": "2f21-V02",
+			"name": "honey"
+		},
+		{
+			"id": "2f21-V03",
+			"name": "jam"
+		},
+		{
+			"id": "2f21-V04",
+			"name": "pies"
+		},
+		{
+			"id": "2f21-V05",
+			"name": "vegetables"
+		},
+		{
+			"id": "2f22-V01",
+			"name": "good"
+		},
+		{
+			"id": "2f22-V02",
+			"name": "hot"
+		},
+		{
+			"id": "2f22-V03",
+			"name": "salty"
+		},
+		{
+			"id": "2f22-V04",
+			"name": "sour"
+		},
+		{
+			"id": "2f22-V05",
+			"name": "sweet"
+		},
+		{
+			"id": "2f23-V01",
+			"name": "kiwifruit"
+		},
+		{
+			"id": "2f23-V02",
+			"name": "mango"
+		},
+		{
+			"id": "2f23-V03",
+			"name": "orange"
+		},
+		{
+			"id": "2f23-V04",
+			"name": "peach"
+		},
+		{
+			"id": "2f23-V05",
+			"name": "strawberry"
+		}
+	],
+	"meta": {
+		"base-path": "./l2f/media/"
+	}
+}

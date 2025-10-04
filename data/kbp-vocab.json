@@ -1,0 +1,151 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "KbpS1-V01",
+			"name": "cauliflower"
+		},
+		{
+			"id": "KbpS1-V02",
+			"name": "sweet potatoes"
+		},
+		{
+			"id": "KbpS1-V03",
+			"name": "beets"
+		},
+		{
+			"id": "KbpS1-V04",
+			"name": "onions"
+		},
+		{
+			"id": "KbpS1-V05",
+			"name": "potatoes"
+		},
+		{
+			"id": "KbpS1-V06",
+			"name": "pears"
+		},
+		{
+			"id": "KbpS2-V01",
+			"name": "ball"
+		},
+		{
+			"id": "KbpS2-V02",
+			"name": "block"
+		},
+		{
+			"id": "KbpS2-V03",
+			"name": "coin"
+		},
+		{
+			"id": "KbpS2-V04",
+			"name": "feather"
+		},
+		{
+			"id": "KbpS2-V05",
+			"name": "shell"
+		},
+		{
+			"id": "KbpS2-V06",
+			"name": "spoon"
+		},
+		{
+			"id": "KbpS3-V01",
+			"name": "angel"
+		},
+		{
+			"id": "KbpS3-V02",
+			"name": "crane"
+		},
+		{
+			"id": "KbpS3-V03",
+			"name": "dragon"
+		},
+		{
+			"id": "KbpS3-V04",
+			"name": "king"
+		},
+		{
+			"id": "KbpS3-V05",
+			"name": "princess"
+		},
+		{
+			"id": "KbpS3-V06",
+			"name": "turtle"
+		},
+		{
+			"id": "KbpS4-V01",
+			"name": "chocolate"
+		},
+		{
+			"id": "KbpS4-V02",
+			"name": "strawberry"
+		},
+		{
+			"id": "KbpS4-V03",
+			"name": "vanilla"
+		},
+		{
+			"id": "KbpS4-V04",
+			"name": "gummy bears"
+		},
+		{
+			"id": "KbpS4-V05",
+			"name": "nuts"
+		},
+		{
+			"id": "KbpS4-V06",
+			"name": "sprinkles"
+		},
+		{
+			"id": "KbpS5-V01",
+			"name": "dentist's office"
+		},
+		{
+			"id": "KbpS5-V02",
+			"name": "hotel"
+		},
+		{
+			"id": "KbpS5-V03",
+			"name": "museum"
+		},
+		{
+			"id": "KbpS5-V04",
+			"name": "police station"
+		},
+		{
+			"id": "KbpS5-V05",
+			"name": "restaurant"
+		},
+		{
+			"id": "KbpS5-V06",
+			"name": "train station"
+		},
+		{
+			"id": "KbpS6-V01",
+			"name": "a beak"
+		},
+		{
+			"id": "KbpS6-V02",
+			"name": "a shell"
+		},
+		{
+			"id": "KbpS6-V03",
+			"name": "a tail"
+		},
+		{
+			"id": "KbpS6-V04",
+			"name": "legs"
+		},
+		{
+			"id": "KbpS6-V05",
+			"name": "teeth"
+		},
+		{
+			"id": "KbpS6-V06",
+			"name": "wings"
+		}
+	],
+	"meta": {
+		"base-path": "./Kbp/media/"
+	}
+}

@@ -1,0 +1,375 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "2a01-V01",
+			"name": "bag"
+		},
+		{
+			"id": "2a01-V02",
+			"name": "hat"
+		},
+		{
+			"id": "2a01-V03",
+			"name": "pencil case"
+		},
+		{
+			"id": "2a01-V04",
+			"name": "T-shirt"
+		},
+		{
+			"id": "2a01-V05",
+			"name": "watch"
+		},
+		{
+			"id": "2a02-V01",
+			"name": "Monday"
+		},
+		{
+			"id": "2a02-V02",
+			"name": "Tuesday"
+		},
+		{
+			"id": "2a02-V03",
+			"name": "Wednesday"
+		},
+		{
+			"id": "2a02-V04",
+			"name": "Thursday"
+		},
+		{
+			"id": "2a02-V05",
+			"name": "Friday"
+		},
+		{
+			"id": "2a02-V06",
+			"name": "Saturday"
+		},
+		{
+			"id": "2a02-V07",
+			"name": "Sunday"
+		},
+		{
+			"id": "2a03-V01",
+			"name": "eraser"
+		},
+		{
+			"id": "2a03-V02",
+			"name": "pen"
+		},
+		{
+			"id": "2a03-V03",
+			"name": "pencil"
+		},
+		{
+			"id": "2a03-V04",
+			"name": "pencil sharpener"
+		},
+		{
+			"id": "2a03-V05",
+			"name": "ruler"
+		},
+		{
+			"id": "2a05-V01",
+			"name": "brother"
+		},
+		{
+			"id": "2a05-V02",
+			"name": "dad"
+		},
+		{
+			"id": "2a05-V03",
+			"name": "friend"
+		},
+		{
+			"id": "2a05-V04",
+			"name": "mom"
+		},
+		{
+			"id": "2a05-V05",
+			"name": "sister"
+		},
+		{
+			"id": "2a06-V01",
+			"name": "angry"
+		},
+		{
+			"id": "2a06-V02",
+			"name": "hungry"
+		},
+		{
+			"id": "2a06-V03",
+			"name": "sleepy"
+		},
+		{
+			"id": "2a06-V04",
+			"name": "thirsty"
+		},
+		{
+			"id": "2a06-V05",
+			"name": "tired"
+		},
+		{
+			"id": "2a07-V01",
+			"name": "apples"
+		},
+		{
+			"id": "2a07-V02",
+			"name": "bananas"
+		},
+		{
+			"id": "2a07-V03",
+			"name": "peaches"
+		},
+		{
+			"id": "2a07-V04",
+			"name": "pears"
+		},
+		{
+			"id": "2a07-V05",
+			"name": "strawberries"
+		},
+		{
+			"id": "2a09-V01",
+			"name": "catch"
+		},
+		{
+			"id": "2a09-V02",
+			"name": "hide-and-seek"
+		},
+		{
+			"id": "2a09-V03",
+			"name": "soccer"
+		},
+		{
+			"id": "2a09-V04",
+			"name": "softball"
+		},
+		{
+			"id": "2a09-V05",
+			"name": "tag"
+		},
+		{
+			"id": "2a10-V01",
+			"name": "do cartwheels"
+		},
+		{
+			"id": "2a10-V02",
+			"name": "do somersaults"
+		},
+		{
+			"id": "2a10-V03",
+			"name": "run fast"
+		},
+		{
+			"id": "2a10-V04",
+			"name": "stand on my head"
+		},
+		{
+			"id": "2a10-V05",
+			"name": "whistle"
+		},
+		{
+			"id": "2a11-V01",
+			"name": "candy"
+		},
+		{
+			"id": "2a11-V02",
+			"name": "chocolate"
+		},
+		{
+			"id": "2a11-V03",
+			"name": "ice cream"
+		},
+		{
+			"id": "2a11-V04",
+			"name": "potato chips"
+		},
+		{
+			"id": "2a11-V05",
+			"name": "soda"
+		},
+		{
+			"id": "2a13-V01",
+			"name": "curry"
+		},
+		{
+			"id": "2a13-V02",
+			"name": "pasta"
+		},
+		{
+			"id": "2a13-V03",
+			"name": "pizza"
+		},
+		{
+			"id": "2a13-V04",
+			"name": "hamburgers"
+		},
+		{
+			"id": "2a13-V05",
+			"name": "hot dogs"
+		},
+		{
+			"id": "2a14-V01",
+			"name": "carrots"
+		},
+		{
+			"id": "2a14-V02",
+			"name": "green peppers"
+		},
+		{
+			"id": "2a14-V03",
+			"name": "mushrooms"
+		},
+		{
+			"id": "2a14-V04",
+			"name": "onions"
+		},
+		{
+			"id": "2a14-V05",
+			"name": "tomatoes"
+		},
+		{
+			"id": "2a15-V01",
+			"name": "arm"
+		},
+		{
+			"id": "2a15-V02",
+			"name": "back"
+		},
+		{
+			"id": "2a15-V03",
+			"name": "head"
+		},
+		{
+			"id": "2a15-V04",
+			"name": "leg"
+		},
+		{
+			"id": "2a15-V05",
+			"name": "stomach"
+		},
+		{
+			"id": "2a17-V01",
+			"name": "bears"
+		},
+		{
+			"id": "2a17-V02",
+			"name": "big cats"
+		},
+		{
+			"id": "2a17-V03",
+			"name": "birds"
+		},
+		{
+			"id": "2a17-V04",
+			"name": "insects"
+		},
+		{
+			"id": "2a17-V05",
+			"name": "reptiles"
+		},
+		{
+			"id": "2a18-V01",
+			"name": "an alpaca"
+		},
+		{
+			"id": "2a18-V02",
+			"name": "an okapi"
+		},
+		{
+			"id": "2a18-V03",
+			"name": "a capybara"
+		},
+		{
+			"id": "2a18-V04",
+			"name": "a mandril"
+		},
+		{
+			"id": "2a18-V05",
+			"name": "a tapir"
+		},
+		{
+			"id": "2a19-V01",
+			"name": "giraffes"
+		},
+		{
+			"id": "2a19-V02",
+			"name": "hippopotamuses"
+		},
+		{
+			"id": "2a19-V03",
+			"name": "lions"
+		},
+		{
+			"id": "2a19-V04",
+			"name": "meerkats"
+		},
+		{
+			"id": "2a19-V05",
+			"name": "zebras"
+		},
+		{
+			"id": "2a21-V01",
+			"name": "library"
+		},
+		{
+			"id": "2a21-V02",
+			"name": "mall"
+		},
+		{
+			"id": "2a21-V03",
+			"name": "park"
+		},
+		{
+			"id": "2a21-V04",
+			"name": "post office"
+		},
+		{
+			"id": "2a21-V05",
+			"name": "train station"
+		},
+		{
+			"id": "2a22-V01",
+			"name": "by bike"
+		},
+		{
+			"id": "2a22-V02",
+			"name": "by bus"
+		},
+		{
+			"id": "2a22-V03",
+			"name": "by car"
+		},
+		{
+			"id": "2a22-V04",
+			"name": "by train"
+		},
+		{
+			"id": "2a22-V05",
+			"name": "on foot"
+		},
+		{
+			"id": "2a23-V01",
+			"name": "a comic"
+		},
+		{
+			"id": "2a23-V02",
+			"name": "a magazine"
+		},
+		{
+			"id": "2a23-V03",
+			"name": "a video game"
+		},
+		{
+			"id": "2a23-V04",
+			"name": "some candy"
+		},
+		{
+			"id": "2a23-V05",
+			"name": "some stickers"
+		}
+	],
+	"meta": {
+		"base-path": "./L2a/media/"
+	}
+}

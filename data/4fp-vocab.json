@@ -1,0 +1,375 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "4fp01-V01",
+			"name": "three ten"
+		},
+		{
+			"id": "4fp01-V02",
+			"name": "three fifteen"
+		},
+		{
+			"id": "4fp01-V03",
+			"name": "three twenty"
+		},
+		{
+			"id": "4fp01-V04",
+			"name": "three twenty-five"
+		},
+		{
+			"id": "4fp01-V05",
+			"name": "three thirty"
+		},
+		{
+			"id": "4fp02-V01",
+			"name": "cool"
+		},
+		{
+			"id": "4fp02-V02",
+			"name": "cute"
+		},
+		{
+			"id": "4fp02-V03",
+			"name": "funny"
+		},
+		{
+			"id": "4fp02-V04",
+			"name": "scary"
+		},
+		{
+			"id": "4fp02-V05",
+			"name": "ugly"
+		},
+		{
+			"id": "4fp03-V01",
+			"name": "back cape"
+		},
+		{
+			"id": "4fp03-V02",
+			"name": "green wig"
+		},
+		{
+			"id": "4fp03-V03",
+			"name": "orange hat"
+		},
+		{
+			"id": "4fp03-V04",
+			"name": "red mask"
+		},
+		{
+			"id": "4fp03-V05",
+			"name": "white sheet"
+		},
+		{
+			"id": "4fp05-V01",
+			"name": "burgers"
+		},
+		{
+			"id": "4fp05-V02",
+			"name": "chicken wings"
+		},
+		{
+			"id": "4fp05-V03",
+			"name": "pizza"
+		},
+		{
+			"id": "4fp05-V04",
+			"name": "steak"
+		},
+		{
+			"id": "4fp05-V05",
+			"name": "sushi"
+		},
+		{
+			"id": "4fp06-V01",
+			"name": "badminton"
+		},
+		{
+			"id": "4fp06-V02",
+			"name": "drawing"
+		},
+		{
+			"id": "4fp06-V03",
+			"name": "math"
+		},
+		{
+			"id": "4fp06-V04",
+			"name": "singing"
+		},
+		{
+			"id": "4fp06-V05",
+			"name": "swimming"
+		},
+		{
+			"id": "4fp07-V01",
+			"name": "down the hall"
+		},
+		{
+			"id": "4fp07-V02",
+			"name": "on the left"
+		},
+		{
+			"id": "4fp07-V03",
+			"name": "on the right"
+		},
+		{
+			"id": "4fp07-V04",
+			"name": "through those doors"
+		},
+		{
+			"id": "4fp07-V05",
+			"name": "up the stairs"
+		},
+		{
+			"id": "4fp09-V01",
+			"name": "pairs of pants"
+		},
+		{
+			"id": "4fp09-V02",
+			"name": "pairs of shoes"
+		},
+		{
+			"id": "4fp09-V03",
+			"name": "pairs of shorts"
+		},
+		{
+			"id": "4fp09-V04",
+			"name": "pairs of socs"
+		},
+		{
+			"id": "4fp09-V05",
+			"name": "T-shirts"
+		},
+		{
+			"id": "4fp10-V01",
+			"name": "these boots"
+		},
+		{
+			"id": "4fp10-V02",
+			"name": "these fins"
+		},
+		{
+			"id": "4fp10-V03",
+			"name": "these knee pads"
+		},
+		{
+			"id": "4fp10-V04",
+			"name": "this helmet"
+		},
+		{
+			"id": "4fp10-V05",
+			"name": "this lifejacket"
+		},
+		{
+			"id": "4fp11-V01",
+			"name": "Mercury"
+		},
+		{
+			"id": "4fp11-V02",
+			"name": "Venus"
+		},
+		{
+			"id": "4fp11-V03",
+			"name": "Mars"
+		},
+		{
+			"id": "4fp11-V04",
+			"name": "Jupiter"
+		},
+		{
+			"id": "4fp11-V05",
+			"name": "Saturn"
+		},
+		{
+			"id": "4fp13-V01",
+			"name": "play"
+		},
+		{
+			"id": "4fp13-V02",
+			"name": "play with"
+		},
+		{
+			"id": "4fp13-V03",
+			"name": "read"
+		},
+		{
+			"id": "4fp13-V04",
+			"name": "watch"
+		},
+		{
+			"id": "4fp13-V05",
+			"name": "wear"
+		},
+		{
+			"id": "4fp14-V01",
+			"name": "clean the windows"
+		},
+		{
+			"id": "4fp14-V02",
+			"name": "have lunch"
+		},
+		{
+			"id": "4fp14-V03",
+			"name": "separate the trash"
+		},
+		{
+			"id": "4fp14-V04",
+			"name": "sweep the floor"
+		},
+		{
+			"id": "4fp14-V05",
+			"name": "wipe the table"
+		},
+		{
+			"id": "4fp15-V01",
+			"name": "aquarium"
+		},
+		{
+			"id": "4fp15-V02",
+			"name": "beach"
+		},
+		{
+			"id": "4fp15-V03",
+			"name": "caves"
+		},
+		{
+			"id": "4fp15-V04",
+			"name": "safari park"
+		},
+		{
+			"id": "4fp15-V05",
+			"name": "waterfalls"
+		},
+		{
+			"id": "4fp17-V01",
+			"name": "thirty seconds"
+		},
+		{
+			"id": "4fp17-V02",
+			"name": "one minute"
+		},
+		{
+			"id": "4fp17-V03",
+			"name": "two minutes"
+		},
+		{
+			"id": "4fp17-V04",
+			"name": "three minutes"
+		},
+		{
+			"id": "4fp17-V05",
+			"name": "four minutes"
+		},
+		{
+			"id": "4fp18-V01",
+			"name": "around the flowers"
+		},
+		{
+			"id": "4fp18-V02",
+			"name": "in the bushes"
+		},
+		{
+			"id": "4fp18-V03",
+			"name": "in the grass"
+		},
+		{
+			"id": "4fp18-V04",
+			"name": "under leaves"
+		},
+		{
+			"id": "4fp18-V05",
+			"name": "under logs"
+		},
+		{
+			"id": "4fp19-V01",
+			"name": "a baboon"
+		},
+		{
+			"id": "4fp19-V02",
+			"name": "a hyena"
+		},
+		{
+			"id": "4fp19-V03",
+			"name": "a lion"
+		},
+		{
+			"id": "4fp19-V04",
+			"name": "a rhinoceros"
+		},
+		{
+			"id": "4fp19-V05",
+			"name": "an elephant"
+		},
+		{
+			"id": "4fp21-V01",
+			"name": "Sunday"
+		},
+		{
+			"id": "4fp21-V02",
+			"name": "Monday"
+		},
+		{
+			"id": "4fp21-V03",
+			"name": "Tuesday"
+		},
+		{
+			"id": "4fp21-V04",
+			"name": "Wednesday"
+		},
+		{
+			"id": "4fp21-V05",
+			"name": "Thursday"
+		},
+		{
+			"id": "4fp21-V06",
+			"name": "Friday"
+		},
+		{
+			"id": "4fp21-V07",
+			"name": "Saturday"
+		},
+		{
+			"id": "4fp22-V01",
+			"name": "dancing"
+		},
+		{
+			"id": "4fp22-V02",
+			"name": "doing ballet"
+		},
+		{
+			"id": "4fp22-V03",
+			"name": "doing karate"
+		},
+		{
+			"id": "4fp22-V04",
+			"name": "playing piano"
+		},
+		{
+			"id": "4fp22-V05",
+			"name": "playing violin"
+		},
+		{
+			"id": "4fp23-V01",
+			"name": "first row"
+		},
+		{
+			"id": "4fp23-V02",
+			"name": "second row"
+		},
+		{
+			"id": "4fp23-V03",
+			"name": "third row"
+		},
+		{
+			"id": "4fp23-V04",
+			"name": "back"
+		},
+		{
+			"id": "4fp23-V05",
+			"name": "balcony"
+		}
+	],
+	"meta": {
+		"base-path": "./CL4fp/media/"
+	}
+}

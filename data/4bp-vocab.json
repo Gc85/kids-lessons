@@ -1,0 +1,383 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "4bp01-V01",
+			"name": "go for a walk"
+		},
+		{
+			"id": "4bp01-V02",
+			"name": "have a picnic"
+		},
+		{
+			"id": "4bp01-V03",
+			"name": "look for bugs"
+		},
+		{
+			"id": "4bp01-V04",
+			"name": "play hide and seek"
+		},
+		{
+			"id": "4bp01-V05",
+			"name": "play tag"
+		},
+		{
+			"id": "4bp02-V01",
+			"name": "friendly"
+		},
+		{
+			"id": "4bp02-V02",
+			"name": "funny"
+		},
+		{
+			"id": "4bp02-V03",
+			"name": "kind"
+		},
+		{
+			"id": "4bp02-V04",
+			"name": "serious"
+		},
+		{
+			"id": "4bp02-V05",
+			"name": "smart"
+		},
+		{
+			"id": "4bp03-V01",
+			"name": "cape"
+		},
+		{
+			"id": "4bp03-V02",
+			"name": "crown"
+		},
+		{
+			"id": "4bp03-V03",
+			"name": "eyepatch"
+		},
+		{
+			"id": "4bp03-V04",
+			"name": "hat"
+		},
+		{
+			"id": "4bp03-V05",
+			"name": "mask"
+		},
+		{
+			"id": "4bp05-V01",
+			"name": "butter"
+		},
+		{
+			"id": "4bp05-V02",
+			"name": "eggs"
+		},
+		{
+			"id": "4bp05-V03",
+			"name": "flour"
+		},
+		{
+			"id": "4bp05-V04",
+			"name": "milk"
+		},
+		{
+			"id": "4bp05-V05",
+			"name": "syrup"
+		},
+		{
+			"id": "4bp06-V01",
+			"name": "baking"
+		},
+		{
+			"id": "4bp06-V02",
+			"name": "dairy"
+		},
+		{
+			"id": "4bp06-V03",
+			"name": "meat"
+		},
+		{
+			"id": "4bp06-V04",
+			"name": "produce"
+		},
+		{
+			"id": "4bp06-V05",
+			"name": "seafood"
+		},
+		{
+			"id": "4bp07-V01",
+			"name": "hand mixer"
+		},
+		{
+			"id": "4bp07-V02",
+			"name": "measuring cup"
+		},
+		{
+			"id": "4bp07-V03",
+			"name": "mixing bowl"
+		},
+		{
+			"id": "4bp07-V04",
+			"name": "spatula"
+		},
+		{
+			"id": "4bp07-V05",
+			"name": "whisk"
+		},
+		{
+			"id": "4bp09-V01",
+			"name": "gloves"
+		},
+		{
+			"id": "4bp09-V02",
+			"name": "goggles"
+		},
+		{
+			"id": "4bp09-V03",
+			"name": "ice skates"
+		},
+		{
+			"id": "4bp09-V04",
+			"name": "mittens"
+		},
+		{
+			"id": "4bp09-V05",
+			"name": "snow pants"
+		},
+		{
+			"id": "4bp10-V01",
+			"name": "in that drawer"
+		},
+		{
+			"id": "4bp10-V02",
+			"name": "in the car"
+		},
+		{
+			"id": "4bp10-V03",
+			"name": "in the closet"
+		},
+		{
+			"id": "4bp10-V04",
+			"name": "in your bag"
+		},
+		{
+			"id": "4bp10-V05",
+			"name": "under your bed"
+		},
+		{
+			"id": "4bp11-V01",
+			"name": "ask my mom"
+		},
+		{
+			"id": "4bp11-V02",
+			"name": "change my shoes"
+		},
+		{
+			"id": "4bp11-V03",
+			"name": "empty my piggybank"
+		},
+		{
+			"id": "4bp11-V04",
+			"name": "get my wallet"
+		},
+		{
+			"id": "4bp11-V05",
+			"name": "make a list"
+		},
+		{
+			"id": "4bp13-V01",
+			"name": "put it in that drawer"
+		},
+		{
+			"id": "4bp13-V02",
+			"name": "put it in the closet"
+		},
+		{
+			"id": "4bp13-V03",
+			"name": "put it on my desk"
+		},
+		{
+			"id": "4bp13-V04",
+			"name": "put it on the bookshelf"
+		},
+		{
+			"id": "4bp13-V05",
+			"name": "throw it away"
+		},
+		{
+			"id": "4bp14-V01",
+			"name": "Chinese"
+		},
+		{
+			"id": "4bp14-V02",
+			"name": "English"
+		},
+		{
+			"id": "4bp14-V03",
+			"name": "French"
+		},
+		{
+			"id": "4bp14-V04",
+			"name": "Italian"
+		},
+		{
+			"id": "4bp14-V05",
+			"name": "Spanish"
+		},
+		{
+			"id": "4bp15-V01",
+			"name": "apple juice"
+		},
+		{
+			"id": "4bp15-V02",
+			"name": "grape juice"
+		},
+		{
+			"id": "4bp15-V03",
+			"name": "iced tea"
+		},
+		{
+			"id": "4bp15-V04",
+			"name": "orange juice"
+		},
+		{
+			"id": "4bp15-V05",
+			"name": "soda"
+		},
+		{
+			"id": "4bp17-V01",
+			"name": "a ball"
+		},
+		{
+			"id": "4bp17-V02",
+			"name": "a bean bag"
+		},
+		{
+			"id": "4bp17-V03",
+			"name": "a hula hoop"
+		},
+		{
+			"id": "4bp17-V04",
+			"name": "a jump rope"
+		},
+		{
+			"id": "4bp17-V05",
+			"name": "some chalk"
+		},
+		{
+			"id": "4bp18-V01",
+			"name": "bandages"
+		},
+		{
+			"id": "4bp18-V02",
+			"name": "cream"
+		},
+		{
+			"id": "4bp18-V03",
+			"name": "gauze"
+		},
+		{
+			"id": "4bp18-V04",
+			"name": "ice"
+		},
+		{
+			"id": "4bp18-V05",
+			"name": "medicine"
+		},
+		{
+			"id": "4bp19-V01",
+			"name": "dad / made it for"
+		},
+		{
+			"id": "4bp19-V02",
+			"name": "friend / lent it to"
+		},
+		{
+			"id": "4bp19-V03",
+			"name": "grandpa / sent it to"
+		},
+		{
+			"id": "4bp19-V04",
+			"name": "mom / bought it for"
+		},
+		{
+			"id": "4bp19-V05",
+			"name": "sister / gave it to"
+		},
+		{
+			"id": "4bp21-V01",
+			"name": "twenty-one"
+		},
+		{
+			"id": "4bp21-V02",
+			"name": "twenty-two"
+		},
+		{
+			"id": "4bp21-V03",
+			"name": "twenty-three"
+		},
+		{
+			"id": "4bp21-V04",
+			"name": "twenty-four"
+		},
+		{
+			"id": "4bp21-V05",
+			"name": "twenty-five"
+		},
+		{
+			"id": "4bp21-V06",
+			"name": "twenty-six"
+		},
+		{
+			"id": "4bp21-V07",
+			"name": "twenty-seven"
+		},
+		{
+			"id": "4bp21-V08",
+			"name": "twenty-eight"
+		},
+		{
+			"id": "4bp21-V09",
+			"name": "twenty-nine"
+		},
+		{
+			"id": "4bp22-V01",
+			"name": "arctic"
+		},
+		{
+			"id": "4bp22-V02",
+			"name": "desert"
+		},
+		{
+			"id": "4bp22-V03",
+			"name": "grassland"
+		},
+		{
+			"id": "4bp22-V04",
+			"name": "ocean"
+		},
+		{
+			"id": "4bp22-V05",
+			"name": "rainforest"
+		},
+		{
+			"id": "4bp23-V01",
+			"name": "cool"
+		},
+		{
+			"id": "4bp23-V02",
+			"name": "cute"
+		},
+		{
+			"id": "4bp23-V03",
+			"name": "gross"
+		},
+		{
+			"id": "4bp23-V04",
+			"name": "interesting"
+		},
+		{
+			"id": "4bp23-V05",
+			"name": "scary"
+		}
+	],
+	"meta": {
+		"base-path": "./CL4bp/media/"
+	}
+}

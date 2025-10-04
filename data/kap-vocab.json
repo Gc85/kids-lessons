@@ -1,0 +1,151 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "KapS1-V01",
+			"name": "drinking"
+		},
+		{
+			"id": "KapS1-V02",
+			"name": "eating"
+		},
+		{
+			"id": "KapS1-V03",
+			"name": "playing"
+		},
+		{
+			"id": "KapS1-V04",
+			"name": "sleeping"
+		},
+		{
+			"id": "KapS1-V05",
+			"name": "talking"
+		},
+		{
+			"id": "KapS1-V06",
+			"name": "waving"
+		},
+		{
+			"id": "KapS2-V01",
+			"name": "fed a donkey"
+		},
+		{
+			"id": "KapS2-V02",
+			"name": "fed a goat"
+		},
+		{
+			"id": "KapS2-V03",
+			"name": "milked a cow"
+		},
+		{
+			"id": "KapS2-V04",
+			"name": "milked a goat"
+		},
+		{
+			"id": "KapS2-V05",
+			"name": "petted a sheep"
+		},
+		{
+			"id": "KapS2-V06",
+			"name": "rode a horse"
+		},
+		{
+			"id": "KapS3-V01",
+			"name": "dinosaur"
+		},
+		{
+			"id": "KapS3-V02",
+			"name": "game"
+		},
+		{
+			"id": "KapS3-V03",
+			"name": "helicopter"
+		},
+		{
+			"id": "KapS3-V04",
+			"name": "keyboard"
+		},
+		{
+			"id": "KapS3-V05",
+			"name": "robot"
+		},
+		{
+			"id": "KapS3-V06",
+			"name": "yo-yo"
+		},
+		{
+			"id": "KapS4-V01",
+			"name": "climbing net"
+		},
+		{
+			"id": "KapS4-V02",
+			"name": "monkey bars"
+		},
+		{
+			"id": "KapS4-V03",
+			"name": "sandbox"
+		},
+		{
+			"id": "KapS4-V04",
+			"name": "seesaw"
+		},
+		{
+			"id": "KapS4-V05",
+			"name": "slide"
+		},
+		{
+			"id": "KapS4-V06",
+			"name": "swings"
+		},
+		{
+			"id": "KapS5-V01",
+			"name": "birdwatching"
+		},
+		{
+			"id": "KapS5-V02",
+			"name": "bug catching"
+		},
+		{
+			"id": "KapS5-V03",
+			"name": "fishing"
+		},
+		{
+			"id": "KapS5-V04",
+			"name": "hiking"
+		},
+		{
+			"id": "KapS5-V05",
+			"name": "kayaking"
+		},
+		{
+			"id": "KapS5-V06",
+			"name": "swimming"
+		},
+		{
+			"id": "KapS6-V01",
+			"name": "bottoms"
+		},
+		{
+			"id": "KapS6-V02",
+			"name": "dress"
+		},
+		{
+			"id": "KapS6-V03",
+			"name": "pajamas"
+		},
+		{
+			"id": "KapS6-V04",
+			"name": "socks"
+		},
+		{
+			"id": "KapS6-V05",
+			"name": "top"
+		},
+		{
+			"id": "KapS6-V06",
+			"name": "T-shirt"
+		}
+	],
+	"meta": {
+		"base-path": "./Kap/media/"
+	}
+}

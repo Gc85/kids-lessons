@@ -1,0 +1,79 @@
+{
+  "phonicsCards": [
+		{
+			"id": "4bp01-P01",
+			"name": "we"
+		},
+		{
+			"id": "4bp02-P01",
+			"name": "very"
+		},
+		{
+			"id": "4bp03-P01",
+			"name": "are"
+		},
+		{
+			"id": "4bp05-P01",
+			"name": "have"
+		},
+		{
+			"id": "4bp06-P01",
+			"name": "over"
+		},
+		{
+			"id": "4bp07-P01",
+			"name": "where"
+		},
+		{
+			"id": "4bp09-P01",
+			"name": "you"
+		},
+		{
+			"id": "4bp10-P01",
+			"name": "find"
+		},
+		{
+			"id": "4bp11-P01",
+			"name": "come"
+		},
+		{
+			"id": "4bp13-P01",
+			"name": "put"
+		},
+		{
+			"id": "4bp14-P01",
+			"name": "for"
+		},
+		{
+			"id": "4bp15-P01",
+			"name": "juice"
+		},
+		{
+			"id": "4bp17-P01",
+			"name": "sure"
+		},
+		{
+			"id": "4bp18-P01",
+			"name": "get"
+		},
+		{
+			"id": "4bp19-P01",
+			"name": "thanks"
+		},
+		{
+			"id": "4bp21-P01",
+			"name": "please"
+		},
+		{
+			"id": "4bp22-P01",
+			"name": "go"
+		},
+		{
+			"id": "4bp23-P01",
+			"name": "they"
+		}
+  ],
+	"meta": {
+		"base-path": "./CL4bp/media/"
+	}
+}

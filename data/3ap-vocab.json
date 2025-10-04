@@ -1,0 +1,371 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "3ap01-V01",
+			"name": "cat in the well"
+		},
+		{
+			"id": "3ap01-V02",
+			"name": "dog at the library"
+		},
+		{
+			"id": "3ap01-V03",
+			"name": "ghost in the playground"
+		},
+		{
+			"id": "3ap01-V04",
+			"name": "robot in the trash bin"
+		},
+		{
+			"id": "3ap01-V05",
+			"name": "teacher at the school"
+		},
+		{
+			"id": "3ap02-V01",
+			"name": "barbecue sauce"
+		},
+		{
+			"id": "3ap02-V02",
+			"name": "honey"
+		},
+		{
+			"id": "3ap02-V03",
+			"name": "hot sauce"
+		},
+		{
+			"id": "3ap02-V04",
+			"name": "ranch dressing"
+		},
+		{
+			"id": "3ap02-V05",
+			"name": "tartar sauce"
+		},
+		{
+			"id": "3ap03-V01",
+			"name": "bread / baking bread"
+		},
+		{
+			"id": "3ap03-V02",
+			"name": "cookies / baking cookies"
+		},
+		{
+			"id": "3ap03-V03",
+			"name": "flowers / gardening"
+		},
+		{
+			"id": "3ap03-V04",
+			"name": "picture / drawing"
+		},
+		{
+			"id": "3ap03-V05",
+			"name": "soap / making soap"
+		},
+		{
+			"id": "3ap05-V01",
+			"name": "at six o'clock"
+		},
+		{
+			"id": "3ap05-V02",
+			"name": "next Monday"
+		},
+		{
+			"id": "3ap05-V03",
+			"name": "on Friday"
+		},
+		{
+			"id": "3ap05-V04",
+			"name": "this evening"
+		},
+		{
+			"id": "3ap05-V05",
+			"name": "tomorrow morning"
+		},
+		{
+			"id": "3ap06-V01",
+			"name": "big"
+		},
+		{
+			"id": "3ap06-V02",
+			"name": "high"
+		},
+		{
+			"id": "3ap06-V03",
+			"name": "long"
+		},
+		{
+			"id": "3ap06-V04",
+			"name": "670 square kilometers"
+		},
+		{
+			"id": "3ap06-V05",
+			"name": "3776 meters"
+		},
+		{
+			"id": "3ap06-V06",
+			"name": "367 kilometers"
+		},
+		{
+			"id": "3ap07-V01",
+			"name": "big trout"
+		},
+		{
+			"id": "3ap07-V02",
+			"name": "gigantic carp"
+		},
+		{
+			"id": "3ap07-V03",
+			"name": "huge catfish"
+		},
+		{
+			"id": "3ap07-V04",
+			"name": "massive pike"
+		},
+		{
+			"id": "3ap07-V05",
+			"name": "tiny salmon"
+		},
+		{
+			"id": "3ap09-V01",
+			"name": "a notebook / English class"
+		},
+		{
+			"id": "3ap09-V02",
+			"name": "a present / Julia's birthday"
+		},
+		{
+			"id": "3ap09-V03",
+			"name": "some batteries / my toy robot"
+		},
+		{
+			"id": "3ap09-V04",
+			"name": "some food / my cat"
+		},
+		{
+			"id": "3ap09-V05",
+			"name": "some paint / a project"
+		},
+		{
+			"id": "3ap10-V01",
+			"name": "these notebooks"
+		},
+		{
+			"id": "3ap10-V02",
+			"name": "these pens"
+		},
+		{
+			"id": "3ap10-V03",
+			"name": "those erasers"
+		},
+		{
+			"id": "3ap10-V04",
+			"name": "those paint sets"
+		},
+		{
+			"id": "3ap10-V05",
+			"name": "those posters"
+		},
+		{
+			"id": "3ap11-V01",
+			"name": "black and white"
+		},
+		{
+			"id": "3ap11-V02",
+			"name": "colorful"
+		},
+		{
+			"id": "3ap11-V03",
+			"name": "expensive"
+		},
+		{
+			"id": "3ap11-V04",
+			"name": "on the left"
+		},
+		{
+			"id": "3ap11-V05",
+			"name": "on the right"
+		},
+		{
+			"id": "3ap13-V01",
+			"name": "across the bridge"
+		},
+		{
+			"id": "3ap13-V02",
+			"name": "along the river"
+		},
+		{
+			"id": "3ap13-V03",
+			"name": "behind the library"
+		},
+		{
+			"id": "3ap13-V04",
+			"name": "left at the corner"
+		},
+		{
+			"id": "3ap13-V05",
+			"name": "right at the stop sign"
+		},
+		{
+			"id": "3ap14-V01",
+			"name": "get sick / wash them"
+		},
+		{
+			"id": "3ap14-V02",
+			"name": "get sunburned / put some on"
+		},
+		{
+			"id": "3ap14-V03",
+			"name": "hit your head / put it on"
+		},
+		{
+			"id": "3ap14-V04",
+			"name": "lose it / lock it up"
+		},
+		{
+			"id": "3ap14-V05",
+			"name": "trip on them / tie them"
+		},
+		{
+			"id": "3ap15-V01",
+			"name": "bars / foot"
+		},
+		{
+			"id": "3ap15-V02",
+			"name": "bars / hand"
+		},
+		{
+			"id": "3ap15-V03",
+			"name": "chains / hands"
+		},
+		{
+			"id": "3ap15-V04",
+			"name": "handlebars / hand"
+		},
+		{
+			"id": "3ap15-V05",
+			"name": "pedals / foot"
+		},
+		{
+			"id": "3ap17-V01",
+			"name": "brownies"
+		},
+		{
+			"id": "3ap17-V02",
+			"name": "cinnamon rolls"
+		},
+		{
+			"id": "3ap17-V03",
+			"name": "lemon bars"
+		},
+		{
+			"id": "3ap17-V04",
+			"name": "pretzels"
+		},
+		{
+			"id": "3ap17-V05",
+			"name": "truffles"
+		},
+		{
+			"id": "3ap18-V01",
+			"name": "do a comedy routine"
+		},
+		{
+			"id": "3ap18-V02",
+			"name": "do a dance routine"
+		},
+		{
+			"id": "3ap18-V03",
+			"name": "juggle"
+		},
+		{
+			"id": "3ap18-V04",
+			"name": "play the guitar"
+		},
+		{
+			"id": "3ap18-V05",
+			"name": "sing"
+		},
+		{
+			"id": "3ap19-V01",
+			"name": "at our house / 8:30"
+		},
+		{
+			"id": "3ap19-V02",
+			"name": "at the bus stop / 9:00"
+		},
+		{
+			"id": "3ap19-V03",
+			"name": "in front of the post office / 8:00"
+		},
+		{
+			"id": "3ap19-V04",
+			"name": "in front of the station / 10:30"
+		},
+		{
+			"id": "3ap19-V05",
+			"name": "outside the library / 7:00"
+		},
+		{
+			"id": "3ap21-V01",
+			"name": "doing art projects"
+		},
+		{
+			"id": "3ap21-V02",
+			"name": "doing science experiments"
+		},
+		{
+			"id": "3ap21-V03",
+			"name": "doing worksheets"
+		},
+		{
+			"id": "3ap21-V04",
+			"name": "making skits"
+		},
+		{
+			"id": "3ap21-V05",
+			"name": "reading stories"
+		},
+		{
+			"id": "3ap22-V01",
+			"name": "a baseball player / pitching"
+		},
+		{
+			"id": "3ap22-V02",
+			"name": "a cartoonist / drawing"
+		},
+		{
+			"id": "3ap22-V03",
+			"name": "a detective / puzzles"
+		},
+		{
+			"id": "3ap22-V04",
+			"name": "a doctor / science"
+		},
+		{
+			"id": "3ap22-V05",
+			"name": "an actor / acting"
+		},
+		{
+			"id": "3ap23-V01",
+			"name": "a gift card"
+		},
+		{
+			"id": "3ap23-V02",
+			"name": "a key chain"
+		},
+		{
+			"id": "3ap23-V03",
+			"name": "a trophy"
+		},
+		{
+			"id": "3ap23-V04",
+			"name": "some movie tickets"
+		},
+		{
+			"id": "3ap23-V05",
+			"name": "twenty euros"
+		}
+	],
+	"meta": {
+		"base-path": "./CL3ap/media/"
+	}
+}

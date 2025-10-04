@@ -1,0 +1,199 @@
+{
+	"phonicsCards": [
+		{
+			"id": "3e02-P01",
+			"name": "b r i _ _ _"
+		},
+		{
+			"id": "3e02-P02",
+			"name": "b r i d g e"
+		},
+		{
+			"id": "3e02-P03",
+			"name": "h e _ _ _"
+		},
+		{
+			"id": "3e02-P04",
+			"name": "h e d g e"
+		},
+		{
+			"id": "3e03-P01",
+			"name": "h _ _ l"
+		},
+		{
+			"id": "3e03-P02",
+			"name": "h a i l"
+		},
+		{
+			"id": "3e03-P03",
+			"name": "m _ _ l "
+		},
+		{
+			"id": "3e03-P04",
+			"name": "m a i l"
+		},
+		{
+			"id": "3e06-P01",
+			"name": "f _ v _"
+		},
+		{
+			"id": "3e06-P02",
+			"name": "f i v e"
+		},
+		{
+			"id": "3e06-P03",
+			"name": "b _ t _"
+		},
+		{
+			"id": "3e06-P04",
+			"name": "b i t e"
+		},
+		{
+			"id": "3e07-P01",
+			"name": "_ _ e s t"
+		},
+		{
+			"id": "3e07-P02",
+			"name": "c h e s t"
+		},
+		{
+			"id": "3e07-P03",
+			"name": "l u n _ _"
+		},
+		{
+			"id": "3e07-P04",
+			"name": "l u n c h"
+		},
+		{
+			"id": "3e10-P01",
+			"name": "b _ _ _ d"
+		},
+		{
+			"id": "3e10-P02",
+			"name": "b e a r d"
+		},
+		{
+			"id": "3e10-P03",
+			"name": "t _ _ _"
+		},
+		{
+			"id": "3e10-P04",
+			"name": "t e a r"
+		},
+		{
+			"id": "3e11-P01",
+			"name": "_ _ a d e"
+		},
+		{
+			"id": "3e11-P02",
+			"name": "s p a d e"
+		},
+		{
+			"id": "3e11-P03",
+			"name": "_ _ i n"
+		},
+		{
+			"id": "3e11-P04",
+			"name": "s p i n"
+		},
+		{
+			"id": "3e14-P01",
+			"name": "c a _ _ _"
+		},
+		{
+			"id": "3e14-P02",
+			"name": "c a t c h"
+		},
+		{
+			"id": "3e14-P03",
+			"name": "w i _ _ _"
+		},
+		{
+			"id": "3e14-P04",
+			"name": "w i t c h"
+		},
+		{
+			"id": "3e15-P01",
+			"name": "_ _ e e n"
+		},
+		{
+			"id": "3e15-P02",
+			"name": "g r e e n"
+		},
+		{
+			"id": "3e15-P03",
+			"name": "_ _ i p"
+		},
+		{
+			"id": "3e15-P04",
+			"name": "g r i p"
+		},
+		{
+			"id": "3e18-P01",
+			"name": "c _ _ l"
+		},
+		{
+			"id": "3e18-P02",
+			"name": "c u r l"
+		},
+		{
+			"id": "3e18-P03",
+			"name": "p _ _ s e"
+		},
+		{
+			"id": "3e18-P04",
+			"name": "p u r s e"
+		},
+		{
+			"id": "3e19-P01",
+			"name": "m _ _ n"
+		},
+		{
+			"id": "3e19-P02",
+			"name": "m o o n"
+		},
+		{
+			"id": "3e19-P03",
+			"name": "r _ _ t"
+		},
+		{
+			"id": "3e19-P04",
+			"name": "r o o t"
+		},
+		{
+			"id": "3e22-P01",
+			"name": "_ _ e e"
+		},
+		{
+			"id": "3e22-P02",
+			"name": "t r e e"
+		},
+		{
+			"id": "3e22-P03",
+			"name": "_ _ u c k"
+		},
+		{
+			"id": "3e22-P04",
+			"name": "t r u c k"
+		},
+		{
+			"id": "3e23-P01",
+			"name": "_ _ a g"
+		},
+		{
+			"id": "3e23-P02",
+			"name": "f l a g"
+		},
+		{
+			"id": "3e23-P03",
+			"name": "_ _ a m i n g o"
+		},
+		{
+			"id": "3e23-P04",
+			"name": "f l a m i n g o"
+		}
+	],
+	"meta": {
+		"base-path": "./L3e/media/"
+	}
+}

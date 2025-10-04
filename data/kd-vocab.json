@@ -1,0 +1,295 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "kd01-V01",
+			"name": "blue"
+		},
+		{
+			"id": "kd01-V02",
+			"name": "green"
+		},
+		{
+			"id": "kd01-V03",
+			"name": "orange"
+		},
+		{
+			"id": "kd01-V04",
+			"name": "purple"
+		},
+		{
+			"id": "kd02-V01",
+			"name": "cheering"
+		},
+		{
+			"id": "kd02-V02",
+			"name": "jumping"
+		},
+		{
+			"id": "kd02-V03",
+			"name": "running"
+		},
+		{
+			"id": "kd02-V04",
+			"name": "stretching"
+		},
+		{
+			"id": "kd03-V01",
+			"name": "catch"
+		},
+		{
+			"id": "kd03-V02",
+			"name": "hit"
+		},
+		{
+			"id": "kd03-V03",
+			"name": "kick"
+		},
+		{
+			"id": "kd03-V04",
+			"name": "throw"
+		},
+		{
+			"id": "kd05-V01",
+			"name": "drum"
+		},
+		{
+			"id": "kd05-V02",
+			"name": "tambourine"
+		},
+		{
+			"id": "kd05-V03",
+			"name": "triangle"
+		},
+		{
+			"id": "kd05-V04",
+			"name": "xylophone"
+		},
+		{
+			"id": "kd06-V01",
+			"name": "loud"
+		},
+		{
+			"id": "kd06-V02",
+			"name": "soft"
+		},
+		{
+			"id": "kd06-V03",
+			"name": "fast"
+		},
+		{
+			"id": "kd06-V04",
+			"name": "slow"
+		},
+		{
+			"id": "kd07-V01",
+			"name": "Bend your knees"
+		},
+		{
+			"id": "kd07-V02",
+			"name": "Move your feet"
+		},
+		{
+			"id": "kd07-V03",
+			"name": "Shake your head"
+		},
+		{
+			"id": "kd07-V04",
+			"name": "Wave your arms"
+		},
+		{
+			"id": "kd09-V01",
+			"name": "bowl"
+		},
+		{
+			"id": "kd09-V02",
+			"name": "cookie cutter"
+		},
+		{
+			"id": "kd09-V03",
+			"name": "spatula"
+		},
+		{
+			"id": "kd09-V04",
+			"name": "spoon"
+		},
+		{
+			"id": "kd10-V01",
+			"name": "candies"
+		},
+		{
+			"id": "kd10-V02",
+			"name": "cookies"
+		},
+		{
+			"id": "kd10-V03",
+			"name": "cupcakes"
+		},
+		{
+			"id": "kd10-V04",
+			"name": "mince pies"
+		},
+		{
+			"id": "kd11-V01",
+			"name": "circle"
+		},
+		{
+			"id": "kd11-V02",
+			"name": "heart"
+		},
+		{
+			"id": "kd11-V03",
+			"name": "square"
+		},
+		{
+			"id": "kd11-V04",
+			"name": "star"
+		},
+		{
+			"id": "kd13-V01",
+			"name": "a firefighter"
+		},
+		{
+			"id": "kd13-V02",
+			"name": "a musician"
+		},
+		{
+			"id": "kd13-V03",
+			"name": "a teacher"
+		},
+		{
+			"id": "kd13-V04",
+			"name": "an astronaut"
+		},
+		{
+			"id": "kd14-V01",
+			"name": "Earth"
+		},
+		{
+			"id": "kd14-V02",
+			"name": "Mars"
+		},
+		{
+			"id": "kd14-V03",
+			"name": "the moon"
+		},
+		{
+			"id": "kd14-V04",
+			"name": "the sun"
+		},
+		{
+			"id": "kd15-V01",
+			"name": "ears"
+		},
+		{
+			"id": "kd15-V02",
+			"name": "eyes"
+		},
+		{
+			"id": "kd15-V03",
+			"name": "legs"
+		},
+		{
+			"id": "kd15-V04",
+			"name": "mouth"
+		},
+		{
+			"id": "kd17-V01",
+			"name": "3"
+		},
+		{
+			"id": "kd17-V02",
+			"name": "4"
+		},
+		{
+			"id": "kd17-V03",
+			"name": "5"
+		},
+		{
+			"id": "kd17-V04",
+			"name": "6"
+		},
+		{
+			"id": "kd18-V01",
+			"name": "penguin"
+		},
+		{
+			"id": "kd18-V02",
+			"name": "seahorse"
+		},
+		{
+			"id": "kd18-V03",
+			"name": "shark"
+		},
+		{
+			"id": "kd18-V04",
+			"name": "turtle"
+		},
+		{
+			"id": "kd19-V01",
+			"name": "here"
+		},
+		{
+			"id": "kd19-V02",
+			"name": "over there"
+		},
+		{
+			"id": "kd19-V03",
+			"name": "hiding"
+		},
+		{
+			"id": "kd19-V04",
+			"name": "gone"
+		},
+		{
+			"id": "kd21-V01",
+			"name": "Australia"
+		},
+		{
+			"id": "kd21-V02",
+			"name": "Canada"
+		},
+		{
+			"id": "kd21-V03",
+			"name": "Ireland"
+		},
+		{
+			"id": "kd21-V04",
+			"name": "Japan"
+		},
+		{
+			"id": "kd22-V01",
+			"name": "big"
+		},
+		{
+			"id": "kd22-V02",
+			"name": "small"
+		},
+		{
+			"id": "kd22-V03",
+			"name": "cold"
+		},
+		{
+			"id": "kd22-V04",
+			"name": "hot"
+		},
+		{
+			"id": "kd23-V01",
+			"name": "koalas"
+		},
+		{
+			"id": "kd23-V02",
+			"name": "monkeys"
+		},
+		{
+			"id": "kd23-V03",
+			"name": "polar bears"
+		},
+		{
+			"id": "kd23-V04",
+			"name": "whales"
+		}
+	],
+	"meta": {
+		"base-path": "./kd/media/"
+	}
+}

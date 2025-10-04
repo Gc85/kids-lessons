@@ -1,0 +1,399 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "4dp01-V01",
+			"name": "fly"
+		},
+		{
+			"id": "4dp01-V02",
+			"name": "make it rain"
+		},
+		{
+			"id": "4dp01-V03",
+			"name": "ride a horse"
+		},
+		{
+			"id": "4dp01-V04",
+			"name": "steer a ship"
+		},
+		{
+			"id": "4dp01-V05",
+			"name": "walk on the moon"
+		},
+		{
+			"id": "4dp02-V01",
+			"name": "cardboard"
+		},
+		{
+			"id": "4dp02-V02",
+			"name": "cellophane"
+		},
+		{
+			"id": "4dp02-V03",
+			"name": "coat hangers"
+		},
+		{
+			"id": "4dp02-V04",
+			"name": "elastic"
+		},
+		{
+			"id": "4dp02-V05",
+			"name": "fabric"
+		},
+		{
+			"id": "4dp02-V06",
+			"name": "felt"
+		},
+		{
+			"id": "4dp02-V07",
+			"name": "newspaper"
+		},
+		{
+			"id": "4dp02-V08",
+			"name": "yarn"
+		},
+		{
+			"id": "4dp03-V01",
+			"name": "behind the sofa"
+		},
+		{
+			"id": "4dp03-V02",
+			"name": "on the chair"
+		},
+		{
+			"id": "4dp03-V03",
+			"name": "on the table"
+		},
+		{
+			"id": "4dp03-V04",
+			"name": "under the sofa"
+		},
+		{
+			"id": "4dp03-V05",
+			"name": "under the table"
+		},
+		{
+			"id": "4dp05-V01",
+			"name": "beef / in the freezer"
+		},
+		{
+			"id": "4dp05-V02",
+			"name": "bread / on the counter"
+		},
+		{
+			"id": "4dp05-V03",
+			"name": "dish soap / under the sink"
+		},
+		{
+			"id": "4dp05-V04",
+			"name": "dog food / in the pantry"
+		},
+		{
+			"id": "4dp05-V05",
+			"name": "olive oil / on the shelf"
+		},
+		{
+			"id": "4dp06-V01",
+			"name": "fifteen minutes"
+		},
+		{
+			"id": "4dp06-V02",
+			"name": "half an hour"
+		},
+		{
+			"id": "4dp06-V03",
+			"name": "forty-five minutes"
+		},
+		{
+			"id": "4dp06-V04",
+			"name": "an hour"
+		},
+		{
+			"id": "4dp06-V05",
+			"name": "an hour and a half"
+		},
+		{
+			"id": "4dp07-V01",
+			"name": "emptied the dishwasher"
+		},
+		{
+			"id": "4dp07-V02",
+			"name": "fed the dog"
+		},
+		{
+			"id": "4dp07-V03",
+			"name": "mopped the floor"
+		},
+		{
+			"id": "4dp07-V04",
+			"name": "took out the trash"
+		},
+		{
+			"id": "4dp07-V05",
+			"name": "wiped the counter"
+		},
+		{
+			"id": "4dp09-V01",
+			"name": "butter"
+		},
+		{
+			"id": "4dp09-V02",
+			"name": "dried fruit"
+		},
+		{
+			"id": "4dp09-V03",
+			"name": "juicer"
+		},
+		{
+			"id": "4dp09-V04",
+			"name": "muffin tin"
+		},
+		{
+			"id": "4dp09-V05",
+			"name": "saucepan"
+		},
+		{
+			"id": "4dp10-V01",
+			"name": "butter / saucepan"
+		},
+		{
+			"id": "4dp10-V02",
+			"name": "dried fruit / mixing bowl"
+		},
+		{
+			"id": "4dp10-V03",
+			"name": "juicer / dishwasher"
+		},
+		{
+			"id": "4dp10-V04",
+			"name": "muffin tin / oven"
+		},
+		{
+			"id": "4dp10-V05",
+			"name": "saucepan / stovetop"
+		},
+		{
+			"id": "4dp11-V01",
+			"name": "three"
+		},
+		{
+			"id": "4dp11-V02",
+			"name": "four"
+		},
+		{
+			"id": "4dp11-V03",
+			"name": "five"
+		},
+		{
+			"id": "4dp11-V04",
+			"name": "six"
+		},
+		{
+			"id": "4dp11-V05",
+			"name": "seven"
+		},
+		{
+			"id": "4dp11-V06",
+			"name": "eight"
+		},
+		{
+			"id": "4dp11-V07",
+			"name": "nine"
+		},
+		{
+			"id": "4dp11-V08",
+			"name": "ten"
+		},
+		{
+			"id": "4dp13-V01",
+			"name": "acting"
+		},
+		{
+			"id": "4dp13-V02",
+			"name": "guessing"
+		},
+		{
+			"id": "4dp13-V03",
+			"name": "matching"
+		},
+		{
+			"id": "4dp13-V04",
+			"name": "maze"
+		},
+		{
+			"id": "4dp13-V05",
+			"name": "word"
+		},
+		{
+			"id": "4dp14-V01",
+			"name": "build / model / building models"
+		},
+		{
+			"id": "4dp14-V02",
+			"name": "do / puzzle / doing puzzles"
+		},
+		{
+			"id": "4dp14-V03",
+			"name": "play / game / playing games"
+		},
+		{
+			"id": "4dp14-V04",
+			"name": "read / magazine / reading magazines"
+		},
+		{
+			"id": "4dp14-V05",
+			"name": "watch / DVD / watching DVDs"
+		},
+		{
+			"id": "4dp15-V01",
+			"name": "flying disk"
+		},
+		{
+			"id": "4dp15-V02",
+			"name": "football"
+		},
+		{
+			"id": "4dp15-V03",
+			"name": "remote control helicopter"
+		},
+		{
+			"id": "4dp15-V04",
+			"name": "scooter"
+		},
+		{
+			"id": "4dp15-V05",
+			"name": "telescope"
+		},
+		{
+			"id": "4dp17-V01",
+			"name": "Moonzots"
+		},
+		{
+			"id": "4dp17-V02",
+			"name": "Robop"
+		},
+		{
+			"id": "4dp17-V03",
+			"name": "Stars Away"
+		},
+		{
+			"id": "4dp17-V04",
+			"name": "Waves of Gold"
+		},
+		{
+			"id": "4dp17-V05",
+			"name": "Wide West"
+		},
+		{
+			"id": "4dp17-V06",
+			"name": "read"
+		},
+		{
+			"id": "4dp17-V07",
+			"name": "seen"
+		},
+		{
+			"id": "4dp18-V01",
+			"name": "crashed their spaceship"
+		},
+		{
+			"id": "4dp18-V02",
+			"name": "found some treasure"
+		},
+		{
+			"id": "4dp18-V03",
+			"name": "had a pet dragon"
+		},
+		{
+			"id": "4dp18-V04",
+			"name": "rode magic horses"
+		},
+		{
+			"id": "4dp18-V05",
+			"name": "saved the world"
+		},
+		{
+			"id": "4dp19-V01",
+			"name": "excellent"
+		},
+		{
+			"id": "4dp19-V02",
+			"name": "really good"
+		},
+		{
+			"id": "4dp19-V03",
+			"name": "good"
+		},
+		{
+			"id": "4dp19-V04",
+			"name": "pretty good"
+		},
+		{
+			"id": "4dp19-V05",
+			"name": "okay"
+		},
+		{
+			"id": "4dp21-V01",
+			"name": "filling her thermos"
+		},
+		{
+			"id": "4dp21-V02",
+			"name": "looking for the net"
+		},
+		{
+			"id": "4dp21-V03",
+			"name": "packing his backpack"
+		},
+		{
+			"id": "4dp21-V04",
+			"name": "putting on her jacket"
+		},
+		{
+			"id": "4dp21-V05",
+			"name": "washing his hands"
+		},
+		{
+			"id": "4dp22-V01",
+			"name": "bottom of the hill"
+		},
+		{
+			"id": "4dp22-V02",
+			"name": "duck pond"
+		},
+		{
+			"id": "4dp22-V03",
+			"name": "picnic tables"
+		},
+		{
+			"id": "4dp22-V04",
+			"name": "sandbox"
+		},
+		{
+			"id": "4dp22-V05",
+			"name": "top of the hill"
+		},
+		{
+			"id": "4dp23-V01",
+			"name": "by the pond"
+		},
+		{
+			"id": "4dp23-V02",
+			"name": "in the grass"
+		},
+		{
+			"id": "4dp23-V03",
+			"name": "in the woods"
+		},
+		{
+			"id": "4dp23-V04",
+			"name": "under that log"
+		},
+		{
+			"id": "4dp23-V05",
+			"name": "under those rocks"
+		}
+	],
+	"meta": {
+		"base-path": "./CL4dp/media/"
+	}
+}

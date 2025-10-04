@@ -1,0 +1,151 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "kdpS1-V01",
+			"name": "egg and spoon"
+		},
+		{
+			"id": "kdpS1-V02",
+			"name": "obstacle"
+		},
+		{
+			"id": "kdpS1-V03",
+			"name": "relay"
+		},
+		{
+			"id": "kdpS1-V04",
+			"name": "sack"
+		},
+		{
+			"id": "kdpS1-V05",
+			"name": "three-legged"
+		},
+		{
+			"id": "kdpS1-V06",
+			"name": "wheelbarrow"
+		},
+		{
+			"id": "kdpS2-V01",
+			"name": "flute"
+		},
+		{
+			"id": "kdpS2-V02",
+			"name": "guitar"
+		},
+		{
+			"id": "kdpS2-V03",
+			"name": "harmonica"
+		},
+		{
+			"id": "kdpS2-V04",
+			"name": "recorder"
+		},
+		{
+			"id": "kdpS2-V05",
+			"name": "trumpet"
+		},
+		{
+			"id": "kdpS2-V06",
+			"name": "violin"
+		},
+		{
+			"id": "kdpS3-V01",
+			"name": "add"
+		},
+		{
+			"id": "kdpS3-V02",
+			"name": "break"
+		},
+		{
+			"id": "kdpS3-V03",
+			"name": "melt"
+		},
+		{
+			"id": "kdpS3-V04",
+			"name": "pour"
+		},
+		{
+			"id": "kdpS3-V05",
+			"name": "spread"
+		},
+		{
+			"id": "kdpS3-V06",
+			"name": "weigh"
+		},
+		{
+			"id": "kdpS4-V01",
+			"name": "eating"
+		},
+		{
+			"id": "kdpS4-V02",
+			"name": "exercising"
+		},
+		{
+			"id": "kdpS4-V03",
+			"name": "playing"
+		},
+		{
+			"id": "kdpS4-V04",
+			"name": "relaxing"
+		},
+		{
+			"id": "kdpS4-V05",
+			"name": "washing"
+		},
+		{
+			"id": "kdpS4-V06",
+			"name": "working"
+		},
+		{
+			"id": "kdpS5-V01",
+			"name": "angry"
+		},
+		{
+			"id": "kdpS5-V02",
+			"name": "cool"
+		},
+		{
+			"id": "kdpS5-V03",
+			"name": "dangerous"
+		},
+		{
+			"id": "kdpS5-V04",
+			"name": "friendly"
+		},
+		{
+			"id": "kdpS5-V05",
+			"name": "shy"
+		},
+		{
+			"id": "kdpS5-V06",
+			"name": "sleepy"
+		},
+		{
+			"id": "kdpS6-V01",
+			"name": "desert"
+		},
+		{
+			"id": "kdpS6-V02",
+			"name": "glacier"
+		},
+		{
+			"id": "kdpS6-V03",
+			"name": "ocean"
+		},
+		{
+			"id": "kdpS6-V04",
+			"name": "rainforest"
+		},
+		{
+			"id": "kdpS6-V05",
+			"name": "volcano"
+		},
+		{
+			"id": "kdpS6-V06",
+			"name": "waterfall"
+		}
+	],
+	"meta": {
+		"base-path": "./kdp/media/"
+	}
+}

@@ -1,0 +1,367 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "4ap01-V01",
+			"name": "borrow a book"
+		},
+		{
+			"id": "4ap01-V02",
+			"name": "do my homework"
+		},
+		{
+			"id": "4ap01-V03",
+			"name": "read some magazines"
+		},
+		{
+			"id": "4ap01-V04",
+			"name": "return a book"
+		},
+		{
+			"id": "4ap01-V05",
+			"name": "study for a test"
+		},
+		{
+			"id": "4ap02-V01",
+			"name": "a year older than"
+		},
+		{
+			"id": "4ap02-V02",
+			"name": "a year younger than"
+		},
+		{
+			"id": "4ap02-V03",
+			"name": "the same age as"
+		},
+		{
+			"id": "4ap02-V04",
+			"name": "two years older than"
+		},
+		{
+			"id": "4ap02-V05",
+			"name": "two years younger than"
+		},
+		{
+			"id": "4ap03-V01",
+			"name": "doing karate"
+		},
+		{
+			"id": "4ap03-V02",
+			"name": "playing the saxophone"
+		},
+		{
+			"id": "4ap03-V03",
+			"name": "playing with our dog"
+		},
+		{
+			"id": "4ap03-V04",
+			"name": "reading comics"
+		},
+		{
+			"id": "4ap03-V05",
+			"name": "swimming"
+		},
+		{
+			"id": "4ap05-V01",
+			"name": "brownies"
+		},
+		{
+			"id": "4ap05-V02",
+			"name": "cupcakes"
+		},
+		{
+			"id": "4ap05-V03",
+			"name": "donuts"
+		},
+		{
+			"id": "4ap05-V04",
+			"name": "frozen yogurt pops"
+		},
+		{
+			"id": "4ap05-V05",
+			"name": "muffins"
+		},
+		{
+			"id": "4ap06-V01",
+			"name": "grate some cheese"
+		},
+		{
+			"id": "4ap06-V02",
+			"name": "ice the cupcakes"
+		},
+		{
+			"id": "4ap06-V03",
+			"name": "mash the potatoes"
+		},
+		{
+			"id": "4ap06-V04",
+			"name": "pour some water"
+		},
+		{
+			"id": "4ap06-V05",
+			"name": "set the table"
+		},
+		{
+			"id": "4ap07-V01",
+			"name": "clean the kitchen"
+		},
+		{
+			"id": "4ap07-V02",
+			"name": "clear the table"
+		},
+		{
+			"id": "4ap07-V03",
+			"name": "do the dishes"
+		},
+		{
+			"id": "4ap07-V04",
+			"name": "put away my toys"
+		},
+		{
+			"id": "4ap07-V05",
+			"name": "vacuum the floor"
+		},
+		{
+			"id": "4ap09-V01",
+			"name": "books"
+		},
+		{
+			"id": "4ap09-V02",
+			"name": "chopsticks"
+		},
+		{
+			"id": "4ap09-V03",
+			"name": "glasses"
+		},
+		{
+			"id": "4ap09-V04",
+			"name": "playing cards"
+		},
+		{
+			"id": "4ap09-V05",
+			"name": "shoes"
+		},
+		{
+			"id": "4ap10-V01",
+			"name": "apple juice"
+		},
+		{
+			"id": "4ap10-V02",
+			"name": "chocolate milk"
+		},
+		{
+			"id": "4ap10-V03",
+			"name": "green tea"
+		},
+		{
+			"id": "4ap10-V04",
+			"name": "oolong tea"
+		},
+		{
+			"id": "4ap10-V05",
+			"name": "raspberry soda"
+		},
+		{
+			"id": "4ap11-V01",
+			"name": "juice"
+		},
+		{
+			"id": "4ap11-V02",
+			"name": "rice"
+		},
+		{
+			"id": "4ap11-V03",
+			"name": "soda"
+		},
+		{
+			"id": "4ap11-V04",
+			"name": "tea"
+		},
+		{
+			"id": "4ap11-V05",
+			"name": "water"
+		},
+		{
+			"id": "4ap13-V01",
+			"name": "bumped (his) head"
+		},
+		{
+			"id": "4ap13-V02",
+			"name": "cut (his) hand"
+		},
+		{
+			"id": "4ap13-V03",
+			"name": "hurt (his) wrist"
+		},
+		{
+			"id": "4ap13-V04",
+			"name": "scraped (his) knee"
+		},
+		{
+			"id": "4ap13-V05",
+			"name": "twisted (his) ankle"
+		},
+		{
+			"id": "4ap14-V01",
+			"name": "candy store"
+		},
+		{
+			"id": "4ap14-V02",
+			"name": "fruit shop"
+		},
+		{
+			"id": "4ap14-V03",
+			"name": "library"
+		},
+		{
+			"id": "4ap14-V04",
+			"name": "magazine shop"
+		},
+		{
+			"id": "4ap14-V05",
+			"name": "toy store"
+		},
+		{
+			"id": "4ap15-V01",
+			"name": "books"
+		},
+		{
+			"id": "4ap15-V02",
+			"name": "candy"
+		},
+		{
+			"id": "4ap15-V03",
+			"name": "fruit"
+		},
+		{
+			"id": "4ap15-V04",
+			"name": "magazines"
+		},
+		{
+			"id": "4ap15-V05",
+			"name": "toys"
+		},
+		{
+			"id": "4ap17-V01",
+			"name": "a drink"
+		},
+		{
+			"id": "4ap17-V02",
+			"name": "a packed lunch"
+		},
+		{
+			"id": "4ap17-V03",
+			"name": "a towel"
+		},
+		{
+			"id": "4ap17-V04",
+			"name": "some money"
+		},
+		{
+			"id": "4ap17-V05",
+			"name": "your swimsuit"
+		},
+		{
+			"id": "4ap18-V01",
+			"name": "the fridge"
+		},
+		{
+			"id": "4ap18-V02",
+			"name": "the microwave"
+		},
+		{
+			"id": "4ap18-V03",
+			"name": "the washing machine"
+		},
+		{
+			"id": "4ap18-V04",
+			"name": "your bed"
+		},
+		{
+			"id": "4ap18-V05",
+			"name": "your desk"
+		},
+		{
+			"id": "4ap19-V01",
+			"name": "bucket"
+		},
+		{
+			"id": "4ap19-V02",
+			"name": "shovel"
+		},
+		{
+			"id": "4ap19-V03",
+			"name": "sunscreen"
+		},
+		{
+			"id": "4ap19-V04",
+			"name": "swim ring"
+		},
+		{
+			"id": "4ap19-V05",
+			"name": "volleyball"
+		},
+		{
+			"id": "4ap21-V01",
+			"name": "erasers"
+		},
+		{
+			"id": "4ap21-V02",
+			"name": "markers"
+		},
+		{
+			"id": "4ap21-V03",
+			"name": "pencils"
+		},
+		{
+			"id": "4ap21-V04",
+			"name": "pens"
+		},
+		{
+			"id": "4ap21-V05",
+			"name": "sticky notes"
+		},
+		{
+			"id": "4ap22-V01",
+			"name": "coat"
+		},
+		{
+			"id": "4ap22-V02",
+			"name": "hat"
+		},
+		{
+			"id": "4ap22-V03",
+			"name": "scarf"
+		},
+		{
+			"id": "4ap22-V04",
+			"name": "sweater"
+		},
+		{
+			"id": "4ap22-V05",
+			"name": "T-shirt"
+		},
+		{
+			"id": "4ap23-V01",
+			"name": "ghost"
+		},
+		{
+			"id": "4ap23-V02",
+			"name": "monster"
+		},
+		{
+			"id": "4ap23-V03",
+			"name": "pirate"
+		},
+		{
+			"id": "4ap23-V04",
+			"name": "robot"
+		},
+		{
+			"id": "4ap23-V05",
+			"name": "space"
+		}
+	],
+	"meta": {
+		"base-path": "./CL4ap/media/"
+	}
+}

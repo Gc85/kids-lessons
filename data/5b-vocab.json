@@ -1,0 +1,371 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "2b01-V01",
+			"name": "ten"
+		},
+		{
+			"id": "2b01-V02",
+			"name": "twenty"
+		},
+		{
+			"id": "2b01-V03",
+			"name": "thirty"
+		},
+		{
+			"id": "2b01-V04",
+			"name": "forty"
+		},
+		{
+			"id": "2b01-V05",
+			"name": "fifty"
+		},
+		{
+			"id": "2b01-V06",
+			"name": "o'clock"
+		},
+		{
+			"id": "2b02-V01",
+			"name": "go shopping"
+		},
+		{
+			"id": "2b02-V02",
+			"name": "go to the beach"
+		},
+		{
+			"id": "2b02-V03",
+			"name": "have a barbecue"
+		},
+		{
+			"id": "2b02-V04",
+			"name": "play rugby"
+		},
+		{
+			"id": "2b02-V05",
+			"name": "see a movie"
+		},
+		{
+			"id": "2b03-V01",
+			"name": "pirate"
+		},
+		{
+			"id": "2b03-V02",
+			"name": "princess"
+		},
+		{
+			"id": "2b03-V03",
+			"name": "superhero"
+		},
+		{
+			"id": "2b03-V04",
+			"name": "vampire"
+		},
+		{
+			"id": "2b03-V05",
+			"name": "witch"
+		},
+		{
+			"id": "2b05-V01",
+			"name": "a boomerang"
+		},
+		{
+			"id": "2b05-V02",
+			"name": "a cowry shell"
+		},
+		{
+			"id": "2b05-V03",
+			"name": "a cricket bat"
+		},
+		{
+			"id": "2b05-V04",
+			"name": "a didgeridoo"
+		},
+		{
+			"id": "2b05-V05",
+			"name": "coral"
+		},
+		{
+			"id": "2b06-V01",
+			"name": "didgeridoo"
+		},
+		{
+			"id": "2b06-V02",
+			"name": "drums"
+		},
+		{
+			"id": "2b06-V03",
+			"name": "guitar"
+		},
+		{
+			"id": "2b06-V04",
+			"name": "piano"
+		},
+		{
+			"id": "2b06-V05",
+			"name": "recorder"
+		},
+		{
+			"id": "2b07-V01",
+			"name": "art"
+		},
+		{
+			"id": "2b07-V02",
+			"name": "English"
+		},
+		{
+			"id": "2b07-V03",
+			"name": "math"
+		},
+		{
+			"id": "2b07-V04",
+			"name": "music"
+		},
+		{
+			"id": "2b07-V05",
+			"name": "science"
+		},
+		{
+			"id": "2b09-V01",
+			"name": "cold"
+		},
+		{
+			"id": "2b09-V02",
+			"name": "raining"
+		},
+		{
+			"id": "2b09-V03",
+			"name": "sunny"
+		},
+		{
+			"id": "2b09-V04",
+			"name": "warm"
+		},
+		{
+			"id": "2b09-V05",
+			"name": "windy"
+		},
+		{
+			"id": "2b10-V01",
+			"name": "bathroom"
+		},
+		{
+			"id": "2b10-V02",
+			"name": "garage"
+		},
+		{
+			"id": "2b10-V03",
+			"name": "kitchen"
+		},
+		{
+			"id": "2b10-V04",
+			"name": "living room"
+		},
+		{
+			"id": "2b10-V05",
+			"name": "yard"
+		},
+		{
+			"id": "2b11-V01",
+			"name": "angels"
+		},
+		{
+			"id": "2b11-V02",
+			"name": "Christmas trees"
+		},
+		{
+			"id": "2b11-V03",
+			"name": "reindeer"
+		},
+		{
+			"id": "2b11-V04",
+			"name": "Santa hats"
+		},
+		{
+			"id": "2b11-V05",
+			"name": "stars"
+		},
+		{
+			"id": "2b13-V01",
+			"name": "doing your homework"
+		},
+		{
+			"id": "2b13-V02",
+			"name": "making dinner"
+		},
+		{
+			"id": "2b13-V03",
+			"name": "playing video games"
+		},
+		{
+			"id": "2b13-V04",
+			"name": "washing the dishes"
+		},
+		{
+			"id": "2b13-V05",
+			"name": "watching TV"
+		},
+		{
+			"id": "2b14-V01",
+			"name": "chop"
+		},
+		{
+			"id": "2b14-V02",
+			"name": "fry"
+		},
+		{
+			"id": "2b14-V03",
+			"name": "peel"
+		},
+		{
+			"id": "2b14-V04",
+			"name": "stir"
+		},
+		{
+			"id": "2b14-V05",
+			"name": "wash"
+		},
+		{
+			"id": "2b15-V01",
+			"name": "playing tennis"
+		},
+		{
+			"id": "2b15-V02",
+			"name": "roller skating"
+		},
+		{
+			"id": "2b15-V03",
+			"name": "shopping"
+		},
+		{
+			"id": "2b15-V04",
+			"name": "walking the dog"
+		},
+		{
+			"id": "2b15-V05",
+			"name": "working"
+		},
+		{
+			"id": "2b17-V01",
+			"name": "my bike"
+		},
+		{
+			"id": "2b17-V02",
+			"name": "my skateboard"
+		},
+		{
+			"id": "2b17-V03",
+			"name": "the jungle gym"
+		},
+		{
+			"id": "2b17-V04",
+			"name": "the monkey bars"
+		},
+		{
+			"id": "2b17-V05",
+			"name": "the swing"
+		},
+		{
+			"id": "2b18-V01",
+			"name": "arm"
+		},
+		{
+			"id": "2b18-V02",
+			"name": "foot"
+		},
+		{
+			"id": "2b18-V03",
+			"name": "hand"
+		},
+		{
+			"id": "2b18-V04",
+			"name": "knee"
+		},
+		{
+			"id": "2b18-V05",
+			"name": "leg"
+		},
+		{
+			"id": "2b19-V01",
+			"name": "dress"
+		},
+		{
+			"id": "2b19-V02",
+			"name": "jacket"
+		},
+		{
+			"id": "2b19-V03",
+			"name": "pants"
+		},
+		{
+			"id": "2b19-V04",
+			"name": "skirt"
+		},
+		{
+			"id": "2b19-V05",
+			"name": "T-shirt"
+		},
+		{
+			"id": "2b21-V01",
+			"name": "fishing"
+		},
+		{
+			"id": "2b21-V02",
+			"name": "skateboarding"
+		},
+		{
+			"id": "2b21-V03",
+			"name": "soccer"
+		},
+		{
+			"id": "2b21-V04",
+			"name": "swimming"
+		},
+		{
+			"id": "2b21-V05",
+			"name": "tennis"
+		},
+		{
+			"id": "2b22-V01",
+			"name": "ball"
+		},
+		{
+			"id": "2b22-V02",
+			"name": "fishing rod"
+		},
+		{
+			"id": "2b22-V03",
+			"name": "racket"
+		},
+		{
+			"id": "2b22-V04",
+			"name": "skateboard"
+		},
+		{
+			"id": "2b22-V05",
+			"name": "swimsuit"
+		},
+		{
+			"id": "2b23-V01",
+			"name": "pier"
+		},
+		{
+			"id": "2b23-V02",
+			"name": "skate park"
+		},
+		{
+			"id": "2b23-V03",
+			"name": "soccer field"
+		},
+		{
+			"id": "2b23-V04",
+			"name": "swimming pool"
+		},
+		{
+			"id": "2b23-V05",
+			"name": "tennis court"
+		}
+	],
+	"meta": {
+		"base-path": "./L2b/media/"
+	}
+}

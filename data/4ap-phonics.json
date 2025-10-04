@@ -1,0 +1,79 @@
+{
+  "phonicsCards": [
+		{
+			"id": "4ap01-P01",
+			"name": "going"
+		},
+		{
+			"id": "4ap02-P01",
+			"name": "That / that"
+		},
+		{
+			"id": "4ap03-P01",
+			"name": "like / likes"
+		},
+		{
+			"id": "4ap05-P01",
+			"name": "How / how"
+		},
+		{
+			"id": "4ap06-P01",
+			"name": "Can / can"
+		},
+		{
+			"id": "4ap07-P01",
+			"name": "please"
+		},
+		{
+			"id": "4ap09-P01",
+			"name": "Whose / whose"
+		},
+		{
+			"id": "4ap10-P01",
+			"name": "There / there"
+		},
+		{
+			"id": "4ap11-P01",
+			"name": "much"
+		},
+		{
+			"id": "4ap13-P01",
+			"name": "Wh / wh"
+		},
+		{
+			"id": "4ap14-P01",
+			"name": "should"
+		},
+		{
+			"id": "4ap15-P01",
+			"name": "Here / here"
+		},
+		{
+			"id": "4ap17-P01",
+			"name": "bring"
+		},
+		{
+			"id": "4ap18-P01",
+			"name": "see"
+		},
+		{
+			"id": "4ap19-P01",
+			"name": "want"
+		},
+		{
+			"id": "4ap21-P01",
+			"name": "some"
+		},
+		{
+			"id": "4ap22-P01",
+			"name": "What / what"
+		},
+		{
+			"id": "4ap23-P01",
+			"name": "went"
+		}
+  ],
+	"meta": {
+		"base-path": "./CL4ap/media/"
+	}
+}

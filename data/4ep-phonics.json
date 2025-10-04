@@ -1,0 +1,79 @@
+{
+  "phonicsCards": [
+		{
+			"id": "4ep01-P01",
+			"name": "His / his - his"
+		},
+		{
+			"id": "4ep02-P01",
+			"name": "Work / work - work"
+		},
+		{
+			"id": "4ep03-P01",
+			"name": "Your / your - your"
+		},
+		{
+			"id": "4ep05-P01",
+			"name": "Want / want - want"
+		},
+		{
+			"id": "4ep06-P01",
+			"name": "Day / day - day"
+		},
+		{
+			"id": "4ep07-P01",
+			"name": "Some / some - some"
+		},
+		{
+			"id": "4ep09-P01",
+			"name": "Sure / sure - sure"
+		},
+		{
+			"id": "4ep10-P01",
+			"name": "Like / like - like"
+		},
+		{
+			"id": "4ep11-P01",
+			"name": "Time / time - time"
+		},
+		{
+			"id": "4ep13-P01",
+			"name": "You / you - you"
+		},
+		{
+			"id": "4ep14-P01",
+			"name": "Here / here - here"
+		},
+		{
+			"id": "4ep15-P01",
+			"name": "Have / have - have"
+		},
+		{
+			"id": "4ep17-P01",
+			"name": "The / the - the"
+		},
+		{
+			"id": "4ep18-P01",
+			"name": "Often / often - often"
+		},
+		{
+			"id": "4ep19-P01",
+			"name": "What / what - what"
+		},
+		{
+			"id": "4ep21-P01",
+			"name": "They / they - they"
+		},
+		{
+			"id": "4ep22-P01",
+			"name": "Are / are - are"
+		},
+		{
+			"id": "4ep23-P01",
+			"name": "Say / say - say"
+		}
+  ],
+	"meta": {
+		"base-path": "./CL4ep/media/"
+	}
+}

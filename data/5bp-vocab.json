@@ -1,0 +1,367 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "5bp01-V01",
+			"name": "good"
+		},
+		{
+			"id": "5bp01-V02",
+			"name": "great"
+		},
+		{
+			"id": "5bp01-V03",
+			"name": "hungry"
+		},
+		{
+			"id": "5bp01-V04",
+			"name": "sleepy"
+		},
+		{
+			"id": "5bp01-V05",
+			"name": "thirsty"
+		},
+		{
+			"id": "5bp02-V01",
+			"name": "a broomstick"
+		},
+		{
+			"id": "5bp02-V02",
+			"name": "a crown"
+		},
+		{
+			"id": "5bp02-V03",
+			"name": "a sword"
+		},
+		{
+			"id": "5bp02-V04",
+			"name": "a wand"
+		},
+		{
+			"id": "5bp02-V05",
+			"name": "some face paint"
+		},
+		{
+			"id": "5bp03-V01",
+			"name": "black hat"
+		},
+		{
+			"id": "5bp03-V02",
+			"name": "blue mask"
+		},
+		{
+			"id": "5bp03-V03",
+			"name": "purple cape"
+		},
+		{
+			"id": "5bp03-V04",
+			"name": "red dress"
+		},
+		{
+			"id": "5bp03-V05",
+			"name": "white sheet"
+		},
+		{
+			"id": "5bp05-V01",
+			"name": "clay"
+		},
+		{
+			"id": "5bp05-V02",
+			"name": "glass"
+		},
+		{
+			"id": "5bp05-V03",
+			"name": "metal"
+		},
+		{
+			"id": "5bp05-V04",
+			"name": "plastic"
+		},
+		{
+			"id": "5bp05-V05",
+			"name": "wood"
+		},
+		{
+			"id": "5bp06-V01",
+			"name": "play cricket"
+		},
+		{
+			"id": "5bp06-V02",
+			"name": "play the digeridoo"
+		},
+		{
+			"id": "5bp06-V03",
+			"name": "skip rocks"
+		},
+		{
+			"id": "5bp06-V04",
+			"name": "swim"
+		},
+		{
+			"id": "5bp06-V05",
+			"name": "throw a boomerang"
+		},
+		{
+			"id": "5bp07-V01",
+			"name": "ballet"
+		},
+		{
+			"id": "5bp07-V02",
+			"name": "chess"
+		},
+		{
+			"id": "5bp07-V03",
+			"name": "judo"
+		},
+		{
+			"id": "5bp07-V04",
+			"name": "piano"
+		},
+		{
+			"id": "5bp07-V05",
+			"name": "swimming"
+		},
+		{
+			"id": "5bp09-V01",
+			"name": "go for a walk"
+		},
+		{
+			"id": "5bp09-V02",
+			"name": "have a picnic"
+		},
+		{
+			"id": "5bp09-V03",
+			"name": "have a water fight"
+		},
+		{
+			"id": "5bp09-V04",
+			"name": "play outside"
+		},
+		{
+			"id": "5bp09-V05",
+			"name": "ride our bikes"
+		},
+		{
+			"id": "5bp10-V01",
+			"name": "colored paper"
+		},
+		{
+			"id": "5bp10-V02",
+			"name": "glitter"
+		},
+		{
+			"id": "5bp10-V03",
+			"name": "glue sticks"
+		},
+		{
+			"id": "5bp10-V04",
+			"name": "markers"
+		},
+		{
+			"id": "5bp10-V05",
+			"name": "string"
+		},
+		{
+			"id": "5bp11-V01",
+			"name": "from the ceiling"
+		},
+		{
+			"id": "5bp11-V02",
+			"name": "in the window"
+		},
+		{
+			"id": "5bp11-V03",
+			"name": "on the Christmas tree"
+		},
+		{
+			"id": "5bp11-V04",
+			"name": "on the door"
+		},
+		{
+			"id": "5bp11-V05",
+			"name": "on the wall"
+		},
+		{
+			"id": "5bp13-V01",
+			"name": "curry"
+		},
+		{
+			"id": "5bp13-V02",
+			"name": "lasagna"
+		},
+		{
+			"id": "5bp13-V03",
+			"name": "pot pie"
+		},
+		{
+			"id": "5bp13-V04",
+			"name": "soup"
+		},
+		{
+			"id": "5bp13-V05",
+			"name": "spaghetti"
+		},
+		{
+			"id": "5bp14-V01",
+			"name": "carrot"
+		},
+		{
+			"id": "5bp14-V02",
+			"name": "eggplant"
+		},
+		{
+			"id": "5bp14-V03",
+			"name": "onion"
+		},
+		{
+			"id": "5bp14-V04",
+			"name": "potato"
+		},
+		{
+			"id": "5bp14-V05",
+			"name": "zucchini"
+		},
+		{
+			"id": "5bp15-V01",
+			"name": "bank"
+		},
+		{
+			"id": "5bp15-V02",
+			"name": "drug store"
+		},
+		{
+			"id": "5bp15-V03",
+			"name": "grocery store"
+		},
+		{
+			"id": "5bp15-V04",
+			"name": "laundromat"
+		},
+		{
+			"id": "5bp15-V05",
+			"name": "post office"
+		},
+		{
+			"id": "5bp17-V01",
+			"name": "a log"
+		},
+		{
+			"id": "5bp17-V02",
+			"name": "a rock"
+		},
+		{
+			"id": "5bp17-V03",
+			"name": "a rope"
+		},
+		{
+			"id": "5bp17-V04",
+			"name": "my bag"
+		},
+		{
+			"id": "5bp17-V05",
+			"name": "my shoelace"
+		},
+		{
+			"id": "5bp18-V01",
+			"name": "bandage"
+		},
+		{
+			"id": "5bp18-V02",
+			"name": "clean"
+		},
+		{
+			"id": "5bp18-V03",
+			"name": "ice"
+		},
+		{
+			"id": "5bp18-V04",
+			"name": "rest"
+		},
+		{
+			"id": "5bp18-V05",
+			"name": "wrap"
+		},
+		{
+			"id": "5bp19-V01",
+			"name": "earphones"
+		},
+		{
+			"id": "5bp19-V02",
+			"name": "glasses"
+		},
+		{
+			"id": "5bp19-V03",
+			"name": "necklace"
+		},
+		{
+			"id": "5bp19-V04",
+			"name": "shoelaces"
+		},
+		{
+			"id": "5bp19-V05",
+			"name": "watch"
+		},
+		{
+			"id": "5bp21-V01",
+			"name": "catch"
+		},
+		{
+			"id": "5bp21-V02",
+			"name": "pitch"
+		},
+		{
+			"id": "5bp21-V03",
+			"name": "run"
+		},
+		{
+			"id": "5bp21-V04",
+			"name": "shoot"
+		},
+		{
+			"id": "5bp21-V05",
+			"name": "skate"
+		},
+		{
+			"id": "5bp22-V01",
+			"name": "ball"
+		},
+		{
+			"id": "5bp22-V02",
+			"name": "bat"
+		},
+		{
+			"id": "5bp22-V03",
+			"name": "helmet"
+		},
+		{
+			"id": "5bp22-V04",
+			"name": "mitt"
+		},
+		{
+			"id": "5bp22-V05",
+			"name": "sneakers"
+		},
+		{
+			"id": "5bp23-V01",
+			"name": "my house"
+		},
+		{
+			"id": "5bp23-V02",
+			"name": "the gas station"
+		},
+		{
+			"id": "5bp23-V03",
+			"name": "the river"
+		},
+		{
+			"id": "5bp23-V04",
+			"name": "the school"
+		},
+		{
+			"id": "5bp23-V05",
+			"name": "the stadium"
+		}
+	],
+	"meta": {
+		"base-path": "./CL5bp/media/"
+	}
+}

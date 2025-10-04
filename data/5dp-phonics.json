@@ -1,0 +1,91 @@
+{
+	"phonicsCards": [
+		{
+			"id": "5dp01-P02",
+			"name": "NK / nk - thi<span class='phonics'>nk</span>."
+		},
+		{
+			"id": "5dp02-P02",
+			"name": "HE / he - he."
+		},
+		{
+			"id": "5dp03-P02",
+			"name": "GET / get - get."
+		},
+		{
+			"id": "5dp05-P02",
+			"name": "DO / do - do."
+		},
+		{
+			"id": "5dp06-P02",
+			"name": "EA / ea - t<span class='phonics'>ea</span>m."
+		},
+		{
+			"id": "5dp07-P02",
+			"name": "CAN / can - can."
+		},
+		{
+			"id": "5dp09-P02",
+			"name": "ER / er - pepp<span class='phonics'>er</span>."
+		},
+		{
+			"id": "5dp10-P02",
+			"name": "PL / pl - <span class='phonics'>pl</span>ease."
+		},
+		{
+			"id": "5dp11-P02",
+			"name": "IS / is - is."
+		},
+		{
+			"id": "5dp13-P02",
+			"name": "Put - Put."
+		},
+		{
+			"id": "5dp13-P03",
+			"name": "put - put."
+		},
+		{
+			"id": "5dp14-P02",
+			"name": "BR / br - <span class='phonics'>br</span>ush."
+		},
+		{
+			"id": "5dp15-P02",
+			"name": "IN / in - in."
+		},
+		{
+			"id": "5dp17-P02",
+			"name": "AR / ar - p<span class='phonics'>ar</span>k."
+		},
+		{
+			"id": "5dp18-P02",
+			"name": "ING / ing - bor<span class='phonics'>ing</span>."
+		},
+		{
+			"id": "5dp19-P02",
+			"name": "LL / ll - do<span class='phonics'>ll</span>ars."
+		},
+		{
+			"id": "5dp21-P02",
+			"name": "SO / so - so."
+		},
+		{
+			"id": "5dp22-P02",
+			"name": "Me - Me"
+		},
+		{
+			"id": "5dp22-P03",
+			"name": "me - me"
+		},
+		{
+			"id": "5dp23-P02",
+			"name": "It - It"
+		},
+		{
+			"id": "5dp23-P03",
+			"name": "it - it"
+		}
+	],
+	"meta": {
+		"base-path": "./CL5dp/media/"
+	}
+}

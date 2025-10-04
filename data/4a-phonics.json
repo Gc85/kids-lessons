@@ -1,0 +1,199 @@
+{
+	"phonicsCards": [
+		{
+			"id": "3a02-P01",
+			"name": "b _ k _"
+		},
+		{
+			"id": "3a02-P02",
+			"name": "bike"
+		},
+		{
+			"id": "3a02-P03",
+			"name": "l _ m _"
+		},
+		{
+			"id": "3a02-P04",
+			"name": "lime"
+		},
+		{
+			"id": "3a03-P01",
+			"name": "s p _ _ n"
+		},
+		{
+			"id": "3a03-P02",
+			"name": "spoon"
+		},
+		{
+			"id": "3a03-P03",
+			"name": "m _ _ n"
+		},
+		{
+			"id": "3a03-P04",
+			"name": "moon"
+		},
+		{
+			"id": "3a06-P01",
+			"name": "c _ k _"
+		},
+		{
+			"id": "3a06-P02",
+			"name": "cake"
+		},
+		{
+			"id": "3a06-P03",
+			"name": "r _ k _"
+		},
+		{
+			"id": "3a06-P04",
+			"name": "rake"
+		},
+		{
+			"id": "3a07-P01",
+			"name": "n e _ _"
+		},
+		{
+			"id": "3a07-P02",
+			"name": "nest"
+		},
+		{
+			"id": "3a07-P03",
+			"name": "s t _ _"
+		},
+		{
+			"id": "3a07-P04",
+			"name": "step"
+		},
+		{
+			"id": "3a10-P01",
+			"name": "b _ _ d"
+		},
+		{
+			"id": "3a10-P02",
+			"name": "bird"
+		},
+		{
+			"id": "3a10-P03",
+			"name": "g _ _ l"
+		},
+		{
+			"id": "3a10-P04",
+			"name": "girl"
+		},
+		{
+			"id": "3a11-P01",
+			"name": "b a _ _"
+		},
+		{
+			"id": "3a11-P02",
+			"name": "bath"
+		},
+		{
+			"id": "3a11-P03",
+			"name": "_ _ i n"
+		},
+		{
+			"id": "3a11-P04",
+			"name": "thin"
+		},
+		{
+			"id": "3a14-P01",
+			"name": "l u n _ _"
+		},
+		{
+			"id": "3a14-P02",
+			"name": "lunch"
+		},
+		{
+			"id": "3a14-P03",
+			"name": "_ _ o p"
+		},
+		{
+			"id": "3a14-P04",
+			"name": "chop"
+		},
+		{
+			"id": "3a15-P01",
+			"name": "b _ _ n"
+		},
+		{
+			"id": "3a15-P02",
+			"name": "bean"
+		},
+		{
+			"id": "3a15-P03",
+			"name": "r _ _ d"
+		},
+		{
+			"id": "3a15-P04",
+			"name": "read"
+		},
+		{
+			"id": "3a18-P01",
+			"name": "b _ _ l"
+		},
+		{
+			"id": "3a18-P02",
+			"name": "bowl"
+		},
+		{
+			"id": "3a18-P03",
+			"name": "s n _ _"
+		},
+		{
+			"id": "3a18-P04",
+			"name": "snow"
+		},
+		{
+			"id": "3a19-P01",
+			"name": "c _ _"
+		},
+		{
+			"id": "3a19-P02",
+			"name": "car"
+		},
+		{
+			"id": "3a19-P03",
+			"name": "j _ _"
+		},
+		{
+			"id": "3a19-P04",
+			"name": "jar"
+		},
+		{
+			"id": "3a22-P01",
+			"name": "w i n t _ _"
+		},
+		{
+			"id": "3a22-P02",
+			"name": "winter"
+		},
+		{
+			"id": "3a22-P03",
+			"name": "s i s t _ _"
+		},
+		{
+			"id": "3a22-P04",
+			"name": "sister"
+		},
+		{
+			"id": "3a23-P01",
+			"name": "r i _ _"
+		},
+		{
+			"id": "3a23-P02",
+			"name": "ring"
+		},
+		{
+			"id": "3a23-P03",
+			"name": "w i _ _"
+		},
+		{
+			"id": "3a23-P04",
+			"name": "wing"
+		}
+	],
+	"meta": {
+		"base-path": "./L3a/media/"
+	}
+}

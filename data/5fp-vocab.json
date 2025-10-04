@@ -1,0 +1,367 @@
+{
+	"vocabularyImages": [
+		{
+			"id": "5fp01-V01",
+			"name": "two triangles"
+		},
+		{
+			"id": "5fp01-V02",
+			"name": "three rectangles"
+		},
+		{
+			"id": "5fp01-V03",
+			"name": "four ovals"
+		},
+		{
+			"id": "5fp01-V04",
+			"name": "five diamonds"
+		},
+		{
+			"id": "5fp01-V05",
+			"name": "six stars"
+		},
+		{
+			"id": "5fp02-V01",
+			"name": "juice"
+		},
+		{
+			"id": "5fp02-V02",
+			"name": "milk"
+		},
+		{
+			"id": "5fp02-V03",
+			"name": "soda"
+		},
+		{
+			"id": "5fp02-V04",
+			"name": "tea"
+		},
+		{
+			"id": "5fp02-V05",
+			"name": "water"
+		},
+		{
+			"id": "5fp03-V01",
+			"name": "cute"
+		},
+		{
+			"id": "5fp03-V02",
+			"name": "funny"
+		},
+		{
+			"id": "5fp03-V03",
+			"name": "happy"
+		},
+		{
+			"id": "5fp03-V04",
+			"name": "scary"
+		},
+		{
+			"id": "5fp03-V05",
+			"name": "ugly"
+		},
+		{
+			"id": "5fp05-V01",
+			"name": "a book"
+		},
+		{
+			"id": "5fp05-V02",
+			"name": "a pen"
+		},
+		{
+			"id": "5fp05-V03",
+			"name": "my keys"
+		},
+		{
+			"id": "5fp05-V04",
+			"name": "my phone"
+		},
+		{
+			"id": "5fp05-V05",
+			"name": "some candy"
+		},
+		{
+			"id": "5fp06-V01",
+			"name": "bed"
+		},
+		{
+			"id": "5fp06-V02",
+			"name": "chair"
+		},
+		{
+			"id": "5fp06-V03",
+			"name": "sofa"
+		},
+		{
+			"id": "5fp06-V04",
+			"name": "table"
+		},
+		{
+			"id": "5fp06-V05",
+			"name": "TV"
+		},
+		{
+			"id": "5fp07-V01",
+			"name": "Monday"
+		},
+		{
+			"id": "5fp07-V02",
+			"name": "Tuesday"
+		},
+		{
+			"id": "5fp07-V03",
+			"name": "Wednesday"
+		},
+		{
+			"id": "5fp07-V04",
+			"name": "Thursday"
+		},
+		{
+			"id": "5fp07-V05",
+			"name": "Friday"
+		},
+		{
+			"id": "5fp09-V01",
+			"name": "ham"
+		},
+		{
+			"id": "5fp09-V02",
+			"name": "jam"
+		},
+		{
+			"id": "5fp09-V03",
+			"name": "ketchup"
+		},
+		{
+			"id": "5fp09-V04",
+			"name": "lettuce"
+		},
+		{
+			"id": "5fp09-V05",
+			"name": "mayo"
+		},
+		{
+			"id": "5fp10-V01",
+			"name": "blue"
+		},
+		{
+			"id": "5fp10-V02",
+			"name": "green"
+		},
+		{
+			"id": "5fp10-V03",
+			"name": "orange"
+		},
+		{
+			"id": "5fp10-V04",
+			"name": "pink"
+		},
+		{
+			"id": "5fp10-V05",
+			"name": "yellow"
+		},
+		{
+			"id": "5fp11-V01",
+			"name": "cookies"
+		},
+		{
+			"id": "5fp11-V02",
+			"name": "earrings"
+		},
+		{
+			"id": "5fp11-V03",
+			"name": "flowers"
+		},
+		{
+			"id": "5fp11-V04",
+			"name": "ornaments"
+		},
+		{
+			"id": "5fp11-V05",
+			"name": "paper dolls"
+		},
+		{
+			"id": "5fp13-V01",
+			"name": "bus driver"
+		},
+		{
+			"id": "5fp13-V02",
+			"name": "cook"
+		},
+		{
+			"id": "5fp13-V03",
+			"name": "janitor"
+		},
+		{
+			"id": "5fp13-V04",
+			"name": "librarian"
+		},
+		{
+			"id": "5fp13-V05",
+			"name": "nurse"
+		},
+		{
+			"id": "5fp14-V01",
+			"name": "bats"
+		},
+		{
+			"id": "5fp14-V02",
+			"name": "ladybugs"
+		},
+		{
+			"id": "5fp14-V03",
+			"name": "octopuses"
+		},
+		{
+			"id": "5fp14-V04",
+			"name": "pigs"
+		},
+		{
+			"id": "5fp15-V05",
+			"name": "snakes"
+		},
+		{
+			"id": "5fp15-V01",
+			"name": "forked tongues"
+		},
+		{
+			"id": "5fp15-V02",
+			"name": "hooves"
+		},
+		{
+			"id": "5fp15-V03",
+			"name": "spots"
+		},
+		{
+			"id": "5fp15-V04",
+			"name": "suckers"
+		},
+		{
+			"id": "5fp15-V05",
+			"name": "wings"
+		},
+		{
+			"id": "5fp17-V01",
+			"name": "balance beam"
+		},
+		{
+			"id": "5fp17-V02",
+			"name": "climbing wall"
+		},
+		{
+			"id": "5fp17-V03",
+			"name": "merry-go-round"
+		},
+		{
+			"id": "5fp17-V04",
+			"name": "trampoline"
+		},
+		{
+			"id": "5fp17-V05",
+			"name": "trapeze rings"
+		},
+		{
+			"id": "5fp18-V01",
+			"name": "balancing"
+		},
+		{
+			"id": "5fp18-V02",
+			"name": "climbing"
+		},
+		{
+			"id": "5fp18-V03",
+			"name": "crawling"
+		},
+		{
+			"id": "5fp18-V04",
+			"name": "jumping"
+		},
+		{
+			"id": "5fp18-V05",
+			"name": "swinging"
+		},
+		{
+			"id": "5fp19-V01",
+			"name": "cello"
+		},
+		{
+			"id": "5fp19-V02",
+			"name": "clarinet"
+		},
+		{
+			"id": "5fp19-V03",
+			"name": "flute"
+		},
+		{
+			"id": "5fp19-V04",
+			"name": "trombone"
+		},
+		{
+			"id": "5fp19-V05",
+			"name": "ukulele"
+		},
+		{
+			"id": "5fp21-V01",
+			"name": "asparagus"
+		},
+		{
+			"id": "5fp21-V02",
+			"name": "beets"
+		},
+		{
+			"id": "5fp21-V03",
+			"name": "corn"
+		},
+		{
+			"id": "5fp21-V04",
+			"name": "radishes"
+		},
+		{
+			"id": "5fp21-V05",
+			"name": "zucchini"
+		},
+		{
+			"id": "5fp22-V01",
+			"name": "bacon"
+		},
+		{
+			"id": "5fp22-V02",
+			"name": "blueberry"
+		},
+		{
+			"id": "5fp22-V03",
+			"name": "chili"
+		},
+		{
+			"id": "5fp22-V04",
+			"name": "lime"
+		},
+		{
+			"id": "5fp22-V05",
+			"name": "tomato"
+		},
+		{
+			"id": "5fp23-V01",
+			"name": "a dollar"
+		},
+		{
+			"id": "5fp23-V02",
+			"name": "two dollars"
+		},
+		{
+			"id": "5fp23-V03",
+			"name": "three dollars"
+		},
+		{
+			"id": "5fp23-V04",
+			"name": "four dollars"
+		},
+		{
+			"id": "5fp23-V05",
+			"name": "five dollars"
+		}
+	],
+	"meta": {
+		"base-path": "./CL5fp/media/"
+	}
+}

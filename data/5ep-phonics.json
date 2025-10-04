@@ -1,0 +1,79 @@
+{
+	"phonicsCards": [
+		{
+			"id": "5ep01-P01",
+			"name": "one - one."
+		},
+		{
+			"id": "5ep02-P01",
+			"name": "The / the - the."
+		},
+		{
+			"id": "5ep03-P01",
+			"name": "my - my."
+		},
+		{
+			"id": "5ep05-P01",
+			"name": "you - you."
+		},
+		{
+			"id": "5ep06-P01",
+			"name": "Are / are - are."
+		},
+		{
+			"id": "5ep07-P01",
+			"name": "to - to."
+		},
+		{
+			"id": "5ep09-P01",
+			"name": "i _ e / i _ e - l<span class='phonics'>i</span>k<span class='phonics'>e</span>."
+		},
+		{
+			"id": "5ep10-P01",
+			"name": "by - by"
+		},
+		{
+			"id": "5ep11-P01",
+			"name": "Yes / yes - yes."
+		},
+		{
+			"id": "5ep13-P01",
+			"name": "an - an."
+		},
+		{
+			"id": "5ep14-P01",
+			"name": "Why / why - why"
+		},
+		{
+			"id": "5ep15-P01",
+			"name": "On / on - on."
+		},
+		{
+			"id": "5ep17-P01",
+			"name": "TOO / too - too."
+		},
+		{
+			"id": "5ep18-P01",
+			"name": "AT / at - at."
+		},
+		{
+			"id": "5ep19-P01",
+			"name": "AY / ay - Y<span class='phonics'>ay</span>!"
+		},
+		{
+			"id": "5ep21-P01",
+			"name": "OF / of - of."
+		},
+		{
+			"id": "5ep22-P01",
+			"name": "THIS / this - this"
+		},
+		{
+			"id": "5ep23-P01",
+			"name": "DO / do - do"
+		}
+	],
+	"meta": {
+		"base-path": "./CL5ep/media/"
+	}
+}

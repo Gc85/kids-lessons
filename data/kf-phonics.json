@@ -1,0 +1,103 @@
+{
+  "phonicsCards": [
+		{
+			"id": "kf01-PH",
+			"name": "Big A says A, a, alligator.<br>Big A says A, a, antlers."
+		},
+		{
+			"id": "kf02-PH",
+			"name": "Big B says B, b, balloon.<br>Big B says B, b, bat."
+		},
+		{
+			"id": "kf03-PH",
+			"name": "Big C says C, c, coconut.<br>Big C says C, c, comb."
+		},
+		{
+			"id": "kf04-PH",
+			"name": "Big D says D, d, dance.<br>Big D says D, d, door."
+		},
+		{
+			"id": "kf05-PH",
+			"name": "Big E says E, e, elm.<br>Big E says E, e, eleven."
+		},
+		{
+			"id": "kf06-PH",
+			"name": "Big F says F, f, firework.<br>Big F says F, f, fly."
+		},
+		{
+			"id": "kf07-PH",
+			"name": "Big G says G, g, glasses.<br>Big G says G, g, grapes."
+		},
+		{
+			"id": "kf08-PH",
+			"name": "Big H says H, h, Hal.<br>Big H says H, h, hole."
+		},
+		{
+			"id": "kf09-PH",
+			"name": "Big I says I, i, inchworm.<br>Big I says I, i, inside."
+		},
+		{
+			"id": "kf10-PH",
+			"name": "Big J says J, j, Jess.<br>Big J says J, j, jeans."
+		},
+		{
+			"id": "kf11-PH",
+			"name": "Big K says K, k, ketchup.<br>Big K says K, k, kettle."
+		},
+		{
+			"id": "kf12-PH",
+			"name": "Big L says L, l, letter.<br>Big L says L, l, lace."
+		},
+		{
+			"id": "kf13-PH",
+			"name": "Big M says M, m, moon.<br>Big M says M, m, mirror."
+		},
+		{
+			"id": "kf14-PH",
+			"name": "Big N says N, n, neck.<br>Big N says N, n, number."
+		},
+		{
+			"id": "kf15-PH",
+			"name": "Big O says O, o, okra.<br>Big O says O, o, omelet."
+		},
+		{
+			"id": "kf16-PH",
+			"name": "Big P says P, p, pillow.<br>Big P says P, p, poster."
+		},
+		{
+			"id": "kf17-PH",
+			"name": "Big Q says Q, q, quilt.<br>Big Q says Q, q, quail."
+		},
+		{
+			"id": "kf18-PH",
+			"name": "Big R says R, r, Rio.<br>Big R says R, r, roll."
+		},
+		{
+			"id": "kf19-PH",
+			"name": "Big S says S, s, ski.<br>Big S says S, s, snowflake."
+		},
+		{
+			"id": "kf20-PH",
+			"name": "Big T says T, t, tall.<br>Big T says T, t, train."
+		},
+		{
+			"id": "kf21-PH",
+			"name": "Big U says U, u, Unwin.<br>Big U says U, u, ugly."
+		},
+		{
+			"id": "kf22-PH",
+			"name": "Big V says V, v, Victor.<br>Big V says V, v, vulture."
+		},
+		{
+			"id": "kf23-PH",
+			"name": "Big W says W, w, watch.<br>Big X says X, x, fox."
+		},
+		{
+			"id": "kf24-PH",
+			"name": "Big Y says Y, y, yo-yo.<br>Big Z says Z, z, zoo."
+		}
+  ],
+	"meta": {
+		"base-path": "./kf/media/"
+	}
+}

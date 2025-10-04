@@ -1,0 +1,79 @@
+{
+	"phonicsCards": [
+		{
+			"id": "5bp01-P01",
+			"name": "NG / ng - hu<span class='phonics'>ng</span>ry."
+		},
+		{
+			"id": "5bp02-P01",
+			"name": "SH / sh - <span class='phonics'>sh</span>opping."
+		},
+		{
+			"id": "5bp03-P01",
+			"name": "BL / bl - <span class='phonics'>bl</span>ack."
+		},
+		{
+			"id": "5bp05-P01",
+			"name": "OF / of - made <span class='phonics'>of</span> wood."
+		},
+		{
+			"id": "5bp06-P01",
+			"name": "CK / ck - ro<span class='phonics'>ck</span>."
+		},
+		{
+			"id": "5bp07-P01",
+			"name": "OO / oo - sch<span class='phonics'>oo</span>l."
+		},
+		{
+			"id": "5bp09-P01",
+			"name": "IS / is - is."
+		},
+		{
+			"id": "5bp10-P01",
+			"name": "YES / yes - yes."
+		},
+		{
+			"id": "5bp11-P01",
+			"name": "THE / the - the."
+		},
+		{
+			"id": "5bp13-P01",
+			"name": "OU / ou - s<span class='phonics'>ou</span>p."
+		},
+		{
+			"id": "5bp14-P01",
+			"name": "BE / be - be."
+		},
+		{
+			"id": "5bp15-P01",
+			"name": "AT / at - at."
+		},
+		{
+			"id": "5bp17-P01",
+			"name": "SO / so - so."
+		},
+		{
+			"id": "5bp18-P01",
+			"name": "EE / ee - s<span class='phonics'>ee</span>."
+		},
+		{
+			"id": "5bp19-P01",
+			"name": "ALL / all - all."
+		},
+		{
+			"id": "5bp21-P01",
+			"name": "TCH / tch - ca<span class='phonics'>tch</span>."
+		},
+		{
+			"id": "5bp22-P01",
+			"name": "MY / my - my."
+		},
+		{
+			"id": "5bp23-P01",
+			"name": "WH / wh - <span class='phonics'>wh</span>ere."
+		}
+	],
+	"meta": {
+		"base-path": "./CL5bp/media/"
+	}
+}

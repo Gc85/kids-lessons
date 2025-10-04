@@ -1,0 +1,79 @@
+{
+	"phonicsCards": [
+		{
+			"id": "5ap01-P01",
+			"name": "Th / th"
+		},
+		{
+			"id": "5ap02-P01",
+			"name": "On / on"
+		},
+		{
+			"id": "5ap03-P01",
+			"name": "me"
+		},
+		{
+			"id": "5ap05-P01",
+			"name": "Th / th"
+		},
+		{
+			"id": "5ap06-P01",
+			"name": "oo"
+		},
+		{
+			"id": "5ap07-P01",
+			"name": "Do / do"
+		},
+		{
+			"id": "5ap09-P01",
+			"name": "pl"
+		},
+		{
+			"id": "5ap10-P01",
+			"name": "Wh / wh"
+		},
+		{
+			"id": "5ap11-P01",
+			"name": "nt"
+		},
+		{
+			"id": "5ap13-P01",
+			"name": "ie"
+		},
+		{
+			"id": "5ap14-P01",
+			"name": "or"
+		},
+		{
+			"id": "5ap15-P01",
+			"name": "no"
+		},
+		{
+			"id": "5ap17-P01",
+			"name": "to"
+		},
+		{
+			"id": "5ap18-P01",
+			"name": "It / it"
+		},
+		{
+			"id": "5ap19-P01",
+			"name": "in"
+		},
+		{
+			"id": "5ap21-P01",
+			"name": "go"
+		},
+		{
+			"id": "5ap22-P01",
+			"name": "We / we"
+		},
+		{
+			"id": "5ap23-P01",
+			"name": "ow"
+		}
+	],
+	"meta": {
+		"base-path": "./CL5ap/media/"
+	}
+}
