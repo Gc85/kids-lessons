@@ -148,49 +148,49 @@
 			"id": "25a",
 			"name": "How was your weekend?",
 			"description": "It was (OK, good, fun, exciting).",
-			"url": "25.jpg"
+			"url": "25a.jpg"
 		},
 		{
 			"id": "25b",
 			"name": "What did you do?",
 			"description": "I (went to the zoo, went to the park, played with my friends, did my homework).",
-			"url": "26.jpg"
+			"url": "25b.jpg"
 		},
 		{
 			"id": "26a",
 			"name": "How was school?",
 			"description": "It was (fun, OK, interesting, boring).",
-			"url": "27.jpg"
+			"url": "26a.jpg"
 		},
 		{
 			"id": "26b",
 			"name": "What did you study?",
 			"description": "I studied (English, math, Japanese, music).",
-			"url": "28.jpg"
+			"url": "26b.jpg"
 		},
 		{
 			"id": "27a",
 			"name": "What do you want to do for (your ____ vacation)?",
 			"description": "I want to go (to the beach, to the mountains, camping, skiing).",
-			"url": "29.jpg"
+			"url": "27a.jpg"
 		},
 		{
 			"id": "27b",
 			"name": "Why do you want to do that?",
 			"description": " I like (making sandcastles, hiking, sleeping in a tent, snow).",
-			"url": "30.jpg"
+			"url": "27b.jpg"
 		},
 		{
 			"id": "28a",
 			"name": "What did you have for lunch?",
 			"description": "I had (soup, spaghetti, noodles, curry).",
-			"url": "31.jpg"
+			"url": "28a.jpg"
 		},
 		{
 			"id": "28b",
 			"name": "How was it?",
 			"description": "It was (good, yummy, OK, delicious)",
-			"url": "32.jpg"
+			"url": "28b.jpg"
 		},
 		{
 			"id": "5p-4p-w1",
@@ -202,7 +202,7 @@
 			"id": "3p-w1",
 			"name": "What's today's weather? / How are you?",
 			"description": "It's (sunny, cloudy, windy, stormy, etc.). / I'm (happy, sad, sleepy, grumpy).",
-			"url": false
+			"url": "3p-w1.png"
 		},
 		{
 			"id": "5p-4p-w2",
@@ -214,7 +214,7 @@
 			"id": "3p-w2",
 			"name": "What's your favourite (sport, food, colour, etc.)?",
 			"description": "I like (soccer, sushi, green, etc.)",
-			"url": false
+			"url": "3p-w2.png"
 		},
 		{
 			"id": "5p-4p-w3",
@@ -226,7 +226,7 @@
 			"id": "3p-w3",
 			"name": "How old are you? / When's your birthday?",
 			"description": "I'm (6, 7, 8, 9). / My birthday is (15th January).",
-			"url": false
+			"url": "3p-w3.png"
 		},
 		{
 			"id": "5p-4p-3p-w4",

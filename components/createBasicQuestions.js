@@ -16,15 +16,12 @@ export function createBQSection(lesson, bq, message) {
 
     if (findBQ) {
       const bqInsideDivElem = createElem('div', 'div-img', '');
-      if (findBQ.url !== false) {
-        const bqImgElem = createElem('img', 'image-medium', '');
-        bqImgElem.src = `./assets/bq/${findBQ.url}`;
-        bqImgElem.onclick = () => { showSrcMedia(); };
-        bqInsideDivElem.appendChild(bqImgElem);
-      }
+      const bqImgElem = createElem('img', 'image-medium', '');
+      bqImgElem.src = `./assets/bq/${findBQ.url}`;
+      bqImgElem.onclick = () => { showSrcMedia(); };
+      bqInsideDivElem.appendChild(bqImgElem);
 
       const bqPElem = createElem('p', '', '');
-      // const bqTextMessage = >;
       bqPElem.appendChild(document.createTextNode(`A: ${findBQ.name}`));
       bqPElem.appendChild(document.createElement('br'));
       bqPElem.appendChild(document.createTextNode(`B: ${findBQ.description}`));
