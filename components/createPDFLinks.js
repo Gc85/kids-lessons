@@ -29,7 +29,7 @@ export function createPDFLinksSection(lesson, message, pdfFiles) {
       }
     }
     // Logic for lessons 2 and 3 for each unit (items 1, 2, 3, and 4)
-    else if (lesson.lessonNumber %4 !== 0) {
+    else if (lesson.lessonNumber % 4 !== 0) {
       if (
           pdfs.desc === 'Home Study' ||
           pdfs.desc === 'Lesson Transcript' ||
