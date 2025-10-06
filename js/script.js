@@ -1,5 +1,5 @@
-import { fetchLessons, lessonsData } from '../components/fetchLessons.js';
-import { populateLessons } from "../components/populateLessons.js";
+import { fetchLessons } from '../components/fetchLessons.js';
+import { populateLessons, noLesson } from "../components/populateLessons.js";
 import { createElem, createPopup, getSelectedRadioValue, createSegueVideo } from '../components/utils.js';
 
 // Warmup Section
@@ -19,6 +19,8 @@ import { createVocabGamesSection, addMainGameSection } from '../components/creat
 import { createUnitProductionSection } from '../components/createUnitProductionSection.js';
 
 import { createGoodbyeSection } from '../components/createGoodbye.js';
+
+let lessonsData;
 
 // Load selected lesson
 async function loadLesson() {
@@ -132,6 +134,13 @@ async function loadLesson() {
       warmDownSection.appendChild(createGoodbyeSection(lesson));
 
       const closingSeguePElem = createElem('p', 'flex-div margin-5-0', '');
+      // const closingSegueBtnElem = createElem('button', 'btn-gradient-1', '');
+      // closingSegueBtnElem.innerHTML = `Closing Segue`;
+      // closingSegueBtnElem.addEventListener('click', () => {
+      //   console.log('Button clicked');
+      //   loadMedia('../../kids/media/KidsClose.mp4');
+      // });
+
       closingSeguePElem.appendChild(createSegueVideo(`Closing`));
       warmDownSection.appendChild(closingSeguePElem);
 
@@ -164,14 +173,30 @@ function mainMenu() {
 // ✅ Combine `DOMContentLoaded` Listeners into One
 document.addEventListener("DOMContentLoaded", async () => {
   // console.log("📢 DOM fully loaded, fetching lessons...");
-  await fetchLessons();
+  lessonsData = await fetchLessons();
 
   // ✅ Attach event listeners properly
   ['book', 'level', 'type'].forEach(name => {
     document.querySelectorAll(`input[name="${name}"]`).forEach(radio => {
-      radio.addEventListener('change', () => {
+      radio.addEventListener('change', async () => {
         console.log(`${name} changed to:`, radio.value);
-        populateLessons(lessonsData);
+        const books = ['A', 'B', 'C', 'D', 'E', 'F'];
+        if (books.includes(radio.value)) {
+          // var newLessonsData = {};
+          const response = await fetch(`./lessons/book-${radio.value}.json`);
+          if (!response.ok) {
+            const level = getSelectedRadioValue('level');
+            const type = getSelectedRadioValue('type');
+            const book = getSelectedRadioValue('book');
+            noLesson(level, type, book);
+          } else {
+            lessonsData = await response.json();
+            populateLessons(lessonsData);
+          }
+
+        } else {
+          populateLessons(lessonsData);
+        }
       });
     });
   });

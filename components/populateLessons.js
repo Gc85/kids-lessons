@@ -15,13 +15,7 @@ export function populateLessons(lessonsData) {
   const book = getSelectedRadioValue('book');
 
   if (!lessonsData[level] || !lessonsData[level][type] || !lessonsData[level][type][book]) {
-    createPopup('Sorry, there are currently no lessons in this section.');
-    const lessonDropdown = document.getElementById('lesson');
-    lessonDropdown.innerHTML = '';
-    const lessonElem = document.querySelector('#lesson-content');
-    lessonElem.style.visibility = 'hidden';
-    lessonElem.innerHTML = ``;
-    console.error(`❌ Lessons data missing for level: ${level}, type: ${type}, book: ${book}`);
+    noLesson(level, type, book);
     return;
   }
 
@@ -40,4 +34,14 @@ export function populateLessons(lessonsData) {
   } else {
     console.log("No lessons found for the selected options.");
   }
+}
+
+export function noLesson(level, type, book) {
+  createPopup('Sorry, there are currently no lessons in this section.');
+  const lessonDropdown = document.getElementById('lesson');
+  lessonDropdown.innerHTML = '';
+  const lessonElem = document.querySelector('#lesson-content');
+  lessonElem.style.visibility = 'hidden';
+  lessonElem.innerHTML = ``;
+  console.error(`❌ Lessons data missing for level: ${level}, type: ${type}, book: ${book}`);
 }

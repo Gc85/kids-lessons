@@ -1,6 +1,6 @@
 import { populateLessons } from "./populateLessons.js";
 
-export let lessonsData = {}; // ✅ Export lessonsData
+let lessonsData = {}; // ✅ Export lessonsData
 
 // Load JSON once to reduce redundant fetch requests
 export async function fetchLessons() {
@@ -18,7 +18,7 @@ export async function fetchLessons() {
     // console.log('✅ Loaded lessons:', lessonsData);
 
     // Ensure the DOM elements exist before setting values
-    const defaultLevel = document.querySelector(`input[name="level"][value="4"]`);
+    const defaultLevel = document.querySelector(`input[name="level"][value="5"]`);
     const defaultType = document.querySelector(`input[name="type"][value="Normal"]`);
     const defaultBook = document.querySelector(`input[name="book"][value="${books[bookIndex]}"]`);
 
@@ -32,13 +32,14 @@ export async function fetchLessons() {
     defaultBook.checked = true;
 
     // Set dropdown defaults AFTER lessonsData is loaded
-    document.querySelector(`input[name="level"][value="3"]`).checked = true;
+    document.querySelector(`input[name="level"][value="5"]`).checked = true;
     document.querySelector(`input[name="type"][value="Normal"]`).checked = true;
     document.querySelector(`input[name="book"][value="${books[bookIndex]}"]`).checked = true;
 
     // Call `populateLessons()` ONLY when lessonsData is ready
     // console.log("📢 Calling populateLessons now...");
     populateLessons(lessonsData);
+    return lessonsData;
   } catch (error) {
     console.error('❌ Error fetching lessons:', error);
   }
