@@ -17,7 +17,7 @@ export function createUnitPresentationSection(presentationSection, lesson, isRev
   }
 
   presentationSection.appendChild(createPictureSpeculationSection(lesson, book, level));
-  if (lesson.lessonNumber !== 4) {
+  if ((lesson.lessonNumber % 4) !== 0) {
     presentationSection.appendChild(createElem('hr', '', ''));
 
     textMessage = [
