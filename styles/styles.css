@@ -116,7 +116,8 @@ img { cursor: pointer; border-radius: 15px; padding: 2px; }
 }
 
 .pdf-link-group { margin: 5px 0; padding-inline-start: 20px; }
-a { text-decoration: none; }
+a { color: #007bff; text-decoration: none; }
+a:hover { color: #ff4500; }
 
 #popup {
   position: fixed;
