@@ -6,7 +6,7 @@ import { createOpeningSection } from '../components/createOpeningPic.js';
 import { createBQSection } from '../components/createBasicQuestions.js';
 import { createHelloSongSection } from '../components/createHelloSong.js';
 
-export function createUnitWarmupSection(warmupSection, warmupH2Elem, lesson, book, level, type, bq) {
+export function createUnitWarmupSection(warmupSection, warmupH2Elem, lesson, book, level, type, bq, pdfFiles) {
 
   let message;
   warmupH2Elem.textContent = `Warmup Section`;
@@ -29,7 +29,7 @@ export function createUnitWarmupSection(warmupSection, warmupH2Elem, lesson, boo
   message = [
     `<b>Useful PDFs:</b>`
   ];
-  warmupSection.appendChild(createPDFLinksSection(lesson, message));
+  warmupSection.appendChild(createPDFLinksSection(lesson, message, pdfFiles));
   warmupSection.appendChild(createElem('hr', '', ''));
 
   message = [

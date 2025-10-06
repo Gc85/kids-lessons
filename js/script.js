@@ -33,6 +33,7 @@ async function loadLesson() {
 
   if (lessonsData[level] && lessonsData[level][type] && lessonsData[level][type][book]) {
     const lesson = lessonsData[level][type][book][lessonIndex];
+    const pdfFiles = lessonsData[level][type]["PDFs"];
 
     if (lesson) {
       // Get main lesson element
@@ -71,7 +72,7 @@ async function loadLesson() {
 
       // ***************************************************************************************************** //
       // Warmup Section
-      createUnitWarmupSection(warmupSection, warmupH2Elem, lesson, book, level, type, bq);
+      createUnitWarmupSection(warmupSection, warmupH2Elem, lesson, book, level, type, bq, pdfFiles);
       lessonElem.appendChild(warmupSection);
 
       // ***************************************************************************************************** //
