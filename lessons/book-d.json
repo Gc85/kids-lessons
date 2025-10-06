@@ -31,6 +31,13 @@
     }
 	},
 	"5": {
+    "Characters": [
+        "Angela",
+        "Kai",
+        "Mia",
+        "Ryan",
+        "Yuki"
+    ],
     "Normal": {
       "PDFs": [
         { "file": "5C_HS", "desc": "Previous Home Study" },
@@ -44,20 +51,20 @@
         {
           "lessonNumber": 1,
           "openingImage": ["5d01-OP"],
-          "bq": ["01", "09"],
-          "title": "Lesson 1: What are you drawing?",
+          "bq": ["12", "15"],
+          "title": "Lesson 1: You have a big (yard).",
           "dialogImage": ["5d01-D01"],
           "dialogAudio": ["5d01-A01"],
-          "dialog": "Teacher: What are you drawing?<br>Jake: I'm drawing a rabbit.<br>Teacher: How about you, Hina?<br>Hina: I'm drawing a ladybug.",
-          "mainLanguage": "A: What are you drawing?<br>B: I'm drawing a (rabbit).",
+          "dialog": "Angela: Here we are. This is our home.<br>Yuki: Wow! You have a big yard.<br>Angela: Do you think so?<br>Yuki: Yeah!",
+          "mainLanguage": "A: You have a big (yard).<br>B: Do you think so?",
           "sayDialogueImage": ["5d01-D02"],
           "todayLangImage": ["5d01-D03"],
           "vocabImages": ["5d01-V01", "5d01-V02", "5d01-V03", "5d01-V04", "5d01-V05"],
           "vocabAudio": "5d01-A02",
           "listeningImages": ["5d01-L01", "5d01-L02", "5d01-L03", "5d01-L04"],
           "listeningAudio": "5d01-A03",
-          "phonics1Images": ["P-CD-i", "P-CD-f", "P-CD-n"],
-          "phonics2Images": ["5d01-P04", "5d01-P05", "5d01-P06", "5d01-P07"],
+          "phonics1Images": ["P-CD-o", "P-CD-b", "P-CD-d"],
+          "phonics2Images": ["5d01-P04", "5d01-P05", "5d01-P06", "5d01-P07", "5d01-P08"],
           "phonics2Audio": "5d01-A04",
           "review": false
         },
@@ -979,6 +986,13 @@
     }
   },
   "4": {
+    "Characters": [
+      "Aidan",
+      "Chisa",
+      "Finn",
+      "Fiona",
+      "Kelly"
+    ],
     "Normal": {
       "PDFs": [
         { "file": "4C_HS", "desc": "Previous Home Study" },
@@ -1159,6 +1173,13 @@
     }
   },
   "3": {
+    "Characters": [
+      "Alma",
+      "Haru",
+      "Kevin",
+      "Saki",
+      "Tina"
+    ],
     "Normal": {
       "PDFs": [
         { "file": "3C_HS", "desc": "Previous Home Study" },
